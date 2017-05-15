@@ -211,6 +211,22 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 
+[Document12]
+DocumentPath=LM-003.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+
 [GeneratedDocument1]
 DocumentPath=Project Outputs for LM-003\Connectors.REP
 DItemRevisionGUID=
@@ -631,7 +647,7 @@ Configuration1_Item3=Comment=True|Footprint=True
 Configuration1_Name4=SortOrder
 Configuration1_Item4=Designator=Up|Comment=Up|Footprint=Up
 Configuration1_Name5=VisibleOrder
-Configuration1_Item5=Comment=222|Description=163|Designator=121|Footprint=23|Manufacturer=39|Package / Case=20|Package/ Case=20|Packaging=20|PartNumber=20|Quantity=20|Description 1=29|DocumentName=100|PackageDescription=100
+Configuration1_Item5=Comment=222|Description=163|Designator=121|Footprint=23|Manufacturer=39|Package / Case=20|Package/ Case=20|Packaging=20|PartNumber=20|Quantity=20|Description 1=29|DocumentName=100|PackageDescription=100|ComponentLink1URL=100|ComponentLink2URL=100|ComponentLink4Description=100|ComponentLinkURL=100
 OutputType2=ComponentCrossReference
 OutputName2=Component Cross Reference Report
 OutputDocumentPath2=

@@ -1,10 +1,9 @@
-Output: Report Single Pin Nets
-Type  : SinglePinNetReporter
+Output: Bill of Materials
+Type  : BOM
 From  : Variant [[No Variations]] of Project [LM-003.PrjPcb]
-   Generated File[Connectors.REP]
 
 
-Files Generated   : 1
+Files Generated   : 0
 Documents Printed : 0
 
-Finished Output Generation At 12:15:56 PM On 5/3/2017
+Finished Output Generation At 9:44:57 AM On 5/4/2017
