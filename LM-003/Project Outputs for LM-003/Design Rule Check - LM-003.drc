@@ -1,0 +1,37 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\zls\Desktop\Land_Meter_PCB\LM-003\LM-003.PcbDoc
+Date     : 6/20/2017
+Time     : 4:30:11 PM
+
+Processing Rule : Clearance Constraint (Gap=0.127mm) (All),(All)
+   Violation between Clearance Constraint: (0.062mm < 0.127mm) Between Via (-31.963mm,-105.685mm) from Top Layer to Bottom Layer And Pad U8-5(-33.2mm,-105.66mm) on Top Layer 
+Rule Violations :1
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+   Violation between Un-Routed Net Constraint: Net NetC30_2 Between Via (-33.503mm,-87.427mm) from Top Layer to Bottom Layer And Pad R19-2(-32.75mm,-88.75mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net +5 Between Track (26.111mm,-165.589mm)(26.111mm,-164.033mm) on Bottom Layer And Track (28.169mm,-165.519mm)(28.25mm,-165.6mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net +5 Between Pad C15-2(3.65mm,-72.55mm) on Bottom Layer And Pad C14-1(7.75mm,-69.2mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net +3.3 Between Pad R5-2(-23.15mm,-44.65mm) on Bottom Layer And Pad R64-2(-23.1mm,-71.2mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net +12 Between Track (28.15mm,-1.321mm)(28.379mm,-1.092mm) on Bottom Layer And Track (28.379mm,-1.092mm)(28.5mm,-1mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net -5 Between Track (-37.709mm,-102.521mm)(-36.179mm,-100.99mm) on Top Layer And Track (-35.331mm,-77.216mm)(-1.66mm,-77.216mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net AGND Between Pad R59-1(15.35mm,-176.55mm) on Bottom Layer And Pad R55-1(15.35mm,-174.55mm) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net AGND Between Track (-29.015mm,-109.667mm)(-28.675mm,-109.667mm) on Bottom Layer And Pad C36-2(-26.2mm,-111.15mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C4-1(21.6mm,-40.9mm) on Bottom Layer And Pad C8-1(23.662mm,-46.634mm) on Bottom Layer 
+Rule Violations :9
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
+Rule Violations :0
+
+
+Violations Detected : 10
+Waived Violations : 0
+Time Elapsed        : 00:00:03
