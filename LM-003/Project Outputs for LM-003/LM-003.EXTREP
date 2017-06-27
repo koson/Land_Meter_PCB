@@ -1,0 +1,32 @@
+------------------------------------------------------------------------------------------
+Gerber File Extension Report For: LM-003.GBR   6/27/2017  4:46:00 PM
+------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------
+Layer Extension     Layer Description                      
+------------------------------------------------------------------------------------------
+.gbr                Top Layer                               
+.gbr                +5V                                     
+.gbr                +3.3V                                   
+.gbr                Mid-Layer 1                             
+.gbr                Mid-Layer 2                             
+.gbr                Bottom Layer                            
+.gbr                Bottom Pad Master                       
+.gbr                Top Pad Master                          
+.gbr                Top Paste                               
+.gbr                Bottom Overlay                          
+.gbr                Bottom Paste                            
+.gbr                Bottom Solder                           
+.gbr                Top Solder                              
+.gbr                Top Overlay                             
+.gbr                Keep-Out Layer                          
+.gbr                Mechanical 15                           
+.gbr                Mechanical 13                           
+.gbr                Mechanical 7                            
+.gbr                Mechanical 1                            
+.gbr                Profile                                 
+.gbr                Plated through-hole drill file          
+.gbr                Drill Drawing                           
+.gbr                Drill Guide                             
+------------------------------------------------------------------------------------------
