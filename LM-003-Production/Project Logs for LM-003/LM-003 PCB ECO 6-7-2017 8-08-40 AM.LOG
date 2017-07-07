@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=HTR_GND Pin=Q1-3
+Removed Pin From Net: NetName=HTR_GND Pin=Q2-3
+Removed Pin From Net: NetName=HTR_GND Pin=Q3-3
+Removed Pin From Net: NetName=HTR_GND Pin=Q4-3
+Removed Pin From Net: NetName=HTR_GND Pin=Q5-3
+Added Pin To Net: NetName=PWR_GND Pin=Q1-3
+Added Pin To Net: NetName=PWR_GND Pin=Q2-3
+Added Pin To Net: NetName=PWR_GND Pin=Q3-3
+Added Pin To Net: NetName=PWR_GND Pin=Q4-3
+Added Pin To Net: NetName=PWR_GND Pin=Q5-3
