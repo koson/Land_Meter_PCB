@@ -39,6 +39,40 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
+DocumentPath=Power_Input.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=JPJHDRLI
+
+[Document2]
+DocumentPath=36V_Supply.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=PBPASBNL
+
+[Document3]
 DocumentPath=LM-008.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -55,7 +89,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TCEFYIFQ
 
-[Document2]
+[Document4]
 DocumentPath=LM-008.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -72,7 +106,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ARBBDUNC
 
-[Document3]
+[Document5]
 DocumentPath=ADC.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -89,7 +123,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GIHRGIRF
 
-[Document4]
+[Document6]
 DocumentPath=LM-008.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -106,7 +140,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document5]
+[Document7]
 DocumentPath=ADC.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1

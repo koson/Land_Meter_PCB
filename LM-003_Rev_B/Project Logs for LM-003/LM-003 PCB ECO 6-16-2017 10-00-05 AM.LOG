@@ -1,0 +1,85 @@
+Removed Pin From Net: NetName=DGND Pin=BT1-2
+Removed Pin From Net: NetName=DGND Pin=BT1-2
+Removed Pin From Net: NetName=DGND Pin=C28-1
+Removed Pin From Net: NetName=DGND Pin=C29-2
+Removed Pin From Net: NetName=DGND Pin=C32-2
+Removed Pin From Net: NetName=DGND Pin=C46-2
+Removed Pin From Net: NetName=DGND Pin=C47-2
+Removed Pin From Net: NetName=DGND Pin=P4-8
+Removed Pin From Net: NetName=DGND Pin=P5-4
+Removed Pin From Net: NetName=DGND Pin=P12-1
+Removed Pin From Net: NetName=DGND Pin=P12-1
+Removed Pin From Net: NetName=DGND Pin=P12-3
+Removed Pin From Net: NetName=DGND Pin=P13-1
+Removed Pin From Net: NetName=DGND Pin=R23-2
+Removed Pin From Net: NetName=DGND Pin=R29-1
+Removed Pin From Net: NetName=DGND Pin=R30-1
+Removed Pin From Net: NetName=DGND Pin=U7-4
+Removed Pin From Net: NetName=DGND Pin=U10-2
+Removed Pin From Net: NetName=DGND Pin=U10-6
+Removed Pin From Net: NetName=DGND Pin=U10-14
+Removed Pin From Net: NetName=DGND Pin=U10-19
+Removed Pin From Net: NetName=DGND Pin=U11-4
+Removed Pin From Net: NetName=DGND Pin=U16-8-1
+Removed Pin From Net: NetName=DGND Pin=U16-8-2
+Removed Pin From Net: NetName=DGND Pin=U16-8-2
+Removed Pin From Net: NetName=DGND Pin=U16-9-1
+Removed Pin From Net: NetName=DGND Pin=U16-9-1
+Removed Pin From Net: NetName=DGND Pin=U16-9-2
+Removed Pin From Net: NetName=DGND Pin=U16-9-2
+Removed Pin From Net: NetName=DGND Pin=U16-9-43
+Removed Pin From Net: NetName=DGND Pin=U16-9-44
+Removed Pin From Net: NetName=DGND Pin=U16-9-45
+Removed Pin From Net: NetName=DGND Pin=U16-9-46
+Removed Pin From Net: NetName=DGND Pin=U19-5
+Change Component Footprint: Designator=C4 Old Footprint=CAPC1206(3216)190_L New Footprint=CAPC1206(3216)190_N
+Change Component Footprint: Designator=C3 Old Footprint=CAPC1210(3225)100_L New Footprint=CAPC1210(3225)100_N
+Added Pin To Net: NetName=GND Pin=BT1-2
+Added Pin To Net: NetName=GND Pin=BT1-2
+Added Pin To Net: NetName=GND Pin=C28-1
+Added Pin To Net: NetName=GND Pin=C29-2
+Added Pin To Net: NetName=GND Pin=C32-2
+Added Pin To Net: NetName=GND Pin=C46-2
+Added Pin To Net: NetName=GND Pin=C47-2
+Added Pin To Net: NetName=GND Pin=P4-8
+Added Pin To Net: NetName=GND Pin=P5-4
+Added Pin To Net: NetName=GND Pin=P12-1
+Added Pin To Net: NetName=GND Pin=P12-1
+Added Pin To Net: NetName=GND Pin=P12-3
+Added Pin To Net: NetName=GND Pin=P13-1
+Added Pin To Net: NetName=GND Pin=R23-2
+Added Pin To Net: NetName=GND Pin=R29-1
+Added Pin To Net: NetName=GND Pin=R30-1
+Added Pin To Net: NetName=Power_IN Pin=U3-3
+Added Pin To Net: NetName=GND Pin=U7-4
+Added Pin To Net: NetName=GND Pin=U10-2
+Added Pin To Net: NetName=GND Pin=U10-6
+Added Pin To Net: NetName=GND Pin=U10-14
+Added Pin To Net: NetName=GND Pin=U10-19
+Added Pin To Net: NetName=GND Pin=U11-4
+Added Pin To Net: NetName=GND Pin=U16-8-1
+Added Pin To Net: NetName=GND Pin=U16-8-2
+Added Pin To Net: NetName=GND Pin=U16-8-2
+Added Pin To Net: NetName=GND Pin=U16-9-1
+Added Pin To Net: NetName=GND Pin=U16-9-1
+Added Pin To Net: NetName=GND Pin=U16-9-2
+Added Pin To Net: NetName=GND Pin=U16-9-2
+Added Pin To Net: NetName=GND Pin=U16-9-43
+Added Pin To Net: NetName=GND Pin=U16-9-44
+Added Pin To Net: NetName=GND Pin=U16-9-45
+Added Pin To Net: NetName=GND Pin=U16-9-46
+Added Pin To Net: NetName=GND Pin=U19-5
+Added Member To Class: ClassName=Power Member=Component C3 CAP CER 1UF 50V X7R 1210
+Added Member To Class: ClassName=Power Member=Component C4 CAP CER 0.47UF 50V X7R 1206
+Added Member To Class: ClassName=Power Member=Component R1 RES SMD 0.0OHM JUMPER 1/16W 0402
+Added Member To Class: ClassName=Power Member=Component R2 RES SMD 280K OHM 1% 1/5W 0402
+Added Member To Class: ClassName=Power Member=Component R4 RES SMD 10K OHM 1% 1/5W 0402
+Added Room: Name=ADC
+Added Room: Name=BBB Headers
+Added Room: Name=Connectors
+Added Room: Name=FeedbackLoop
+Added Room: Name=heater_control
+Added Room: Name=Power
+Added Room: Name=Power Monitor
+Added Room: Name=Real Time Clock
+Added Room: Name=RS232
