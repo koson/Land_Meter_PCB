@@ -1,0 +1,3 @@
+Added Pin To Net: NetName=Battery Thermistor Pin=P3-3
+Added Pin To Net: NetName=BBB_PWR_SW Pin=P4-2
+Added Pin To Net: NetName=Battery Thermistor Pin=R24-1

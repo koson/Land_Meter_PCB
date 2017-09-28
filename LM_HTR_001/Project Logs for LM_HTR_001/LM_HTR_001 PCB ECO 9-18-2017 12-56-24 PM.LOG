@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=ADC STRB Pin=P6-2
+Removed Pin From Net: NetName=SPI0_CS0 Pin=P6-9
+Removed Pin From Net: NetName=SPI0_MOSI Pin=P6-10
+Added Pin To Net: NetName=ADC STRB Pin=P6-9
+Added Pin To Net: NetName=SPI0_CS0 Pin=P6-11
+Added Pin To Net: NetName=SPI0_MOSI Pin=P6-12

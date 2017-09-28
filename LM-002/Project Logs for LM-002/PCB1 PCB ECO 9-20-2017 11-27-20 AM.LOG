@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=Beam Sync Demod Out Pin=U7-9
+Added Pin To Net: NetName=Beam Sync Demod Out Pin=U7-2
+Added Pin To Net: NetName=CH7 Pin=U7-9
+Added Net: Name=CH7

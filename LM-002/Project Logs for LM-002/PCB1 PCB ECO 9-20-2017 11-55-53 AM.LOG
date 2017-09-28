@@ -1,0 +1,4 @@
+Change Net Name : Old Net Name=SPI0_CS0 New Net Name=SPI0_SCLK
+Added Pin To Net: NetName=SPI0_CS0 Pin=P?-7
+Added Pin To Net: NetName=SPI0_CS0 Pin=U7-10
+Added Net: Name=SPI0_CS0

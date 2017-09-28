@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=SPI0_CS0 Pin=P?-7
+Removed Pin From Net: NetName=ADC STRB Pin=P?-9
+Added Pin To Net: NetName=ADC STRB Pin=P?-7
+Added Pin To Net: NetName=SPI0_CS0 Pin=P?-9

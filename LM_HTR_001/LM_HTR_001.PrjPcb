@@ -72,6 +72,10 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PXHGQLKI
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for LM_HTR_001\Design Rule Check - LM_HTR_001.html
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
