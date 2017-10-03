@@ -1,0 +1,106 @@
+Removed Pin From Net: NetName=+12 Pin=DS7-1
+Removed Pin From Net: NetName=+12 Pin=DS8-1
+Removed Pin From Net: NetName=+12 Pin=DS9-1
+Removed Pin From Net: NetName=+12 Pin=DS10-1
+Removed Pin From Net: NetName=Conning Tower Thermistor Pin=P13-1
+Removed Pin From Net: NetName=Gearbox Thermistor Pin=P13-2
+Removed Pin From Net: NetName=Conning Tower Thermistor Pin=P13-3
+Removed Pin From Net: NetName=Gearbox Thermistor Pin=P13-4
+Removed Pin From Net: NetName=Arrestment Thermistor Pin=P13-5
+Removed Pin From Net: NetName=Meter Thermistor 1 Pin=P13-6
+Removed Pin From Net: NetName=Arrestment Thermistor Pin=P13-7
+Removed Pin From Net: NetName=Meter Thermistor 1 Pin=P13-8
+Removed Pin From Net: NetName=Meter Thermistor 2 Pin=P13-9
+Removed Pin From Net: NetName=Meter Thermistor 2 Pin=P13-11
+Removed Pin From Net: NetName=ZH_CS0 Pin=P14-9
+Removed Pin From Net: NetName=ZP_CS0 Pin=P14-10
+Removed Pin From Net: NetName=GND Pin=Q1-3
+Removed Pin From Net: NetName=GND Pin=Q2-3
+Removed Pin From Net: NetName=GND Pin=Q3-3
+Removed Pin From Net: NetName=GND Pin=Q4-3
+Removed Pin From Net: NetName=ZH_CS0 Pin=U3-5
+Removed Pin From Net: NetName=ZP_CS0 Pin=U3-6
+Removed Pin From Net: NetName=RTC_CS0 Pin=U3-7
+Removed Pin From Net: NetName=RTC_CS0 Pin=U5-4
+Removed Pin From Net: NetName=GND Pin=U8-2
+Removed Pin From Net: NetName=Lid Thermistor Pin=U8-3
+Removed Pin From Net: NetName=+5 Pin=U8-5
+Removed Member From Class: ClassName=heater_control Member=DS7
+Removed Member From Class: ClassName=heater_control Member=DS8
+Removed Member From Class: ClassName=heater_control Member=DS9
+Removed Member From Class: ClassName=heater_control Member=DS10
+Removed Member From Class: ClassName=heater_control Member=Q1
+Removed Member From Class: ClassName=heater_control Member=Q2
+Removed Member From Class: ClassName=heater_control Member=Q3
+Removed Member From Class: ClassName=heater_control Member=Q4
+Removed Member From Class: ClassName=heater_control Member=R16
+Removed Member From Class: ClassName=heater_control Member=R17
+Removed Member From Class: ClassName=heater_control Member=R18
+Removed Member From Class: ClassName=heater_control Member=R19
+Removed Member From Class: ClassName=heater_control Member=R20
+Removed Member From Class: ClassName=heater_control Member=R21
+Removed Member From Class: ClassName=heater_control Member=R22
+Removed Member From Class: ClassName=heater_control Member=R23
+Removed Member From Class: ClassName=ADC Member=U8
+Added Component: Designator=U?(ADI-RU-14_L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Bandwidth (Hz)"; Value = "800M, 550M"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Code_JEDEC"; Value = "MO-153AB-1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.analog.com/en/index.html"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.analog.com/static/imported-files/data_sheets/ADG1204.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.analog.com/static/imported-files/packages/36057385283879153717235186773RU14.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Rev. B"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Analog Devices"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Analog Signal Range"; Value = "Vss to Vdd"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "14-Pin Thin Shrink Small Outline Package, Body 5 x 4.4 mm, Pitch 0.65 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "RU-14"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "Aug-02"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packing"; Value = "Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "ADG1204YRUZ-REEL7"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ron (ohms)"; Value = "120"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "t transition (s)"; Value = "120n"; VariantName = "[No Variations]"
+Added Component: Designator=U?(ADI-RU-16_M)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Bandwidth (Hz)"; Value = "40M, 40M, 37M, 34M"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Code_JEDEC"; Value = "MO-153AB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.analog.com/en/index.html"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.analog.com/static/imported-files/data_sheets/ADG1608_1609.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http:/www.analog.com/static/imported-files/packages/36244347913743854010197452789RU16.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Rev. 0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Analog Devices"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Analog Signal Range"; Value = "0 to Vdd"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "16-Pin Thin Shrink Small Outline Package, Body 5 x 4.4 mm, Pitch 0.65 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "RU-16"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "Nov-02"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packing"; Value = "Tube"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "ADG1608BRUZ"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ron (ohms)"; Value = "4.4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "t transition (s)"; Value = "150n"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=Battery Thermistor Pin=U6-10
+Added Pin To Net: NetName=Lid Thermistor Pin=U6-11
+Added Pin To Net: NetName=ZH_CS0 Pin=U?-5
+Added Pin To Net: NetName=ZP_CS0 Pin=U?-6
+Added Pin To Net: NetName=RTC_CS0 Pin=U?-7
+Added Pin To Net: NetName=+3.3 Pin=U?-13
+Added Pin To Net: NetName=GND Pin=U?-14
+Change Net Name : Old Net Name=Heater_CS0 New Net Name=Thermistor_CS0
+Added Pin To Net: NetName=Arrestment Heater FET Pin=P13-12
+Added Net: Name=Arrestment Heater FET
+Added Pin To Net: NetName=NetU1_8-3 Pin=U1-8-3
+Added Net: Name=NetU1_8-3
+Added Pin To Net: NetName=NetU1_8-4 Pin=U1-8-4
+Added Net: Name=NetU1_8-4
+Added Pin To Net: NetName=NetU1_8-5 Pin=U1-8-5
+Added Net: Name=NetU1_8-5
+Added Pin To Net: NetName=NetU1_8-6 Pin=U1-8-6
+Added Net: Name=NetU1_8-6
+Added Member To Class: ClassName=ADC Member=Component U? ADG1608BRUZ
+Added Member To Class: ClassName=BBB Headers Member=Component U? ADG1204YRUZ-REEL7

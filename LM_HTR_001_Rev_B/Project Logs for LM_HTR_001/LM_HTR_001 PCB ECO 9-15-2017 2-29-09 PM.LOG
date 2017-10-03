@@ -1,0 +1,21 @@
+Added Component: Designator=P1(IPL1-104-02-F-S-K)
+Add component. Clean all parameters for all variants
+Added Component: Designator=P2(IPL1-104-02-F-S-K)
+Add component. Clean all parameters for all variants
+Added Component: Designator=P3(IPL1-104-02-F-S-K)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=Conning Tower Htr Out Pin=P1-1
+Added Pin To Net: NetName=+12 Pin=P1-2
+Added Pin To Net: NetName=GND Pin=P1-3
+Added Pin To Net: NetName=Conning Tower Thermistor Pin=P1-4
+Added Pin To Net: NetName=Gearbox Htr Out Pin=P2-1
+Added Pin To Net: NetName=+12 Pin=P2-2
+Added Pin To Net: NetName=GND Pin=P2-3
+Added Pin To Net: NetName=Gearbox Thermistor Pin=P2-4
+Added Pin To Net: NetName=Arrestment Htr Out Pin=P3-1
+Added Pin To Net: NetName=+12 Pin=P3-2
+Added Pin To Net: NetName=GND Pin=P3-3
+Added Pin To Net: NetName=Arrestment Thermistor Pin=P3-4
+Added Member To Class: ClassName=LM_HTR_001 Member=Component P1 IPL1-104-02-F-S-K 
+Added Member To Class: ClassName=LM_HTR_001 Member=Component P2 IPL1-104-02-F-S-K 
+Added Member To Class: ClassName=LM_HTR_001 Member=Component P3 IPL1-104-02-F-S-K 

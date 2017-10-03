@@ -1,0 +1,13 @@
+Removed Member From Class: ClassName=Sheet2 Member=R14
+Removed Member From Class: ClassName=Sheet2 Member=R15
+Removed Member From Class: ClassName=Sheet1 Member=R20
+Removed Member From Class: ClassName=Sheet2 Member=U5
+Added Pin To Net: NetName=GND Pin=C25-2
+Added Member To Class: ClassName=Sheet1 Member=Component C1 
+Added Member To Class: ClassName=Sheet1 Member=Component C12 0.1uF
+Added Member To Class: ClassName=Sheet1 Member=Component C15 Multilayer Ceramic Capacitors MLCC - SMD/SMT 0.01uF 50volts 10% X7R
+Added Member To Class: ClassName=Sheet2 Member=Component C16 0.1uF
+Added Member To Class: ClassName=Sheet1 Member=Component R8 7.5k
+Added Member To Class: ClassName=Sheet2 Member=Component R18 MPM
+Added Member To Class: ClassName=Sheet2 Member=Component R19 MPMT10011002AT1
+Added Member To Class: ClassName=Sheet2 Member=Component U6 MAX6070AAUT41+T

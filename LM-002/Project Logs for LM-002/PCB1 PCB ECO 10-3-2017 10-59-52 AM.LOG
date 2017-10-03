@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=ZH_Reduced Pin=U7-5
+Removed Pin From Net: NetName=Beam_Reduced Pin=U7-11
+Added Pin To Net: NetName=Beam_Reduced Pin=U7-5
+Added Pin To Net: NetName=ZH_Reduced Pin=U7-10

@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=+5 Pin=P5-2
+Removed Pin From Net: NetName=GND Pin=P5-14
+Removed Pin From Net: NetName=+12 Pin=P5-15
+Removed Pin From Net: NetName=+12 Pin=P5-16
+Removed Member From Class: ClassName=LM_HTR_001 Member=P5
+Added Pin To Net: NetName=+5 Pin=P6-13
