@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=SPI0_SCLK Pin=P1-23
+Removed Pin From Net: NetName=MUX_A0 Pin=P1-24
+Removed Pin From Net: NetName=SPI0_MISO Pin=P1-25
+Removed Pin From Net: NetName=MUX_A1 Pin=P1-26
+Removed Pin From Net: NetName=MUX A2 Pin=P1-28
+Added Pin To Net: NetName=SPI0_MISO Pin=P1-7
+Added Pin To Net: NetName=MUX_A0 Pin=P1-8
+Added Pin To Net: NetName=MUX A2 Pin=P1-9
+Added Pin To Net: NetName=SPI0_SCLK Pin=P1-10
+Added Pin To Net: NetName=MUX_A1 Pin=P1-12

@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=Gearbox Heater FET Pin=P1-13
+Removed Pin From Net: NetName=Arrestment Heater FET Pin=P1-14
+Added Pin To Net: NetName=Arrestment Heater FET Pin=P1-13
+Added Pin To Net: NetName=Gearbox Heater FET Pin=P1-14
