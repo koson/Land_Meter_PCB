@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=GND Pin=P1-2
+Change Component Footprint: Designator=P1 Old Footprint=IPL1-102-01-F-S-K New Footprint=IPL1-102-03-L-SH-K
+Change Component Comment : Designator=P1 Old Comment=IPL1-102-01-F-S-K New Comment=IPL1-102-03-L-SH-K
+Change component parameters: Designator = "P1"; Footprint = "IPL1-102-03-L-SH-K"; UniqueID = "\YBODHRKP"
+Change component parameters. Clean all parameters for all variants
+Added Pin To Net: NetName=GND Pin=P1-1
+Added Pin To Net: NetName=NetP1_2 Pin=P1-2
+Added Pin To Net: NetName=NetP1_2 Pin=R6-1
+Added Pin To Net: NetName=NetP1_2 Pin=U2-3
+Added Net: Name=NetP1_2

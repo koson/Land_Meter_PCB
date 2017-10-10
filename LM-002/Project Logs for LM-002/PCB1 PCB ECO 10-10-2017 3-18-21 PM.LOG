@@ -1,0 +1,6 @@
+Change Component Footprint: Designator=P1 Old Footprint=IPL1-102-03-L-SH-K New Footprint=SSW-102-02-G-S-RA
+Change Component Comment : Designator=P1 Old Comment=IPL1-102-03-L-SH-K New Comment=SSW-102-02-G-S-RA
+Change component parameters: Designator = "P1"; Footprint = "SSW-102-02-G-S-RA"; UniqueID = "\YLYDMMIN"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "SAM1225-02-ND"; VariantName = "[No Variations]"
