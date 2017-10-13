@@ -1,0 +1,20 @@
+Removed Pin From Net: NetName=RC Pin=R1-2
+Removed Pin From Net: NetName=RC Pin=R4-2
+Removed Pin From Net: NetName=RC Pin=U1-5
+Removed Pin From Net: NetName=RC Pin=U2-6
+Removed Pin From Net: NetName=RC Pin=U2-7
+Removed Pin From Net: NetName=RC Pin=U2-8
+Removed Pin From Net: NetName=RC Pin=U2-9
+Removed Pin From Net: NetName=RC Pin=U5-1
+Added Pin To Net: NetName=GND Pin=U8-11
+Change Net Name : Old Net Name=RC New Net Name=5V_RC
+Added Pin To Net: NetName=9V_RC Pin=R1-2
+Added Pin To Net: NetName=9V_RC Pin=U1-5
+Added Pin To Net: NetName=9V_RC Pin=U2-6
+Added Pin To Net: NetName=9V_RC Pin=U2-7
+Added Net: Name=9V_RC
+Added Pin To Net: NetName=12V_RC Pin=R4-2
+Added Pin To Net: NetName=12V_RC Pin=U2-8
+Added Pin To Net: NetName=12V_RC Pin=U2-9
+Added Pin To Net: NetName=12V_RC Pin=U5-1
+Added Net: Name=12V_RC
