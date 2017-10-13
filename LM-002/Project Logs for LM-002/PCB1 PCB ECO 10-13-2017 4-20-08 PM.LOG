@@ -1,0 +1,23 @@
+Removed Pin From Net: NetName=REF_V Pin=U5-2
+Change Component Designator: OldDesignator=C20 NewDesignator=C18
+Change Component Designator: OldDesignator=C24 NewDesignator=C21
+Change Component Designator: OldDesignator=C26 NewDesignator=C19
+Change Component Designator: OldDesignator=C27 NewDesignator=C20
+Change Component Designator: OldDesignator=R18 NewDesignator=R19
+Change Component Designator: OldDesignator=R19 NewDesignator=R20
+Change Component Designator: OldDesignator=R20 NewDesignator=R21
+Change Component Designator: OldDesignator=U7 NewDesignator=U8
+Change Component Designator: OldDesignator=U8 NewDesignator=U7
+Change Component Designator: OldDesignator=U11 NewDesignator=U9
+Added Component: Designator=R18(RESC0402(1005)_M)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=ZH Pin=P4-8
+Added Pin To Net: NetName=REF_V Pin=R18-1
+Change Net Name : Old Net Name=NetR19_3 New Net Name=NetR20_3
+Change Net Name : Old Net Name=NetR20_3 New Net Name=NetR21_3
+Change Net Name : Old Net Name=NetU7_11 New Net Name=ZP_Reduced
+Change Net Name : Old Net Name=REF_V New Net Name=+5R
+Added Pin To Net: NetName=NetR18_2 Pin=R18-2
+Added Pin To Net: NetName=NetR18_2 Pin=U5-2
+Added Net: Name=NetR18_2
+Added Member To Class: ClassName=Sheet1 Member=Component R18 0
