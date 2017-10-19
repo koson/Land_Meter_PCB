@@ -1,0 +1,11 @@
+Removed Member From Class: ClassName=Sheet2 Member=U11
+Change Component Comment : Designator=C15 Old Comment=DME1W10K-F New Comment=CAP 10uF 16V 1812(4532)
+Change component parameters: Designator = "C15"; Footprint = "CAPC1812(4532)250_L"; UniqueID = "\LCHPKCRS"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Case-EIA"; Value = "1812"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case-Metric"; Value = "4532"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Thickness"; Value = "2.5 mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Rated Voltage"; Value = "16 V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Technology"; Value = "SMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "±10%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10uF"; VariantName = "[No Variations]"

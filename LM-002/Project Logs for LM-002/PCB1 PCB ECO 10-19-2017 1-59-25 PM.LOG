@@ -1,0 +1,56 @@
+Removed Pin From Net: NetName=+5 Pin=C12-2
+Removed Pin From Net: NetName=PWM2 Pin=P3-1
+Removed Pin From Net: NetName=+9 Pin=P3-2
+Removed Pin From Net: NetName=GND Pin=P3-4
+Removed Pin From Net: NetName=+5 Pin=U4-8
+Change Component Footprint: Designator=P3 Old Footprint=TLW-104-05-G-S New Footprint=IPL1-103-01-F-D
+Change Component Comment : Designator=C15 Old Comment=CAP 10uF 16V 1812(4532) New Comment=CAP FILM 10UF 20% 16VDC 1812
+Change Component Comment : Designator=P3 Old Comment=TLW-104-05-G-S New Comment=IPL1-103-01-F-D
+Change component parameters: Designator = "P3"; Footprint = "IPL1-103-01-F-D"; UniqueID = "\AHJACWWF"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "https://webassistants.partcommunity.com/23d-libs/samtec/search/resolve.html?EMAIL=mysamtec@samtec.com&PN=HTSW-114-05-F-D"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://webassistants.partcommunity.com/23d-libs/samtec/search/resolve.html?EMAIL=mysamtec@samtec.com&PN=HTSW-114-05-F-D"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "SAMTEC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "IPL1-103-01-F-D-K"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pricing 1"; Value = "1=1.8, 5000=1.56, 10000=1.46 (USD)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Stock 1"; Value = "0"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Newark"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "51P2678"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C15"; Footprint = "CAPC1812(4532)250_L"; UniqueID = "\LCHPKCRS"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Applications"; Value = "DC Link, DC Filtering"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case-EIA"; Value = "1812"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case-Metric"; Value = "4532"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Category"; Value = "Capacitors"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "http://www.rubycon.co.jp/en/catalog/e_pdfs/pmlcap/e_ST.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.rubycon.co.jp/en/catalog/e_pdfs/pmlcap/e_ST.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Dielectric Material"; Value = "Acrylic, Metallized"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Features"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height - Seated (Max)"; Value = "0.102" (2.60mm)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lead Spacing"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Rubycon"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "16ST106MC44532"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Thickness"; Value = "2.5 mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Type"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 125°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package / Case"; Value = "1812 (4532 Metric)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Cut Tape (CT)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Status"; Value = "Active"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pricing 1"; Value = "1=7.05, 10=6.263, 100=5.0105 (USD)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Rated Voltage"; Value = "16 V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS"; Value = "RoHS Compliant"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Size / Dimension"; Value = "0.177" L x 0.126" W (4.50mm x 3.20mm)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Stock 1"; Value = "1994"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "1189-1792-1-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Technology"; Value = "SMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "Â±10%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10uF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating - AC"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating - DC"; Value = "16V"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+12 Pin=C12-2
+Added Pin To Net: NetName=+5 Pin=P3-2
+Added Pin To Net: NetName=PWM2 Pin=P3-4
+Added Pin To Net: NetName=GND Pin=P3-5
+Added Pin To Net: NetName=+9 Pin=P3-6
+Added Pin To Net: NetName=+12 Pin=U4-8
