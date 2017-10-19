@@ -1,0 +1,4 @@
+Change Component Footprint: Designator=P3 Old Footprint=HDR2X3 New Footprint=MTLW-103-08-G-D-004
+Change Component Comment : Designator=P3 Old Comment=Header 3X2 New Comment=MTLW-103-08-G-D-004 
+Change component parameters: Designator = "P3"; Footprint = "MTLW-103-08-G-D-004"; UniqueID = "\TACVFINJ"
+Change component parameters. Clean all parameters for all variants
