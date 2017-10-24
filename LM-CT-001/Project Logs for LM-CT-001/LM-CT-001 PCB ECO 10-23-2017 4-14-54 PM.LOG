@@ -1,0 +1,15 @@
+Removed Pin From Net: NetName=GND Pin=C15-1
+Removed Pin From Net: NetName=+12 Pin=C15-2
+Removed Pin From Net: NetName=NetC17_2 Pin=U9-3
+Removed Pin From Net: NetName=+12 Pin=U9-5
+Removed Member From Class: ClassName=LM-CT-001 Member=C15
+Removed Member From Class: ClassName=LM-CT-001 Member=U9
+Change Component Footprint: Designator=U3 Old Footprint=ADI-UJ-5_L New Footprint=ADI-UJ-5_N
+Change Component Footprint: Designator=U6 Old Footprint=DCN0008A_L New Footprint=DCN0008A_M
+Change Component Footprint: Designator=U10 Old Footprint=DCN0008A_L New Footprint=DCN0008A_M
+Change Component Footprint: Designator=U7 Old Footprint=SOIC-SN8_L New Footprint=SOIC-SN8_N
+Added Pin To Net: NetName=GND Pin=C17-1
+Added Pin To Net: NetName=NetC17_2 Pin=U4-12
+Added Pin To Net: NetName=NetC17_2 Pin=U4-17
+Change Net Name : Old Net Name=NetC17_2 New Net Name=+5R
+Added Member To Class: ClassName=LM-CT-001 Member=Component U6 OPA2378AIDCNT
