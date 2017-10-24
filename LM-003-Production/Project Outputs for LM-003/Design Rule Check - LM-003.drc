@@ -1,13 +1,17 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\zls\Desktop\Land_Meter_PCB\LM-003-Production\LM-003.PcbDoc
 Date     : 10/24/2017
-Time     : 2:14:56 PM
+Time     : 4:23:51 PM
 
 Processing Rule : Clearance Constraint (Gap=0.127mm) (All),(All)
-Rule Violations :0
+   Violation between Clearance Constraint: (Collision < 0.127mm) Between Region (0 hole(s)) Top Layer And Area Fill (59.543mm,86.019mm) (60.093mm,87.719mm) on Keep-Out Layer 
+   Violation between Clearance Constraint: (Collision < 0.127mm) Between Region (0 hole(s)) Top Layer And Area Fill (43.793mm,86.019mm) (44.343mm,87.719mm) on Keep-Out Layer 
+Rule Violations :2
 
 Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
-Rule Violations :0
+   Violation between Short-Circuit Constraint: Between Region (0 hole(s)) Top Layer And Pad P3-MP1(61.093mm,86.719mm) on Top Layer Location : [X = 135.697mm][Y = 262.998mm]
+   Violation between Short-Circuit Constraint: Between Region (0 hole(s)) Top Layer And Pad P3-MP2(42.793mm,86.719mm) on Top Layer Location : [X = 117.397mm][Y = 262.998mm]
+Rule Violations :2
 
 Processing Rule : Un-Routed Net Constraint ( (All) )
 Rule Violations :0
@@ -49,6 +53,6 @@ Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (Al
 Rule Violations :0
 
 
-Violations Detected : 0
+Violations Detected : 4
 Waived Violations : 0
 Time Elapsed        : 00:00:02
