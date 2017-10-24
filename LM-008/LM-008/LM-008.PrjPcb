@@ -207,54 +207,46 @@ DocumentPath=Project Outputs for LM-008\LM-008_Drillmap_1.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Project Outputs for LM-008\LM-008_Legend_Bot.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument10]
-DocumentPath=Project Outputs for LM-008\LM-008_Legend_Top.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument11]
 DocumentPath=Project Outputs for LM-008\LM-008_Mechanical_1.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument12]
+[GeneratedDocument10]
 DocumentPath=Project Outputs for LM-008\LM-008_Mechanical_13.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument13]
+[GeneratedDocument11]
 DocumentPath=Project Outputs for LM-008\LM-008_Mechanical_15.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument14]
+[GeneratedDocument12]
 DocumentPath=Project Outputs for LM-008\LM-008_Pads_Bot.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument15]
+[GeneratedDocument13]
 DocumentPath=Project Outputs for LM-008\LM-008_Pads_Top.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument16]
+[GeneratedDocument14]
 DocumentPath=Project Outputs for LM-008\LM-008_Paste_Bot.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument17]
+[GeneratedDocument15]
 DocumentPath=Project Outputs for LM-008\LM-008_Paste_Top.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument18]
+[GeneratedDocument16]
 DocumentPath=Project Outputs for LM-008\LM-008_Profile.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument19]
+[GeneratedDocument17]
 DocumentPath=Project Outputs for LM-008\LM-008_PTH_Drill.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument20]
+[GeneratedDocument18]
 DocumentPath=Project Outputs for LM-008\LM-008_Soldermask_Bot.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument21]
+[GeneratedDocument19]
 DocumentPath=Project Outputs for LM-008\LM-008_Soldermask_Top.gbr
 DItemRevisionGUID=
 
