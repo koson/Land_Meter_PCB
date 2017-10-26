@@ -1,0 +1,16 @@
+Removed Member From Class: ClassName=LM-CT-001 Member=R4
+Change Component Footprint: Designator=U8 Old Footprint=SOIC-SN8_N New Footprint=MSOP-MS8_L
+Change Component Comment : Designator=U8 Old Comment=MCP4161-502E/SN New Comment=MCP4161-502E/MS
+Change component parameters: Designator = "U8"; Footprint = "MSOP-MS8_L"; UniqueID = "\KRGKQOUJ"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.microchip.com/"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = "http://ww1.microchip.com/downloads/en/DeviceDoc/22059b.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.microchip.com/stellent/groups/techpub_sg/documents/packagingspec/en012702.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DatasheetVersion"; Value = "revB, Dec-2008"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "8-Lead Plastic Micro Small Outline Package (MS) [MSOP]"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "MSOP-MS8"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageVersion"; Value = "revBB, Aug-2009"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RevisionNote"; Value = "URLs added."; VariantName = "[No Variations]"
