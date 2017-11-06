@@ -1,0 +1,28 @@
+Output: Gerber X2 Files
+Type  : GerberX2
+From  : Project [LM_002_TEST.PrjPcb]
+   Generated File[LM_002_TEST_Copper_Signal_Top.gbr]
+   Generated File[LM_002_TEST_Copper_Signal_Bot.gbr]
+   Generated File[LM_002_TEST_Pads_Bot.gbr]
+   Generated File[LM_002_TEST_Pads_Top.gbr]
+   Generated File[LM_002_TEST_Paste_Top.gbr]
+   Generated File[LM_002_TEST_Legend_Bot.gbr]
+   Generated File[LM_002_TEST_Soldermask_Top.gbr]
+   Generated File[LM_002_TEST_Legend_Top.gbr]
+   Generated File[LM_002_TEST_Soldermask_Bot.gbr]
+   Generated File[LM_002_TEST_Mechanical_13.gbr]
+   Generated File[LM_002_TEST_Mechanical_15.gbr]
+   Generated File[LM_002_TEST_Mechanical_1.gbr]
+   Generated File[LM_002_TEST_Profile.gbr]
+   Generated File[LM_002_TEST_PTH_Drill.gbr]
+   Generated File[LM_002_TEST_Drawing_1.gbr]
+   Generated File[LM_002_TEST_Drillmap_1.gbr]
+   Generated File[LM_002_TEST.RUL]
+   Generated File[LM_002_TEST.EXTREP]
+   Generated File[LM_002_TEST.REP]
+
+
+Files Generated   : 19
+Documents Printed : 0
+
+Finished Output Generation At 3:36:07 PM On 11/6/2017
