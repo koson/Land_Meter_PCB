@@ -1,0 +1,11 @@
+Added Pin To Net: NetName=Thermistor_CS0 Pin=U1-9-17
+Added Pin To Net: NetName=SPI0_MISO Pin=U1-9-21
+Added Pin To Net: NetName=SPI0_SCLK Pin=U1-9-22
+Added Pin To Net: NetName=NetU1_8-3 Pin=U1-8-3
+Added Net: Name=NetU1_8-3
+Added Pin To Net: NetName=NetU1_8-4 Pin=U1-8-4
+Added Net: Name=NetU1_8-4
+Added Pin To Net: NetName=NetU1_8-5 Pin=U1-8-5
+Added Net: Name=NetU1_8-5
+Added Pin To Net: NetName=NetU1_8-6 Pin=U1-8-6
+Added Net: Name=NetU1_8-6
