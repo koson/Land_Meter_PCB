@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=BEAM Pin=PAD2-1
+Added Pin To Net: NetName=Guard Pin=PAD2-1
+Added Pin To Net: NetName=Guard Pin=R5-2
+Added Net: Name=Guard

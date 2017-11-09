@@ -1,0 +1,8 @@
+Added Component: Designator=PAD1(PCB_PAD_A)
+Add component. Clean all parameters for all variants
+Added Component: Designator=PAD2(PCB_PAD_A)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=Guard Pin=PAD1-1
+Added Pin To Net: NetName=BEAM Pin=PAD2-1
+Added Member To Class: ClassName=Beam_Amp Member=Component PAD1 PCB_PAD_A
+Added Member To Class: ClassName=Beam_Amp Member=Component PAD2 PCB_PAD_A

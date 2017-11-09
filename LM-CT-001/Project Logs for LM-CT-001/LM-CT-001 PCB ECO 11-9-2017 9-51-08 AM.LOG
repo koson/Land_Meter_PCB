@@ -1,0 +1,21 @@
+Added Component: Designator=PAD3(PCB_PAD_A)
+Add component. Clean all parameters for all variants
+Added Component: Designator=PAD4(PCB_PAD_A)
+Add component. Clean all parameters for all variants
+Added Component: Designator=PAD5(PCB_PAD_A)
+Add component. Clean all parameters for all variants
+Added Component: Designator=PAD6(PCB_PAD_A)
+Add component. Clean all parameters for all variants
+Added Component: Designator=PAD7(PCB_PAD_A)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=NetPAD4_1 Pin=PAD4-1
+Added Pin To Net: NetName=NetPAD4_1 Pin=R1-1
+Added Net: Name=NetPAD4_1
+Added Pin To Net: NetName=NetPAD5_1 Pin=PAD5-1
+Added Pin To Net: NetName=NetPAD5_1 Pin=R2-1
+Added Net: Name=NetPAD5_1
+Added Member To Class: ClassName=LM-CT-001 Member=Component PAD3 PCB_PAD_A
+Added Member To Class: ClassName=LM-CT-001 Member=Component PAD4 PCB_PAD_A
+Added Member To Class: ClassName=LM-CT-001 Member=Component PAD5 PCB_PAD_A
+Added Member To Class: ClassName=Sense Member=Component PAD6 PCB_PAD_A
+Added Member To Class: ClassName=Sense Member=Component PAD7 PCB_PAD_A
