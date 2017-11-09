@@ -140,7 +140,7 @@ OutputEnabled2_OutputMedium2=2
 OutputEnabled2_OutputMedium3=0
 OutputEnabled2_OutputMedium4=0
 OutputDefault2=0
-PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.72|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.76|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 Configuration2_Name1=OutputConfigurationParameter1
 Configuration2_Item1=DesignatorDisplayMode=Physical|PrintArea=DesignExtent|PrintAreaLowerLeftCornerX=0|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=0|PrintAreaUpperRightCornerY=0|Record=PcbPrintView
 Configuration2_Name2=OutputConfigurationParameter2
@@ -187,5 +187,5 @@ Configuration3_Item5=20|Packaging=20|PartNumber=20|Quantity=20|Description 1=29|
 Configuration3_Name6=SortOrder
 Configuration3_Item6=Designator=Up|Comment=Up|Footprint=Up
 Configuration3_Name7=VisibleOrder
-Configuration3_Item7=Comment=100|Description=100|Designator=100|Footprint=100|LibRef=100|Quantity=100
+Configuration3_Item7=Comment=40|Description=142|Designator=32|Footprint=32|LibRef=32|Quantity=32|Manufacturer 1=32|Manufacturer Part Number 1=32|Supplier 1=32|Supplier Currency 1=32|Supplier Order Qty 1=32|Supplier Part Number 1=32|Supplier Stock 1=32|Supplier Subtotal 1=32|Supplier Unit Price 1=34
 
