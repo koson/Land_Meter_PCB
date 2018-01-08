@@ -21,6 +21,7 @@ From  : Project [LM-003.PrjPcb]
    Generated File[LM-003_Mechanical_7.gbr]
    Generated File[LM-003_Mechanical_1.gbr]
    Generated File[LM-003_Profile.gbr]
+   Generated File[LM-003_NPTH_Drill.gbr]
    Generated File[LM-003_PTH_Drill.gbr]
    Generated File[LM-003_Drawing_1.gbr]
    Generated File[LM-003_Drillmap_1.gbr]
@@ -28,7 +29,7 @@ From  : Project [LM-003.PrjPcb]
    Generated File[LM-003.REP]
 
 
-Files Generated   : 25
+Files Generated   : 26
 Documents Printed : 0
 
-Finished Output Generation At 3:29:10 PM On 11/29/2017
+Finished Output Generation At 9:19:04 AM On 12/1/2017
