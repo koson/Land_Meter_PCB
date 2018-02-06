@@ -1,0 +1,4 @@
+Added Pin To Net: NetName=VCC_2V85 Pin=R27-2
+Added Pin To Net: NetName=MUX_B0 Pin=U1-8-42
+Added Pin To Net: NetName=MUX_B1 Pin=U1-8-43
+Added Pin To Net: NetName=MUX B2 Pin=U1-8-44
