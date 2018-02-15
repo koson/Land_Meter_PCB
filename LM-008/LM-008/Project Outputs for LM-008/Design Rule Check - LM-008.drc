@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\zls\Desktop\Land_Meter_PCB\LM-008\LM-008\LM-008.PcbDoc
-Date     : 2/7/2018
-Time     : 3:47:01 PM
+Date     : 2/14/2018
+Time     : 9:41:15 AM
 
 Processing Rule : Clearance Constraint (Gap=0.2mm) (All),(All)
 Rule Violations :0
@@ -45,4 +45,4 @@ Rule Violations :0
 
 Violations Detected : 0
 Waived Violations : 0
-Time Elapsed        : 00:00:00
+Time Elapsed        : 00:00:01
