@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=SPI0_MISO Pin=P6-7
+Removed Pin From Net: NetName=SPI0_SCLK Pin=P6-9
+Removed Member From Class: ClassName=BBB Headers Member=P4
+Removed Member From Class: ClassName=BBB Headers Member=P5
+Removed Member From Class: ClassName=BBB Headers Member=P6
+Removed Member From Class: ClassName=BBB Headers Member=P8
+Change Component Footprint: Designator=U5 Old Footprint=U10+2_L New Footprint=U10+2_N
+Added Member To Class: ClassName=Connectors Member=Component P4 Header 3
+Added Member To Class: ClassName=Connectors Member=Component P5 Header 3
+Added Member To Class: ClassName=Connectors Member=Component P6 SLW-105-01-G-D
+Added Member To Class: ClassName=Connectors Member=Component P8 SLW-104-01-G-S

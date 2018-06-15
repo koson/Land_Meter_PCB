@@ -1,0 +1,33 @@
+Change Component Footprint: Designator=C7 Old Footprint=CAPC1206(3216)130_N New Footprint=CAPC0805(2012)145_L
+Change Component Comment : Designator=C7 Old Comment=CAP CER 4.7UF 16V X7R 1206 New Comment=4.7uF
+Change component parameters: Designator = "C7"; Footprint = "CAPC0805(2012)145_L"; UniqueID = "\SPQOWGUK"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Applications"; Value = "General Purpose"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Category"; Value = "Capacitors"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "http://www.kemet.com/docfinder?Partnumber=C0805C475K4RACTU"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.kemet.com/docfinder?Partnumber=C0805C475K4RACTU"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Failure Rate"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Features"; Value = "Low ESL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height - Seated (Max)"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lead Spacing"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lead Style"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "C0805C475K4RACTU"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Type"; Value = "Surface Mount, MLCC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 125°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package / Case"; Value = "0805 (2012 Metric)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Cut Tape (CT)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Status"; Value = "Active"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pricing 1"; Value = "1=0.26, 10=0.176, 100=0.0894, 500=0.06118, 1000=0.05412 (USD)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ratings"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS"; Value = "RoHS Compliant"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Size / Dimension"; Value = "0.079" L x 0.049" W (2.00mm x 1.25mm)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Stock 1"; Value = "88820"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "399-7415-1-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Temperature Coefficient"; Value = "X7R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Thickness (Max)"; Value = "0.055" (1.40mm)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "±10%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage - Rated"; Value = "16V"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=U11-11
+Added Room: Name=LM-008

@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=+5 BBB Pin=P1-1
+Removed Pin From Net: NetName=+5 Pin=P1-2
+Removed Pin From Net: NetName=Battery Thermistor Pin=P1-9
+Added Pin To Net: NetName=Battery Thermistor Pin=P1-1
+Added Pin To Net: NetName=+5 BBB Pin=P1-2

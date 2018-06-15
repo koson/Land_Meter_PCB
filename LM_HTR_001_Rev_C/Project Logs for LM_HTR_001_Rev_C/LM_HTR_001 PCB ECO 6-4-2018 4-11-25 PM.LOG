@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=MUX A2 Pin=P1-A6
+Removed Pin From Net: NetName=Thermistor_CS0 Pin=P1-B5
+Removed Pin From Net: NetName=MUX_A1 Pin=P1-B6
+Added Pin To Net: NetName=MUX A2 Pin=P1-B9
+Added Pin To Net: NetName=Thermistor_CS0 Pin=P1-B10
+Added Pin To Net: NetName=MUX_A1 Pin=P1-B11

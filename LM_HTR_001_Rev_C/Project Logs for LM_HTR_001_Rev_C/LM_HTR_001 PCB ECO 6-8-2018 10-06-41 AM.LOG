@@ -1,0 +1,5 @@
+Change Component Footprint: Designator=P1 Old Footprint=PCIeX1-GF-2D-1000-1K-O36 New Footprint=MEC6-120-02-PCB
+Change Component Comment : Designator=P1 Old Comment=PCIeX1-GF-2D-1000-1K-O36 New Comment=MEC6-120-02-PCB_
+Change Component Kind : Designator=P1 Old Kind=Standard (No BOM) New Kind=Standard
+Change component parameters: Designator = "P1"; Footprint = "MEC6-120-02-PCB"; UniqueID = "\PIXRNUFM"
+Change component parameters. Clean all parameters for all variants

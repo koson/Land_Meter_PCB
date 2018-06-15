@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=PLATE_P Pin=P5-5
+Change Component Footprint: Designator=P5 Old Footprint=SMTC-FTSH-105-01-L-DV-K_V New Footprint=FTSH-105-01-XXX-D-K
+Change component parameters: Designator = "P5"; Footprint = "FTSH-105-01-XXX-D-K"; UniqueID = "\HVQIREFS"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "CREATED"; Value = "September 26, 2016 - Wendy Xin"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MANUFACTURER"; Value = "SAMTEC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MODIFIED"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PCB DECAL"; Value = "FTSH-105-01-F-DV-K"; VariantName = "[No Variations]"

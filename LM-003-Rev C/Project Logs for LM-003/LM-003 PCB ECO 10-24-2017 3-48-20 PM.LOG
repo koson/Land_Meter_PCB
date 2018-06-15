@@ -1,0 +1,8 @@
+Added Pin To Net: NetName=Disp_RX Pin=P3-23
+Added Pin To Net: NetName=Disp_TX Pin=P3-24
+Added Pin To Net: NetName=Serial1_RX Pin=U1-10
+Added Pin To Net: NetName=Serial1_RX Pin=U2-9-26
+Added Net: Name=Serial1_RX
+Added Pin To Net: NetName=Serial1_TX Pin=U1-11
+Added Pin To Net: NetName=Serial1_TX Pin=U2-9-24
+Added Net: Name=Serial1_TX

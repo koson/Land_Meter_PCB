@@ -1,0 +1,12 @@
+Change Component Footprint: Designator=P3 Old Footprint=IPL1-102-03-L-SH-K New Footprint=IPL1-102-01-F-S-K
+Change Component Footprint: Designator=P5 Old Footprint=IPL1-102-03-L-SH-K New Footprint=IPL1-102-01-F-S-K
+Change Component Comment : Designator=P3 Old Comment=IPL1-102-03-L-SH-K New Comment=IPL1-102-01-F-S-K
+Change Component Comment : Designator=P5 Old Comment=IPL1-102-03-L-SH-K New Comment=IPL1-102-01-F-S-K
+Change component parameters: Designator = "P3"; Footprint = "IPL1-102-01-F-S-K"; UniqueID = "\IRHGKRTL"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "IPL1-102-01-F-S-K-ND"; VariantName = "[No Variations]"
+Change component parameters: Designator = "P5"; Footprint = "IPL1-102-01-F-S-K"; UniqueID = "\KSEHBFRJ"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "IPL1-102-01-F-S-K-ND"; VariantName = "[No Variations]"

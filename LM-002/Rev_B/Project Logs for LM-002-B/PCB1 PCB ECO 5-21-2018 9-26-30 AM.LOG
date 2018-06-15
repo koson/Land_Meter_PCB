@@ -1,0 +1,6 @@
+Added Component: Designator=TP2(TP-TH-C-152-H90)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "No Vendor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "TP-TH-C-152-H90"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=Beam_mod Pin=TP2-1
+Added Member To Class: ClassName=Sheet1 Member=Component TP2 TP-TH-C-152-H90

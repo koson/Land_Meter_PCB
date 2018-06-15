@@ -1,0 +1,51 @@
+Removed Member From Class: ClassName=BBB Headers Member=P9
+Removed Member From Class: ClassName=BBB Headers Member=P14
+Change Component Footprint: Designator=U2 Old Footprint=PW0016A_L New Footprint=PW0016A_M
+Change Component Designator: OldDesignator=C2 NewDesignator=C1
+Change Component Designator: OldDesignator=C3 NewDesignator=C2
+Change Component Designator: OldDesignator=C4 NewDesignator=C3
+Change Component Designator: OldDesignator=P4 NewDesignator=P7
+Change Component Designator: OldDesignator=P5 NewDesignator=P8
+Change Component Designator: OldDesignator=P6 NewDesignator=P4
+Change Component Designator: OldDesignator=P8 NewDesignator=P9
+Change Component Designator: OldDesignator=P9 NewDesignator=P5
+Change Component Designator: OldDesignator=P11 NewDesignator=P10
+Change Component Designator: OldDesignator=P12 NewDesignator=P11
+Change Component Designator: OldDesignator=P14 NewDesignator=P6
+Change Component Designator: OldDesignator=R2 NewDesignator=R14
+Change Component Designator: OldDesignator=R3 NewDesignator=R15
+Change Component Designator: OldDesignator=R4 NewDesignator=R16
+Change Component Designator: OldDesignator=R5 NewDesignator=R10
+Change Component Designator: OldDesignator=R6 NewDesignator=R11
+Change Component Designator: OldDesignator=R7 NewDesignator=R12
+Change Component Designator: OldDesignator=R8 NewDesignator=R13
+Change Component Designator: OldDesignator=R13 NewDesignator=R17
+Change Component Designator: OldDesignator=R14 NewDesignator=R18
+Change Component Designator: OldDesignator=R15 NewDesignator=R19
+Change Component Designator: OldDesignator=R24 NewDesignator=R2
+Change Component Designator: OldDesignator=R26 NewDesignator=R3
+Change Component Designator: OldDesignator=R28 NewDesignator=R4
+Change Component Designator: OldDesignator=R29 NewDesignator=R5
+Change Component Designator: OldDesignator=R30 NewDesignator=R6
+Change Component Designator: OldDesignator=R31 NewDesignator=R7
+Change Component Designator: OldDesignator=R32 NewDesignator=R8
+Change Component Designator: OldDesignator=R33 NewDesignator=R9
+Change Component Designator: OldDesignator=U1 NewDesignator=U2
+Change Component Designator: OldDesignator=U2 NewDesignator=U1
+Change component parameters: Designator = "P7"; Footprint = "IPL1-112-01-F-S-K"; UniqueID = "\RGAFHEER"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Newark"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "08W3504"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=P1-1
+Added Pin To Net: NetName=CS_Power_Supplies Pin=P2-5
+Added Pin To Net: NetName=GND Pin=U2-9-36
+Change Net Name : Old Net Name=GND New Net Name=Battery Thermistor
+Change Net Name : Old Net Name=NetR28_1 New Net Name=NetR4_1
+Change Net Name : Old Net Name=NetR29_1 New Net Name=NetR5_1
+Change Net Name : Old Net Name=NetR32_1 New Net Name=NetR8_1
+Change Net Name : Old Net Name=NetU1_8-13 New Net Name=NetU2_8-13
+Change Net Name : Old Net Name=NetU1_8-15 New Net Name=NetU2_8-15
+Change Net Name : Old Net Name=NetU1_8-16 New Net Name=NetU2_8-16
+Change Net Name : Old Net Name=NetU1_8-28 New Net Name=NetU2_8-28
+Change Net Name : Old Net Name=NetU1_8-29 New Net Name=NetU2_8-29
+Change Net Name : Old Net Name=NetU1_9-16 New Net Name=NetU2_9-16

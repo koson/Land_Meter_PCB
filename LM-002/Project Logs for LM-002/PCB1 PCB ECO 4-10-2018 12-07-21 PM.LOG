@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=PLATE_N Pin=U4-1
+Removed Pin From Net: NetName=PLATE_N Pin=U4-2
+Removed Pin From Net: NetName=PLATE_P Pin=U4-6
+Removed Pin From Net: NetName=PLATE_P Pin=U4-7
+Added Pin To Net: NetName=PLATE_P Pin=U4-1
+Added Pin To Net: NetName=PLATE_P Pin=U4-2
+Added Pin To Net: NetName=PLATE_N Pin=U4-6
+Added Pin To Net: NetName=PLATE_N Pin=U4-7

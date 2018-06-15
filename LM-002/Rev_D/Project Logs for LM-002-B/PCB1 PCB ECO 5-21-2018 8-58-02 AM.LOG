@@ -1,0 +1,18 @@
+Added Component: Designator=P2(SSW-102-02-G-S-RA)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "SAM1225-02-ND"; VariantName = "[No Variations]"
+Added Component: Designator=TP1(KSTN-5004)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Datasheet URL"; Value = "http://www.keyelco.com/product-pdf.cfm?p=1313"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "Rev. G, 12/2008"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Keystone"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.keyelco.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "ThroughHole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Description"; Value = "1-Pin Through Hole Device, Dia 2.54 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "5004"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=P2-1
+Added Pin To Net: NetName=Beam Sync Demod Out Pin=P2-2
+Added Pin To Net: NetName=NetC1_1 Pin=TP1-1
+Added Member To Class: ClassName=Sheet1 Member=Component P2 SSW-102-02-G-S-RA
+Added Member To Class: ClassName=Sheet1 Member=Component TP1 5004

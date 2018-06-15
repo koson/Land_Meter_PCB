@@ -1,0 +1,15 @@
+Removed Pin From Net: NetName=+5 Pin=R1-1
+Removed Member From Class: ClassName=36V_Supply Member=C7
+Removed Member From Class: ClassName=36V_Supply Member=C9
+Removed Member From Class: ClassName=36V_Supply Member=C12
+Removed Member From Class: ClassName=36V_Supply Member=C15
+Removed Member From Class: ClassName=36V_Supply Member=R1
+Removed Member From Class: ClassName=36V_Supply Member=U2
+Added Pin To Net: NetName=+5 Pin=C6-2
+Added Pin To Net: NetName=+5 Pin=U1-4
+Added Member To Class: ClassName=36V_Supply Member=Component C1 22pF
+Added Member To Class: ClassName=36V_Supply Member=Component C2 CAP CER 1UF 50V X7R 1210
+Added Member To Class: ClassName=36V_Supply Member=Component C3 CAP CER 0.47UF 50V X7R 1206
+Added Member To Class: ClassName=36V_Supply Member=Component C6 CAP CER 0.047UF 16V X7R 0603
+Added Member To Class: ClassName=36V_Supply Member=Component U1 LT3461
+Added Member To Class: ClassName=LM-008 Member=Component U5 OPA188AIDBVR

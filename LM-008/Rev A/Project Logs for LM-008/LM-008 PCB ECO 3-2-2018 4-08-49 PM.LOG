@@ -1,0 +1,26 @@
+Removed Member From Class: ClassName=5V_Supply_Alt_1 Member=C?
+Removed Member From Class: ClassName=5V_Supply_Alt_1 Member=U?
+Change Component Designator: OldDesignator=C? NewDesignator=C2
+Change Component Designator: OldDesignator=C? NewDesignator=C3
+Change Component Designator: OldDesignator=C? NewDesignator=C4
+Change Component Designator: OldDesignator=C? NewDesignator=C9
+Change Component Designator: OldDesignator=C? NewDesignator=C11
+Change Component Designator: OldDesignator=C? NewDesignator=C12
+Change Component Designator: OldDesignator=C? NewDesignator=C14
+Change Component Designator: OldDesignator=R? NewDesignator=R5
+Change Component Designator: OldDesignator=U? NewDesignator=U1
+Change Component Designator: OldDesignator=U? NewDesignator=U4
+Change Component Designator: OldDesignator=U? NewDesignator=U6
+Change Net Name : Old Net Name=NetC?_1 New Net Name=NetC14_1
+Change Net Name : Old Net Name=NetC?_2 New Net Name=NetC9_2
+Added Pin To Net: NetName=NetC14_2 Pin=C14-2
+Added Pin To Net: NetName=NetC14_2 Pin=U6-3
+Added Net: Name=NetC14_2
+Added Member To Class: ClassName=5V_Supply_Alt_1 Member=Component C3 CAP CER 1UF 50V X7R 1210
+Added Member To Class: ClassName=5V_Supply_Alt_1 Member=Component C4 1uF
+Added Member To Class: ClassName=5V_Supply_Alt_1 Member=Component C9 CAP CER 1UF 50V X7R 1210
+Added Member To Class: ClassName=5V_Supply_Alt_1 Member=Component C11 CAP CER 10UF 6.3V X5R 1206
+Added Member To Class: ClassName=5V_Supply_Alt_1 Member=Component C12 CAP CER 10UF 6.3V X5R 1206
+Added Member To Class: ClassName=5V_Supply_Alt_1 Member=Component C14 CAP CER 1UF 10V X5R 0805
+Added Member To Class: ClassName=5V_Supply_Alt_1 Member=Component U4 LT1763CS8-5#PBF
+Added Member To Class: ClassName=5V_Supply_Alt_1 Member=Component U6 LTC1983ES6-5#TRMPBF

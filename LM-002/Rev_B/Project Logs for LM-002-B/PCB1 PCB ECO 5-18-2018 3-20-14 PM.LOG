@@ -1,0 +1,9 @@
+Change Component Footprint: Designator=R7 Old Footprint=RESC0402(1005)_M New Footprint=RESC0805(2012)_L
+Change component parameters: Designator = "R7"; Footprint = "RESC0805(2012)_L"; UniqueID = "\FDSMDSRF"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Case-EIA"; Value = "0805"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case-Metric"; Value = "2012"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power"; Value = "0.125 W"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Technology"; Value = "SMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "1 %"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "3.9k"; VariantName = "[No Variations]"

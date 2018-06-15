@@ -1,0 +1,7 @@
+Removed Member From Class: ClassName=ADC Member=R?
+Change Component Footprint: Designator=C1 Old Footprint=CAPC0805(2012)145_N New Footprint=CAPC0805(2012)145_L
+Added Pin To Net: NetName=AGND Pin=U11-11
+Added Member To Class: ClassName=Power_Input Member=Component P? IPL1-104-01-L-S-RA-K
+Added Member To Class: ClassName=Power_Input Member=Component R? 6.98K
+Added Member To Class: ClassName=Power_Input Member=Component R? Y14870R10000B9R
+Added Member To Class: ClassName=Power_Input Member=Component RL? PE014012

@@ -1,0 +1,97 @@
+Removed Pin From Net: NetName=+12 Pin=P6-1
+Removed Pin From Net: NetName=+5 Pin=P6-2
+Removed Pin From Net: NetName=-5 Pin=P6-3
+Removed Pin From Net: NetName=GND Pin=P6-5
+Removed Pin From Net: NetName=+9 Pin=P6-6
+Removed Member From Class: ClassName=Sheet2 Member=C15
+Removed Member From Class: ClassName=Sheet2 Member=R13
+Removed Member From Class: ClassName=Sheet2 Member=R15
+Removed Member From Class: ClassName=Sheet2 Member=R17
+Removed Member From Class: ClassName=Sheet2 Member=U6
+Change Component Footprint: Designator=P6 Old Footprint=MTLW-103-08-G-D-004 New Footprint=TLW-105-05-G-D
+Change Component Comment : Designator=P6 Old Comment=MTLW-103-08-G-D-004 New Comment=TLW-105-05-G-D
+Change component parameters: Designator = "P6"; Footprint = "TLW-105-05-G-D"; UniqueID = "\LTNCOPXO"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Applications"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Category"; Value = "Connectors, Interconnects"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "http://suddendocs.samtec.com/prints/mtlw-1xx-xx-xx-x-xxx-xx-xx-mkt1.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://suddendocs.samtec.com/prints/mtlw-1xx-xx-xx-x-xxx-xx-xx-mkt1.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Connector Type"; Value = "Header"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Finish - Mating"; Value = "Gold"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Finish - Post"; Value = "Gold"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Finish Thickness - Mating"; Value = "10µin (0.25µm)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Finish Thickness - Post"; Value = "3µin (0.08µm)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Length - Mating"; Value = "0.170" (4.32mm)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Length - Post"; Value = "0.105" (2.67mm)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Material"; Value = "Phosphor Bronze"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Shape"; Value = "Square"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Type"; Value = "Male Pin"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Current Rating"; Value = "5.2A per Contact"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fastening Type"; Value = "Push-Pull"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Features"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ingress Protection"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Insulation Color"; Value = "Black"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Insulation Height"; Value = "0.060" (1.52mm)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Insulation Material"; Value = "Liquid Crystal Polymer (LCP)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Samtec Inc."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "MTLW-105-05-G-D-170"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mated Stacking Heights"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Material Flammability Rating"; Value = "UL94 V-0"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Type"; Value = "Through Hole"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Positions"; Value = "10"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Positions Loaded"; Value = "All"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Rows"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 125°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Overall Contact Length"; Value = "0.335" (8.51mm)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Tube"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Status"; Value = "Active"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pitch - Mating"; Value = "0.100" (2.54mm)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pricing 1"; Value = "1=1.79 (USD)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS"; Value = "RoHS Compliant"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Row Spacing - Mating"; Value = "0.100" (2.54mm)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Shrouding"; Value = "Unshrouded"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Stock 1"; Value = "0"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Style"; Value = "Board to Board or Cable"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "MTLW-105-05-G-D-170-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Termination"; Value = "Solder"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "-"; VariantName = "[No Variations]"
+Added Component: Designator=R24(RESC0402(1005)_M)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R25(RESC0402(1005)_M)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=+12 Pin=P6-5
+Added Pin To Net: NetName=+5 Pin=P6-6
+Added Pin To Net: NetName=-5 Pin=P6-7
+Added Pin To Net: NetName=GND Pin=P6-9
+Added Pin To Net: NetName=+9 Pin=P6-10
+Change Net Name : Old Net Name=A0 New Net Name=NetP7_5
+Change Net Name : Old Net Name=A1 New Net Name=NetP7_3
+Change Net Name : Old Net Name=FB_CS0 New Net Name=NetP7_10
+Change Net Name : Old Net Name=PWM New Net Name=PWM1A
+Change Net Name : Old Net Name=SPI0_MISO New Net Name=NetP7_7
+Change Net Name : Old Net Name=SPI0_SCLK New Net Name=NetP7_9
+Added Pin To Net: NetName=NetR24_2 Pin=R24-2
+Added Pin To Net: NetName=NetR24_2 Pin=R25-2
+Added Pin To Net: NetName=NetR24_2 Pin=U3-1
+Added Net: Name=NetR24_2
+Added Pin To Net: NetName=PWM2A Pin=P6-2
+Added Pin To Net: NetName=PWM2A Pin=R24-1
+Added Net: Name=PWM2A
+Added Pin To Net: NetName=PWM2B Pin=P6-8
+Added Pin To Net: NetName=PWM2B Pin=R25-1
+Added Pin To Net: NetName=PWM2B Pin=U3-11
+Added Pin To Net: NetName=PWM2B Pin=U3-20
+Added Net: Name=PWM2B
+Added Member To Class: ClassName=Sheet1 Member=Component C15 CAP FILM 10UF 20% 16VDC 1812
+Added Member To Class: ClassName=Sheet2 Member=Component C17 0.1uF
+Added Member To Class: ClassName=Sheet1 Member=Component R15 0
+Added Member To Class: ClassName=Sheet1 Member=Component R16 1M
+Added Member To Class: ClassName=Sheet1 Member=Component R17 1M
+Added Member To Class: ClassName=Sheet2 Member=Component R18 10k
+Added Member To Class: ClassName=Sheet2 Member=Component R19 10k
+Added Member To Class: ClassName=Sheet2 Member=Component R20 100k
+Added Member To Class: ClassName=Sheet1 Member=Component R24 OPEN
+Added Member To Class: ClassName=Sheet1 Member=Component R25 0
+Added Member To Class: ClassName=Sheet1 Member=Component U6 OPA188AIDBVR
+Added Member To Class: ClassName=Sheet2 Member=Component U11 OPA188AIDBVR

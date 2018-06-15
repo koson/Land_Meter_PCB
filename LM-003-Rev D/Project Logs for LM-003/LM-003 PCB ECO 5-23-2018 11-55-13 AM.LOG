@@ -1,0 +1,29 @@
+Removed Member From Class: ClassName=Power Member=R33
+Added Pin To Net: NetName=NetR37_2 Pin=R37-2
+Added Pin To Net: NetName=NetR37_2 Pin=U5-8-12
+Added Pin To Net: NetName=NetR37_2 Pin=U10-6
+Added Net: Name=NetR37_2
+Added Pin To Net: NetName=NetR46_2 Pin=R46-2
+Added Pin To Net: NetName=NetR46_2 Pin=U5-8-18
+Added Pin To Net: NetName=NetR46_2 Pin=U9-6
+Added Net: Name=NetR46_2
+Added Pin To Net: NetName=NetR60_2 Pin=R60-2
+Added Pin To Net: NetName=NetR60_2 Pin=U5-8-24
+Added Pin To Net: NetName=NetR60_2 Pin=U11-6
+Added Net: Name=NetR60_2
+Added Pin To Net: NetName=NetR62_2 Pin=R62-2
+Added Pin To Net: NetName=NetR62_2 Pin=U5-8-35
+Added Pin To Net: NetName=NetR62_2 Pin=U12-6
+Added Net: Name=NetR62_2
+Added Pin To Net: NetName=NetU5_8-11 Pin=U5-8-11
+Added Pin To Net: NetName=NetU5_8-11 Pin=U10-3
+Added Net: Name=NetU5_8-11
+Added Pin To Net: NetName=NetU5_8-17 Pin=U5-8-17
+Added Pin To Net: NetName=NetU5_8-17 Pin=U9-3
+Added Net: Name=NetU5_8-17
+Added Pin To Net: NetName=NetU5_8-20 Pin=U5-8-20
+Added Pin To Net: NetName=NetU5_8-20 Pin=U11-3
+Added Net: Name=NetU5_8-20
+Added Pin To Net: NetName=NetU5_8-34 Pin=U5-8-34
+Added Pin To Net: NetName=NetU5_8-34 Pin=U12-3
+Added Net: Name=NetU5_8-34

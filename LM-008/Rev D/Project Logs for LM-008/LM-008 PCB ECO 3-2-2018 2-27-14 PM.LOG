@@ -1,0 +1,56 @@
+Removed Pin From Net: NetName=Power_IN Pin=R12-2
+Removed Pin From Net: NetName=NetR9_2 Pin=R13-1
+Removed Pin From Net: NetName=AGND Pin=R13-2
+Removed Pin From Net: NetName=NetR9_2 Pin=U11-3
+Removed Pin From Net: NetName=AGND Pin=U11-4
+Removed Member From Class: ClassName=5R_Supply Member=D1
+Removed Member From Class: ClassName=5R_Supply Member=DS1
+Removed Member From Class: ClassName=5R_Supply Member=L2
+Removed Member From Class: ClassName=5R_Supply Member=R13
+Removed Member From Class: ClassName=LM-008 Member=U12
+Change Component Footprint: Designator=U11 Old Footprint=LT-S8-8_M New Footprint=LT-LGA-25-6250X6250X1820_V
+Change Component Comment : Designator=U11 Old Comment=LTC1174CS8-5#PBF New Comment=LTM4622EV#PBF
+Change Component Comment : Designator=R9 Old Comment=RES SMD 10K OHM 1% 1/8W 0805 New Comment=RES SMD 43K OHM 1% 1/8W 0805
+Change component parameters: Designator = "R12"; Footprint = "RESC0805(2012)_M"; UniqueID = "\WEDDKHQC"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Resistance (Ohms)"; Value = "130k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R9"; Footprint = "RESC0805(2012)_M"; UniqueID = "\EJIOFRNQ"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Resistance (Ohms)"; Value = "10k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U11"; Footprint = "LT-LGA-25-6250X6250X1820_V"; UniqueID = "\ITVGEKTS"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Applications"; Value = "ITE(Commercial)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Category"; Value = "PowerSupplies-BoardMount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Current - Output (Max)"; Value = "2.5A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet URL"; Value = "http://cds.linear.com/docs/en/datasheet/4622fb.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Version"; Value = "Rev. B, 01/2016"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Efficiency"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Family"; Value = "DCDCConverters"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Features"; Value = "OCP,OTP,OVP"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "LinearTechnology"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer URL"; Value = "http://www.linear.com/"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Technology"; Value = "SurfaceMount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Type"; Value = "SurfaceMount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Outputs"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature"; Value = "-40°C~125°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package / Case"; Value = "25-LGA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package Description"; Value = "25-Pin LGA, Body 6.25 x 6.25 mm, Pitch 1.27 mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package Reference"; Value = "LGA-25"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package URL"; Value = "http://www.linear.com/docs/43379"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package Version"; Value = "Rev. 0, 06/2013"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Tray"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power (Watts) - Manufacture Series"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power (Watts) - Max"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Series"; Value = "µModule®"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = "Non-IsolatedPoLModule"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage - Input (Max)"; Value = "20V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage - Input (Min)"; Value = "3.6V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage - Isolation"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage - Output 1"; Value = "0.6~5.5V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage - Output 2"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage - Output 3"; Value = "-"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=AGND Pin=R9-1
+Added Pin To Net: NetName=AGND Pin=R12-1
+Added Pin To Net: NetName=NetR9_2 Pin=R12-2
+Added Pin To Net: NetName=NetR9_2 Pin=U9-G3
+Added Pin To Net: NetName=NetR9_2 Pin=U10-G3

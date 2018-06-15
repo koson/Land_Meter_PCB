@@ -1,0 +1,25 @@
+------------------------------------------------------------------------------------------
+Gerber File Extension Report For: LM_002_TEST.GBR   11/6/2017  3:36:05 PM
+------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------
+Layer Extension     Layer Description                      
+------------------------------------------------------------------------------------------
+.gbr                Top Layer                               
+.gbr                Bottom Layer                            
+.gbr                Bottom Pad Master                       
+.gbr                Top Pad Master                          
+.gbr                Top Paste                               
+.gbr                Bottom Overlay                          
+.gbr                Top Solder                              
+.gbr                Top Overlay                             
+.gbr                Bottom Solder                           
+.gbr                Mechanical 13                           
+.gbr                Mechanical 15                           
+.gbr                Mechanical 1                            
+.gbr                Profile                                 
+.gbr                Plated through-hole drill file          
+.gbr                Drill Drawing                           
+.gbr                Drill Guide                             
+------------------------------------------------------------------------------------------

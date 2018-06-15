@@ -1,0 +1,38 @@
+Added Component: Designator=F1(01530007Z)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Category 1"; Value = "Circuit Protection"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "http://www.littelfuse.com/~/media/commercial-vehicle/datasheets/automotive-fuse-holders/mini/littelfuse_fuse-holders-mini-153-pc-datasheet.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.littelfuse.com/~/media/commercial-vehicle/datasheets/automotive-fuse-holders/mini/littelfuse_fuse-holders-mini-153-pc-datasheet.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Finish"; Value = "Tin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Material"; Value = "Copper Alloy"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Rating"; Value = "15A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Description 1"; Value = "FUSE HOLDER BLADE 32V 15A PCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "For Use With/Related Products"; Value = "MINI ATC, MINI ATO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Fuseholder Type"; Value = "Holder"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Fuse Size"; Value = "0.43" L x 0.15" W x 0.64" H (10.92mm x 3.81mm x 16.25mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Fuse Type"; Value = "Blade"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1"; Value = "Littelfuse Inc."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number 1"; Value = "01530007Z"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "PCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Circuits"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Orientation"; Value = "Horizontal"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pricing 1"; Value = "1=3.45, 5=3.336, 10=3.22, 50=2.53, 100=2.07, 250=2.01252, 500=1.725, 1000=1.61, 5000=1.4375 (USD)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS 1"; Value = "RoHS Compliant"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stock 1"; Value = "4234"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "F064-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination Style"; Value = "PC Pin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "32V"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetF1_1 Pin=F1-1
+Added Pin To Net: NetName=Power_IN Pin=F1-2
+Added Member To Class: ClassName=Power Member=Component F1 Fuse holder
+Added Room: Name=ADC
+Added Room: Name=BBB Headers
+Added Room: Name=Connectors
+Added Room: Name=FeedbackLoop
+Added Room: Name=heater_control
+Added Room: Name=Power
+Added Room: Name=Power Monitor
+Added Room: Name=Real Time Clock
+Added Room: Name=RS232

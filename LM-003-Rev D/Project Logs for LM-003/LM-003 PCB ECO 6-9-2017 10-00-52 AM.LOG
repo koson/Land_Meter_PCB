@@ -1,0 +1,215 @@
+Removed Pin From Net: NetName=DGND Pin=P2-8
+Removed Pin From Net: NetName=NetP5_3 Pin=Q2-2
+Removed Pin From Net: NetName=NetP13_3 Pin=Q3-2
+Removed Pin From Net: NetName=NetP11_3 Pin=Q4-2
+Removed Pin From Net: NetName=NetP5_3 Pin=R1-1
+Removed Pin From Net: NetName=NetP13_3 Pin=R9-1
+Removed Pin From Net: NetName=NetP11_3 Pin=R26-2
+Removed Pin From Net: NetName=NetP5_2 Pin=R30-1
+Removed Pin From Net: NetName=NetP11_2 Pin=R33-2
+Removed Pin From Net: NetName=NetP13_2 Pin=R34-1
+Removed Pin From Net: NetName=NetTP18_1 Pin=TP18-1
+Removed Pin From Net: NetName=NetTP19_1 Pin=TP19-1
+Removed Pin From Net: NetName=NetTP21_1 Pin=TP21-1
+Removed Pin From Net: NetName=Lid Thermistor Out Pin=TP22-1
+Removed Pin From Net: NetName=NetTP23_1 Pin=TP23-1
+Removed Pin From Net: NetName=NetTP24_1 Pin=TP24-1
+Removed Pin From Net: NetName=NetP5_2 Pin=U3-12
+Removed Pin From Net: NetName=NetP13_2 Pin=U4-3
+Removed Pin From Net: NetName=NetP11_2 Pin=U4-5
+Removed Pin From Net: NetName=NetTP18_1 Pin=U14-1
+Removed Pin From Net: NetName=NetTP18_1 Pin=U14-2
+Removed Pin From Net: NetName=NetTP21_1 Pin=U14-6
+Removed Pin From Net: NetName=NetTP21_1 Pin=U14-7
+Removed Member From Class: ClassName=Power Monitor Member=TP18
+Removed Member From Class: ClassName=Power Monitor Member=TP19
+Removed Member From Class: ClassName=Power Monitor Member=TP21
+Removed Member From Class: ClassName=Power Monitor Member=TP22
+Removed Member From Class: ClassName=Power Monitor Member=TP23
+Removed Member From Class: ClassName=Power Monitor Member=TP24
+Added Component: Designator=P5(IPL1-104-01)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Applications"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Category 1"; Value = "Connectors, Interconnects"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "http://suddendocs.samtec.com/prints/ipl1-1xx-xx-xxx-s-xx-x-xx-mkt.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://suddendocs.samtec.com/prints/ipl1-1xx-xx-xxx-s-xx-x-xx-mkt.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Connector Type"; Value = "Header"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Finish - Mating"; Value = "Gold"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Finish - Post"; Value = "Tin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Finish Thickness - Mating"; Value = "10µin (0.25µm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Finish Thickness - Post"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Length - Mating"; Value = "0.215" (5.46mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Length - Post"; Value = "0.085" (2.16mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Material"; Value = "Phosphor Bronze"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Shape"; Value = "Square"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Type"; Value = "Male Pin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Rating"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Description 1"; Value = ".100 TERMINAL ASSY"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Fastening Type"; Value = "Locking Ramp"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Features"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ingress Protection"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Insulation Color"; Value = "Natural"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Insulation Height"; Value = "0.240" (6.10mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Insulation Material"; Value = "Liquid Crystal Polymer (LCP)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1"; Value = "Samtec Inc."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number 1"; Value = "IPL1-104-01-L-S-RA-K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mated Stacking Heights"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Material Flammability Rating"; Value = "UL94 V-0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Through Hole, Right Angle"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Positions"; Value = "4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Positions Loaded"; Value = "All"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Rows"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Overall Contact Length"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tube"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch - Mating"; Value = "0.100" (2.54mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pricing 1"; Value = "1=2.53, 10=2.424, 25=2.222, 50=2.121, 100=2.02, 250=1.76752, 500=1.717, 1000=1.4645, 2500=1.3635 (USD)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS 1"; Value = "RoHS Compliant"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Row Spacing - Mating"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Shrouding"; Value = "Shrouded - 4 Wall"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stock 1"; Value = "100"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Style"; Value = "Board to Cable/Wire"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "SAM9597-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination"; Value = "Solder"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "675VAC, 954VDC"; VariantName = "[No Variations]"
+Added Component: Designator=P11(IPL1-104-01)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Applications"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Category 1"; Value = "Connectors, Interconnects"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "http://suddendocs.samtec.com/prints/ipl1-1xx-xx-xxx-s-xx-x-xx-mkt.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://suddendocs.samtec.com/prints/ipl1-1xx-xx-xxx-s-xx-x-xx-mkt.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Connector Type"; Value = "Header"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Finish - Mating"; Value = "Gold"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Finish - Post"; Value = "Tin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Finish Thickness - Mating"; Value = "10µin (0.25µm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Finish Thickness - Post"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Length - Mating"; Value = "0.215" (5.46mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Length - Post"; Value = "0.085" (2.16mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Material"; Value = "Phosphor Bronze"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Shape"; Value = "Square"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Type"; Value = "Male Pin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Rating"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Description 1"; Value = ".100 TERMINAL ASSY"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Fastening Type"; Value = "Locking Ramp"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Features"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ingress Protection"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Insulation Color"; Value = "Natural"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Insulation Height"; Value = "0.240" (6.10mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Insulation Material"; Value = "Liquid Crystal Polymer (LCP)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1"; Value = "Samtec Inc."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number 1"; Value = "IPL1-104-01-L-S-RA-K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mated Stacking Heights"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Material Flammability Rating"; Value = "UL94 V-0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Through Hole, Right Angle"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Positions"; Value = "4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Positions Loaded"; Value = "All"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Rows"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Overall Contact Length"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tube"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch - Mating"; Value = "0.100" (2.54mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pricing 1"; Value = "1=2.53, 10=2.424, 25=2.222, 50=2.121, 100=2.02, 250=1.76752, 500=1.717, 1000=1.4645, 2500=1.3635 (USD)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS 1"; Value = "RoHS Compliant"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Row Spacing - Mating"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Shrouding"; Value = "Shrouded - 4 Wall"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stock 1"; Value = "100"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Style"; Value = "Board to Cable/Wire"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "SAM9597-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination"; Value = "Solder"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "675VAC, 954VDC"; VariantName = "[No Variations]"
+Added Component: Designator=P13(IPL1-104-01)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Applications"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Category 1"; Value = "Connectors, Interconnects"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "http://suddendocs.samtec.com/prints/ipl1-1xx-xx-xxx-s-xx-x-xx-mkt.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://suddendocs.samtec.com/prints/ipl1-1xx-xx-xxx-s-xx-x-xx-mkt.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Connector Type"; Value = "Header"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Finish - Mating"; Value = "Gold"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Finish - Post"; Value = "Tin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Finish Thickness - Mating"; Value = "10µin (0.25µm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Finish Thickness - Post"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Length - Mating"; Value = "0.215" (5.46mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Length - Post"; Value = "0.085" (2.16mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Material"; Value = "Phosphor Bronze"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Shape"; Value = "Square"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Type"; Value = "Male Pin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Rating"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Description 1"; Value = ".100 TERMINAL ASSY"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Fastening Type"; Value = "Locking Ramp"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Features"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ingress Protection"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Insulation Color"; Value = "Natural"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Insulation Height"; Value = "0.240" (6.10mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Insulation Material"; Value = "Liquid Crystal Polymer (LCP)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1"; Value = "Samtec Inc."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number 1"; Value = "IPL1-104-01-L-S-RA-K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mated Stacking Heights"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Material Flammability Rating"; Value = "UL94 V-0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Through Hole, Right Angle"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Positions"; Value = "4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Positions Loaded"; Value = "All"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Rows"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Overall Contact Length"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tube"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch - Mating"; Value = "0.100" (2.54mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pricing 1"; Value = "1=2.53, 10=2.424, 25=2.222, 50=2.121, 100=2.02, 250=1.76752, 500=1.717, 1000=1.4645, 2500=1.3635 (USD)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS 1"; Value = "RoHS Compliant"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Row Spacing - Mating"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Shrouding"; Value = "Shrouded - 4 Wall"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stock 1"; Value = "100"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Style"; Value = "Board to Cable/Wire"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "SAM9597-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination"; Value = "Solder"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "675VAC, 954VDC"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=P2-1
+Added Pin To Net: NetName=GND Pin=P2-8
+Added Pin To Net: NetName=NetP11_3 Pin=P5-1
+Added Pin To Net: NetName=+12 Pin=P5-2
+Added Pin To Net: NetName=AGND Pin=P5-3
+Added Pin To Net: NetName=NetTP24_1 Pin=P5-4
+Added Pin To Net: NetName=GND Pin=P10-2
+Added Pin To Net: NetName=NetP11_2 Pin=P11-1
+Added Pin To Net: NetName=+12 Pin=P11-2
+Added Pin To Net: NetName=AGND Pin=P11-3
+Added Pin To Net: NetName=NetTP21_1 Pin=P11-4
+Added Pin To Net: NetName=NetP5_3 Pin=P13-1
+Added Pin To Net: NetName=+12 Pin=P13-2
+Added Pin To Net: NetName=AGND Pin=P13-3
+Added Pin To Net: NetName=NetTP23_1 Pin=P13-4
+Added Pin To Net: NetName=NetP11_3 Pin=Q2-2
+Added Pin To Net: NetName=NetP5_3 Pin=Q3-2
+Added Pin To Net: NetName=NetP11_2 Pin=Q4-2
+Added Pin To Net: NetName=NetP11_3 Pin=R1-1
+Added Pin To Net: NetName=NetP5_3 Pin=R9-1
+Added Pin To Net: NetName=NetP11_2 Pin=R26-2
+Added Pin To Net: NetName=NetTP24_1 Pin=R30-1
+Added Pin To Net: NetName=NetTP21_1 Pin=R33-2
+Added Pin To Net: NetName=NetTP23_1 Pin=R34-1
+Added Pin To Net: NetName=NetTP24_1 Pin=U3-12
+Added Pin To Net: NetName=NetTP23_1 Pin=U4-3
+Added Pin To Net: NetName=NetTP21_1 Pin=U4-5
+Added Pin To Net: NetName=NetTP19_1 Pin=U14-1
+Added Pin To Net: NetName=NetTP19_1 Pin=U14-2
+Added Pin To Net: NetName=NetTP18_1 Pin=U14-6
+Added Pin To Net: NetName=NetTP18_1 Pin=U14-7
+Change Net Name : Old Net Name=NetP5_2 New Net Name=NetU2_13
+Change Net Name : Old Net Name=NetP5_3 New Net Name=NetP13_1
+Change Net Name : Old Net Name=NetP11_2 New Net Name=NetP11_1
+Change Net Name : Old Net Name=NetP11_3 New Net Name=NetP5_1
+Change Net Name : Old Net Name=NetP13_2 New Net Name=NetU1_P9-39
+Change Net Name : Old Net Name=NetP13_3 New Net Name=NetU1_P9-37
+Change Net Name : Old Net Name=NetTP18_1 New Net Name=NetU1_P9-35
+Change Net Name : Old Net Name=NetTP19_1 New Net Name=NetU1_P9-33
+Change Net Name : Old Net Name=NetTP21_1 New Net Name=NetP11_4
+Change Net Name : Old Net Name=NetTP23_1 New Net Name=NetP13_4
+Change Net Name : Old Net Name=NetTP24_1 New Net Name=NetP5_4
+Added Member To Class: ClassName=heater_control Member=Component P5 IPL1-104-01-L-S-RA-K
+Added Member To Class: ClassName=heater_control Member=Component P11 IPL1-104-01-L-S-RA-K
+Added Member To Class: ClassName=heater_control Member=Component P13 IPL1-104-01-L-S-RA-K

@@ -1,0 +1,70 @@
+Removed Pin From Net: NetName=GND Pin=C17-1
+Removed Pin From Net: NetName=+12 Pin=C17-2
+Removed Pin From Net: NetName=GND Pin=C19-1
+Removed Pin From Net: NetName=+12 Pin=C19-2
+Removed Pin From Net: NetName=+12 Pin=R10-2
+Removed Pin From Net: NetName=GND Pin=R11-1
+Removed Pin From Net: NetName=Batt+ Pin=R12-2
+Removed Pin From Net: NetName=GND Pin=R13-1
+Removed Pin From Net: NetName=CH0 Pin=U8-1
+Removed Pin From Net: NetName=CH0 Pin=U8-2
+Removed Pin From Net: NetName=+5 Pin=U8-3
+Removed Pin From Net: NetName=+12 Pin=U8-4
+Removed Pin From Net: NetName=CH3 Pin=U8-6
+Removed Pin From Net: NetName=CH3 Pin=U8-7
+Removed Pin From Net: NetName=CH2 Pin=U8-8
+Removed Pin From Net: NetName=CH2 Pin=U8-9
+Removed Pin From Net: NetName=-5 Pin=U8-10
+Removed Pin From Net: NetName=+9 Pin=U8-12
+Removed Pin From Net: NetName=CH4 Pin=U9-1
+Removed Pin From Net: NetName=CH4 Pin=U9-2
+Removed Pin From Net: NetName=+12 Pin=U9-4
+Removed Pin From Net: NetName=CH5 Pin=U9-6
+Removed Pin From Net: NetName=CH5 Pin=U9-7
+Removed Pin From Net: NetName=CH7 Pin=U9-8
+Removed Pin From Net: NetName=CH7 Pin=U9-9
+Removed Pin From Net: NetName=+5 BBB Pin=U9-10
+Removed Pin From Net: NetName=GND Pin=U9-11
+Removed Pin From Net: NetName=CH6 Pin=U9-13
+Removed Pin From Net: NetName=CH6 Pin=U9-14
+Removed Member From Class: ClassName=ADC Member=C17
+Removed Member From Class: ClassName=ADC Member=C19
+Removed Member From Class: ClassName=ADC Member=R7
+Removed Member From Class: ClassName=ADC Member=R10
+Removed Member From Class: ClassName=ADC Member=R11
+Removed Member From Class: ClassName=ADC Member=R12
+Removed Member From Class: ClassName=ADC Member=R13
+Removed Member From Class: ClassName=ADC Member=U8
+Removed Member From Class: ClassName=ADC Member=U9
+Change Component Footprint: Designator=R6 Old Footprint=RESC0402(1005)_M New Footprint=SOT95P230X102-3N-MPM
+Change Component Comment : Designator=R6 Old Comment=100k New Comment=MPM
+Added Component: Designator=R1(SOT95P230X102-3N-MPM)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R2(SOT95P230X102-3N-MPM)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R3(SOT95P230X102-3N-MPM)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R5(SOT95P230X102-3N-MPM)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=GND Pin=R1-1
+Added Pin To Net: NetName=+5 Pin=R1-2
+Added Pin To Net: NetName=CH0 Pin=R1-3
+Added Pin To Net: NetName=GND Pin=R2-1
+Added Pin To Net: NetName=+5 BBB Pin=R2-2
+Added Pin To Net: NetName=CH6 Pin=R2-3
+Added Pin To Net: NetName=GND Pin=R3-1
+Added Pin To Net: NetName=+12 Pin=R3-2
+Added Pin To Net: NetName=CH1 Pin=R3-3
+Added Pin To Net: NetName=GND Pin=R5-1
+Added Pin To Net: NetName=-5 Pin=R5-2
+Added Pin To Net: NetName=CH7 Pin=R5-3
+Added Pin To Net: NetName=GND Pin=R6-1
+Added Pin To Net: NetName=Batt+ Pin=R6-2
+Added Pin To Net: NetName=CH5 Pin=R6-3
+Added Pin To Net: NetName=+5 Pin=U2-2
+Added Pin To Net: NetName=-5 Pin=U2-3
+Added Pin To Net: NetName=SPI0_CS0 Pin=U7-9
+Added Member To Class: ClassName=ADC Member=Component R1 MPM
+Added Member To Class: ClassName=ADC Member=Component R2 MPM
+Added Member To Class: ClassName=ADC Member=Component R3 MPM
+Added Member To Class: ClassName=ADC Member=Component R5 MPM

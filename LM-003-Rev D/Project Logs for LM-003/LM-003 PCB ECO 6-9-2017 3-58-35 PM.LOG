@@ -1,0 +1,36 @@
+Removed Pin From Net: NetName=NetF1_1 Pin=RL1-1
+Removed Pin From Net: NetName=Aux+ Pin=RL1-3
+Removed Pin From Net: NetName=GND Pin=RL1-4
+Removed Pin From Net: NetName=Aux+ Pin=RL1-5
+Removed Member From Class: ClassName=Power Member=RL1
+Added Component: Designator=K1(PNSC-PF-5-2800x500x1500_V)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Coil Voltage"; Value = "12 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www3.panasonic.biz/ac/ae/index.jsp"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www3.panasonic.biz/ac/e_download/control/relay/power/catalog/mech_eng_pf.pdf?f_cd=300412"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://www3.panasonic.biz/ac/e_download/control/relay/power/catalog/mech_eng_pf.pdf?f_cd=300412"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "201402-T"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Electrical Life"; Value = "5x10^4 (N.O.), 3x10^4 (N.C.)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Switching Current"; Value = "6 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Switching Voltage"; Value = "250 V AC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mechanical Life(Min.operation)"; Value = "5x10^6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Nominal Operating Power"; Value = "170 mW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "5-Pin Through Hole Terminal Package, Body 28 x 5 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "PF-5-2800x500x1500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "ASCTB205E, 02/2014"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packing"; Value = "Tube, Case"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "APF30312"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pb-Free"; Value = "True"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "True"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "PF Relays"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=K1-1
+Added Pin To Net: NetName=Aux+ Pin=K1-2
+Added Pin To Net: NetName=Aux+ Pin=K1-3
+Added Pin To Net: NetName=NetF1_1 Pin=K1-4
+Added Pin To Net: NetName=Batt+ Pin=K1-5
+Added Member To Class: ClassName=Power Member=Component K1 APF30312

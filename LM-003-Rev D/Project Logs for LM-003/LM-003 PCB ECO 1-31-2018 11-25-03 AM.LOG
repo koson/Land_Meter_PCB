@@ -1,0 +1,64 @@
+Removed Pin From Net: NetName=GND Pin=R5-1
+Removed Pin From Net: NetName=+12V Mon Pin=R5-2
+Removed Pin From Net: NetName=+5V Mon Pin=R6-1
+Removed Pin From Net: NetName=+5 Pin=R6-2
+Removed Pin From Net: NetName=+5V Mon Pin=R7-2
+Removed Pin From Net: NetName=+5V BBB Mon Pin=R8-1
+Removed Pin From Net: NetName=+5 BBB Pin=R8-2
+Removed Pin From Net: NetName=GND Pin=R9-1
+Removed Pin From Net: NetName=+5V BBB Mon Pin=R9-2
+Removed Pin From Net: NetName=Batt Mon Pin=R10-1
+Removed Pin From Net: NetName=Power_IN Pin=R10-2
+Removed Pin From Net: NetName=Batt Mon Pin=R11-2
+Change Component Footprint: Designator=R1 Old Footprint=RESC0805(2012)_L New Footprint=RESC0402(1005)_M
+Change Component Footprint: Designator=R3 Old Footprint=RESC0805(2012)_L New Footprint=RESC0402(1005)_M
+Change Component Footprint: Designator=R4 Old Footprint=RESC0805(2012)_L New Footprint=RESC0402(1005)_M
+Change Component Footprint: Designator=R5 Old Footprint=RESC0805(2012)_L New Footprint=RESC0402(1005)_M
+Change Component Footprint: Designator=R6 Old Footprint=RESC0805(2012)_L New Footprint=RESC0402(1005)_M
+Change Component Footprint: Designator=R7 Old Footprint=RESC0805(2012)_L New Footprint=RESC0402(1005)_M
+Change Component Footprint: Designator=R8 Old Footprint=RESC0805(2012)_L New Footprint=RESC0402(1005)_M
+Change Component Footprint: Designator=R9 Old Footprint=RESC0805(2012)_L New Footprint=RESC0402(1005)_M
+Change Component Footprint: Designator=R10 Old Footprint=RESC0805(2012)_L New Footprint=RESC0402(1005)_M
+Change Component Footprint: Designator=R11 Old Footprint=RESC0805(2012)_L New Footprint=RESC0402(1005)_M
+Change Component Comment : Designator=R3 Old Comment=RES SMD 1K OHM 1% 1/8W 0805 New Comment=1.5k
+Change Component Comment : Designator=R11 Old Comment=RES SMD 3K OHM 1% 1/2W 0805 New Comment=10k
+Change Component Comment : Designator=R5 Old Comment=RES SMD 3K OHM 1% 1/2W 0805 New Comment=100k
+Change Component Comment : Designator=R7 Old Comment=RES SMD 4.99K OHM 1% 1/8W 0805 New Comment=10k
+Change Component Comment : Designator=R9 Old Comment=RES SMD 4.99K OHM 1% 1/8W 0805 New Comment=20k
+Change Component Comment : Designator=R1 Old Comment=RES SMD 10K OHM 1% 1/8W 0805 New Comment=10k
+Change Component Comment : Designator=R6 Old Comment=RES SMD 10K OHM 1% 1/8W 0805 New Comment=10k
+Change Component Comment : Designator=R10 Old Comment=RES SMD 10K OHM 1% 1/8W 0805 New Comment=10k
+Change Component Comment : Designator=R8 Old Comment=RES SMD 10K OHM 1% 1/8W 0805 New Comment=20k
+Change Component Comment : Designator=R4 Old Comment=RES SMD 10K OHM 1% 1/8W 0805 New Comment=100k
+Change component parameters: Designator = "R1"; Footprint = "RESC0402(1005)_M"; UniqueID = "\BUHTKSJD"
+Change component parameters. Clean all parameters for all variants
+Change component parameters: Designator = "R3"; Footprint = "RESC0402(1005)_M"; UniqueID = "\SDMDUVDK"
+Change component parameters. Clean all parameters for all variants
+Change component parameters: Designator = "R4"; Footprint = "RESC0402(1005)_M"; UniqueID = "\UOXQJNGW"
+Change component parameters. Clean all parameters for all variants
+Change component parameters: Designator = "R5"; Footprint = "RESC0402(1005)_M"; UniqueID = "\CYAARIWB"
+Change component parameters. Clean all parameters for all variants
+Change component parameters: Designator = "R6"; Footprint = "RESC0402(1005)_M"; UniqueID = "\PATCUYFQ"
+Change component parameters. Clean all parameters for all variants
+Change component parameters: Designator = "R7"; Footprint = "RESC0402(1005)_M"; UniqueID = "\IURQLBJI"
+Change component parameters. Clean all parameters for all variants
+Change component parameters: Designator = "R8"; Footprint = "RESC0402(1005)_M"; UniqueID = "\DIMUGFFD"
+Change component parameters. Clean all parameters for all variants
+Change component parameters: Designator = "R9"; Footprint = "RESC0402(1005)_M"; UniqueID = "\TOIIAXTK"
+Change component parameters. Clean all parameters for all variants
+Change component parameters: Designator = "R10"; Footprint = "RESC0402(1005)_M"; UniqueID = "\CNVMUDSP"
+Change component parameters. Clean all parameters for all variants
+Change component parameters: Designator = "R11"; Footprint = "RESC0402(1005)_M"; UniqueID = "\PODDVPQE"
+Change component parameters. Clean all parameters for all variants
+Added Pin To Net: NetName=Batt Mon Pin=R5-1
+Added Pin To Net: NetName=Power_IN Pin=R5-2
+Added Pin To Net: NetName=GND Pin=R6-1
+Added Pin To Net: NetName=+12V Mon Pin=R6-2
+Added Pin To Net: NetName=Batt Mon Pin=R7-2
+Added Pin To Net: NetName=+5V Mon Pin=R8-1
+Added Pin To Net: NetName=+5 Pin=R8-2
+Added Pin To Net: NetName=+5V BBB Mon Pin=R9-1
+Added Pin To Net: NetName=+5 BBB Pin=R9-2
+Added Pin To Net: NetName=GND Pin=R10-1
+Added Pin To Net: NetName=+5V Mon Pin=R10-2
+Added Pin To Net: NetName=+5V BBB Mon Pin=R11-2

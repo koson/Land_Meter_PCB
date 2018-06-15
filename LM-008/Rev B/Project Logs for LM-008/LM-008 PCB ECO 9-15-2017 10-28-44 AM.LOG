@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=+5 BBB Pin=R1-2
+Removed Pin From Net: NetName=+5 BBB Pin=R2-2
+Removed Pin From Net: NetName=GND Pin=U2-2
+Removed Pin From Net: NetName=9V_Enable Pin=U2-3
+Removed Pin From Net: NetName=+5 BBB Pin=U2-5
+Removed Pin From Net: NetName=GND Pin=U12-2
+Removed Pin From Net: NetName=5V_Enable Pin=U12-3
+Removed Pin From Net: NetName=+5 BBB Pin=U12-5
+Removed Member From Class: ClassName=LM-008 Member=R1
+Removed Member From Class: ClassName=LM-008 Member=R2
+Removed Member From Class: ClassName=LM-008 Member=U2
+Removed Member From Class: ClassName=LM-008 Member=U12
+Added Pin To Net: NetName=12V_RC Pin=U1-5
+Added Pin To Net: NetName=12V_RC Pin=U3-1
+Added Pin To Net: NetName=AGND Pin=U8-11
+Change Net Name : Old Net Name=12V_RC New Net Name=5V_RC

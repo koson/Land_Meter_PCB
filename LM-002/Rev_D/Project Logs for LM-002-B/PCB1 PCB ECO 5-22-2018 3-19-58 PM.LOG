@@ -1,0 +1,178 @@
+Removed Pin From Net: NetName=+5 Pin=C24-1
+Removed Pin From Net: NetName=GND Pin=C24-2
+Removed Pin From Net: NetName=+3.3 Pin=C25-1
+Removed Pin From Net: NetName=GND Pin=C25-2
+Removed Pin From Net: NetName=NetC18_1 Pin=U7-6
+Removed Pin From Net: NetName=NetC18_2 Pin=U7-7
+Removed Member From Class: ClassName=Sheet2 Member=C8
+Removed Member From Class: ClassName=Sheet2 Member=C11
+Removed Member From Class: ClassName=Sheet2 Member=C18
+Removed Member From Class: ClassName=Sheet2 Member=C19
+Removed Member From Class: ClassName=Sheet2 Member=C20
+Removed Member From Class: ClassName=Sheet1 Member=C21
+Removed Member From Class: ClassName=Sheet1 Member=C22
+Removed Member From Class: ClassName=Sheet1 Member=C23
+Removed Member From Class: ClassName=Sheet2 Member=R6
+Removed Member From Class: ClassName=Sheet2 Member=R7
+Removed Member From Class: ClassName=Sheet2 Member=R11
+Removed Member From Class: ClassName=Sheet2 Member=R13
+Removed Member From Class: ClassName=Sheet2 Member=R15
+Removed Member From Class: ClassName=Sheet1 Member=U11
+Removed Member From Class: ClassName=Sheet1 Member=U12
+Change Component Footprint: Designator=C7 Old Footprint=CAPC0402(1005)60_L New Footprint=CAPC0805(2012)75_L
+Change Component Footprint: Designator=C9 Old Footprint=CAPC0402(1005)60_L New Footprint=CAPC0805(2012)75_L
+Change Component Footprint: Designator=C17 Old Footprint=CAPC0402(1005)60_L New Footprint=CAPC0805(2012)75_L
+Change Component Footprint: Designator=C21 Old Footprint=CAPC0402(1005)60_L New Footprint=CAPC0805(2012)75_L
+Change Component Footprint: Designator=C23 Old Footprint=CAPC0402(1005)60_L New Footprint=CAPC0805(2012)75_L
+Change Component Footprint: Designator=C24 Old Footprint=CAPC0402(1005)60_L New Footprint=CAPC0805(2012)75_L
+Change Component Footprint: Designator=C25 Old Footprint=CAPC0402(1005)60_L New Footprint=CAPC0805(2012)75_L
+Change Component Footprint: Designator=C26 Old Footprint=CAPC0402(1005)60_L New Footprint=CAPC0805(2012)75_L
+Change Component Comment : Designator=C7 Old Comment=0.1uF New Comment=.1uF
+Change Component Comment : Designator=C9 Old Comment=0.1uF New Comment=.1uF
+Change Component Comment : Designator=C17 Old Comment=0.1uF New Comment=.1uF
+Change Component Comment : Designator=C21 Old Comment=0.1uF New Comment=.1uF
+Change Component Comment : Designator=C23 Old Comment=0.1uF New Comment=.1uF
+Change Component Comment : Designator=C24 Old Comment=0.1uF New Comment=.1uF
+Change Component Comment : Designator=C25 Old Comment=0.1uF New Comment=.1uF
+Change Component Comment : Designator=C26 Old Comment=0.1uF New Comment=.1uF
+Change component parameters: Designator = "C12"; Footprint = "CAPC0805(2012)75_L"; UniqueID = "\SUQHUASU"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Case-EIA"; Value = "0805"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case-Metric"; Value = "2012"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Thickness"; Value = "0.75 mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Rated Voltage"; Value = "25 V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Technology"; Value = "SMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "±2%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ".1uF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C13"; Footprint = "CAPC0805(2012)75_L"; UniqueID = "\NBTCVPQX"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Case-EIA"; Value = "0805"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case-Metric"; Value = "2012"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Thickness"; Value = "0.75 mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Rated Voltage"; Value = "25 V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Technology"; Value = "SMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "±2%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ".1uF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C18"; Footprint = "CAPC0805(2012)75_L"; UniqueID = "\GCTPAVCP"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Case-EIA"; Value = "0805"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case-Metric"; Value = "2012"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Thickness"; Value = "0.75 mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Rated Voltage"; Value = "25 V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Technology"; Value = "SMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "±2%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ".1uF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C19"; Footprint = "CAPC0805(2012)75_L"; UniqueID = "\RTFRCHWV"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Case-EIA"; Value = "0805"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case-Metric"; Value = "2012"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Thickness"; Value = "0.75 mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Rated Voltage"; Value = "25 V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Technology"; Value = "SMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "±2%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ".1uF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C7"; Footprint = "CAPC0805(2012)75_L"; UniqueID = "\ATCYMRTI"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Case-EIA"; Value = "0805"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case-Metric"; Value = "2012"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Thickness"; Value = "0.75 mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Rated Voltage"; Value = "25 V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Technology"; Value = "SMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "±2%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ".1uF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C9"; Footprint = "CAPC0805(2012)75_L"; UniqueID = "\PBCENDGL"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Case-EIA"; Value = "0805"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case-Metric"; Value = "2012"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Thickness"; Value = "0.75 mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Rated Voltage"; Value = "25 V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Technology"; Value = "SMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "±2%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ".1uF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C17"; Footprint = "CAPC0805(2012)75_L"; UniqueID = "\IEQVJWPJ"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Case-EIA"; Value = "0805"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case-Metric"; Value = "2012"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Thickness"; Value = "0.75 mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Rated Voltage"; Value = "25 V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Technology"; Value = "SMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "±2%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ".1uF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C21"; Footprint = "CAPC0805(2012)75_L"; UniqueID = "\HFBJKAJU"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Case-EIA"; Value = "0805"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case-Metric"; Value = "2012"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Thickness"; Value = "0.75 mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Rated Voltage"; Value = "25 V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Technology"; Value = "SMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "±2%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ".1uF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C23"; Footprint = "CAPC0805(2012)75_L"; UniqueID = "\NGPSKFQX"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Case-EIA"; Value = "0805"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case-Metric"; Value = "2012"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Thickness"; Value = "0.75 mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Rated Voltage"; Value = "25 V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Technology"; Value = "SMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "±2%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ".1uF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C24"; Footprint = "CAPC0805(2012)75_L"; UniqueID = "\TVWFVXVJ"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Case-EIA"; Value = "0805"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case-Metric"; Value = "2012"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Thickness"; Value = "0.75 mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Rated Voltage"; Value = "25 V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Technology"; Value = "SMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "±2%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ".1uF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C25"; Footprint = "CAPC0805(2012)75_L"; UniqueID = "\JTWQVSQJ"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Case-EIA"; Value = "0805"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case-Metric"; Value = "2012"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Thickness"; Value = "0.75 mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Rated Voltage"; Value = "25 V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Technology"; Value = "SMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "±2%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ".1uF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C26"; Footprint = "CAPC0805(2012)75_L"; UniqueID = "\GABOMJJI"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Case-EIA"; Value = "0805"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case-Metric"; Value = "2012"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Thickness"; Value = "0.75 mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Rated Voltage"; Value = "25 V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Technology"; Value = "SMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "±2%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ".1uF"; VariantName = "[No Variations]"
+Added Component: Designator=C27(CAPC0805(2012)75_L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Case-EIA"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case-Metric"; Value = "2012"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Thickness"; Value = "0.75 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Voltage"; Value = "25 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Technology"; Value = "SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±2%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ".1uF"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C24-1
+Added Pin To Net: NetName=+5 Pin=C24-2
+Added Pin To Net: NetName=GND Pin=C25-1
+Added Pin To Net: NetName=+3.3 Pin=C25-2
+Added Pin To Net: NetName=NetC18_2 Pin=U7-6
+Added Pin To Net: NetName=NetC18_1 Pin=U7-7
+Added Member To Class: ClassName=Sheet1 Member=Component C4 CAP CER 0.1UF 25V X7R 0805
+Added Member To Class: ClassName=Sheet1 Member=Component C11 470Pf
+Added Member To Class: ClassName=Sheet2 Member=Component C23 .1uF
+Added Member To Class: ClassName=Sheet2 Member=Component C24 .1uF
+Added Member To Class: ClassName=Sheet2 Member=Component C25 .1uF
+Added Member To Class: ClassName=Sheet2 Member=Component C26 .1uF
+Added Member To Class: ClassName=Sheet1 Member=Component C27 .1uF
+Added Member To Class: ClassName=Sheet1 Member=Component R7 33k
+Added Member To Class: ClassName=Sheet1 Member=Component R8 DNP
+Added Member To Class: ClassName=Sheet1 Member=Component R10 43.2K
+Added Member To Class: ClassName=Sheet1 Member=Component R11 10K
+Added Member To Class: ClassName=Sheet2 Member=Component R24 10k
+Added Member To Class: ClassName=Sheet2 Member=Component R25 100k
+Added Member To Class: ClassName=Sheet2 Member=Component R26 10k
+Added Member To Class: ClassName=Sheet2 Member=Component R27 100k
+Added Member To Class: ClassName=Sheet2 Member=Component R28 10k
+Added Member To Class: ClassName=Sheet1 Member=Component U1 MAX333CWP+
+Added Member To Class: ClassName=Sheet1 Member=Component U4 MC14584BDTR2G

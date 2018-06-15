@@ -1,0 +1,35 @@
+Change Component Footprint: Designator=C1 Old Footprint=CAPC0805(2012)145_L New Footprint=CAPC1206(3216)170_L
+Change component parameters: Designator = "C1"; Footprint = "CAPC1206(3216)170_L"; UniqueID = "\RMTOKHXN"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Applications"; Value = "General Purpose"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Category"; Value = "Capacitors"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "http://www.kemet.com/docfinder?Partnumber=C1206C220K2GACTU"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.kemet.com/docfinder?Partnumber=C1206C220K2GACTU"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Failure Rate"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Features"; Value = "Low ESL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height - Seated (Max)"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lead Spacing"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lead Style"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "C1206C220K5GACTU"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Type"; Value = "Surface Mount, MLCC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 125°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package / Case"; Value = "1206 (3216 Metric)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Cut Tape (CT)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Status"; Value = "Active"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pricing 1"; Value = "1=0.18, 10=0.128, 100=0.06, 500=0.04208, 1000=0.03483 (USD)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ratings"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS"; Value = "RoHS Compliant"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Size / Dimension"; Value = "0.126" L x 0.063" W (3.20mm x 1.60mm)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Stock 1"; Value = "35613"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "399-8165-1-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Temperature Coefficient"; Value = "C0G, NP0"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Thickness (Max)"; Value = "0.035" (0.88mm)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "±10%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage - Rated"; Value = "50V"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=U11-11
+Added Member To Class: ClassName=Power_Input Member=Component P? IPL1-104-01-L-S-RA-K
+Added Member To Class: ClassName=Power_Input Member=Component R? Y14870R10000B9R
+Added Member To Class: ClassName=Power_Input Member=Component R? 6.98K
+Added Member To Class: ClassName=Power_Input Member=Component RL? PE014012

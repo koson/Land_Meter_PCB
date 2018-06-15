@@ -1,0 +1,52 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\zls\Desktop\Land_Meter_PCB\LM-002\Rev_D\PCB1.PcbDoc
+Date     : 6/15/2018
+Time     : 3:57:47 PM
+
+Processing Rule : Clearance Constraint (Gap=5.905mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=3.937mil) (Max=10mil) (Preferred=10mil) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)
+   Violation between Starved Thermal on +5V: Pad P2-4(1535.11mil,2945.112mil) on Multi-Layer. Blocked 2 out of 4 entries.
+Rule Violations :1
+
+Processing Rule : Hole Size Constraint (Min=2.992mil) (Max=393.701mil) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=4.724mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0.984mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=4.724mil) (IsPad),(All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=4.724mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mil) (All)
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=100mil) (InDifferentialPair ('PLATE'))
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
+Rule Violations :0
+
+
+Violations Detected : 1
+Waived Violations : 0
+Time Elapsed        : 00:00:03

@@ -1,0 +1,14 @@
+Removed Pin From Net: NetName=Serial1_RX Pin=P3-2
+Removed Pin From Net: NetName=Serial1_TX Pin=P3-3
+Added Pin To Net: NetName=GND Pin=U2-1
+Added Pin To Net: NetName=+3.3 Pin=U2-3
+Added Pin To Net: NetName=-5 Pin=U2-7
+Added Pin To Net: NetName=Serial1_RX Pin=U2-9
+Added Pin To Net: NetName=Serial1_TX Pin=U2-11
+Added Pin To Net: NetName=+5 Pin=U2-15
+Added Pin To Net: NetName=Disp_RX Pin=P3-3
+Added Pin To Net: NetName=Disp_RX Pin=U2-13
+Added Net: Name=Disp_RX
+Added Pin To Net: NetName=Disp_TX Pin=P3-2
+Added Pin To Net: NetName=Disp_TX Pin=U2-8
+Added Net: Name=Disp_TX

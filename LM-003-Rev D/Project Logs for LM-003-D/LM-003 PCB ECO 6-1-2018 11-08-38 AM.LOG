@@ -1,0 +1,147 @@
+Removed Pin From Net: NetName=GND Pin=C28-2
+Removed Pin From Net: NetName=GND Pin=C29-1
+Removed Pin From Net: NetName=GND Pin=C30-1
+Removed Pin From Net: NetName=+5 Pin=C30-2
+Removed Pin From Net: NetName=GND Pin=C31-1
+Removed Pin From Net: NetName=+5 Pin=C31-2
+Removed Pin From Net: NetName=GND Pin=C32-1
+Removed Pin From Net: NetName=+3.3 Pin=C32-2
+Removed Pin From Net: NetName=GND Pin=C33-1
+Removed Pin From Net: NetName=+5 Pin=C33-2
+Removed Pin From Net: NetName=+3.3 Pin=C44-1
+Removed Pin From Net: NetName=+3.3 Pin=C45-1
+Removed Pin From Net: NetName=Power_IN Pin=F1-2
+Removed Pin From Net: NetName=GND Pin=P10-2
+Removed Pin From Net: NetName=Battery Thermistor Pin=P10-3
+Removed Pin From Net: NetName=NetP8_4 Pin=P11-2
+Removed Pin From Net: NetName=GND Pin=P11-3
+Removed Pin From Net: NetName=GND Pin=P11-4
+Removed Pin From Net: NetName=Beam Sync Demod Out Pin=R23-2
+Removed Pin From Net: NetName=GND Pin=R39-1
+Removed Pin From Net: NetName=ZH Pin=R40-2
+Removed Pin From Net: NetName=GND Pin=R42-1
+Removed Pin From Net: NetName=ZP Pin=R48-2
+Removed Pin From Net: NetName=GND Pin=R49-1
+Removed Pin From Net: NetName=+5 Pin=R51-2
+Removed Pin From Net: NetName=+5 Pin=R52-2
+Removed Pin From Net: NetName=ZH Pin=R54-2
+Removed Pin From Net: NetName=GND Pin=R55-1
+Removed Pin From Net: NetName=Battery Thermistor Pin=R64-1
+Removed Pin From Net: NetName=+5 Pin=R64-2
+Removed Pin From Net: NetName=Power_IN Pin=R65-1
+Removed Pin From Net: NetName=+3.3 Pin=R66-2
+Removed Pin From Net: NetName=GND Pin=R69-1
+Removed Pin From Net: NetName=GND Pin=R70-1
+Removed Pin From Net: NetName=GND Pin=R71-1
+Removed Pin From Net: NetName=GND Pin=R72-1
+Removed Pin From Net: NetName=+5 Pin=R73-2
+Removed Pin From Net: NetName=+12 Pin=R74-2
+Removed Pin From Net: NetName=GND Pin=R75-1
+Removed Pin From Net: NetName=GND Pin=RLY1-1
+Removed Pin From Net: NetName=GND Pin=U13-2
+Removed Pin From Net: NetName=+5 Pin=U13-5
+Removed Pin From Net: NetName=GND Pin=U14-2
+Removed Pin From Net: NetName=+3.3 Pin=U14-5
+Removed Pin From Net: NetName=GND Pin=U15-2
+Removed Pin From Net: NetName=+3.3 Pin=U15-5
+Removed Pin From Net: NetName=GND Pin=U16-2
+Removed Pin From Net: NetName=+3.3 Pin=U16-5
+Removed Pin From Net: NetName=GND Pin=U17-2
+Removed Pin From Net: NetName=+3.3 Pin=U17-5
+Removed Pin From Net: NetName=GND Pin=U18-2
+Removed Pin From Net: NetName=+3.3 Pin=U18-5
+Removed Pin From Net: NetName=GND Pin=U19-2
+Removed Pin From Net: NetName=+3.3 Pin=U19-5
+Removed Pin From Net: NetName=GND Pin=U20-2
+Removed Pin From Net: NetName=+5 Pin=U20-3
+Removed Pin From Net: NetName=+5 Pin=U20-4
+Removed Pin From Net: NetName=GND Pin=U21-2
+Removed Pin From Net: NetName=+5 Pin=U21-5
+Removed Pin From Net: NetName=+5 Pin=U22-2
+Removed Pin From Net: NetName=GND Pin=U22-3
+Removed Pin From Net: NetName=+5 Pin=U22-12
+Removed Pin From Net: NetName=GND Pin=U22-13
+Removed Pin From Net: NetName=GND Pin=U23-2
+Removed Pin From Net: NetName=+3.3 Pin=U23-3
+Removed Pin From Net: NetName=GND Pin=U23-4
+Removed Pin From Net: NetName=+5 Pin=U23-7
+Removed Pin From Net: NetName=GND Pin=U23-8
+Removed Pin From Net: NetName=FB_CS0 Pin=U23-9
+Removed Member From Class: ClassName=Connectors Member=P16
+Change Component Comment : Designator=P11 Old Comment=IPL1-104-01-L-S-RA-K New Comment=FTSH-105-01-F-DV-K
+Change Component Designator: OldDesignator=C34 NewDesignator=C28
+Change Component Designator: OldDesignator=C35 NewDesignator=C29
+Change Component Designator: OldDesignator=C36 NewDesignator=C30
+Change Component Designator: OldDesignator=C37 NewDesignator=C31
+Change Component Designator: OldDesignator=C38 NewDesignator=C32
+Change Component Designator: OldDesignator=C39 NewDesignator=C33
+Change Component Designator: OldDesignator=C40 NewDesignator=C34
+Change Component Designator: OldDesignator=C41 NewDesignator=C35
+Change Component Designator: OldDesignator=C42 NewDesignator=C36
+Change Component Designator: OldDesignator=C43 NewDesignator=C37
+Change Component Designator: OldDesignator=C46 NewDesignator=C38
+Change Component Designator: OldDesignator=C47 NewDesignator=C39
+Change Component Designator: OldDesignator=C48 NewDesignator=C40
+Change Component Designator: OldDesignator=C49 NewDesignator=C41
+Change Component Designator: OldDesignator=C50 NewDesignator=C42
+Change Component Designator: OldDesignator=C51 NewDesignator=C43
+Change Component Designator: OldDesignator=C52 NewDesignator=C44
+Change Component Designator: OldDesignator=C53 NewDesignator=C45
+Change Component Designator: OldDesignator=C54 NewDesignator=C46
+Change Component Designator: OldDesignator=P16 NewDesignator=P10
+Change Component Designator: OldDesignator=P18 NewDesignator=P16
+Change Component Designator: OldDesignator=P19 NewDesignator=P17
+Change Component Designator: OldDesignator=R76 NewDesignator=R23
+Change Component Designator: OldDesignator=R77 NewDesignator=R39
+Change Component Designator: OldDesignator=R78 NewDesignator=R40
+Change Component Designator: OldDesignator=R79 NewDesignator=R42
+Change Component Designator: OldDesignator=R80 NewDesignator=R48
+Change Component Designator: OldDesignator=R81 NewDesignator=R49
+Change Component Designator: OldDesignator=R82 NewDesignator=R51
+Change Component Designator: OldDesignator=R83 NewDesignator=R52
+Change Component Designator: OldDesignator=R84 NewDesignator=R54
+Change Component Designator: OldDesignator=R85 NewDesignator=R55
+Change Component Designator: OldDesignator=R86 NewDesignator=R64
+Change Component Designator: OldDesignator=R87 NewDesignator=R65
+Change Component Designator: OldDesignator=R88 NewDesignator=R66
+Change Component Designator: OldDesignator=R89 NewDesignator=R67
+Change Component Designator: OldDesignator=U24 NewDesignator=U13
+Change Component Designator: OldDesignator=U25 NewDesignator=U14
+Change Component Designator: OldDesignator=U26 NewDesignator=U15
+Change Component Designator: OldDesignator=U27 NewDesignator=U16
+Change Component Designator: OldDesignator=U28 NewDesignator=U17
+Change Component Designator: OldDesignator=U29 NewDesignator=U18
+Change Component Designator: OldDesignator=U30 NewDesignator=U19
+Change Component Designator: OldDesignator=U31 NewDesignator=U20
+Change component parameters: Designator = "P11"; Footprint = "FTSH-105-01-XXX-D-K"; UniqueID = "\HVQIREFS"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "CREATED"; Value = "September 26, 2016 - Wendy Xin"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MANUFACTURER"; Value = "SAMTEC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MODIFIED"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PCB DECAL"; Value = "FTSH-105-01-F-DV-K"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=BEAM Pin=P11-1
+Added Pin To Net: NetName=GND Pin=P11-2
+Added Pin To Net: NetName=-5 Pin=P11-3
+Added Pin To Net: NetName=+5 Pin=P11-4
+Change Net Name : Old Net Name=NetC34_1 New Net Name=NetC28_1
+Change Net Name : Old Net Name=NetC34_2 New Net Name=NetC28_2
+Change Net Name : Old Net Name=NetC48_1 New Net Name=NetC40_1
+Change Net Name : Old Net Name=NetC48_2 New Net Name=NetC40_2
+Change Net Name : Old Net Name=NetC49_1 New Net Name=NetC41_1
+Change Net Name : Old Net Name=NetC49_2 New Net Name=NetC41_2
+Change Net Name : Old Net Name=NetC52_1 New Net Name=NetC44_1
+Change Net Name : Old Net Name=NetC52_2 New Net Name=NetC44_2
+Change Net Name : Old Net Name=NetC53_2 New Net Name=NetC45_2
+Change Net Name : Old Net Name=NetP16_2 New Net Name=NetP10_2
+Change Net Name : Old Net Name=NetR82_2 New Net Name=NetR51_2
+Change Net Name : Old Net Name=NetR85_1 New Net Name=NetR55_1
+Change Net Name : Old Net Name=NetR87_2 New Net Name=NetR65_2
+Added Pin To Net: NetName=NetP16_3 Pin=P16-3
+Added Net: Name=NetP16_3
+Added Pin To Net: NetName=NetP16_5 Pin=P16-5
+Added Net: Name=NetP16_5
+Added Pin To Net: NetName=NetP16_7 Pin=P16-7
+Added Net: Name=NetP16_7
+Added Pin To Net: NetName=NetP16_9 Pin=P16-9
+Added Net: Name=NetP16_9
+Added Member To Class: ClassName=Synch_demod Member=Component P11 FTSH-105-01-F-DV-K

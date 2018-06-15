@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=NetR7_2 Pin=U4-E1
+Removed Pin From Net: NetName=NetR8_2 Pin=U5-E1
+Added Pin To Net: NetName=GND Pin=U4-E1
+Added Pin To Net: NetName=GND Pin=U5-E1
+Added Member To Class: ClassName=5R_Supply Member=Component U4 LTM8045MPY#PBF

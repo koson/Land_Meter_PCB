@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=I2C2_SDA Pin=R3-1
+Removed Pin From Net: NetName=+5 Pin=R3-2
+Removed Pin From Net: NetName=I2C2_SCL Pin=R4-1
+Removed Pin From Net: NetName=+5 Pin=R4-2
+Removed Member From Class: ClassName=BBB Headers Member=R3
+Removed Member From Class: ClassName=BBB Headers Member=R4
+Change Net Name : Old Net Name=NetU1_8-19 New Net Name=PWM2A

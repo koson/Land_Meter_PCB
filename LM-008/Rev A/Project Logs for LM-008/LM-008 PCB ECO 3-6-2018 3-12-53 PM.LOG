@@ -1,0 +1,17 @@
+Change Component Footprint: Designator=C11 Old Footprint=CAPC1206(3216)130_N New Footprint=CAPC1206(3216)110_L
+Change Component Footprint: Designator=C13 Old Footprint=CAPC1206(3216)130_N New Footprint=CAPC1210(3225)100_L
+Change Component Comment : Designator=C11 Old Comment=CAP CER 10UF 6.3V X5R 1206 New Comment=
+Change Component Comment : Designator=C13 Old Comment=CAP CER 10UF 6.3V X5R 1206 New Comment=
+Change Component Comment : Designator=R5 Old Comment=RES SMD 43K OHM 1% 1/8W 0805 New Comment=
+Change component parameters: Designator = "R4"; Footprint = "RESC0805(2012)_M"; UniqueID = "\EJIOFRNQ"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Resistance (Ohms)"; Value = "115k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R5"; Footprint = "RESC0805(2012)_M"; UniqueID = "\VILUUNQV"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Resistance (Ohms)"; Value = "45.3k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C11"; Footprint = "CAPC1206(3216)110_L"; UniqueID = "\JTAAWDNL"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "4.7uF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C13"; Footprint = "CAPC1210(3225)100_L"; UniqueID = "\XVFJYDFY"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "100uF"; VariantName = "[No Variations]"

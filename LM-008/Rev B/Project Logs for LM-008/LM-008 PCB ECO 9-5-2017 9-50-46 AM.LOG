@@ -1,0 +1,7 @@
+Removed Member From Class: ClassName=Power_Input Member=R?
+Change Component Designator: OldDesignator=R? NewDesignator=R1
+Change Component Designator: OldDesignator=R? NewDesignator=R2
+Change Component Designator: OldDesignator=R? NewDesignator=R4
+Added Pin To Net: NetName=GND Pin=U8-11
+Added Member To Class: ClassName=LM-008 Member=Component R2 100K
+Added Member To Class: ClassName=LM-008 Member=Component R4 100K

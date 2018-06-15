@@ -1,0 +1,135 @@
+Added Component: Designator=U12(LT-LGA-133-05-08-1884_V)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Code_JEDEC"; Value = "MO-222"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.linear.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://cds.linear.com/docs/en/datasheet/4613f.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://cds.linear.com/docs/en/packaging/05081884_A_lga133.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Extended Temp"; Value = "E, I, MP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Frequency(kHz)"; Value = "600"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Frequency Adjust Range"; Value = "200kHz - 700kHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Frequency Sync Range"; Value = "200kHz - 700kHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ishutdown(uA)"; Value = "50"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Isupply(mA)"; Value = "78"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Linear Technology"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Outputs"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Output Current(A)"; Value = "8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "133-Pin LGA, Body 15 x 15 mm, Pitch 1.27 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "LGA-133"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "Rev. A, 02/2013"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packing"; Value = "Tray"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartId"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "LTM4613EV#PBF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "TRUE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Switch Current(A)"; Value = "12"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Synchronous"; Value = "yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Topology"; Value = "Buck"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tracking"; Value = "yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vin Max(V)"; Value = "36"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vin Min(V)"; Value = "5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vout Max(V)"; Value = "15"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vout Min(V)"; Value = "3.3"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=Power_IN Pin=U12-A1
+Added Pin To Net: NetName=Power_IN Pin=U12-A2
+Added Pin To Net: NetName=Power_IN Pin=U12-A3
+Added Pin To Net: NetName=Power_IN Pin=U12-A4
+Added Pin To Net: NetName=Power_IN Pin=U12-A5
+Added Pin To Net: NetName=Power_IN Pin=U12-B1
+Added Pin To Net: NetName=Power_IN Pin=U12-B2
+Added Pin To Net: NetName=Power_IN Pin=U12-B3
+Added Pin To Net: NetName=Power_IN Pin=U12-B4
+Added Pin To Net: NetName=Power_IN Pin=U12-B5
+Added Pin To Net: NetName=+12 Pin=U12-J1
+Added Pin To Net: NetName=+12 Pin=U12-J2
+Added Pin To Net: NetName=+12 Pin=U12-J3
+Added Pin To Net: NetName=+12 Pin=U12-J4
+Added Pin To Net: NetName=+12 Pin=U12-J5
+Added Pin To Net: NetName=+12 Pin=U12-J6
+Added Pin To Net: NetName=+12 Pin=U12-J7
+Added Pin To Net: NetName=+12 Pin=U12-J8
+Added Pin To Net: NetName=+12 Pin=U12-J9
+Added Pin To Net: NetName=+12 Pin=U12-J10
+Added Pin To Net: NetName=+12 Pin=U12-J11
+Added Pin To Net: NetName=+12 Pin=U12-K1
+Added Pin To Net: NetName=+12 Pin=U12-K2
+Added Pin To Net: NetName=+12 Pin=U12-K3
+Added Pin To Net: NetName=+12 Pin=U12-K4
+Added Pin To Net: NetName=+12 Pin=U12-K5
+Added Pin To Net: NetName=+12 Pin=U12-K6
+Added Pin To Net: NetName=+12 Pin=U12-K7
+Added Pin To Net: NetName=+12 Pin=U12-K8
+Added Pin To Net: NetName=+12 Pin=U12-K9
+Added Pin To Net: NetName=+12 Pin=U12-K10
+Added Pin To Net: NetName=+12 Pin=U12-K11
+Added Pin To Net: NetName=+12 Pin=U12-L1
+Added Pin To Net: NetName=+12 Pin=U12-L2
+Added Pin To Net: NetName=+12 Pin=U12-L3
+Added Pin To Net: NetName=+12 Pin=U12-L4
+Added Pin To Net: NetName=+12 Pin=U12-L5
+Added Pin To Net: NetName=+12 Pin=U12-L6
+Added Pin To Net: NetName=+12 Pin=U12-L7
+Added Pin To Net: NetName=+12 Pin=U12-L8
+Added Pin To Net: NetName=+12 Pin=U12-L9
+Added Pin To Net: NetName=+12 Pin=U12-L10
+Added Pin To Net: NetName=+12 Pin=U12-L11
+Added Pin To Net: NetName=+12 Pin=U12-M1
+Added Pin To Net: NetName=+12 Pin=U12-M2
+Added Pin To Net: NetName=+12 Pin=U12-M3
+Added Pin To Net: NetName=+12 Pin=U12-M4
+Added Pin To Net: NetName=+12 Pin=U12-M5
+Added Pin To Net: NetName=+12 Pin=U12-M6
+Added Pin To Net: NetName=+12 Pin=U12-M7
+Added Pin To Net: NetName=+12 Pin=U12-M8
+Added Pin To Net: NetName=+12 Pin=U12-M9
+Added Pin To Net: NetName=+12 Pin=U12-M10
+Added Pin To Net: NetName=+12 Pin=U12-M11
+Added Pin To Net: NetName=NetU12_D1 Pin=U12-D1
+Added Pin To Net: NetName=NetU12_D1 Pin=U12-D2
+Added Pin To Net: NetName=NetU12_D1 Pin=U12-D3
+Added Pin To Net: NetName=NetU12_D1 Pin=U12-D4
+Added Pin To Net: NetName=NetU12_D1 Pin=U12-D5
+Added Pin To Net: NetName=NetU12_D1 Pin=U12-D6
+Added Pin To Net: NetName=NetU12_D1 Pin=U12-E1
+Added Pin To Net: NetName=NetU12_D1 Pin=U12-E2
+Added Pin To Net: NetName=NetU12_D1 Pin=U12-E3
+Added Pin To Net: NetName=NetU12_D1 Pin=U12-E4
+Added Pin To Net: NetName=NetU12_D1 Pin=U12-E5
+Added Pin To Net: NetName=NetU12_D1 Pin=U12-E6
+Added Pin To Net: NetName=NetU12_D1 Pin=U12-E7
+Added Pin To Net: NetName=NetU12_D1 Pin=U12-E8
+Added Pin To Net: NetName=NetU12_D1 Pin=U12-F1
+Added Pin To Net: NetName=NetU12_D1 Pin=U12-F2
+Added Pin To Net: NetName=NetU12_D1 Pin=U12-F3
+Added Pin To Net: NetName=NetU12_D1 Pin=U12-F4
+Added Pin To Net: NetName=NetU12_D1 Pin=U12-F5
+Added Pin To Net: NetName=NetU12_D1 Pin=U12-F6
+Added Pin To Net: NetName=NetU12_D1 Pin=U12-F7
+Added Pin To Net: NetName=NetU12_D1 Pin=U12-F8
+Added Pin To Net: NetName=NetU12_D1 Pin=U12-F9
+Added Pin To Net: NetName=NetU12_D1 Pin=U12-G1
+Added Pin To Net: NetName=NetU12_D1 Pin=U12-G2
+Added Pin To Net: NetName=NetU12_D1 Pin=U12-G3
+Added Pin To Net: NetName=NetU12_D1 Pin=U12-G4
+Added Pin To Net: NetName=NetU12_D1 Pin=U12-G5
+Added Pin To Net: NetName=NetU12_D1 Pin=U12-G6
+Added Pin To Net: NetName=NetU12_D1 Pin=U12-G7
+Added Pin To Net: NetName=NetU12_D1 Pin=U12-G8
+Added Pin To Net: NetName=NetU12_D1 Pin=U12-G9
+Added Pin To Net: NetName=NetU12_D1 Pin=U12-G10
+Added Pin To Net: NetName=NetU12_D1 Pin=U12-G11
+Added Pin To Net: NetName=NetU12_D1 Pin=U12-H1
+Added Pin To Net: NetName=NetU12_D1 Pin=U12-H2
+Added Pin To Net: NetName=NetU12_D1 Pin=U12-H3
+Added Pin To Net: NetName=NetU12_D1 Pin=U12-H4
+Added Pin To Net: NetName=NetU12_D1 Pin=U12-H5
+Added Pin To Net: NetName=NetU12_D1 Pin=U12-H6
+Added Pin To Net: NetName=NetU12_D1 Pin=U12-H7
+Added Pin To Net: NetName=NetU12_D1 Pin=U12-H8
+Added Pin To Net: NetName=NetU12_D1 Pin=U12-H9
+Added Pin To Net: NetName=NetU12_D1 Pin=U12-H10
+Added Pin To Net: NetName=NetU12_D1 Pin=U12-H11
+Added Net: Name=NetU12_D1
+Added Class: Name=12_Supply

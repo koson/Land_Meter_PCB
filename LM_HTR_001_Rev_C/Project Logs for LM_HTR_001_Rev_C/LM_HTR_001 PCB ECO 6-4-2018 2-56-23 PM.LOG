@@ -1,0 +1,77 @@
+Removed Pin From Net: NetName=Cross_Orange Pin=P1-1
+Removed Pin From Net: NetName=Long_Orange Pin=P1-2
+Removed Pin From Net: NetName=Cross_Green Pin=P1-3
+Removed Pin From Net: NetName=Long_Green Pin=P1-4
+Removed Pin From Net: NetName=Cross_Yellow Pin=P1-5
+Removed Pin From Net: NetName=Long_Yellow Pin=P1-6
+Removed Pin From Net: NetName=SPI0_MISO Pin=P1-7
+Removed Pin From Net: NetName=MUX_A0 Pin=P1-8
+Removed Pin From Net: NetName=Thermistor_CS0 Pin=P1-9
+Removed Pin From Net: NetName=SPI0_SCLK Pin=P1-10
+Removed Pin From Net: NetName=MUX_A1 Pin=P1-11
+Removed Pin From Net: NetName=MUX A2 Pin=P1-12
+Removed Pin From Net: NetName=Meter Heater FET Pin=P1-13
+Removed Pin From Net: NetName=Conning Tower FET Pin=P1-14
+Removed Pin From Net: NetName=Gearbox Heater FET Pin=P1-15
+Removed Pin From Net: NetName=Arrestment Heater FET Pin=P1-16
+Removed Pin From Net: NetName=+5 Pin=P1-17
+Removed Pin From Net: NetName=+3.3 Pin=P1-18
+Removed Pin From Net: NetName=GND Pin=P1-19
+Removed Pin From Net: NetName=GND Pin=P1-20
+Removed Pin From Net: NetName=+12 Pin=P1-21
+Removed Pin From Net: NetName=+12 Pin=P1-22
+Removed Pin From Net: NetName=GND Pin=P1-23
+Removed Pin From Net: NetName=GND Pin=P1-24
+Removed Member From Class: ClassName=LM_HTR_001 Member=J1
+Removed Member From Class: ClassName=LM_HTR_001 Member=J2
+Change Component Footprint: Designator=P1 Old Footprint=IPL1-112-01-F-S-K New Footprint=PCIeX1-GF-2D-1000-1K-O36
+Change Component Comment : Designator=P1 Old Comment=IPL1-112-01-F-S-K New Comment=PCIeX1-GF-2D-1000-1K-O36
+Change Component Kind : Designator=P1 Old Kind=Standard New Kind=Standard (No BOM)
+Change component parameters: Designator = "P1"; Footprint = "PCIeX1-GF-2D-1000-1K-O36"; UniqueID = "\QXXYGMMI"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "ClassName"; Value = "Edge Connector"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Version"; Value = "rev2.0, Apr-2007"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mating Connector"; Value = "Molex-87715-9006"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package Reference"; Value = "PCIeX1-GF-2D-1000-1K-O36"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium"; VariantName = "[No Variations]"
+Added Component: Designator=P12(IPL1-103-01-F-D)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "https://webassistants.partcommunity.com/23d-libs/samtec/search/resolve.html?EMAIL=mysamtec@samtec.com&PN=HTSW-114-05-F-D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://webassistants.partcommunity.com/23d-libs/samtec/search/resolve.html?EMAIL=mysamtec@samtec.com&PN=HTSW-114-05-F-D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "SAMTEC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "IPL1-103-01-F-D-K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pricing 1"; Value = "1=1.8, 5000=1.56, 10000=1.46 (USD)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stock 1"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Newark"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "51P2678"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=Long_Orange Pin=P1-A1
+Added Pin To Net: NetName=Long_Green Pin=P1-A2
+Added Pin To Net: NetName=Long_Yellow Pin=P1-A3
+Added Pin To Net: NetName=MUX_A0 Pin=P1-A4
+Added Pin To Net: NetName=SPI0_SCLK Pin=P1-A5
+Added Pin To Net: NetName=MUX A2 Pin=P1-A6
+Added Pin To Net: NetName=Conning Tower FET Pin=P1-A7
+Added Pin To Net: NetName=Arrestment Heater FET Pin=P1-A8
+Added Pin To Net: NetName=+3.3 Pin=P1-A9
+Added Pin To Net: NetName=GND Pin=P1-A10
+Added Pin To Net: NetName=+12 Pin=P1-A11
+Added Pin To Net: NetName=GND Pin=P1-A12
+Added Pin To Net: NetName=Cross_Orange Pin=P1-B1
+Added Pin To Net: NetName=Cross_Green Pin=P1-B2
+Added Pin To Net: NetName=Cross_Yellow Pin=P1-B3
+Added Pin To Net: NetName=SPI0_MISO Pin=P1-B4
+Added Pin To Net: NetName=Thermistor_CS0 Pin=P1-B5
+Added Pin To Net: NetName=MUX_A1 Pin=P1-B6
+Added Pin To Net: NetName=Meter Heater FET Pin=P1-B7
+Added Pin To Net: NetName=Gearbox Heater FET Pin=P1-B8
+Added Pin To Net: NetName=+5 Pin=P1-B9
+Added Pin To Net: NetName=GND Pin=P1-B10
+Added Pin To Net: NetName=+12 Pin=P1-B11
+Added Pin To Net: NetName=GND Pin=P1-B12
+Added Pin To Net: NetName=Cross_Yellow Pin=P12-1
+Added Pin To Net: NetName=Long_Yellow Pin=P12-2
+Added Pin To Net: NetName=Cross_Green Pin=P12-3
+Added Pin To Net: NetName=Long_Green Pin=P12-4
+Added Pin To Net: NetName=Cross_Orange Pin=P12-5
+Added Pin To Net: NetName=Long_Orange Pin=P12-6
+Added Member To Class: ClassName=LM_HTR_001 Member=Component P12 IPL1-103-01-F-D

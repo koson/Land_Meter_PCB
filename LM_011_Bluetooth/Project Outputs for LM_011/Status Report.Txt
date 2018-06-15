@@ -1,0 +1,30 @@
+Output: Gerber X2 Files
+Type  : GerberX2
+From  : Project [LM_011.PrjPcb]
+   Generated File[Bluetooth_Copper_Signal_Top.gbr]
+   Generated File[Bluetooth_Copper_Signal_Bot.gbr]
+   Generated File[Bluetooth_Pads_Bot.gbr]
+   Generated File[Bluetooth_Pads_Top.gbr]
+   Generated File[Bluetooth_Legend_Bot.gbr]
+   Generated File[Bluetooth_Soldermask_Bot.gbr]
+   Generated File[Bluetooth_Paste_Bot.gbr]
+   Generated File[Bluetooth_Legend_Top.gbr]
+   Generated File[Bluetooth_Paste_Top.gbr]
+   Generated File[Bluetooth_Soldermask_Top.gbr]
+   Generated File[Bluetooth_Mechanical_13.gbr]
+   Generated File[Bluetooth_Mechanical_1.gbr]
+   Generated File[Bluetooth_Mechanical_15.gbr]
+   Generated File[Bluetooth_Profile.gbr]
+   Generated File[Bluetooth_NPTH_Drill.gbr]
+   Generated File[Bluetooth_PTH_Drill.gbr]
+   Generated File[Bluetooth_Drawing_1.gbr]
+   Generated File[Bluetooth_Drillmap_1.gbr]
+   Generated File[Bluetooth.RUL]
+   Generated File[Bluetooth.EXTREP]
+   Generated File[Bluetooth.REP]
+
+
+Files Generated   : 21
+Documents Printed : 0
+
+Finished Output Generation At 10:03:55 AM On 5/31/2018

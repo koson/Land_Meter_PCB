@@ -1,0 +1,50 @@
+Removed Pin From Net: NetName=ZP Pin=R12-2
+Removed Pin From Net: NetName=AGND Pin=R13-1
+Removed Pin From Net: NetName=+9 Pin=R14-2
+Removed Pin From Net: NetName=GND Pin=R15-1
+Removed Pin From Net: NetName=+12 Pin=R16-2
+Removed Pin From Net: NetName=GND Pin=R17-1
+Removed Member From Class: ClassName=ADC Member=R12
+Removed Member From Class: ClassName=ADC Member=R13
+Removed Member From Class: ClassName=ADC Member=R14
+Removed Member From Class: ClassName=ADC Member=R15
+Removed Member From Class: ClassName=ADC Member=R16
+Removed Member From Class: ClassName=ADC Member=R17
+Removed Member From Class: ClassName=ADC Member=U6
+Added Component: Designator=R6(RESC0402(1005)_M)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R7(RESC0402(1005)_M)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R8(RESC0402(1005)_M)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R9(RESC0402(1005)_M)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R10(RESC0402(1005)_M)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R11(RESC0402(1005)_M)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=ZP Pin=R6-2
+Added Pin To Net: NetName=AGND Pin=R7-1
+Added Pin To Net: NetName=+9 Pin=R8-2
+Added Pin To Net: NetName=GND Pin=R9-1
+Added Pin To Net: NetName=+12 Pin=R10-2
+Added Pin To Net: NetName=GND Pin=R11-1
+Added Pin To Net: NetName=GND Pin=U8-11
+Added Pin To Net: NetName=NetR6_1 Pin=R6-1
+Added Pin To Net: NetName=NetR6_1 Pin=R7-2
+Added Pin To Net: NetName=NetR6_1 Pin=U8-5
+Added Net: Name=NetR6_1
+Added Pin To Net: NetName=NetR8_1 Pin=R8-1
+Added Pin To Net: NetName=NetR8_1 Pin=R9-2
+Added Pin To Net: NetName=NetR8_1 Pin=U8-12
+Added Net: Name=NetR8_1
+Added Pin To Net: NetName=NetR10_1 Pin=R10-1
+Added Pin To Net: NetName=NetR10_1 Pin=R11-2
+Added Pin To Net: NetName=NetR10_1 Pin=U9-3
+Added Net: Name=NetR10_1
+Added Member To Class: ClassName=ADC Member=Component R6 100k
+Added Member To Class: ClassName=ADC Member=Component R7 100k
+Added Member To Class: ClassName=ADC Member=Component R8 100k
+Added Member To Class: ClassName=ADC Member=Component R9 100k
+Added Member To Class: ClassName=ADC Member=Component R10 100k
+Added Member To Class: ClassName=ADC Member=Component R11 100k

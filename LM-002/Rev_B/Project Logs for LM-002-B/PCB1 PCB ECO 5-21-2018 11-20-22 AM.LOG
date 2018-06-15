@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=NetC26_2 Pin=U13-3
+Removed Pin From Net: NetName=PWM1A_DELAY Pin=U13-4
+Added Pin To Net: NetName=NetC26_2 Pin=U13-5
+Added Pin To Net: NetName=PWM1A_DELAY Pin=U13-6

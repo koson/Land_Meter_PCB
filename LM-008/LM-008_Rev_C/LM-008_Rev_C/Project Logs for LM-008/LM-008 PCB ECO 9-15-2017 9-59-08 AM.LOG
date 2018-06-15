@@ -1,0 +1,17 @@
+Removed Pin From Net: NetName=Batt+ Pin=R18-2
+Removed Pin From Net: NetName=GND Pin=R19-1
+Removed Member From Class: ClassName=ADC Member=R18
+Removed Member From Class: ClassName=ADC Member=R19
+Added Component: Designator=R12(RESC0402(1005)_M)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R13(RESC0402(1005)_M)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=Batt+ Pin=R12-2
+Added Pin To Net: NetName=GND Pin=R13-1
+Added Pin To Net: NetName=AGND Pin=U8-11
+Added Pin To Net: NetName=NetR12_1 Pin=R12-1
+Added Pin To Net: NetName=NetR12_1 Pin=R13-2
+Added Pin To Net: NetName=NetR12_1 Pin=U9-5
+Added Net: Name=NetR12_1
+Added Member To Class: ClassName=ADC Member=Component R12 100k
+Added Member To Class: ClassName=ADC Member=Component R13 100k

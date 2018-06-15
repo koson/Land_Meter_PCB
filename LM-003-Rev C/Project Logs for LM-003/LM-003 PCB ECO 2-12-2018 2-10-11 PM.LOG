@@ -1,0 +1,80 @@
+Removed Pin From Net: NetName=GND Pin=BT1-2
+Removed Pin From Net: NetName=GND Pin=C2-1
+Removed Pin From Net: NetName=+3.3 Pin=C2-2
+Removed Pin From Net: NetName=GND Pin=C3-1
+Removed Pin From Net: NetName=+3.3 Pin=C3-2
+Removed Pin From Net: NetName=+3.3 Pin=R32-1
+Removed Pin From Net: NetName=RTC_CS0 Pin=U4-4
+Removed Pin From Net: NetName=GND Pin=U4-5
+Removed Pin From Net: NetName=SPI0_MOSI Pin=U4-6
+Removed Pin From Net: NetName=SPI0_MISO Pin=U4-7
+Removed Pin From Net: NetName=SPI0_SCLK Pin=U4-8
+Removed Pin From Net: NetName=+3.3 Pin=U4-10
+Removed Member From Class: ClassName=Power Member=R26
+Removed Member From Class: ClassName=RS232 Member=R27
+Change Component Designator: OldDesignator=C1 NewDesignator=C7
+Change Component Designator: OldDesignator=C4 NewDesignator=C3
+Change Component Designator: OldDesignator=C5 NewDesignator=C4
+Change Component Designator: OldDesignator=C6 NewDesignator=C5
+Change Component Designator: OldDesignator=C7 NewDesignator=C1
+Change Component Designator: OldDesignator=C8 NewDesignator=C2
+Change Component Designator: OldDesignator=C9 NewDesignator=C6
+Change Component Designator: OldDesignator=P2 NewDesignator=P8
+Change Component Designator: OldDesignator=P3 NewDesignator=P2
+Change Component Designator: OldDesignator=P6 NewDesignator=P3
+Change Component Designator: OldDesignator=P7 NewDesignator=P6
+Change Component Designator: OldDesignator=P8 NewDesignator=P7
+Change Component Designator: OldDesignator=P9 NewDesignator=P10
+Change Component Designator: OldDesignator=P10 NewDesignator=P11
+Change Component Designator: OldDesignator=P11 NewDesignator=P12
+Change Component Designator: OldDesignator=P12 NewDesignator=P9
+Change Component Designator: OldDesignator=R2 NewDesignator=R14
+Change Component Designator: OldDesignator=R3 NewDesignator=R4
+Change Component Designator: OldDesignator=R4 NewDesignator=R2
+Change Component Designator: OldDesignator=R5 NewDesignator=R3
+Change Component Designator: OldDesignator=R6 NewDesignator=R5
+Change Component Designator: OldDesignator=R7 NewDesignator=R6
+Change Component Designator: OldDesignator=R8 NewDesignator=R7
+Change Component Designator: OldDesignator=R9 NewDesignator=R8
+Change Component Designator: OldDesignator=R10 NewDesignator=R9
+Change Component Designator: OldDesignator=R11 NewDesignator=R10
+Change Component Designator: OldDesignator=R12 NewDesignator=R24
+Change Component Designator: OldDesignator=R13 NewDesignator=R11
+Change Component Designator: OldDesignator=R14 NewDesignator=R15
+Change Component Designator: OldDesignator=R15 NewDesignator=R16
+Change Component Designator: OldDesignator=R16 NewDesignator=R17
+Change Component Designator: OldDesignator=R17 NewDesignator=R18
+Change Component Designator: OldDesignator=R18 NewDesignator=R19
+Change Component Designator: OldDesignator=R19 NewDesignator=R20
+Change Component Designator: OldDesignator=R20 NewDesignator=R22
+Change Component Designator: OldDesignator=R21 NewDesignator=R23
+Change Component Designator: OldDesignator=R22 NewDesignator=R25
+Change Component Designator: OldDesignator=R23 NewDesignator=R27
+Change Component Designator: OldDesignator=R24 NewDesignator=R29
+Change Component Designator: OldDesignator=R25 NewDesignator=R31
+Change Component Designator: OldDesignator=R26 NewDesignator=R13
+Change Component Designator: OldDesignator=R27 NewDesignator=R21
+Change Component Designator: OldDesignator=R28 NewDesignator=R12
+Change Component Designator: OldDesignator=R29 NewDesignator=R26
+Change Component Designator: OldDesignator=R30 NewDesignator=R28
+Change Component Designator: OldDesignator=R31 NewDesignator=R30
+Change Component Designator: OldDesignator=U1 NewDesignator=U5
+Change Component Designator: OldDesignator=U2 NewDesignator=U6
+Change Component Designator: OldDesignator=U3 NewDesignator=U7
+Change Component Designator: OldDesignator=U5 NewDesignator=U8
+Change Component Designator: OldDesignator=U6 NewDesignator=U3
+Change Component Designator: OldDesignator=U7 NewDesignator=U1
+Change Component Designator: OldDesignator=U8 NewDesignator=U2
+Change Component Designator: OldDesignator=U9 NewDesignator=U4
+Change Net Name : Old Net Name=NetC4_1 New Net Name=NetC3_1
+Change Net Name : Old Net Name=NetP8_4 New Net Name=NetP7_4
+Change Net Name : Old Net Name=NetR13_1 New Net Name=NetR11_1
+Change Net Name : Old Net Name=NetR15_1 New Net Name=NetR16_1
+Change Net Name : Old Net Name=NetU1_8-28 New Net Name=NetU5_8-28
+Change Net Name : Old Net Name=NetU1_9-9 New Net Name=NetU5_9-9
+Change Net Name : Old Net Name=NetU1_9-16 New Net Name=NetU5_9-16
+Change Net Name : Old Net Name=NetU7_8 New Net Name=NetU1_8
+Added Pin To Net: NetName=Heartbeat Pin=U5-9-42
+Added Net: Name=Heartbeat
+Added Member To Class: ClassName=Power Member=Component R14 10k
+Added Member To Class: ClassName=RS232 Member=Component R23 100
