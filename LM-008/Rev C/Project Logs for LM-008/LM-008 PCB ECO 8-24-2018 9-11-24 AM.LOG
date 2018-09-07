@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=ZH Pin=P1-9
+Added Pin To Net: NetName=Battery_1 Pin=P1-11
+Added Pin To Net: NetName=Battery_2 Pin=P1-15
+Added Pin To Net: NetName=ZH Pin=P2-17
+Added Pin To Net: NetName=-5 Pin=U13-4

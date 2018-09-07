@@ -1,0 +1,15 @@
+Removed Member From Class: ClassName=12V_Supply Member=R?
+Change Component Designator: OldDesignator=C? NewDesignator=C9
+Change Component Designator: OldDesignator=R? NewDesignator=R3
+Change Component Designator: OldDesignator=R? NewDesignator=R25
+Change Component Designator: OldDesignator=R? NewDesignator=R26
+Change Component Designator: OldDesignator=R? NewDesignator=R27
+Added Pin To Net: NetName=GND Pin=U13-4
+Change Net Name : Old Net Name=NetR?_1 New Net Name=NetR3_1
+Added Pin To Net: NetName=NetR26_1 Pin=R26-1
+Added Pin To Net: NetName=NetR26_1 Pin=R27-2
+Added Pin To Net: NetName=NetR26_1 Pin=U11-5
+Added Net: Name=NetR26_1
+Added Member To Class: ClassName=12V_Supply Member=Component R3 DNP
+Added Member To Class: ClassName=12V_Supply Member=Component R25 DNP
+Added Member To Class: ClassName=BBB-Supply Member=Component R26 DNP

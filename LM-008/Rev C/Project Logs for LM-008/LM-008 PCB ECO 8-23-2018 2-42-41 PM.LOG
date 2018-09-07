@@ -1,0 +1,10 @@
+Removed Member From Class: ClassName=5R_Supply.doc Member=U?
+Change Component Designator: OldDesignator=R? NewDesignator=R28
+Change Component Designator: OldDesignator=R? NewDesignator=R29
+Change Component Designator: OldDesignator=U? NewDesignator=U5
+Change Component Designator: OldDesignator=U? NewDesignator=U12
+Added Pin To Net: NetName=GND Pin=U13-4
+Change Net Name : Old Net Name=NetR?_1 New Net Name=NetR28_1
+Change Net Name : Old Net Name=NetU?_3 New Net Name=NetU12_3
+Added Member To Class: ClassName=5R_Supply.doc Member=Component R28 RES SMD 100K OHM 1% 1/8W 0805
+Added Member To Class: ClassName=5R_Supply.doc Member=Component U5 OPA188AIDBVT

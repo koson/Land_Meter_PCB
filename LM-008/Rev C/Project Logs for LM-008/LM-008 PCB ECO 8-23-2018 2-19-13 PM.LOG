@@ -1,0 +1,141 @@
+Removed Pin From Net: NetName=Power_IN Pin=U11-1
+Removed Pin From Net: NetName=GND Pin=U11-3
+Removed Pin From Net: NetName=GND Pin=U11-5
+Removed Pin From Net: NetName=+5 BBB Pin=U11-7
+Change Component Footprint: Designator=U11 Old Footprint=CC1R5-0505SR-E New Footprint=PXB15-24WS05/NT
+Change Component Footprint: Designator=U6 Old Footprint=PXB15-24WS05/NT New Footprint=PXB15-24WD05/N
+Change Component Comment : Designator=U11 Old Comment=CC1R5-0505SR-E New Comment=CCG152405S
+Change Component Comment : Designator=U6 Old Comment=PXB15-24WS05/NT New Comment=CCG30-24-12S
+Change component parameters: Designator = "U6"; Footprint = "PXB15-24WD05/N"; UniqueID = "\YKYSLSSK"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Applications"; Value = "ITE (Commercial)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Category"; Value = "Power Supplies - Board Mount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "http://www.us.tdk-lambda.com/ftp/specs/ccg30.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.us.tdk-lambda.com/ftp/specs/ccg30.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Control Features"; Value = "Enable, Active Low"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Current - Output (Max)"; Value = "2.5A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Efficiency"; Value = "89%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Features"; Value = "Remote On/Off, OCP, OVP"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "TDK-Lambda Americas Inc."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "CCG302412S"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Type"; Value = "Through Hole"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature"; Value = "-40°C ~ 85°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package / Case"; Value = "6-DIP Module"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Tray"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Status"; Value = "Active"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pricing 1"; Value = "1=41.1, 10=40.25 (USD)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS"; Value = "RoHS Compliant"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Size / Dimension"; Value = "1.00" L x 1.00" W x 0.39" H (25.4mm x 25.4mm x 9.9mm)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Stock 1"; Value = "269"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "285-2419-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = "Isolated Module"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage - Input (Max)"; Value = "36V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage - Input (Min)"; Value = "9V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage - Output 1"; Value = "12V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage - Output 2"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage - Output 3"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U11"; Footprint = "PXB15-24WS05/NT"; UniqueID = "\AUAVKPPP"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Applications"; Value = "ITE (Commercial)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Category"; Value = "Power Supplies - Board Mount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "http://www.us.tdk-lambda.com/ftp/specs/ccg15.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.us.tdk-lambda.com/ftp/specs/ccg15.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Control Features"; Value = "Enable, Active Low"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Current - Output (Max)"; Value = "3A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Efficiency"; Value = "87%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Features"; Value = "Remote On/Off, OCP, OVP"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "TDK-Lambda Americas Inc."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "CCG152405S"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Type"; Value = "Through Hole"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature"; Value = "-40°C ~ 85°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package / Case"; Value = "6-DIP Module"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Tube"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Status"; Value = "Active"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pricing 1"; Value = "1=28.5, 10=27.75 (USD)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS"; Value = "RoHS Compliant"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Size / Dimension"; Value = "1.00" L x 1.00" W x 0.39" H (25.4mm x 25.4mm x 9.9mm)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Stock 1"; Value = "154"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "285-2605-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = "Isolated Module"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage - Input (Max)"; Value = "36V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage - Input (Min)"; Value = "9V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage - Output 1"; Value = "5V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage - Output 2"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage - Output 3"; Value = "-"; VariantName = "[No Variations]"
+Added Component: Designator=C?(RB7.6-15)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Applications"; Value = "General Purpose"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Category"; Value = "Capacitors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "http://katalog.we-online.de/pbs/datasheet/860160473012.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://katalog.we-online.de/pbs/datasheet/860160473012.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ESR (Equivalent Series Resistance)"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height - Seated (Max)"; Value = "0.492" (12.50mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Spacing"; Value = "0.098" (2.50mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lifetime @ Temp."; Value = "4000 Hrs @ 105°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Wurth Electronics Inc."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "860160473012"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 105°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package / Case"; Value = "Radial, Can"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Cut Tape (CT)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Polarization"; Value = "Polar"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pricing 1"; Value = "1=0.22, 50=0.187, 100=0.163, 250=0.145, 500=0.127 (USD)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ratings"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "RoHS Compliant"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size / Dimension"; Value = "0.248" Dia (6.30mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stock 1"; Value = "1375"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "732-9512-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Surface Mount Land Size"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±20%"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESC0805(2012)_M)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R?(RESC0805(2012)_M)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R?(RESC0805(2012)_M)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R?(RESC0805(2012)_M)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=Power_IN Pin=C?-1
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=FB_CS0 Pin=P1-2
+Added Pin To Net: NetName=PWM1A Pin=P2-18
+Added Pin To Net: NetName=+5 BBB Pin=R?-1
+Added Pin To Net: NetName=+12 Pin=R?-1
+Added Pin To Net: NetName=GND Pin=R?-2
+Added Pin To Net: NetName=GND Pin=R?-2
+Added Pin To Net: NetName=GND Pin=U11-1
+Added Pin To Net: NetName=GND Pin=U11-2
+Added Pin To Net: NetName=Power_IN Pin=U11-3
+Added Pin To Net: NetName=+5 BBB Pin=U11-4
+Added Pin To Net: NetName=GND Pin=U11-6
+Added Pin To Net: NetName=-5 Pin=U13-4
+Change Net Name : Old Net Name=NetP1_8 New Net Name=Batt_1_Stat
+Change Net Name : Old Net Name=NetP1_10 New Net Name=Batt_2_Stat
+Change Net Name : Old Net Name=NetP1_14 New Net Name=Sys_Pwr_Enable
+Change Net Name : Old Net Name=NetP1_18 New Net Name=PWM2A
+Change Net Name : Old Net Name=NetP1_21 New Net Name=SINE_CS0
+Change Net Name : Old Net Name=NetP1_22 New Net Name=PWM2B
+Change Net Name : Old Net Name=NetP1_26 New Net Name=FB_MUX_A1
+Change Net Name : Old Net Name=NetP1_28 New Net Name=FB_MUX_A0
+Added Pin To Net: NetName=NetR?_1 Pin=R?-1
+Added Pin To Net: NetName=NetR?_1 Pin=R?-2
+Added Pin To Net: NetName=NetR?_1 Pin=U6-5
+Added Net: Name=NetR?_1
+Added Pin To Net: NetName=Power A0 Pin=P2-11
+Added Pin To Net: NetName=Power A0 Pin=U8-1
+Added Net: Name=Power A0
+Added Pin To Net: NetName=Power A1 Pin=P2-13
+Added Pin To Net: NetName=Power A1 Pin=U8-16
+Added Net: Name=Power A1
+Added Pin To Net: NetName=Power A2 Pin=P2-15
+Added Pin To Net: NetName=Power A2 Pin=U8-15
+Added Net: Name=Power A2
+Added Member To Class: ClassName=12V_Supply Member=Component C? 120uF
+Added Member To Class: ClassName=12V_Supply Member=Component R? DNP
+Added Member To Class: ClassName=12V_Supply Member=Component R? DNP
+Added Member To Class: ClassName=BBB-Supply Member=Component R? DNP
+Added Member To Class: ClassName=BBB-Supply Member=Component R? DNP

@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=CH7 Pin=R23-1
+Removed Pin From Net: NetName=-5 Pin=R23-2
+Removed Pin From Net: NetName=GND Pin=R25-1
+Removed Pin From Net: NetName=CH7 Pin=R25-2
+Removed Member From Class: ClassName=ADC Member=R20
+Removed Member From Class: ClassName=ADC Member=R21
+Removed Member From Class: ClassName=ADC Member=R23
+Removed Member From Class: ClassName=ADC Member=R25
+Removed Member From Class: ClassName=ADC Member=U12

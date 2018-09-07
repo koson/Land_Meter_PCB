@@ -1,0 +1,2 @@
+Removed Pin From Net: NetName=PWM1A Pin=P2-17
+Added Pin To Net: NetName=GND Pin=U3-4

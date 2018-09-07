@@ -1,0 +1,23 @@
+Removed Member From Class: ClassName=BBB_Connections Member=P?
+Change Component Footprint: Designator=P4 Old Footprint=IPL1-102-01-F-S-K New Footprint=IPL1-102-03-L-SH-K
+Change Component Footprint: Designator=P6 Old Footprint=IPL1-102-01-F-S-K New Footprint=IPL1-102-03-L-SH-K
+Change Component Comment : Designator=P4 Old Comment=IPL1-102-01-F-S-K New Comment=IPL1-102-03-L-SH-K
+Change Component Comment : Designator=P6 Old Comment=IPL1-102-01-F-S-K New Comment=IPL1-102-03-L-SH-K
+Change Component Designator: OldDesignator=P? NewDesignator=P5
+Change component parameters: Designator = "P4"; Footprint = "IPL1-102-03-L-SH-K"; UniqueID = "\PMMICCHF"
+Change component parameters. Clean all parameters for all variants
+Change component parameters: Designator = "P6"; Footprint = "IPL1-102-03-L-SH-K"; UniqueID = "\KUJSAKHG"
+Change component parameters. Clean all parameters for all variants
+Added Component: Designator=P9(IPL1-102-03-L-SH-K)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=NetP9_1 Pin=P9-1
+Added Pin To Net: NetName=NetP9_1 Pin=U3-7
+Added Net: Name=NetP9_1
+Added Pin To Net: NetName=NetP9_2 Pin=P9-2
+Added Pin To Net: NetName=NetP9_2 Pin=U3-10
+Added Net: Name=NetP9_2
+Added Pin To Net: NetName=NetU2_7 Pin=U2-7
+Added Net: Name=NetU2_7
+Added Pin To Net: NetName=NetU2_10 Pin=U2-10
+Added Net: Name=NetU2_10
+Added Member To Class: ClassName=BBB_Connections Member=Component P9 IPL1-102-03-L-SH-K

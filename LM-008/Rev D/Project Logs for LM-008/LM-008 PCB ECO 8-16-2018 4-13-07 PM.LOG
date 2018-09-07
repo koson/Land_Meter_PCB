@@ -1,0 +1,47 @@
+Removed Pin From Net: NetName=+5 BBB Pin=R17-1
+Removed Pin From Net: NetName=+5 BBB Pin=U5-6
+Removed Pin From Net: NetName=+5 BBB Pin=U5-7
+Removed Pin From Net: NetName=+5 BBB Pin=U5-8
+Added Component: Designator=U1(PXB15-24WD05/N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Applications"; Value = "ITE (Commercial)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Category 1"; Value = "Power Supplies - Board Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "http://us.tdk-lambda.com/ftp/AppNotes/pxb15w-d_appnote.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://us.tdk-lambda.com/ftp/AppNotes/pxb15w-d_appnote.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current - Output (Max)"; Value = "1.5A, 1.5A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Description 1"; Value = "IC CONV DC-DC 15W DUAL 5V PCB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Efficiency"; Value = "85%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Features"; Value = "Remote On/Off, OCP, OVP, SCP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1"; Value = "TDK-Lambda Americas Inc."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number 1"; Value = "PXB15-24WD05/N"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Outputs"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-40°C ~ 85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package / Case"; Value = "6-DIP Module"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tube"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power (Watts)"; Value = "15W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pricing 1"; Value = "1=61.61, 10=59.59 (USD)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS 1"; Value = "RoHS Compliant"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size / Dimension"; Value = "1.00" L x 1.00" W x 0.39" H (25.4mm x 25.4mm x 9.9mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stock 1"; Value = "28"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "285-1902-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Isolated Module"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Input (Max)"; Value = "36V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Input (Min)"; Value = "9V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Isolation"; Value = "1.6kV (1600V)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Output 1"; Value = "5V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Output 2"; Value = "-5V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Output 3"; Value = "-"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+12 Pin=R17-1
+Added Pin To Net: NetName=RC Pin=U1-1
+Added Pin To Net: NetName=GND Pin=U1-2
+Added Pin To Net: NetName=Power_IN Pin=U1-3
+Added Pin To Net: NetName=+5 Pin=U1-4
+Added Pin To Net: NetName=GND Pin=U1-5
+Added Pin To Net: NetName=-5 Pin=U1-6
+Added Pin To Net: NetName=+12 Pin=U5-6
+Added Pin To Net: NetName=+12 Pin=U5-7
+Added Pin To Net: NetName=+12 Pin=U5-8
+Added Member To Class: ClassName=5R_Supply Member=Component U1 PXB15-24WD05/N

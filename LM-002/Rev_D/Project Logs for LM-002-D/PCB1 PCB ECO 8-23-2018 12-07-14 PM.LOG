@@ -1,0 +1,115 @@
+Removed Pin From Net: NetName=GND Pin=P3-1
+Removed Pin From Net: NetName=PWM1A Pin=P3-2
+Removed Pin From Net: NetName=+5 Pin=P3-4
+Removed Pin From Net: NetName=+3.3 Pin=P3-6
+Removed Pin From Net: NetName=ZP Pin=P3-8
+Removed Pin From Net: NetName=+5 Pin=P5-1
+Removed Pin From Net: NetName=GND Pin=P5-3
+Removed Pin From Net: NetName=+3.3 Pin=P5-5
+Removed Pin From Net: NetName=ZH Pin=P5-9
+Removed Pin From Net: NetName=+12 Pin=P5-13
+Removed Pin From Net: NetName=-5 Pin=P5-17
+Change Component Footprint: Designator=P3 Old Footprint=TLW-105-05-G-D New Footprint=HDR2X15
+Change Component Comment : Designator=P3 Old Comment=TLW-105-05-G-D New Comment=Header 15X2
+Change component parameters: Designator = "P3"; Footprint = "HDR2X15"; UniqueID = "\PAOCXEAA"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Applications"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Category"; Value = "Connectors, Interconnects"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Connector Type"; Value = "Receptacle"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Finish - Mating"; Value = "Gold"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Finish - Post"; Value = "Gold"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Finish Thickness - Mating"; Value = "20.0µin (0.51µm)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Finish Thickness - Post"; Value = "3.00µin (0.076µm)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Length - Post"; Value = "0.104" (2.64mm)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Material"; Value = "Phosphor Bronze"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Shape"; Value = "Square"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Type"; Value = "Forked"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Current Rating"; Value = "5.7A per Contact"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fastening Type"; Value = "Push-Pull"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Features"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ingress Protection"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Insulation Color"; Value = "Black"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Insulation Height"; Value = "0.335" (8.51mm)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Insulation Material"; Value = "Liquid Crystal Polymer (LCP)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Samtec Inc."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "SSW-115-21-G-D"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mated Stacking Heights"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Material Flammability Rating"; Value = "UL94 V-0"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Type"; Value = "Through Hole"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Positions"; Value = "30"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Positions Loaded"; Value = "All"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 125°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Status"; Value = "Active"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pitch - Mating"; Value = "0.100" (2.54mm)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pricing 1"; Value = "1=4.78 (USD)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS"; Value = "RoHS Compliant"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Row Spacing - Mating"; Value = "0.100" (2.54mm)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Stock 1"; Value = "0"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Style"; Value = "Board to Board or Cable"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "SSW-115-21-G-D-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Termination"; Value = "Solder"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "-"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+5 Pin=P3-1
+Added Pin To Net: NetName=GND Pin=P3-3
+Added Pin To Net: NetName=+3.3 Pin=P3-5
+Added Pin To Net: NetName=ZH Pin=P3-9
+Added Pin To Net: NetName=+12 Pin=P3-13
+Added Pin To Net: NetName=-5 Pin=P3-17
+Added Pin To Net: NetName=PWM2B Pin=P3-22
+Added Pin To Net: NetName=GND Pin=P3-24
+Added Pin To Net: NetName=GND Pin=P3-27
+Added Pin To Net: NetName=GND Pin=P5-1
+Added Pin To Net: NetName=PWM1A Pin=P5-8
+Added Pin To Net: NetName=PWM1A Pin=P5-18
+Added Pin To Net: NetName=GND Pin=P5-19
+Added Pin To Net: NetName=GND Pin=P5-20
+Added Pin To Net: NetName=+5 Pin=P5-21
+Added Pin To Net: NetName=GND Pin=P5-22
+Added Pin To Net: NetName=GND Pin=P5-23
+Added Pin To Net: NetName=-5 Pin=P5-25
+Added Pin To Net: NetName=+3.3 Pin=P5-26
+Added Pin To Net: NetName=GND Pin=P5-28
+Added Pin To Net: NetName=+12 Pin=P5-29
+Added Pin To Net: NetName=+12 Pin=P5-30
+Change Net Name : Old Net Name=NetP5_10 New Net Name=SPI0_MOSI
+Change Net Name : Old Net Name=NetP5_14 New Net Name=SPI0_SCLK
+Added Pin To Net: NetName=+5 BBB Pin=P5-2
+Added Net: Name=+5 BBB
+Added Pin To Net: NetName=Batt_1_Stat Pin=P3-8
+Added Net: Name=Batt_1_Stat
+Added Pin To Net: NetName=Batt_2_Stat Pin=P3-10
+Added Net: Name=Batt_2_Stat
+Added Pin To Net: NetName=BBB_PWR_SW Pin=P5-4
+Added Net: Name=BBB_PWR_SW
+Added Pin To Net: NetName=FB_CS0 Pin=P3-2
+Added Pin To Net: NetName=FB_CS0 Pin=P5-5
+Added Pin To Net: NetName=FB_CS0 Pin=U12-9
+Added Net: Name=FB_CS0
+Added Pin To Net: NetName=FB_MUX_A0 Pin=P3-28
+Added Pin To Net: NetName=FB_MUX_A0 Pin=U11-1
+Added Net: Name=FB_MUX_A0
+Added Pin To Net: NetName=FB_MUX_A1 Pin=P3-26
+Added Pin To Net: NetName=FB_MUX_A1 Pin=U11-14
+Added Net: Name=FB_MUX_A1
+Added Pin To Net: NetName=NetP3_14 Pin=P3-14
+Added Net: Name=NetP3_14
+Added Pin To Net: NetName=NetU12_1 Pin=U12-1
+Added Net: Name=NetU12_1
+Added Pin To Net: NetName=NetU12_10 Pin=U12-10
+Added Net: Name=NetU12_10
+Added Pin To Net: NetName=Power_CS0 Pin=P5-9
+Added Net: Name=Power_CS0
+Added Pin To Net: NetName=Power A0 Pin=P5-11
+Added Net: Name=Power A0
+Added Pin To Net: NetName=Power A1 Pin=P5-13
+Added Net: Name=Power A1
+Added Pin To Net: NetName=Power A2 Pin=P5-15
+Added Net: Name=Power A2
+Added Pin To Net: NetName=PWM2A Pin=P3-18
+Added Net: Name=PWM2A
+Added Pin To Net: NetName=SINE_CS0 Pin=P3-21
+Added Net: Name=SINE_CS0
+Added Pin To Net: NetName=SPI0_MISO Pin=P5-12
+Added Net: Name=SPI0_MISO

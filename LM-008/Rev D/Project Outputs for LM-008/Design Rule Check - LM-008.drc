@@ -1,15 +1,9 @@
 Protel Design System Design Rule Check
-PCB File : C:\Users\zls\Desktop\Land_Meter_PCB\LM-008\LM-008\LM-008.PcbDoc
-Date     : 6/5/2018
-Time     : 3:49:11 PM
+PCB File : C:\Users\zls\Desktop\Land_Meter_PCB\LM-008\Rev D\LM-008.PcbDoc
+Date     : 8/20/2018
+Time     : 1:58:40 PM
 
-Processing Rule : Clearance Constraint (Gap=7.874mil) (All),(All)
-Rule Violations :0
-
-Processing Rule : Clearance Constraint (Gap=5mil) (InNamedPolygon('GND_L01_P002')),(All)
-Rule Violations :0
-
-Processing Rule : Clearance Constraint (Gap=3mil) (InNamedPolygon('GND_L02_P014')),(All)
+Processing Rule : Clearance Constraint (Gap=0.1mm) (All),(All)
 Rule Violations :0
 
 Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
@@ -21,34 +15,49 @@ Rule Violations :0
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
 Rule Violations :0
 
-Processing Rule : Width Constraint (Min=5mil) (Max=39.37mil) (Preferred=10mil) (All)
+Processing Rule : Width Constraint (Min=0.127mm) (Max=1mm) (Preferred=0.254mm) (All)
 Rule Violations :0
 
-Processing Rule : Power Plane Connect Rule(Direct Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
 Rule Violations :0
 
-Processing Rule : Hole Size Constraint (Min=1mil) (Max=196.85mil) (All)
+Processing Rule : Hole Size Constraint (Min=0.025mm) (Max=5mm) (All)
 Rule Violations :0
 
-Processing Rule : Hole To Hole Clearance (Gap=10mil) (All),(All)
+Processing Rule : Hole To Hole Clearance (Gap=0.254mm) (All),(All)
 Rule Violations :0
 
-Processing Rule : Minimum Solder Mask Sliver (Gap=1.457mil) (All),(All)
+Processing Rule : Minimum Solder Mask Sliver (Gap=0.037mm) (All),(All)
 Rule Violations :0
 
-Processing Rule : Silk To Solder Mask (Clearance=6.89mil) (IsPad),(All)
+Processing Rule : Silk To Solder Mask (Clearance=0.175mm) (IsPad),(All)
 Rule Violations :0
 
-Processing Rule : Silk to Silk (Clearance=7.874mil) (All),(All)
+Processing Rule : Silk to Silk (Clearance=0.2mm) (All),(All)
 Rule Violations :0
 
-Processing Rule : Net Antennae (Tolerance=0mil) (All)
+Processing Rule : Net Antennae (Tolerance=0mm) (All)
 Rule Violations :0
 
-Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
+Processing Rule : Room 36V_Supply (Bounding Region = (76.22mm, 104.814mm, 102.687mm, 118.503mm) (InComponentClass('36V_Supply'))
+Rule Violations :0
+
+Processing Rule : Room ADC (Bounding Region = (55.848mm, 70.489mm, 78.073mm, 89.031mm) (InComponentClass('ADC'))
+Rule Violations :0
+
+Processing Rule : Room BBB-Supply (Bounding Region = (78.264mm, 78.048mm, 101.683mm, 102.813mm) (InComponentClass('BBB-Supply'))
+Rule Violations :0
+
+Processing Rule : Room 5R_Supply (Bounding Region = (55.143mm, 51.467mm, 72.669mm, 70.878mm) (InComponentClass('5R_Supply'))
+Rule Violations :0
+
+Processing Rule : Room 12_Supply (Bounding Region = (78.447mm, 51.796mm, 101.363mm, 76.434mm) (InComponentClass('12_Supply'))
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
 Rule Violations :0
 
 
 Violations Detected : 0
 Waived Violations : 0
-Time Elapsed        : 00:00:00
+Time Elapsed        : 00:00:01

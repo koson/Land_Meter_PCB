@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=SPI0_SCLK Pin=TP1-1
+Removed Pin From Net: NetName=SPI1_CS0 Pin=TP2-1
+Removed Pin From Net: NetName=Encoder_Enable Pin=TP3-1
+Removed Pin From Net: NetName=SPI0_MISO_DELAY Pin=TP4-1
+Removed Member From Class: ClassName=Encoder Member=TP1
+Removed Member From Class: ClassName=Encoder Member=TP2
+Removed Member From Class: ClassName=Encoder Member=TP3
+Removed Member From Class: ClassName=Encoder Member=TP4

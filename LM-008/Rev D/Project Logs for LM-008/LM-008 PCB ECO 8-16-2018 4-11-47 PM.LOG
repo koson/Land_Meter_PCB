@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=Power_IN Pin=C17-1
+Removed Pin From Net: NetName=+12 Pin=C17-2
+Removed Pin From Net: NetName=RC Pin=U11-1
+Removed Pin From Net: NetName=GND Pin=U11-2
+Removed Pin From Net: NetName=Power_IN Pin=U11-3
+Removed Pin From Net: NetName=+12 Pin=U11-4
+Removed Pin From Net: NetName=GND Pin=U11-6
+Removed Member From Class: ClassName=12_Supply Member=C17
+Removed Member From Class: ClassName=12_Supply Member=U11

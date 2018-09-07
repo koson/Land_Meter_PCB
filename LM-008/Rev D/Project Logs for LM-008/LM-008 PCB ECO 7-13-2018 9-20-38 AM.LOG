@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=ZH Pin=P2-12
+Change Component Comment : Designator=C13 Old Comment=100uF  New Comment=100uF
+Change Net Name : Old Net Name=ZH New Net Name=ZP
+Added Pin To Net: NetName=ZH Pin=P2-12
+Added Net: Name=ZH
+Added Member To Class: ClassName=ADC Member=Component U7 MAX11100EUB+T

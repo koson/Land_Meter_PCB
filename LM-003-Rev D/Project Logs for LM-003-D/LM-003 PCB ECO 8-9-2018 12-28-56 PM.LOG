@@ -1,0 +1,43 @@
+Removed Pin From Net: NetName=SPI0_MISO Pin=P2-1
+Removed Pin From Net: NetName=SPI0_SCLK Pin=P2-2
+Removed Pin From Net: NetName=PWM1A Pin=P2-5
+Removed Pin From Net: NetName=+5 BBB Pin=P10-2
+Removed Pin From Net: NetName=GND Pin=P10-5
+Removed Pin From Net: NetName=GND Pin=P10-7
+Removed Pin From Net: NetName=Sys_Pwr_Enable Pin=P10-8
+Removed Pin From Net: NetName=GND Pin=P10-9
+Removed Pin From Net: NetName=GND Pin=P10-11
+Removed Pin From Net: NetName=GND Pin=P10-13
+Removed Pin From Net: NetName=GND Pin=P10-14
+Removed Pin From Net: NetName=+12 Pin=P10-15
+Removed Pin From Net: NetName=+12 Pin=P10-16
+Removed Pin From Net: NetName=+3.3 Pin=P11-5
+Removed Pin From Net: NetName=ZH Pin=P11-11
+Removed Pin From Net: NetName=+5 Pin=P11-13
+Removed Pin From Net: NetName=-5 Pin=P11-15
+Removed Pin From Net: NetName=Sys_Pwr_Enable Pin=U5-8-22
+Added Component: Designator=P8(SLW-108-01-G-D)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+5 BBB Pin=P2-17
+Added Pin To Net: NetName=GND Pin=P8-7
+Added Pin To Net: NetName=GND Pin=P8-9
+Added Pin To Net: NetName=Sys_Pwr_Enable Pin=P8-10
+Added Pin To Net: NetName=GND Pin=P8-11
+Added Pin To Net: NetName=GND Pin=P8-13
+Added Pin To Net: NetName=GND Pin=P8-15
+Added Pin To Net: NetName=GND Pin=P8-16
+Added Pin To Net: NetName=SPI0_MISO Pin=P10-2
+Added Pin To Net: NetName=SPI0_SCLK Pin=P10-4
+Added Pin To Net: NetName=PWM1A Pin=P10-8
+Added Pin To Net: NetName=NetP2_9 Pin=P2-9
+Added Pin To Net: NetName=NetP2_9 Pin=U5-8-22
+Added Net: Name=NetP2_9
+Added Pin To Net: NetName=NetP10_12 Pin=P10-12
+Added Pin To Net: NetName=NetP10_12 Pin=U5-9-9
+Added Net: Name=NetP10_12
+Added Pin To Net: NetName=NetP10_14 Pin=P10-14
+Added Net: Name=NetP10_14
+Added Pin To Net: NetName=NetP10_16 Pin=P10-16
+Added Net: Name=NetP10_16
+Added Member To Class: ClassName=Connectors Member=Component P8 SLW-108-01-G-D

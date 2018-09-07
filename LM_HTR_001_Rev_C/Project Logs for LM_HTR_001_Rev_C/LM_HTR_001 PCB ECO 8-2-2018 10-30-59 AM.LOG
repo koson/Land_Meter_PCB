@@ -1,0 +1,62 @@
+Removed Pin From Net: NetName=MUX_A0 Pin=U1-1
+Removed Pin From Net: NetName=+5 Pin=U1-2
+Removed Pin From Net: NetName=GND Pin=U1-3
+Removed Pin From Net: NetName=Arrestment Thermistor Pin=U1-4
+Removed Pin From Net: NetName=Gearbox Thermistor Pin=U1-5
+Removed Pin From Net: NetName=Conning Tower Thermistor Pin=U1-6
+Removed Pin From Net: NetName=Meter Thermistor 2 Pin=U1-7
+Removed Pin From Net: NetName=Analog_Mux_Out Pin=U1-8
+Removed Pin From Net: NetName=Meter Thermistor 1 Pin=U1-9
+Removed Pin From Net: NetName=Board1 Thermistor Pin=U1-10
+Removed Pin From Net: NetName=Board2 Thermistor Pin=U1-11
+Removed Pin From Net: NetName=Lid Thermistor Pin=U1-12
+Removed Pin From Net: NetName=+5 Pin=U1-13
+Removed Pin From Net: NetName=GND Pin=U1-14
+Change Component Footprint: Designator=U1 Old Footprint=ADI-RU-16_M New Footprint=ADI-RU-28_L
+Change Component Comment : Designator=U1 Old Comment=ADG1608BRUZ New Comment=ADG1606BRUZ-REEL7
+Change component parameters: Designator = "U1"; Footprint = "ADI-RU-28_L"; UniqueID = "\DICLNFTU"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Bandwidth (Hz)"; Value = "21M, 22M, 19M, 17M"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Code_JEDEC"; Value = "MO-153-AE"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.analog.com/en/index.html"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.analog.com/static/imported-files/data_sheets/ADG1606_1607.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.analog.com/static/imported-files/packages/249854663RU_28.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DatasheetVersion"; Value = "Rev. 0"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Analog Devices"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Analog Signal Range"; Value = "Vss to Vdd"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "28-Pin Thin Shrink Small Outline Package, Body 9.7 x 4.4 mm, Pitch 0.65 mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "RU-28"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageVersion"; Value = "Mar-05"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packing"; Value = "Reel"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PartNumber"; Value = "ADG1606BRUZ-REEL7"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ron (ohms)"; Value = "4"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "t transition (s)"; Value = "143n"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=P1-1
+Added Pin To Net: NetName=GND Pin=P1-2
+Added Pin To Net: NetName=+5 Pin=U1-1
+Added Pin To Net: NetName=GND Pin=U1-12
+Added Pin To Net: NetName=MUX_A0 Pin=U1-17
+Added Pin To Net: NetName=+5 Pin=U1-18
+Added Pin To Net: NetName=Arrestment Thermistor Pin=U1-19
+Added Pin To Net: NetName=Gearbox Thermistor Pin=U1-20
+Added Pin To Net: NetName=Conning Tower Thermistor Pin=U1-21
+Added Pin To Net: NetName=Meter Thermistor 2 Pin=U1-22
+Added Pin To Net: NetName=Lid Thermistor Pin=U1-23
+Added Pin To Net: NetName=Board2 Thermistor Pin=U1-24
+Added Pin To Net: NetName=Board1 Thermistor Pin=U1-25
+Added Pin To Net: NetName=Meter Thermistor 1 Pin=U1-26
+Added Pin To Net: NetName=GND Pin=U1-27
+Added Pin To Net: NetName=Analog_Mux_Out Pin=U1-28
+Added Pin To Net: NetName=MUX A3 Pin=P1-6
+Added Pin To Net: NetName=MUX A3 Pin=U1-14
+Added Net: Name=MUX A3
+Added Pin To Net: NetName=NetU1_10 Pin=U1-10
+Added Pin To Net: NetName=NetU1_10 Pin=U8-1
+Added Net: Name=NetU1_10
+Added Pin To Net: NetName=NetU1_11 Pin=U1-11
+Added Pin To Net: NetName=NetU1_11 Pin=U8-7
+Added Net: Name=NetU1_11

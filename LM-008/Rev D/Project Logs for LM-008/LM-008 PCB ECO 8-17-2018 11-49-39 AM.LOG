@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=NetTP1_1 Pin=TP1-1
+Removed Pin From Net: NetName=NetTP3_1 Pin=TP3-1
+Removed Member From Class: ClassName=12_Supply Member=TP1
+Removed Member From Class: ClassName=12_Supply Member=TP2
+Removed Member From Class: ClassName=BBB-Supply Member=TP3
+Removed Member From Class: ClassName=BBB-Supply Member=TP4
+Change Net Name : Old Net Name=NetTP1_1 New Net Name=NetU4_9
+Change Net Name : Old Net Name=NetTP3_1 New Net Name=NetU8_9

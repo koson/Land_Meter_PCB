@@ -1,0 +1,12 @@
+Added Component: Designator=R39(Trimmer 2.54)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R40(Trimmer 2.54)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=NetR32_2 Pin=R39-1
+Added Pin To Net: NetName=NetR32_1 Pin=R39-2
+Added Pin To Net: NetName=NetR35_2 Pin=R39-3
+Added Pin To Net: NetName=NetR26_2 Pin=R40-1
+Added Pin To Net: NetName=NetR26_1 Pin=R40-2
+Added Pin To Net: NetName=NetR29_2 Pin=R40-3
+Added Member To Class: ClassName=Signal_Conditioner Member=Component R39 500K
+Added Member To Class: ClassName=Signal_Conditioner Member=Component R40 500K

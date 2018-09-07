@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=Board1 Heater FET Pin=R12-1
+Added Pin To Net: NetName=Meter_Htr_LED Pin=DS1-2
+Added Pin To Net: NetName=Arrestment Htr_LED Pin=DS3-2
+Added Pin To Net: NetName=Conning Tower Htr_LED Pin=DS5-2
+Added Pin To Net: NetName=Gearbox Heater FET Pin=R12-1

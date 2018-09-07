@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\zls\Desktop\Land_Meter_PCB\LM-002\Rev_D\PCB1.PcbDoc
-Date     : 6/18/2018
-Time     : 8:46:24 AM
+Date     : 9/6/2018
+Time     : 4:10:06 PM
 
 Processing Rule : Clearance Constraint (Gap=0.15mm) (All),(All)
 Rule Violations :0
@@ -19,7 +19,7 @@ Processing Rule : Width Constraint (Min=0.1mm) (Max=0.254mm) (Preferred=0.254mm)
 Rule Violations :0
 
 Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
-   Violation between Starved Thermal on +5V: Pad P2-4(38.992mm,74.806mm) on Multi-Layer. Blocked 2 out of 4 entries.
+   Violation between Starved Thermal on +5V: Pad P2-4(1.27mm,-0.635mm) on Multi-Layer. Blocked 2 out of 4 entries.
 Rule Violations :1
 
 Processing Rule : Hole Size Constraint (Min=0.076mm) (Max=10mm) (All)
@@ -49,4 +49,4 @@ Rule Violations :0
 
 Violations Detected : 1
 Waived Violations : 0
-Time Elapsed        : 00:00:03
+Time Elapsed        : 00:00:04
