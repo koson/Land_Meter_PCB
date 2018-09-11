@@ -233,79 +233,91 @@ DocumentPath=Project Outputs for LM-002-D\PCB1.RUL
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Project Outputs for LM-002-D\PCB1_Copper_Plane_1.gbr
+DocumentPath=Project Outputs for LM-002-D\PCB1.xlsx
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Project Outputs for LM-002-D\PCB1_Copper_Plane_2.gbr
+DocumentPath=Project Outputs for LM-002-D\PCB1_Copper_Plane_1.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Project Outputs for LM-002-D\PCB1_Copper_Signal_Bot.gbr
+DocumentPath=Project Outputs for LM-002-D\PCB1_Copper_Plane_2.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Project Outputs for LM-002-D\PCB1_Copper_Signal_Top.gbr
+DocumentPath=Project Outputs for LM-002-D\PCB1_Copper_Signal_Bot.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Project Outputs for LM-002-D\PCB1_Drawing_1.gbr
+DocumentPath=Project Outputs for LM-002-D\PCB1_Copper_Signal_Top.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Project Outputs for LM-002-D\PCB1_Drillmap_1.gbr
+DocumentPath=Project Outputs for LM-002-D\PCB1_Drawing_1.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=Project Outputs for LM-002-D\PCB1_Legend_Bot.gbr
+DocumentPath=Project Outputs for LM-002-D\PCB1_Drillmap_1.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=Project Outputs for LM-002-D\PCB1_Legend_Top.gbr
+DocumentPath=Project Outputs for LM-002-D\PCB1_Legend_Bot.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=Project Outputs for LM-002-D\PCB1_Mechanical_1.gbr
+DocumentPath=Project Outputs for LM-002-D\PCB1_Legend_Top.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=Project Outputs for LM-002-D\PCB1_Mechanical_13.gbr
+DocumentPath=Project Outputs for LM-002-D\PCB1_Mechanical_1.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=Project Outputs for LM-002-D\PCB1_Mechanical_15.gbr
+DocumentPath=Project Outputs for LM-002-D\PCB1_Mechanical_13.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=Project Outputs for LM-002-D\PCB1_Pads_Bot.gbr
+DocumentPath=Project Outputs for LM-002-D\PCB1_Mechanical_15.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument19]
-DocumentPath=Project Outputs for LM-002-D\PCB1_Pads_Top.gbr
+DocumentPath=Project Outputs for LM-002-D\PCB1_Pads_Bot.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument20]
-DocumentPath=Project Outputs for LM-002-D\PCB1_Paste_Bot.gbr
+DocumentPath=Project Outputs for LM-002-D\PCB1_Pads_Top.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument21]
-DocumentPath=Project Outputs for LM-002-D\PCB1_Paste_Top.gbr
+DocumentPath=Project Outputs for LM-002-D\PCB1_Paste_Bot.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument22]
-DocumentPath=Project Outputs for LM-002-D\PCB1_Profile.gbr
+DocumentPath=Project Outputs for LM-002-D\PCB1_Paste_Top.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument23]
-DocumentPath=Project Outputs for LM-002-D\PCB1_PTH_Drill.gbr
+DocumentPath=Project Outputs for LM-002-D\PCB1_Profile.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument24]
-DocumentPath=Project Outputs for LM-002-D\PCB1_Soldermask_Bot.gbr
+DocumentPath=Project Outputs for LM-002-D\PCB1_PTH_Drill.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument25]
+DocumentPath=Project Outputs for LM-002-D\PCB1_Soldermask_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument26]
 DocumentPath=Project Outputs for LM-002-D\PCB1_Soldermask_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument27]
+DocumentPath=Project Outputs for LM-002-D\Sheet1.BOM
+DItemRevisionGUID=
+
+[GeneratedDocument28]
+DocumentPath=Project Outputs for LM-002-D\Sheet1.CSV
 DItemRevisionGUID=
 
 [Configuration1]
@@ -467,6 +479,11 @@ OutputName21=XSpice Netlist
 OutputDocumentPath21=
 OutputVariantName21=
 OutputDefault21=0
+OutputType22=WBSENetlistGeneration
+OutputName22=WEBENCH Simulation Engine
+OutputDocumentPath22=
+OutputVariantName22=
+OutputDefault22=0
 
 [OutputGroup2]
 Name=Simulator Outputs
@@ -478,6 +495,11 @@ OutputName1=Mixed Sim
 OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
+OutputType2=WBSENetlist
+OutputName2=WEBENCH Simulation Engine
+OutputDocumentPath2=
+OutputVariantName2=
+OutputDefault2=0
 
 [OutputGroup3]
 Name=Documentation Outputs
@@ -701,7 +723,7 @@ Configuration1_Item1=CaptionAsName
 Configuration1_Name2=Filter
 Configuration1_Item2=545046300E5446696C74657257726170706572000D46696C7465722E416374697665090F46696C7465722E43726974657269610A04000000000000000000
 Configuration1_Name3=General
-Configuration1_Item3=OpenExported=True|AddToProject=True|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePCBData=False|IncludeVaultData=False|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|BatchMode=5|FormWidth=1652|FormHeight=661|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>
+Configuration1_Item3=OpenExported=True|AddToProject=True|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePCBData=True|IncludeVaultData=False|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|BatchMode=5|FormWidth=1652|FormHeight=661|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>
 Configuration1_Name4=GroupOrder
 Configuration1_Item4=Comment=True|Footprint=True
 Configuration1_Name5=OutputConfigurationParameter1
@@ -709,12 +731,14 @@ Configuration1_Item5=20|Packaging=20|PartNumber=20|Quantity=20|Description 1=29|
 Configuration1_Name6=SortOrder
 Configuration1_Item6=Designator=Up|Comment=Up|Footprint=Up
 Configuration1_Name7=VisibleOrder
-Configuration1_Item7=Comment=46|Description=436|Designator=20|Footprint=20|LibRef=20|Quantity=20|Manufacturer 1=20|Manufacturer Part Number 1=20|Supplier 1=20|Supplier Currency 1=20|Supplier Order Qty 1=20|Supplier Part Number 1=20|Supplier Stock 1=20|Supplier Subtotal 1=20|Supplier Unit Price 1=20
+Configuration1_Item7=Comment=46|Description=436|Designator=20|Footprint=20|LibRef=20|Quantity=20|Manufacturer 1=20|Manufacturer Part Number 1=20|Supplier 1=20|Supplier Currency 1=20|Supplier Order Qty 1=20|Supplier Part Number 1=20|Supplier Stock 1=20|Supplier Subtotal 1=20|Supplier Unit Price 1=20|Case/Package=100|Document=100|RoHS=100
 OutputType2=ComponentCrossReference
 OutputName2=Component Cross Reference Report
 OutputDocumentPath2=
 OutputVariantName2=[No Variations]
 OutputDefault2=0
+Configuration2_Name1=ColumnNameFormat
+Configuration2_Item1=CaptionAsName
 OutputType3=ReportHierarchy
 OutputName3=Report Project Hierarchy
 OutputDocumentPath3=
@@ -730,6 +754,8 @@ OutputName5=Simple BOM
 OutputDocumentPath5=
 OutputVariantName5=[No Variations]
 OutputDefault5=0
+Configuration5_Name1=OutputConfigurationParameter1
+Configuration5_Item1=Record=SimpleBOMView|SimpleBOMMode=0
 OutputType6=SinglePinNetReporter
 OutputName6=Report Single Pin Nets
 OutputDocumentPath6=

@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=+3.3 Pin=R5-1
+Removed Member From Class: ClassName=DC-Motor-DRV Member=R5
+Change Component Comment : Designator=C7 Old Comment=CAP 1nF 25V 0402(1005) New Comment=.1uF
+Added Pin To Net: NetName=NetR6_2 Pin=U3-2

@@ -806,13 +806,17 @@ Configuration4_Item1=CaptionAsName
 Configuration4_Name2=Filter
 Configuration4_Item2=545046300E5446696C74657257726170706572000D46696C7465722E416374697665090F46696C7465722E43726974657269610A04000000000000000000
 Configuration4_Name3=General
-Configuration4_Item3=OpenExported=True|AddToProject=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePCBData=False|IncludeVaultData=False|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|BatchMode=5|FormWidth=1652|FormHeight=661|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>
+Configuration4_Item3=OpenExported=True|AddToProject=True|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePCBData=False|IncludeVaultData=False|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|BatchMode=5|FormWidth=1652|FormHeight=661|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>
 Configuration4_Name4=GroupOrder
 Configuration4_Item4=Comment=True|Footprint=True
-Configuration4_Name5=SortOrder
-Configuration4_Item5=Designator=Up|Comment=Up|Footprint=Up
-Configuration4_Name6=VisibleOrder
-Configuration4_Item6=Comment=222|Description=163|Designator=121|Footprint=23|Manufacturer=39|Package / Case=20|Packaging=20|PartNumber=20|Quantity=20|Description 1=29|DocumentName=100|PackageDescription=100|ComponentLink1URL=100|ComponentLink2URL=100|ComponentLink4Description=100
+Configuration4_Name5=PCBDocument
+Configuration4_Item5=FileName=LM-003.PcbDoc
+Configuration4_Name6=PCBDocument2
+Configuration4_Item6=FileName=[PCB Document 1]
+Configuration4_Name7=SortOrder
+Configuration4_Item7=Designator=Up|Comment=Up|Footprint=Up
+Configuration4_Name8=VisibleOrder
+Configuration4_Item8=Comment=222|Description=163|Designator=121|Footprint=23|Manufacturer=110|Package / Case=20|Packaging=146|PartNumber=20|Quantity=20|DocumentName=65|PackageDescription=65|ComponentLink1URL=65|ComponentLink2URL=65|ComponentLink4Description=61|Manufacturer 1=74|Manufacturer Part Number 1=74|Supplier 1=74|Supplier Currency 1=74|Supplier Order Qty 1=74|Supplier Part Number 1=74|Supplier Stock 1=74|Supplier Subtotal 1=74|Supplier Unit Price 1=74|SheetNumber=100
 OutputType5=ComponentCrossReference
 OutputName5=Component Cross Reference Report
 OutputDocumentPath5=
