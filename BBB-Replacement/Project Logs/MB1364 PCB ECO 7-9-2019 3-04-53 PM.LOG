@@ -1,0 +1,569 @@
+Removed Pin From Net: NetName=GND Pin=C2-1
+Removed Pin From Net: NetName=3V3_STLK Pin=C2-2
+Removed Pin From Net: NetName=VDD_MCU Pin=C4-1
+Removed Pin From Net: NetName=GND Pin=C4-2
+Removed Pin From Net: NetName=GND Pin=C5-1
+Removed Pin From Net: NetName=STLK_MCO Pin=C5-2
+Removed Pin From Net: NetName=GND Pin=C6-1
+Removed Pin From Net: NetName=5V_USB_CHGR Pin=C6-2
+Removed Pin From Net: NetName=GND Pin=C7-1
+Removed Pin From Net: NetName=GND Pin=C8-1
+Removed Pin From Net: NetName=3V3_STLK Pin=C8-2
+Removed Pin From Net: NetName=GND Pin=C9-1
+Removed Pin From Net: NetName=3V3_STLK Pin=C9-2
+Removed Pin From Net: NetName=GND Pin=C10-1
+Removed Pin From Net: NetName=3V3_STLK Pin=C10-2
+Removed Pin From Net: NetName=GND Pin=C11-1
+Removed Pin From Net: NetName=3V3_STLK Pin=C11-2
+Removed Pin From Net: NetName=GND Pin=C12-1
+Removed Pin From Net: NetName=GND Pin=C13-1
+Removed Pin From Net: NetName=GND Pin=C14-1
+Removed Pin From Net: NetName=3V3_STLK Pin=C14-2
+Removed Pin From Net: NetName=GND Pin=C15-1
+Removed Pin From Net: NetName=3V3_STLK Pin=C15-2
+Removed Pin From Net: NetName=GND Pin=C16-1
+Removed Pin From Net: NetName=3V3_STLK Pin=C16-2
+Removed Pin From Net: NetName=GND Pin=C17-1
+Removed Pin From Net: NetName=3V3_STLK Pin=C17-2
+Removed Pin From Net: NetName=GND Pin=C21-1
+Removed Pin From Net: NetName=3V3_STLK Pin=C21-2
+Removed Pin From Net: NetName=GND Pin=C22-1
+Removed Pin From Net: NetName=3V3_STLK Pin=C22-2
+Removed Pin From Net: NetName=GND Pin=C25-1
+Removed Pin From Net: NetName=3V3_STLK Pin=C25-2
+Removed Pin From Net: NetName=VDD_MCU Pin=C26-1
+Removed Pin From Net: NetName=GND Pin=C26-2
+Removed Pin From Net: NetName=GND Pin=C27-1
+Removed Pin From Net: NetName=3V3_STLK Pin=C27-2
+Removed Pin From Net: NetName=GND Pin=C28-1
+Removed Pin From Net: NetName=GND Pin=C29-1
+Removed Pin From Net: NetName=3V3_STLK Pin=C29-2
+Removed Pin From Net: NetName=GND Pin=C30-1
+Removed Pin From Net: NetName=3V3_STLK Pin=C30-2
+Removed Pin From Net: NetName=GND Pin=C31-1
+Removed Pin From Net: NetName=3V3_STLK Pin=C31-2
+Removed Pin From Net: NetName=GND Pin=C32-1
+Removed Pin From Net: NetName=3V3_STLK Pin=C32-2
+Removed Pin From Net: NetName=GND Pin=C33-1
+Removed Pin From Net: NetName=3V3_STLK Pin=C33-2
+Removed Pin From Net: NetName=GND Pin=C34-1
+Removed Pin From Net: NetName=3V3_STLK Pin=C34-2
+Removed Pin From Net: NetName=GND Pin=C35-1
+Removed Pin From Net: NetName=3V3_STLK Pin=C35-2
+Removed Pin From Net: NetName=GND Pin=C36-1
+Removed Pin From Net: NetName=3V3_STLK Pin=C36-2
+Removed Pin From Net: NetName=GND Pin=C37-1
+Removed Pin From Net: NetName=3V3_STLK Pin=C37-2
+Removed Pin From Net: NetName=AGND Pin=C65-1
+Removed Pin From Net: NetName=VREFP Pin=C65-2
+Removed Pin From Net: NetName=5V_USB_CHGR Pin=CN1-1
+Removed Pin From Net: NetName=GND Pin=CN1-5
+Removed Pin From Net: NetName=GND Pin=CN1-6
+Removed Pin From Net: NetName=GND Pin=CN1-7
+Removed Pin From Net: NetName=GND Pin=CN1-8
+Removed Pin From Net: NetName=GND Pin=CN1-9
+Removed Pin From Net: NetName=GND Pin=CN1-10
+Removed Pin From Net: NetName=GND Pin=CN1-11
+Removed Pin From Net: NetName=3V3_STLK Pin=CN2-1
+Removed Pin From Net: NetName=STLK_SWCLK Pin=CN2-2
+Removed Pin From Net: NetName=GND Pin=CN2-3
+Removed Pin From Net: NetName=STLK_SWDIO Pin=CN2-4
+Removed Pin From Net: NetName=T_VCP_RX Pin=CN5-13
+Removed Pin From Net: NetName=T_VCP_TX Pin=CN5-14
+Removed Pin From Net: NetName=PC6 Pin=CN7-1
+Removed Pin From Net: NetName=PB8 Pin=CN7-2
+Removed Pin From Net: NetName=PB15 Pin=CN7-3
+Removed Pin From Net: NetName=PB9 Pin=CN7-4
+Removed Pin From Net: NetName=PB12 Pin=CN7-7
+Removed Pin From Net: NetName=GND Pin=CN7-8
+Removed Pin From Net: NetName=PA15 Pin=CN7-9
+Removed Pin From Net: NetName=PA5 Pin=CN7-10
+Removed Pin From Net: NetName=PC7 Pin=CN7-11
+Removed Pin From Net: NetName=PA6 Pin=CN7-12
+Removed Pin From Net: NetName=PB5 Pin=CN7-13
+Removed Pin From Net: NetName=PD14 Pin=CN7-16
+Removed Pin From Net: NetName=PA4 Pin=CN7-17
+Removed Pin From Net: NetName=PD15 Pin=CN7-18
+Removed Pin From Net: NetName=PB4 Pin=CN7-19
+Removed Pin From Net: NetName=PF3 Pin=CN7-20
+Removed Pin From Net: NetName=PC8 Pin=CN8-2
+Removed Pin From Net: NetName=IOREF Pin=CN8-3
+Removed Pin From Net: NetName=PC9 Pin=CN8-4
+Removed Pin From Net: NetName=NRST Pin=CN8-5
+Removed Pin From Net: NetName=PC10 Pin=CN8-6
+Removed Pin From Net: NetName=3V3 Pin=CN8-7
+Removed Pin From Net: NetName=PC11 Pin=CN8-8
+Removed Pin From Net: NetName=5V Pin=CN8-9
+Removed Pin From Net: NetName=PC12 Pin=CN8-10
+Removed Pin From Net: NetName=GND Pin=CN8-11
+Removed Pin From Net: NetName=PD2 Pin=CN8-12
+Removed Pin From Net: NetName=GND Pin=CN8-13
+Removed Pin From Net: NetName=PG2 Pin=CN8-14
+Removed Pin From Net: NetName=VIN Pin=CN8-15
+Removed Pin From Net: NetName=PG3 Pin=CN8-16
+Removed Pin From Net: NetName=PA3 Pin=CN9-1
+Removed Pin From Net: NetName=PD7 Pin=CN9-2
+Removed Pin From Net: NetName=PC0 Pin=CN9-3
+Removed Pin From Net: NetName=PD6 Pin=CN9-4
+Removed Pin From Net: NetName=PC3 Pin=CN9-5
+Removed Pin From Net: NetName=PD5 Pin=CN9-6
+Removed Pin From Net: NetName=PB1 Pin=CN9-7
+Removed Pin From Net: NetName=PD4 Pin=CN9-8
+Removed Pin From Net: NetName=PD3 Pin=CN9-10
+Removed Pin From Net: NetName=GND Pin=CN9-12
+Removed Pin From Net: NetName=PE4 Pin=CN9-16
+Removed Pin From Net: NetName=PF2 Pin=CN9-17
+Removed Pin From Net: NetName=PE5 Pin=CN9-18
+Removed Pin From Net: NetName=PF1 Pin=CN9-19
+Removed Pin From Net: NetName=PF0 Pin=CN9-21
+Removed Pin From Net: NetName=PE3 Pin=CN9-22
+Removed Pin From Net: NetName=GND Pin=CN9-23
+Removed Pin From Net: NetName=PF8 Pin=CN9-24
+Removed Pin From Net: NetName=PD0 Pin=CN9-25
+Removed Pin From Net: NetName=PF7 Pin=CN9-26
+Removed Pin From Net: NetName=PD1 Pin=CN9-27
+Removed Pin From Net: NetName=PF9 Pin=CN9-28
+Removed Pin From Net: NetName=PG0 Pin=CN9-29
+Removed Pin From Net: NetName=PG1 Pin=CN9-30
+Removed Pin From Net: NetName=VDDA Pin=CN10-1
+Removed Pin From Net: NetName=PG12 Pin=CN10-2
+Removed Pin From Net: NetName=AGND Pin=CN10-3
+Removed Pin From Net: NetName=GND Pin=CN10-5
+Removed Pin From Net: NetName=PE11 Pin=CN10-6
+Removed Pin From Net: NetName=PE14 Pin=CN10-8
+Removed Pin From Net: NetName=PE13 Pin=CN10-10
+Removed Pin From Net: NetName=PG14 Pin=CN10-12
+Removed Pin From Net: NetName=ARD_D1_TX Pin=CN10-14
+Removed Pin From Net: NetName=ARD_D0_RX Pin=CN10-16
+Removed Pin From Net: NetName=GND Pin=CN10-17
+Removed Pin From Net: NetName=PE8 Pin=CN10-18
+Removed Pin From Net: NetName=PD13 Pin=CN10-19
+Removed Pin From Net: NetName=PE7 Pin=CN10-20
+Removed Pin From Net: NetName=PD12 Pin=CN10-21
+Removed Pin From Net: NetName=GND Pin=CN10-22
+Removed Pin From Net: NetName=PD11 Pin=CN10-23
+Removed Pin From Net: NetName=PE10 Pin=CN10-24
+Removed Pin From Net: NetName=PE2 Pin=CN10-25
+Removed Pin From Net: NetName=PE12 Pin=CN10-26
+Removed Pin From Net: NetName=GND Pin=CN10-27
+Removed Pin From Net: NetName=PE15 Pin=CN10-30
+Removed Pin From Net: NetName=PB0 Pin=CN10-31
+Removed Pin From Net: NetName=PB10 Pin=CN10-32
+Removed Pin From Net: NetName=PE0 Pin=CN10-33
+Removed Pin From Net: NetName=PB11 Pin=CN10-34
+Removed Pin From Net: NetName=PC10 Pin=CN11-1
+Removed Pin From Net: NetName=PC11 Pin=CN11-2
+Removed Pin From Net: NetName=PC12 Pin=CN11-3
+Removed Pin From Net: NetName=PD2 Pin=CN11-4
+Removed Pin From Net: NetName=3V3_VDD Pin=CN11-5
+Removed Pin From Net: NetName=5V_EXT Pin=CN11-6
+Removed Pin From Net: NetName=BOOT0 Pin=CN11-7
+Removed Pin From Net: NetName=GND Pin=CN11-8
+Removed Pin From Net: NetName=PF6 Pin=CN11-9
+Removed Pin From Net: NetName=PF7 Pin=CN11-11
+Removed Pin From Net: NetName=IOREF Pin=CN11-12
+Removed Pin From Net: NetName=PA13 Pin=CN11-13
+Removed Pin From Net: NetName=NRST Pin=CN11-14
+Removed Pin From Net: NetName=PA14 Pin=CN11-15
+Removed Pin From Net: NetName=3V3 Pin=CN11-16
+Removed Pin From Net: NetName=PA15 Pin=CN11-17
+Removed Pin From Net: NetName=5V Pin=CN11-18
+Removed Pin From Net: NetName=GND Pin=CN11-19
+Removed Pin From Net: NetName=GND Pin=CN11-20
+Removed Pin From Net: NetName=PB7 Pin=CN11-21
+Removed Pin From Net: NetName=GND Pin=CN11-22
+Removed Pin From Net: NetName=PC13 Pin=CN11-23
+Removed Pin From Net: NetName=VIN Pin=CN11-24
+Removed Pin From Net: NetName=PC14 Pin=CN11-25
+Removed Pin From Net: NetName=PC15 Pin=CN11-27
+Removed Pin From Net: NetName=PA0 Pin=CN11-28
+Removed Pin From Net: NetName=PH0 Pin=CN11-29
+Removed Pin From Net: NetName=PA1 Pin=CN11-30
+Removed Pin From Net: NetName=PH1 Pin=CN11-31
+Removed Pin From Net: NetName=PA4 Pin=CN11-32
+Removed Pin From Net: NetName=VBAT Pin=CN11-33
+Removed Pin From Net: NetName=PB0 Pin=CN11-34
+Removed Pin From Net: NetName=PC2 Pin=CN11-35
+Removed Pin From Net: NetName=PC1 Pin=CN11-36
+Removed Pin From Net: NetName=PC3 Pin=CN11-37
+Removed Pin From Net: NetName=PC0 Pin=CN11-38
+Removed Pin From Net: NetName=PD4 Pin=CN11-39
+Removed Pin From Net: NetName=PD3 Pin=CN11-40
+Removed Pin From Net: NetName=PD5 Pin=CN11-41
+Removed Pin From Net: NetName=PG2 Pin=CN11-42
+Removed Pin From Net: NetName=PD6 Pin=CN11-43
+Removed Pin From Net: NetName=PG3 Pin=CN11-44
+Removed Pin From Net: NetName=PD7 Pin=CN11-45
+Removed Pin From Net: NetName=PE2 Pin=CN11-46
+Removed Pin From Net: NetName=PE3 Pin=CN11-47
+Removed Pin From Net: NetName=PE4 Pin=CN11-48
+Removed Pin From Net: NetName=GND Pin=CN11-49
+Removed Pin From Net: NetName=PE5 Pin=CN11-50
+Removed Pin From Net: NetName=PF1 Pin=CN11-51
+Removed Pin From Net: NetName=PF2 Pin=CN11-52
+Removed Pin From Net: NetName=PF0 Pin=CN11-53
+Removed Pin From Net: NetName=PF8 Pin=CN11-54
+Removed Pin From Net: NetName=PD1 Pin=CN11-55
+Removed Pin From Net: NetName=PF9 Pin=CN11-56
+Removed Pin From Net: NetName=PD0 Pin=CN11-57
+Removed Pin From Net: NetName=PG1 Pin=CN11-58
+Removed Pin From Net: NetName=PG0 Pin=CN11-59
+Removed Pin From Net: NetName=GND Pin=CN11-60
+Removed Pin From Net: NetName=PE1 Pin=CN11-61
+Removed Pin From Net: NetName=PE6 Pin=CN11-62
+Removed Pin From Net: NetName=PG9 Pin=CN11-63
+Removed Pin From Net: NetName=PG15 Pin=CN11-64
+Removed Pin From Net: NetName=PG12 Pin=CN11-65
+Removed Pin From Net: NetName=PG10 Pin=CN11-66
+Removed Pin From Net: NetName=PG13 Pin=CN11-68
+Removed Pin From Net: NetName=PG11 Pin=CN11-70
+Removed Pin From Net: NetName=PB8 Pin=CN12-3
+Removed Pin From Net: NetName=PC6 Pin=CN12-4
+Removed Pin From Net: NetName=PB9 Pin=CN12-5
+Removed Pin From Net: NetName=PC5 Pin=CN12-6
+Removed Pin From Net: NetName=5V_USB_STLK Pin=CN12-8
+Removed Pin From Net: NetName=GND Pin=CN12-9
+Removed Pin From Net: NetName=PA5 Pin=CN12-11
+Removed Pin From Net: NetName=PA6 Pin=CN12-13
+Removed Pin From Net: NetName=PA7 Pin=CN12-15
+Removed Pin From Net: NetName=PB12 Pin=CN12-16
+Removed Pin From Net: NetName=PB6 Pin=CN12-17
+Removed Pin From Net: NetName=PB11 Pin=CN12-18
+Removed Pin From Net: NetName=PC7 Pin=CN12-19
+Removed Pin From Net: NetName=GND Pin=CN12-20
+Removed Pin From Net: NetName=PA9 Pin=CN12-21
+Removed Pin From Net: NetName=PB2 Pin=CN12-22
+Removed Pin From Net: NetName=PA8 Pin=CN12-23
+Removed Pin From Net: NetName=PB1 Pin=CN12-24
+Removed Pin From Net: NetName=PB10 Pin=CN12-25
+Removed Pin From Net: NetName=PB15 Pin=CN12-26
+Removed Pin From Net: NetName=PB4 Pin=CN12-27
+Removed Pin From Net: NetName=PB14 Pin=CN12-28
+Removed Pin From Net: NetName=PB5 Pin=CN12-29
+Removed Pin From Net: NetName=PB13 Pin=CN12-30
+Removed Pin From Net: NetName=PB3 Pin=CN12-31
+Removed Pin From Net: NetName=AGND Pin=CN12-32
+Removed Pin From Net: NetName=PA10 Pin=CN12-33
+Removed Pin From Net: NetName=PC4 Pin=CN12-34
+Removed Pin From Net: NetName=PA2 Pin=CN12-35
+Removed Pin From Net: NetName=PF5 Pin=CN12-36
+Removed Pin From Net: NetName=PA3 Pin=CN12-37
+Removed Pin From Net: NetName=PF4 Pin=CN12-38
+Removed Pin From Net: NetName=GND Pin=CN12-39
+Removed Pin From Net: NetName=PE8 Pin=CN12-40
+Removed Pin From Net: NetName=PD13 Pin=CN12-41
+Removed Pin From Net: NetName=PF10 Pin=CN12-42
+Removed Pin From Net: NetName=PD12 Pin=CN12-43
+Removed Pin From Net: NetName=PE7 Pin=CN12-44
+Removed Pin From Net: NetName=PD11 Pin=CN12-45
+Removed Pin From Net: NetName=PD14 Pin=CN12-46
+Removed Pin From Net: NetName=PE10 Pin=CN12-47
+Removed Pin From Net: NetName=PD15 Pin=CN12-48
+Removed Pin From Net: NetName=PE12 Pin=CN12-49
+Removed Pin From Net: NetName=PF14 Pin=CN12-50
+Removed Pin From Net: NetName=PE14 Pin=CN12-51
+Removed Pin From Net: NetName=PE9 Pin=CN12-52
+Removed Pin From Net: NetName=PE15 Pin=CN12-53
+Removed Pin From Net: NetName=GND Pin=CN12-54
+Removed Pin From Net: NetName=PE13 Pin=CN12-55
+Removed Pin From Net: NetName=PE11 Pin=CN12-56
+Removed Pin From Net: NetName=PF13 Pin=CN12-57
+Removed Pin From Net: NetName=PF3 Pin=CN12-58
+Removed Pin From Net: NetName=PF12 Pin=CN12-59
+Removed Pin From Net: NetName=PF15 Pin=CN12-60
+Removed Pin From Net: NetName=PG14 Pin=CN12-61
+Removed Pin From Net: NetName=PF11 Pin=CN12-62
+Removed Pin From Net: NetName=GND Pin=CN12-63
+Removed Pin From Net: NetName=PE0 Pin=CN12-64
+Removed Pin From Net: NetName=PD10 Pin=CN12-65
+Removed Pin From Net: NetName=PG8 Pin=CN12-66
+Removed Pin From Net: NetName=PG7 Pin=CN12-67
+Removed Pin From Net: NetName=PG5 Pin=CN12-68
+Removed Pin From Net: NetName=PG4 Pin=CN12-69
+Removed Pin From Net: NetName=PG6 Pin=CN12-70
+Removed Pin From Net: NetName=GND Pin=CN15-1
+Removed Pin From Net: NetName=GND Pin=CN15-2
+Removed Pin From Net: NetName=GND Pin=CN16-1
+Removed Pin From Net: NetName=GND Pin=CN16-2
+Removed Pin From Net: NetName=5V_USB_CHGR Pin=D3-1
+Removed Pin From Net: NetName=NetC18_1 Pin=D3-2
+Removed Pin From Net: NetName=GND Pin=JP1-1
+Removed Pin From Net: NetName=NRST Pin=JP3-2
+Removed Pin From Net: NetName=GND Pin=Q1-2
+Removed Pin From Net: NetName=GND Pin=Q2-2
+Removed Pin From Net: NetName=GND Pin=Q3-2
+Removed Pin From Net: NetName=T_VCP_TX Pin=R3-1
+Removed Pin From Net: NetName=VDD_MCU Pin=R4-1
+Removed Pin From Net: NetName=STLK_MCO Pin=R5-2
+Removed Pin From Net: NetName=GND Pin=R6-1
+Removed Pin From Net: NetName=PA13 Pin=R10-1
+Removed Pin From Net: NetName=PA14 Pin=R11-2
+Removed Pin From Net: NetName=T_SWO Pin=R13-1
+Removed Pin From Net: NetName=GND Pin=R14-1
+Removed Pin From Net: NetName=5V Pin=R15-1
+Removed Pin From Net: NetName=GND Pin=R18-2
+Removed Pin From Net: NetName=3V3_PER Pin=R20-2
+Removed Pin From Net: NetName=GND Pin=R22-1
+Removed Pin From Net: NetName=T_VCP_RX Pin=R23-2
+Removed Pin From Net: NetName=3V3_STLK Pin=R24-1
+Removed Pin From Net: NetName=3V3_PER Pin=R26-2
+Removed Pin From Net: NetName=3V3_PER Pin=R27-2
+Removed Pin From Net: NetName=3V3_PER Pin=R28-2
+Removed Pin From Net: NetName=GND Pin=R68-1
+Removed Pin From Net: NetName=GND Pin=R69-1
+Removed Pin From Net: NetName=GND Pin=R70-1
+Removed Pin From Net: NetName=PE1 Pin=R71-1
+Removed Pin From Net: NetName=PB14 Pin=R72-1
+Removed Pin From Net: NetName=PB13 Pin=SB7-1
+Removed Pin From Net: NetName=PC8 Pin=SB14-2
+Removed Pin From Net: NetName=PC9 Pin=SB15-1
+Removed Pin From Net: NetName=PA11 Pin=SB16-2
+Removed Pin From Net: NetName=PA12 Pin=SB17-2
+Removed Pin From Net: NetName=PB3 Pin=SB26-1
+Removed Pin From Net: NetName=PE9 Pin=SB28-2
+Removed Pin From Net: NetName=PA7 Pin=SB33-2
+Removed Pin From Net: NetName=PB5 Pin=SB35-2
+Removed Pin From Net: NetName=PF12 Pin=SB37-1
+Removed Pin From Net: NetName=PF4 Pin=SB38-1
+Removed Pin From Net: NetName=PB0 Pin=SB39-1
+Removed Pin From Net: NetName=VREFP Pin=SB42-2
+Removed Pin From Net: NetName=PA5 Pin=SB47-1
+Removed Pin From Net: NetName=PF5 Pin=SB48-1
+Removed Pin From Net: NetName=PF13 Pin=SB49-1
+Removed Pin From Net: NetName=PF14 Pin=SB50-1
+Removed Pin From Net: NetName=PC2 Pin=SB53-1
+Removed Pin From Net: NetName=PF6 Pin=SB54-1
+Removed Pin From Net: NetName=PB9 Pin=SB55-1
+Removed Pin From Net: NetName=PG6 Pin=SB59-1
+Removed Pin From Net: NetName=PF10 Pin=SB60-1
+Removed Pin From Net: NetName=PB6 Pin=SB61-1
+Removed Pin From Net: NetName=PB8 Pin=SB62-1
+Removed Pin From Net: NetName=PB2 Pin=SB63-1
+Removed Pin From Net: NetName=PF11 Pin=SB65-1
+Removed Pin From Net: NetName=PE2 Pin=SB67-2
+Removed Pin From Net: NetName=PB2 Pin=SB69-1
+Removed Pin From Net: NetName=PE9 Pin=SB70-1
+Removed Pin From Net: NetName=PE6 Pin=SB71-2
+Removed Pin From Net: NetName=PE6 Pin=SB73-2
+Removed Pin From Net: NetName=PA0 Pin=SB75-1
+Removed Pin From Net: NetName=PD9 Pin=SB81-1
+Removed Pin From Net: NetName=PD8 Pin=SB82-2
+Removed Pin From Net: NetName=3V3_STLK Pin=U1-1
+Removed Pin From Net: NetName=GND Pin=U1-4
+Removed Pin From Net: NetName=GND Pin=U1-5
+Removed Pin From Net: NetName=VDD_MCU Pin=U1-8
+Removed Pin From Net: NetName=GND Pin=U5-3
+Removed Pin From Net: NetName=5V_USB_CHGR Pin=U6-1
+Removed Pin From Net: NetName=GND Pin=U6-2
+Removed Pin From Net: NetName=STLK_SWCLK Pin=U7-A14
+Removed Pin From Net: NetName=STLK_SWDIO Pin=U7-A15
+Removed Pin From Net: NetName=3V3_STLK Pin=U7-C1
+Removed Pin From Net: NetName=3V3_STLK Pin=U7-C5
+Removed Pin From Net: NetName=3V3_STLK Pin=U7-C6
+Removed Pin From Net: NetName=3V3_STLK Pin=U7-C7
+Removed Pin From Net: NetName=3V3_STLK Pin=U7-C8
+Removed Pin From Net: NetName=3V3_STLK Pin=U7-C9
+Removed Pin From Net: NetName=GND Pin=U7-D5
+Removed Pin From Net: NetName=GND Pin=U7-D6
+Removed Pin From Net: NetName=GND Pin=U7-D7
+Removed Pin From Net: NetName=GND Pin=U7-D8
+Removed Pin From Net: NetName=GND Pin=U7-D9
+Removed Pin From Net: NetName=LED_STLK Pin=U7-D15
+Removed Pin From Net: NetName=GND Pin=U7-F2
+Removed Pin From Net: NetName=3V3_STLK Pin=U7-F3
+Removed Pin From Net: NetName=GND Pin=U7-F6
+Removed Pin From Net: NetName=GND Pin=U7-F7
+Removed Pin From Net: NetName=GND Pin=U7-F8
+Removed Pin From Net: NetName=GND Pin=U7-F9
+Removed Pin From Net: NetName=GND Pin=U7-F10
+Removed Pin From Net: NetName=GND Pin=U7-F12
+Removed Pin From Net: NetName=GND Pin=U7-G2
+Removed Pin From Net: NetName=3V3_STLK Pin=U7-G3
+Removed Pin From Net: NetName=GND Pin=U7-G6
+Removed Pin From Net: NetName=GND Pin=U7-G7
+Removed Pin From Net: NetName=GND Pin=U7-G8
+Removed Pin From Net: NetName=GND Pin=U7-G9
+Removed Pin From Net: NetName=GND Pin=U7-G10
+Removed Pin From Net: NetName=GND Pin=U7-G12
+Removed Pin From Net: NetName=3V3_STLK Pin=U7-G13
+Removed Pin From Net: NetName=GND Pin=U7-H6
+Removed Pin From Net: NetName=GND Pin=U7-H7
+Removed Pin From Net: NetName=GND Pin=U7-H8
+Removed Pin From Net: NetName=GND Pin=U7-H9
+Removed Pin From Net: NetName=GND Pin=U7-H10
+Removed Pin From Net: NetName=GND Pin=U7-H12
+Removed Pin From Net: NetName=3V3_STLK Pin=U7-H13
+Removed Pin From Net: NetName=GND Pin=U7-J6
+Removed Pin From Net: NetName=GND Pin=U7-J7
+Removed Pin From Net: NetName=GND Pin=U7-J8
+Removed Pin From Net: NetName=GND Pin=U7-J9
+Removed Pin From Net: NetName=GND Pin=U7-J10
+Removed Pin From Net: NetName=3V3_STLK Pin=U7-J12
+Removed Pin From Net: NetName=3V3_STLK Pin=U7-J13
+Removed Pin From Net: NetName=3V3_STLK Pin=U7-K4
+Removed Pin From Net: NetName=GND Pin=U7-K6
+Removed Pin From Net: NetName=GND Pin=U7-K7
+Removed Pin From Net: NetName=GND Pin=U7-K8
+Removed Pin From Net: NetName=GND Pin=U7-K9
+Removed Pin From Net: NetName=GND Pin=U7-K10
+Removed Pin From Net: NetName=GNDDetect Pin=U7-K13
+Removed Pin From Net: NetName=GND Pin=U7-M1
+Removed Pin From Net: NetName=GND Pin=U7-M8
+Removed Pin From Net: NetName=GND Pin=U7-M9
+Removed Pin From Net: NetName=GND Pin=U7-N1
+Removed Pin From Net: NetName=3V3_STLK Pin=U7-N8
+Removed Pin From Net: NetName=3V3_STLK Pin=U7-N9
+Removed Pin From Net: NetName=3V3_STLK Pin=U7-N10
+Removed Pin From Net: NetName=3V3_STLK Pin=U7-P1
+Removed Pin From Net: NetName=3V3_STLK Pin=U7-R1
+Removed Pin From Net: NetName=T_PWR_EN Pin=U7-R5
+Removed Pin From Net: NetName=3V3_STLK Pin=U10-1
+Removed Pin From Net: NetName=GND Pin=U10-4
+Removed Pin From Net: NetName=GND Pin=U10-5
+Removed Pin From Net: NetName=VDD_MCU Pin=U10-8
+Removed Pin From Net: NetName=T_VCP_RX Pin=U24-1
+Removed Pin From Net: NetName=T_VCP_TX Pin=U24-3
+Removed Pin From Net: NetName=GND Pin=X1-2
+Removed Pin From Net: NetName=3V3_STLK Pin=X1-4
+Change Component Footprint: Designator=U1 Old Footprint=ICC_VSSOP8_DCU_R-PDSO-G8_2X2P30_P050 New Footprint=Beaglebone Black Thru
+Change Component Comment : Designator=U1 Old Comment=SN74LVC2T45DCUT New Comment=BBB Header x 2
+Change Component Comment : Designator=B2 Old Comment=SW-PUSH-CMS_BLACK New Comment=SW-PUSH-CMS
+Change Component Comment : Designator=B1 Old Comment=SW-PUSH-CMS_BLUE New Comment=SW-PUSH-CMS
+Change component parameters: Designator = "U14"; Footprint = "ICC_LQFP144_20X20_P050_SOCKET_YAMAICHI_IC149-144-145-B5_NM"; UniqueID = "\OUWECVDB\UIWQTVTY\IUDFBGBV"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "BMS_Part_Number"; Value = "9175347"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://tunmcdsvn.tun.st.com/Component_Datasheet_Library/Trunk/IC/STM_STM32L552ZET6QU"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ECCN_EU"; Value = "NEC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ECCN_US"; Value = "3A991A2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Internal_Part_Number"; Value = "MCD-01349"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "STMICROELECTRONICS"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "STM32H7A3ZIT6U"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "LQFP144"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part_Type"; Value = "IC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Provided_By"; Value = "SUBCO with ST control"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Status"; Value = "Released"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "STM32H7A3ZIT6U"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "BMS_Part_Number"; Value = "9175293 (cut2.0)"; VariantName = "H743ZI"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "H743ZI"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://tunmcdsvn.tun.st.com/Component_Datasheet_Library/Trunk/IC/STM_STM32L552ZET6QU"; VariantName = "H743ZI"
+Change component parameters (AddParameter): Name = "ECCN_EU"; Value = "NEC"; VariantName = "H743ZI"
+Change component parameters (AddParameter): Name = "ECCN_US"; Value = "3A991A2"; VariantName = "H743ZI"
+Change component parameters (AddParameter): Name = "Internal_Part_Number"; Value = "MCD-01403"; VariantName = "H743ZI"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "STMICROELECTRONICS"; VariantName = "H743ZI"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "STM32H743ZIT6U"; VariantName = "H743ZI"
+Change component parameters (AddParameter): Name = "Package"; Value = "LQFP144"; VariantName = "H743ZI"
+Change component parameters (AddParameter): Name = "Part_Type"; Value = "IC"; VariantName = "H743ZI"
+Change component parameters (AddParameter): Name = "Provided_By"; Value = "SUBCO with ST control"; VariantName = "H743ZI"
+Change component parameters (AddParameter): Name = "Status"; Value = "Released"; VariantName = "H743ZI"
+Change component parameters (AddParameter): Name = "Value"; Value = "STM32H743ZIT6U"; VariantName = "H743ZI"
+Change component parameters (AddParameter): Name = "BMS_Part_Number"; Value = "9175347"; VariantName = "H7A3ZI"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "H7A3ZI"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://tunmcdsvn.tun.st.com/Component_Datasheet_Library/Trunk/IC/STM_STM32L552ZET6QU"; VariantName = "H7A3ZI"
+Change component parameters (AddParameter): Name = "ECCN_EU"; Value = "NEC"; VariantName = "H7A3ZI"
+Change component parameters (AddParameter): Name = "ECCN_US"; Value = "3A991A2"; VariantName = "H7A3ZI"
+Change component parameters (AddParameter): Name = "Internal_Part_Number"; Value = "MCD-01349"; VariantName = "H7A3ZI"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "STMICROELECTRONICS"; VariantName = "H7A3ZI"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "STM32H7A3ZIT6U"; VariantName = "H7A3ZI"
+Change component parameters (AddParameter): Name = "Package"; Value = "LQFP144"; VariantName = "H7A3ZI"
+Change component parameters (AddParameter): Name = "Part_Type"; Value = "IC"; VariantName = "H7A3ZI"
+Change component parameters (AddParameter): Name = "Provided_By"; Value = "SUBCO with ST control"; VariantName = "H7A3ZI"
+Change component parameters (AddParameter): Name = "Status"; Value = "Released"; VariantName = "H7A3ZI"
+Change component parameters (AddParameter): Name = "Value"; Value = "STM32H7A3ZIT6U"; VariantName = "H7A3ZI"
+Change component parameters (AddParameter): Name = "BMS_Part_Number"; Value = "9175345"; VariantName = "H7B3ZI"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "H7B3ZI"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://tunmcdsvn.tun.st.com/Component_Datasheet_Library/Trunk/IC/STM_STM32L552ZET6QU"; VariantName = "H7B3ZI"
+Change component parameters (AddParameter): Name = "ECCN_EU"; Value = "5A002A4"; VariantName = "H7B3ZI"
+Change component parameters (AddParameter): Name = "ECCN_US"; Value = "5A002A4"; VariantName = "H7B3ZI"
+Change component parameters (AddParameter): Name = "Internal_Part_Number"; Value = "MCD-01764"; VariantName = "H7B3ZI"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "STMICROELECTRONICS"; VariantName = "H7B3ZI"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "STM32H7B3ZIT6U"; VariantName = "H7B3ZI"
+Change component parameters (AddParameter): Name = "Package"; Value = "LQFP144"; VariantName = "H7B3ZI"
+Change component parameters (AddParameter): Name = "Part_Type"; Value = "IC"; VariantName = "H7B3ZI"
+Change component parameters (AddParameter): Name = "Provided_By"; Value = "SUBCO with ST control"; VariantName = "H7B3ZI"
+Change component parameters (AddParameter): Name = "Status"; Value = "Released"; VariantName = "H7B3ZI"
+Change component parameters (AddParameter): Name = "Value"; Value = "STM32H7B3ZIT6U"; VariantName = "H7B3ZI"
+Change component parameters (AddParameter): Name = "BMS_Part_Number"; Value = "9175294 (cut 2.0)"; VariantName = "H753ZI"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "H753ZI"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://tunmcdsvn.tun.st.com/Component_Datasheet_Library/Trunk/IC/STM_STM32L552ZET6QU"; VariantName = "H753ZI"
+Change component parameters (AddParameter): Name = "ECCN_EU"; Value = "5A002A4"; VariantName = "H753ZI"
+Change component parameters (AddParameter): Name = "ECCN_US"; Value = "5A992C"; VariantName = "H753ZI"
+Change component parameters (AddParameter): Name = "Internal_Part_Number"; Value = "MCD-01404"; VariantName = "H753ZI"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "STMICROELECTRONICS"; VariantName = "H753ZI"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "STM32H753ZIT6U"; VariantName = "H753ZI"
+Change component parameters (AddParameter): Name = "Package"; Value = "LQFP144"; VariantName = "H753ZI"
+Change component parameters (AddParameter): Name = "Part_Type"; Value = "IC"; VariantName = "H753ZI"
+Change component parameters (AddParameter): Name = "Provided_By"; Value = "SUBCO with ST control"; VariantName = "H753ZI"
+Change component parameters (AddParameter): Name = "Status"; Value = "Released"; VariantName = "H753ZI"
+Change component parameters (AddParameter): Name = "Value"; Value = "STM32H753ZIT6U"; VariantName = "H753ZI"
+Added Pin To Net: NetName=GND Pin=U1-8-1
+Added Pin To Net: NetName=GND Pin=U1-8-2
+Added Pin To Net: NetName=PF0 Pin=U1-8-3
+Added Pin To Net: NetName=PF1 Pin=U1-8-4
+Added Pin To Net: NetName=PF2 Pin=U1-8-5
+Added Pin To Net: NetName=PF3 Pin=U1-8-6
+Added Pin To Net: NetName=PF4 Pin=U1-8-7
+Added Pin To Net: NetName=PF5 Pin=U1-8-8
+Added Pin To Net: NetName=PE11 Pin=U1-8-11
+Added Pin To Net: NetName=PD12 Pin=U1-8-12
+Added Pin To Net: NetName=PB10 Pin=U1-8-13
+Added Pin To Net: NetName=PE12 Pin=U1-8-17
+Added Pin To Net: NetName=PC6 Pin=U1-8-18
+Added Pin To Net: NetName=PA0 Pin=U1-8-19
+Added Pin To Net: NetName=PF6 Pin=U1-8-25
+Added Pin To Net: NetName=PF1 Pin=U1-8-26
+Added Pin To Net: NetName=PF13 Pin=U1-8-31
+Added Pin To Net: NetName=PF14 Pin=U1-8-32
+Added Pin To Net: NetName=PF15 Pin=U1-8-33
+Added Pin To Net: NetName=PG0 Pin=U1-8-34
+Added Pin To Net: NetName=PF8 Pin=U1-8-39
+Added Pin To Net: NetName=PF9 Pin=U1-8-40
+Added Pin To Net: NetName=PF10 Pin=U1-8-41
+Added Pin To Net: NetName=GND Pin=U1-9-1
+Added Pin To Net: NetName=GND Pin=U1-9-2
+Added Pin To Net: NetName=PA3 Pin=U1-9-11
+Added Pin To Net: NetName=PD5 Pin=U1-9-13
+Added Pin To Net: NetName=PE0 Pin=U1-9-14
+Added Pin To Net: NetName=PE4 Pin=U1-9-17
+Added Pin To Net: NetName=PA6 Pin=U1-9-21
+Added Pin To Net: NetName=PA5 Pin=U1-9-22
+Added Pin To Net: NetName=PE4 Pin=U1-9-28
+Added Pin To Net: NetName=PE5 Pin=U1-9-29
+Added Pin To Net: NetName=PE2 Pin=U1-9-31
+Added Pin To Net: NetName=GND Pin=U1-9-43
+Added Pin To Net: NetName=GND Pin=U1-9-44
+Added Pin To Net: NetName=GND Pin=U1-9-45
+Added Pin To Net: NetName=GND Pin=U1-9-46
+Change Net Color : Old Net Color=Aqua New Net Color=Default
+Added Pin To Net: NetName=+3.3 BBB Pin=U1-9-3
+Added Pin To Net: NetName=+3.3 BBB Pin=U1-9-4
+Added Net: Name=+3.3 BBB
+Added Pin To Net: NetName=+5 BBB Pin=U1-9-5
+Added Pin To Net: NetName=+5 BBB Pin=U1-9-6
+Added Net: Name=+5 BBB
+Added Pin To Net: NetName=ARRESTMENT_FAULT Pin=U1-8-30
+Added Net: Name=ARRESTMENT_FAULT
+Added Pin To Net: NetName=BBB_PWR_SW Pin=U1-9-9
+Added Net: Name=BBB_PWR_SW
+Added Pin To Net: NetName=Heartbeat Pin=U1-8-29
+Added Pin To Net: NetName=Heartbeat Pin=U1-9-42
+Added Net: Name=Heartbeat
+Added Pin To Net: NetName=PE6\ Pin=U1-9-30
+Added Net: Name=PE6\
+Added Pin To Net: NetName=Power A0 Pin=U1-8-42
+Added Net: Name=Power A0
+Added Pin To Net: NetName=Power A1 Pin=U1-8-43
+Added Net: Name=Power A1
+Added Pin To Net: NetName=Power A2 Pin=U1-8-44
+Added Net: Name=Power A2
+Added Pin To Net: NetName=SHAFT_FAULT Pin=U1-8-9
+Added Net: Name=SHAFT_FAULT
+Added Pin To Net: NetName=Sys_Pwr_Enable Pin=U1-8-22
+Added Net: Name=Sys_Pwr_Enable
+Added Room: Name=U_Connectors
+Added Room: Name=U_Ethernet
+Added Room: Name=U_MCU_144_IOs
+Added Room: Name=U_MCU_144_POWER
+Added Room: Name=U_Power_Board
+Added Room: Name=U_ST_LINK_V3E
+Added Room: Name=U_USB

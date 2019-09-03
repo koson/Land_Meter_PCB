@@ -1,0 +1,13 @@
+Removed Pin From Net: NetName=ZP Pin=P1-13
+Change Component Footprint: Designator=P1 Old Footprint=SMTC-FTSH-110-01-L-DV_V New Footprint=FTSH-110-02-F-D-ES
+Change Component Comment : Designator=P1 Old Comment=FTSH-110-01-L-DV New Comment=FTSH-110-02-F-D-ES
+Change component parameters: Designator = "P1"; Footprint = "FTSH-110-02-F-D-ES"; UniqueID = "\FRKNTJYV"
+Change component parameters. Clean all parameters for all variants
+Added Pin To Net: NetName=+12 Pin=P1-10
+Added Pin To Net: NetName=PWM1A Pin=P1-13
+Added Pin To Net: NetName=ZP Pin=P1-15
+Added Pin To Net: NetName=ZH Pin=P1-16
+Added Pin To Net: NetName=A0 Pin=P1-12
+Added Net: Name=A0
+Added Pin To Net: NetName=A1 Pin=P1-14
+Added Net: Name=A1

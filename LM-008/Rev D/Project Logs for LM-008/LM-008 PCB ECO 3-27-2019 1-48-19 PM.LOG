@@ -1,0 +1,5 @@
+Added Pin To Net: NetName=NetU8_A5 Pin=R10-2
+Added Pin To Net: NetName=NetU8_A5 Pin=U8-A4
+Change Net Name : Old Net Name=NetU8_A5 New Net Name=RSENSE
+Change Net Name : Old Net Name=NetU8_J1 New Net Name=SW1
+Change Net Name : Old Net Name=NetU8_J8 New Net Name=SW2

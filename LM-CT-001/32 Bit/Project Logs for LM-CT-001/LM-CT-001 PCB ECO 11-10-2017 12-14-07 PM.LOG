@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=ZP Pin=R28-1
+Removed Member From Class: ClassName=LM-CT-001 Member=R28
+Added Pin To Net: NetName=ZP Pin=U11-5
+Added Pin To Net: NetName=NetR29_1 Pin=R29-1
+Added Pin To Net: NetName=NetR29_1 Pin=U10-2
+Added Pin To Net: NetName=NetR29_1 Pin=U11-6
+Added Net: Name=NetR29_1
+Added Room: Name=Beam_Amp
+Added Room: Name=LM-CT-001
+Added Room: Name=Sense

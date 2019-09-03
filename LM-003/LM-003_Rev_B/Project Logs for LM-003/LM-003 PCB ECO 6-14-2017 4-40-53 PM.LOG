@@ -1,0 +1,22 @@
+Added Component: Designator=H5(KF2-440-ET)
+Add component. Clean all parameters for all variants
+Added Component: Designator=H6(KF2-440-ET)
+Add component. Clean all parameters for all variants
+Added Component: Designator=H7(KF2-440-ET)
+Add component. Clean all parameters for all variants
+Added Component: Designator=H8(KF2-440-ET)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=RC Pin=U3-3
+Added Member To Class: ClassName=BBB Headers Member=Component H5 KF2-440-ET Pem Nut
+Added Member To Class: ClassName=BBB Headers Member=Component H6 KF2-440-ET Pem Nut
+Added Member To Class: ClassName=BBB Headers Member=Component H7 KF2-440-ET Pem Nut
+Added Member To Class: ClassName=BBB Headers Member=Component H8 KF2-440-ET Pem Nut
+Added Room: Name=ADC
+Added Room: Name=BBB Headers
+Added Room: Name=Connectors
+Added Room: Name=FeedbackLoop
+Added Room: Name=heater_control
+Added Room: Name=Power
+Added Room: Name=Power Monitor
+Added Room: Name=Real Time Clock
+Added Room: Name=RS232

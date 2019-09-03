@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=GND Pin=RL1-1
+Removed Pin From Net: NetName=Aux+ Pin=RL1-2
+Removed Pin From Net: NetName=Batt+ Pin=RL1-3
+Removed Pin From Net: NetName=NetDS2_1 Pin=RL1-4
+Removed Pin From Net: NetName=Aux+ Pin=RL1-5
+Removed Member From Class: ClassName=Power_Input Member=RL1
+Added Pin To Net: NetName=GND Pin=U11-11

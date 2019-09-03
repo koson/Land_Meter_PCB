@@ -1,0 +1,77 @@
+Removed Pin From Net: NetName=GND Pin=P4-A1
+Removed Pin From Net: NetName=-5 Pin=P4-A2
+Removed Pin From Net: NetName=PLATE_P Pin=P4-A3
+Removed Pin From Net: NetName=PLATE_P Pin=P4-A4
+Removed Pin From Net: NetName=ZP Pin=P4-A5
+Removed Pin From Net: NetName=CT_CS0 Pin=P4-A7
+Removed Pin From Net: NetName=SPI0_MOSI Pin=P4-A8
+Removed Pin From Net: NetName=SPIO_MISO Pin=P4-A9
+Removed Pin From Net: NetName=SPIO_SCLK Pin=P4-A10
+Removed Pin From Net: NetName=GND Pin=P4-B1
+Removed Pin From Net: NetName=+5 Pin=P4-B2
+Removed Pin From Net: NetName=PLATE_N Pin=P4-B3
+Removed Pin From Net: NetName=PLATE_N Pin=P4-B4
+Removed Pin From Net: NetName=ZH Pin=P4-B5
+Removed Pin From Net: NetName=PWM2B_DELAY Pin=P4-B9
+Removed Pin From Net: NetName=Sync_clk Pin=P4-B10
+Change Component Footprint: Designator=P4 Old Footprint=MEC6-110-02-L-DV New Footprint=SMTC-FTSH-110-01-L-DV_V
+Change Component Comment : Designator=P4 Old Comment=MEC6-110-0-PCB New Comment=FTSH-110-01-L-DV
+Change component parameters: Designator = "P4"; Footprint = "SMTC-FTSH-110-01-L-DV_V"; UniqueID = "\GIYNVSFY"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Catalog Drawings"; Value = "FTSHSeriesFTSHSeriesSMTSide"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Category"; Value = "Connectors,Interconnects"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Color"; Value = "Black"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Connector Type"; Value = "Header,Unshrouded"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Finish"; Value = "Gold"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Finish Thickness"; Value = "10µin(0.25µm)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Type"; Value = "MalePin"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet URL"; Value = "http://suddendocs.samtec.com/catalog_english/ftsh_smt.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Version"; Value = "F-215 , 02/2016"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "EDA / CAD Models"; Value = "DownloadfromAcceleratedDesigns"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Family"; Value = "RectangularConnectors-Headers,MalePins"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fastening Type"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Featured Product"; Value = "Board-To-BoardInterconnectSystems"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Features"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Samtec"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer URL"; Value = "http://www.samtec.com/"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Technology"; Value = "SurfaceMount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Type"; Value = "SurfaceMount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Positions"; Value = "20"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Positions Loaded"; Value = "All"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Rows"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Online Catalog"; Value = "FTSHSeries"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Other Names"; Value = "SAM1161-10"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package Description"; Value = "Male Header, Pitch 1.27 mm, 2 x 10 Position, Height 6.1 mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package Reference"; Value = "FTSH-110-01-L-DV"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package URL"; Value = "http://suddendocs.samtec.com/prints/ftsh-1xx-xx-xxx-dv-xxx-xxx-mkt.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Product Training Modules"; Value = "Board-to-BoardConnectors"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Series"; Value = "FTSH"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Standard Package"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Termination"; Value = "Solder"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=P4-1
+Added Pin To Net: NetName=GND Pin=P4-2
+Added Pin To Net: NetName=-5 Pin=P4-3
+Added Pin To Net: NetName=+5 Pin=P4-4
+Added Pin To Net: NetName=CT_CS0 Pin=P4-5
+Added Pin To Net: NetName=Sync_clk Pin=P4-6
+Added Pin To Net: NetName=SPIO_SCLK Pin=P4-7
+Added Pin To Net: NetName=PWM2B_DELAY Pin=P4-8
+Added Pin To Net: NetName=SPIO_MISO Pin=P4-9
+Added Pin To Net: NetName=SPI0_MOSI Pin=P4-11
+Added Pin To Net: NetName=NetP4_10 Pin=P4-10
+Added Net: Name=NetP4_10
+Added Pin To Net: NetName=NetP4_12 Pin=P4-12
+Added Net: Name=NetP4_12
+Added Pin To Net: NetName=NetP4_14 Pin=P4-14
+Added Net: Name=NetP4_14
+Added Pin To Net: NetName=NetP4_16 Pin=P4-16
+Added Net: Name=NetP4_16
+Added Pin To Net: NetName=PLATE_N_F Pin=P4-20
+Added Net: Name=PLATE_N_F
+Added Pin To Net: NetName=PLATE_N_S Pin=P4-18
+Added Net: Name=PLATE_N_S
+Added Pin To Net: NetName=PLATE_P_F Pin=P4-17
+Added Net: Name=PLATE_P_F
+Added Pin To Net: NetName=PLATE_P_S Pin=P4-19
+Added Net: Name=PLATE_P_S

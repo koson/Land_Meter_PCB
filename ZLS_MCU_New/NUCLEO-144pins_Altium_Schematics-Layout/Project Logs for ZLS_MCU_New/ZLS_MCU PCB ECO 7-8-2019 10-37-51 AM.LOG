@@ -1,0 +1,239 @@
+Removed Member From Class: ClassName=U_Feedback Member=C22
+Removed Member From Class: ClassName=U_MCU_144_2 Member=C22
+Removed Member From Class: ClassName=U_MCU_144_2 Member=C24
+Removed Member From Class: ClassName=U_MCU_144_2 Member=C27
+Removed Member From Class: ClassName=U_Power Member=C27
+Removed Member From Class: ClassName=U_MCU_144_2 Member=C28
+Removed Member From Class: ClassName=U_MCU_144_2 Member=C30
+Removed Member From Class: ClassName=U_MCU_144_2 Member=C31
+Removed Member From Class: ClassName=U_Power Member=C35
+Removed Member From Class: ClassName=U_Power Member=C37
+Removed Member From Class: ClassName=U_Feedback Member=C46
+Removed Member From Class: ClassName=U_Feedback Member=C48
+Removed Member From Class: ClassName=U_Feedback Member=C50
+Removed Member From Class: ClassName=U_Feedback Member=C51
+Removed Member From Class: ClassName=U_Power Member=C51
+Removed Member From Class: ClassName=U_Feedback Member=C55
+Removed Member From Class: ClassName=U_Power Member=C55
+Removed Member From Class: ClassName=U_Feedback Member=C57
+Removed Member From Class: ClassName=U_Feedback Member=C59
+Removed Member From Class: ClassName=U_Feedback Member=C60
+Removed Member From Class: ClassName=Top Member=C63
+Removed Member From Class: ClassName=U_Feedback Member=C71
+Removed Member From Class: ClassName=U_Feedback Member=C72
+Removed Member From Class: ClassName=U_Feedback Member=C73
+Removed Member From Class: ClassName=U_CT Member=C76
+Removed Member From Class: ClassName=U_Power_Input Member=C76
+Removed Member From Class: ClassName=U_Power_Input Member=C77
+Removed Member From Class: ClassName=U_Power_Input Member=C78
+Removed Member From Class: ClassName=U_Signal_Conditioner Member=C79
+Removed Member From Class: ClassName=U_CT Member=C83
+Removed Member From Class: ClassName=Top Member=JP43
+Removed Member From Class: ClassName=U_Feedback Member=L41
+Removed Member From Class: ClassName=Top Member=LD42
+Removed Member From Class: ClassName=Top Member=LD43
+Removed Member From Class: ClassName=U_Power_Input Member=P3
+Removed Member From Class: ClassName=U_Power_Input Member=P5
+Removed Member From Class: ClassName=U_Signal_Conditioner Member=P14
+Removed Member From Class: ClassName=U_Heater Member=P18
+Removed Member From Class: ClassName=U_Heater Member=R30
+Removed Member From Class: ClassName=U_Heater Member=R34
+Removed Member From Class: ClassName=U_Signal_Conditioner Member=R34
+Removed Member From Class: ClassName=U_Power Member=R39
+Removed Member From Class: ClassName=U_Power Member=R40
+Removed Member From Class: ClassName=U_Feedback Member=R45
+Removed Member From Class: ClassName=U_Feedback Member=R46
+Removed Member From Class: ClassName=U_Heater Member=R46
+Removed Member From Class: ClassName=U_Feedback Member=R47
+Removed Member From Class: ClassName=U_Feedback Member=R50
+Removed Member From Class: ClassName=U_Heater Member=R50
+Removed Member From Class: ClassName=U_Feedback Member=R51
+Removed Member From Class: ClassName=U_Power Member=R51
+Removed Member From Class: ClassName=U_Feedback Member=R53
+Removed Member From Class: ClassName=U_Heater Member=R53
+Removed Member From Class: ClassName=U_Heater Member=R65
+Removed Member From Class: ClassName=U_Signal_Conditioner Member=R65
+Removed Member From Class: ClassName=U_Heater Member=R66
+Removed Member From Class: ClassName=U_Heater Member=R67
+Removed Member From Class: ClassName=U_Heater Member=R75
+Removed Member From Class: ClassName=U_Signal_Conditioner Member=R75
+Removed Member From Class: ClassName=U_Feedback Member=R78
+Removed Member From Class: ClassName=U_Signal_Conditioner Member=R84
+Removed Member From Class: ClassName=U_Signal_Conditioner Member=R86
+Removed Member From Class: ClassName=U_Signal_Conditioner Member=R87
+Removed Member From Class: ClassName=U_CT Member=R90
+Removed Member From Class: ClassName=U_Signal_Conditioner Member=R90
+Removed Member From Class: ClassName=U_Signal_Conditioner Member=R93
+Removed Member From Class: ClassName=U_CT Member=R94
+Removed Member From Class: ClassName=U_Signal_Conditioner Member=R94
+Removed Member From Class: ClassName=U_Signal_Conditioner Member=R97
+Removed Member From Class: ClassName=U_CT Member=R98
+Removed Member From Class: ClassName=U_Signal_Conditioner Member=R98
+Removed Member From Class: ClassName=U_CT Member=R99
+Removed Member From Class: ClassName=U_Signal_Conditioner Member=R99
+Removed Member From Class: ClassName=U_Signal_Conditioner Member=R100
+Removed Member From Class: ClassName=U_Signal_Conditioner Member=R101
+Removed Member From Class: ClassName=U_Signal_Conditioner Member=R102
+Removed Member From Class: ClassName=U_Signal_Conditioner Member=R103
+Removed Member From Class: ClassName=U_Signal_Conditioner Member=R104
+Removed Member From Class: ClassName=U_Signal_Conditioner Member=R105
+Removed Member From Class: ClassName=U_CT Member=R113
+Removed Member From Class: ClassName=U_CT Member=R114
+Removed Member From Class: ClassName=U_CT Member=R115
+Removed Member From Class: ClassName=U_CT Member=R117
+Removed Member From Class: ClassName=U_CT Member=R118
+Removed Member From Class: ClassName=U_CT Member=R119
+Removed Member From Class: ClassName=Top Member=SB56
+Removed Member From Class: ClassName=U_Signal_Conditioner Member=TP7
+Removed Member From Class: ClassName=U_Signal_Conditioner Member=TP10
+Removed Member From Class: ClassName=U_Feedback Member=TP11
+Removed Member From Class: ClassName=U_Feedback Member=TP41
+Removed Member From Class: ClassName=U_Power Member=U7
+Removed Member From Class: ClassName=U_Signal_Conditioner Member=U9
+Removed Member From Class: ClassName=U_Power_Input Member=U16
+Removed Member From Class: ClassName=U_Feedback Member=U18
+Removed Member From Class: ClassName=U_Feedback Member=U42
+Added Member To Class: ClassName=Top Member=Component C18 100nF
+Added Member To Class: ClassName=U_Feedback Member=Component C23 470nF
+Added Member To Class: ClassName=U_Feedback Member=Component C25 22uF
+Added Member To Class: ClassName=U_Feedback Member=Component C26 22uF
+Added Member To Class: ClassName=U_Feedback Member=Component C27 22uF
+Added Member To Class: ClassName=U_Feedback Member=Component C28 .1uF
+Added Member To Class: ClassName=U_Feedback Member=Component C29 22uF
+Added Member To Class: ClassName=U_Feedback Member=Component C31 .1uF
+Added Member To Class: ClassName=U_Feedback Member=Component C35 CAP CER 1UF 25V X7R 0805
+Added Member To Class: ClassName=U_Feedback Member=Component C36 CAP CER 1UF 25V X7R 0805
+Added Member To Class: ClassName=U_Feedback Member=Component C37 .1uF
+Added Member To Class: ClassName=U_Feedback Member=Component C38 .1uF
+Added Member To Class: ClassName=U_Feedback Member=Component C39 .1uF
+Added Member To Class: ClassName=U_Feedback Member=Component C40 .1uF
+Added Member To Class: ClassName=U_MCU_144_2 Member=Component C42 2pF
+Added Member To Class: ClassName=U_MCU_144_2 Member=Component C43 2pF
+Added Member To Class: ClassName=U_MCU_144_2 Member=Component C44 4.3pF[N/A]
+Added Member To Class: ClassName=U_MCU_144_2 Member=Component C45 4.3pF[N/A]
+Added Member To Class: ClassName=U_MCU_144_2 Member=Component C52 100nF
+Added Member To Class: ClassName=U_MCU_144_2 Member=Component C53 100nF
+Added Member To Class: ClassName=U_MCU_144_2 Member=Component C54 100nF
+Added Member To Class: ClassName=U_MCU_144_2 Member=Component C56 100nF
+Added Member To Class: ClassName=U_MCU_144_2 Member=Component C59 100nF
+Added Member To Class: ClassName=U_MCU_144_2 Member=Component C60 100nF
+Added Member To Class: ClassName=U_MCU_144_2 Member=Component C61 100nF
+Added Member To Class: ClassName=U_MCU_144_2 Member=Component C62 100nF
+Added Member To Class: ClassName=U_MCU_144_2 Member=Component C63 4.7uF_X5R_0603
+Added Member To Class: ClassName=U_Feedback Member=Component C65 22pF
+Added Member To Class: ClassName=U_Feedback Member=Component C66 CAP CER 1UF 50V X7R 1210
+Added Member To Class: ClassName=U_Feedback Member=Component C67 CAP CER 0.47UF 50V X7R 1206
+Added Member To Class: ClassName=U_Feedback Member=Component C68 CAP CER 1UF 16V X7R 0805
+Added Member To Class: ClassName=U_Feedback Member=Component C69 4.7uF
+Added Member To Class: ClassName=U_Feedback Member=Component C70 CAP CER 0.047UF 16V X7R 0603
+Added Member To Class: ClassName=U_Power Member=Component C71 10uF
+Added Member To Class: ClassName=U_Power Member=Component C72 10uF
+Added Member To Class: ClassName=U_Power Member=Component C73 1uF
+Added Member To Class: ClassName=U_Power Member=Component C76 10uF
+Added Member To Class: ClassName=U_Power Member=Component C77 4.7uF
+Added Member To Class: ClassName=U_Power Member=Component C78 0.1uF
+Added Member To Class: ClassName=U_Power Member=Component C79 2.2uF
+Added Member To Class: ClassName=U_Power Member=Component C80 CAP CER 1UF 50V X7R 1210
+Added Member To Class: ClassName=U_Power Member=Component C81 CAP CER 1UF 50V X7R 1210
+Added Member To Class: ClassName=U_Power_Input Member=Component C82 CAP CER 10UF 6.3V X5R 1206
+Added Member To Class: ClassName=U_Power_Input Member=Component C83 CAP CER 10UF 6.3V X5R 1206
+Added Member To Class: ClassName=U_Power_Input Member=Component C84 CAP CER 10UF 6.3V X5R 1206
+Added Member To Class: ClassName=U_Signal_Conditioner Member=Component C85 22uF
+Added Member To Class: ClassName=U_CT Member=Component C99 0.1uF
+Added Member To Class: ClassName=U_CT Member=Component C100 1uF
+Added Member To Class: ClassName=U_Power_Input Member=Component D6 CDBA540-HF
+Added Member To Class: ClassName=Top Member=Component JP4 
+Added Member To Class: ClassName=U_Feedback Member=Component L1 47uH
+Added Member To Class: ClassName=U_Power Member=Component L2 2.2uH
+Added Member To Class: ClassName=Top Member=Component LD2 Green
+Added Member To Class: ClassName=Top Member=Component LD3 Red
+Added Member To Class: ClassName=U_Heater Member=Component P3 IPL1-102-01-F-S-K
+Added Member To Class: ClassName=U_Heater Member=Component P8 IPL1-102-01-F-S-K
+Added Member To Class: ClassName=U_Heater Member=Component P11 Header 4
+Added Member To Class: ClassName=U_Power_Input Member=Component P16 IPL1-104-01-L-S-RA-K
+Added Member To Class: ClassName=U_Power_Input Member=Component P17 IPL1-104-01-L-S-RA-K
+Added Member To Class: ClassName=U_Signal_Conditioner Member=Component P18 IPL1-103-01-F-D
+Added Member To Class: ClassName=Top Member=Component R28 1K
+Added Member To Class: ClassName=U_Feedback Member=Component R35 100k
+Added Member To Class: ClassName=U_Feedback Member=Component R36 100k
+Added Member To Class: ClassName=U_Feedback Member=Component R37 0
+Added Member To Class: ClassName=U_Feedback Member=Component R38 100k
+Added Member To Class: ClassName=U_Feedback Member=Component R40 33k
+Added Member To Class: ClassName=U_MCU_144_2 Member=Component R44 100K
+Added Member To Class: ClassName=U_Feedback Member=Component R63 100k
+Added Member To Class: ClassName=U_Feedback Member=Component R64 TBD
+Added Member To Class: ClassName=U_Feedback Member=Component R68 DNP
+Added Member To Class: ClassName=U_Feedback Member=Component R69 TRIMMER 5K OHM 0.25W PC PIN
+Added Member To Class: ClassName=U_Feedback Member=Component R70 7.5k
+Added Member To Class: ClassName=U_Feedback Member=Component R71 DNP
+Added Member To Class: ClassName=U_Feedback Member=Component R72 3.9k
+Added Member To Class: ClassName=U_Feedback Member=Component R73 0
+Added Member To Class: ClassName=U_Feedback Member=Component R74 1M
+Added Member To Class: ClassName=U_Feedback Member=Component R75 1M
+Added Member To Class: ClassName=U_Feedback Member=Component R76 RES SMD 280K OHM 1% 1/8W 0805
+Added Member To Class: ClassName=U_Feedback Member=Component R77 RES SMD 10K OHM 1% 1/8W 0805
+Added Member To Class: ClassName=U_Heater Member=Component R85 
+Added Member To Class: ClassName=U_Heater Member=Component R86 6K98 1% 0805(2012)
+Added Member To Class: ClassName=U_Heater Member=Component R87 
+Added Member To Class: ClassName=U_Heater Member=Component R88 
+Added Member To Class: ClassName=U_Heater Member=Component R89 6K98 1% 0805(2012)
+Added Member To Class: ClassName=U_Heater Member=Component R90 
+Added Member To Class: ClassName=U_Heater Member=Component R91 
+Added Member To Class: ClassName=U_Heater Member=Component R92 
+Added Member To Class: ClassName=U_Heater Member=Component R93 
+Added Member To Class: ClassName=U_Heater Member=Component R94 6K98 1% 0805(2012)
+Added Member To Class: ClassName=U_Heater Member=Component R95 
+Added Member To Class: ClassName=U_Heater Member=Component R96 
+Added Member To Class: ClassName=U_Heater Member=Component R97 6K98 1% 0805(2012)
+Added Member To Class: ClassName=U_Heater Member=Component R98 6K98 1% 0805(2012)
+Added Member To Class: ClassName=U_Heater Member=Component R99 
+Added Member To Class: ClassName=U_Heater Member=Component R100 
+Added Member To Class: ClassName=U_Signal_Conditioner Member=Component R112 DNP
+Added Member To Class: ClassName=U_Signal_Conditioner Member=Component R113 10k
+Added Member To Class: ClassName=U_Signal_Conditioner Member=Component R114 1.21k
+Added Member To Class: ClassName=U_Signal_Conditioner Member=Component R115 DNP
+Added Member To Class: ClassName=U_Signal_Conditioner Member=Component R116 100K
+Added Member To Class: ClassName=U_Signal_Conditioner Member=Component R117 DNP
+Added Member To Class: ClassName=U_Signal_Conditioner Member=Component R118 10k
+Added Member To Class: ClassName=U_Signal_Conditioner Member=Component R119 500K
+Added Member To Class: ClassName=U_Signal_Conditioner Member=Component R120 KTY81-120
+Added Member To Class: ClassName=U_Signal_Conditioner Member=Component R121 1K
+Added Member To Class: ClassName=U_Signal_Conditioner Member=Component R122 10k
+Added Member To Class: ClassName=U_Signal_Conditioner Member=Component R123 10k
+Added Member To Class: ClassName=U_Signal_Conditioner Member=Component R124 100K
+Added Member To Class: ClassName=U_Signal_Conditioner Member=Component R125 24.3K
+Added Member To Class: ClassName=U_Signal_Conditioner Member=Component R126 DNP
+Added Member To Class: ClassName=U_Signal_Conditioner Member=Component R127 DNP
+Added Member To Class: ClassName=U_Signal_Conditioner Member=Component R128 100K
+Added Member To Class: ClassName=U_Signal_Conditioner Member=Component R129 DNP
+Added Member To Class: ClassName=U_Signal_Conditioner Member=Component R130 10k
+Added Member To Class: ClassName=U_Signal_Conditioner Member=Component R131 1.21k
+Added Member To Class: ClassName=U_Signal_Conditioner Member=Component R132 10k
+Added Member To Class: ClassName=U_Signal_Conditioner Member=Component R133 500K
+Added Member To Class: ClassName=U_CT Member=Component R134 100
+Added Member To Class: ClassName=U_CT Member=Component R135 47k
+Added Member To Class: ClassName=U_CT Member=Component R136 100
+Added Member To Class: ClassName=U_CT Member=Component R137 
+Added Member To Class: ClassName=U_CT Member=Component R138 100
+Added Member To Class: ClassName=U_CT Member=Component R139 
+Added Member To Class: ClassName=U_CT Member=Component R140 
+Added Member To Class: ClassName=U_CT Member=Component R141 
+Added Member To Class: ClassName=U_CT Member=Component R142 
+Added Member To Class: ClassName=U_CT Member=Component R143 
+Added Member To Class: ClassName=Top Member=Component SB13 Open
+Added Member To Class: ClassName=U_Feedback Member=Component TP9 TP-TH-C-152-H90
+Added Member To Class: ClassName=U_Feedback Member=Component TP10 TP-TH-C-152-H90
+Added Member To Class: ClassName=U_Signal_Conditioner Member=Component TP16 DNP
+Added Member To Class: ClassName=U_Signal_Conditioner Member=Component TP17 DNP
+Added Member To Class: ClassName=U_Signal_Conditioner Member=Component TP18 DNP
+Added Member To Class: ClassName=U_Feedback Member=Component U9 OPA188AIDBVR
+Added Member To Class: ClassName=U_Feedback Member=Component U11 OPA2188AIDR
+Added Member To Class: ClassName=U_Feedback Member=Component U12 OPA188AIDBVR
+Added Member To Class: ClassName=U_Feedback Member=Component U13 ADR4550BRZ-R7
+Added Member To Class: ClassName=U_Feedback Member=Component U14 LT3461
+Added Member To Class: ClassName=U_Power Member=Component U15 CCG30-24-12S
+Added Member To Class: ClassName=U_Power Member=Component U17 LMR23625CFDDAR
+Added Member To Class: ClassName=U_Power_Input Member=Component U19 LTC4414EMS8#TRPBF
+Added Member To Class: ClassName=U_Power_Input Member=Component U20 LTC4414EMS8#TRPBF
+Added Member To Class: ClassName=U_Signal_Conditioner Member=Component U21 LPC662AIM
+Added Room: Name=U_CT

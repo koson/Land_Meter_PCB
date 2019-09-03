@@ -1,0 +1,30 @@
+Added Component: Designator=U5(LTC6994MPS6-2#TRMPBF)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Available Total Delays"; Value = "1µs ~ 33.6s"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Base Part Number"; Value = "LTC6994"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Category"; Value = "Integrated Circuits (ICs)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "http://www.linear.com/docs/29725"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.linear.com/docs/29725"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Delay to 1st Tap"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Function"; Value = "Programmable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Linear Technology/Analog Devices"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "LTC6994CS6-2#TRMPBF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "0°C ~ 70°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package / Case"; Value = "SOT-23-6 Thin, TSOT-23-6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Cut Tape (CT)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pricing 1"; Value = "1=3.42, 25=3.0496, 100=1.9217, 250=1.76156 (USD)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "RoHS Compliant"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stock 1"; Value = "1401"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Device Package"; Value = "TSOT-23-6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "LTC6994CS6-2#TRMPBFCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Supply"; Value = "2.25 V ~ 5.5 V"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=SPI1_MISO Pin=U5-1
+Added Pin To Net: NetName=GND Pin=U5-2
+Added Pin To Net: NetName=NetR21_1 Pin=U5-3
+Added Pin To Net: NetName=GND Pin=U5-4
+Added Pin To Net: NetName=+3.3 Pin=U5-5
+Added Pin To Net: NetName=SPI1_MISO_DELAY Pin=U5-6
+Added Member To Class: ClassName=Encoder Member=Component U5 LTC6994MPS6-2#TRMPBF

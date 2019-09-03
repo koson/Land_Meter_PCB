@@ -1,0 +1,10 @@
+Added Component: Designator=H2(KF2-440-ET)
+Add component. Clean all parameters for all variants
+Added Component: Designator=H3(KF2-440-ET)
+Add component. Clean all parameters for all variants
+Added Component: Designator=H4(KF2-440-ET)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=Power_IN Pin=U3-3
+Added Member To Class: ClassName=BBB Headers Member=Component H2 KF2-440-ET Pem Nut
+Added Member To Class: ClassName=BBB Headers Member=Component H3 KF2-440-ET Pem Nut
+Added Member To Class: ClassName=BBB Headers Member=Component H4 KF2-440-ET Pem Nut

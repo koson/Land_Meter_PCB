@@ -1,0 +1,6 @@
+Change Component Footprint: Designator=X1 Old Footprint=ITTI-14340272-32.768KHz-2_V New Footprint=AB26TRQ-32.768KHZ-T
+Change Component Comment : Designator=X1 Old Comment=14340272-32.768KHz New Comment=AB26TRQ-32.768KHZ-T
+Change component parameters: Designator = "X1"; Footprint = "AB26TRQ-32.768KHZ-T"; UniqueID = "\WAEYNUVY"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "535-12051-1-ND"; VariantName = "[No Variations]"

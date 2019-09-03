@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=PWM1A Pin=P7-1
+Removed Pin From Net: NetName=NetR12_2 Pin=U1-8-13
+Added Component: Designator=R28(RESC0402(1005)_M)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=PWM1A Pin=P8-7
+Added Pin To Net: NetName=NetR12_2 Pin=U1-8-10
+Added Pin To Net: NetName=EHRPWM2A Pin=R28-2
+Added Pin To Net: NetName=EHRPWM2A Pin=U1-8-19
+Added Net: Name=EHRPWM2A
+Added Pin To Net: NetName=NetR28_1 Pin=R28-1
+Added Pin To Net: NetName=NetR28_1 Pin=U1-8-20
+Added Net: Name=NetR28_1
+Added Pin To Net: NetName=PWM2B Pin=P7-1
+Added Pin To Net: NetName=PWM2B Pin=U1-8-13
+Added Net: Name=PWM2B
+Added Member To Class: ClassName=BBB Headers Member=Component R28 100

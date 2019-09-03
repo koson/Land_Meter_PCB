@@ -1,0 +1,64 @@
+Removed Pin From Net: NetName=Conning Tower Thermistor Pin=P1-1
+Removed Pin From Net: NetName=GND Pin=P1-2
+Removed Pin From Net: NetName=Gearbox Thermistor Pin=P2-1
+Removed Pin From Net: NetName=GND Pin=P2-2
+Removed Pin From Net: NetName=Arrestment Thermistor Pin=P3-1
+Removed Pin From Net: NetName=GND Pin=P3-2
+Removed Pin From Net: NetName=Board1 Thermistor Pin=P6-1
+Removed Pin From Net: NetName=GND Pin=P6-2
+Removed Pin From Net: NetName=+12 Pin=P7-1
+Removed Pin From Net: NetName=Gearbox Htr Out Pin=P7-2
+Removed Pin From Net: NetName=+12 Pin=P9-1
+Removed Pin From Net: NetName=Conning Tower Htr Out Pin=P9-2
+Removed Pin From Net: NetName=+12 Pin=P10-1
+Removed Pin From Net: NetName=Arrestment Htr Out Pin=P10-2
+Removed Pin From Net: NetName=+12 Pin=P11-1
+Removed Pin From Net: NetName=METER_HTR_OUT Pin=P11-2
+Removed Member From Class: ClassName=LM_HTR_001 Member=P1
+Removed Member From Class: ClassName=LM_HTR_001 Member=P2
+Removed Member From Class: ClassName=LM_HTR_001 Member=P3
+Removed Member From Class: ClassName=LM_HTR_001 Member=P6
+Removed Member From Class: ClassName=LM_HTR_001 Member=P7
+Removed Member From Class: ClassName=LM_HTR_001 Member=P9
+Removed Member From Class: ClassName=LM_HTR_001 Member=P10
+Removed Member From Class: ClassName=LM_HTR_001 Member=P11
+Added Component: Designator=U3(B2B-ZR(LF)(SN))
+Add component. Clean all parameters for all variants
+Added Component: Designator=U4(B2B-ZR(LF)(SN))
+Add component. Clean all parameters for all variants
+Added Component: Designator=U5(B2B-ZR(LF)(SN))
+Add component. Clean all parameters for all variants
+Added Component: Designator=U6(B2B-ZR(LF)(SN))
+Add component. Clean all parameters for all variants
+Added Component: Designator=U7(B2B-ZR(LF)(SN))
+Add component. Clean all parameters for all variants
+Added Component: Designator=U8(B2B-ZR(LF)(SN))
+Add component. Clean all parameters for all variants
+Added Component: Designator=U9(B2B-ZR(LF)(SN))
+Add component. Clean all parameters for all variants
+Added Component: Designator=U10(B2B-ZR(LF)(SN))
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=Conning Tower Thermistor Pin=U3-1
+Added Pin To Net: NetName=GND Pin=U3-2
+Added Pin To Net: NetName=+12 Pin=U4-1
+Added Pin To Net: NetName=Gearbox Htr Out Pin=U4-2
+Added Pin To Net: NetName=Gearbox Thermistor Pin=U5-1
+Added Pin To Net: NetName=GND Pin=U5-2
+Added Pin To Net: NetName=+12 Pin=U6-1
+Added Pin To Net: NetName=Conning Tower Htr Out Pin=U6-2
+Added Pin To Net: NetName=+12 Pin=U7-1
+Added Pin To Net: NetName=Arrestment Htr Out Pin=U7-2
+Added Pin To Net: NetName=Arrestment Thermistor Pin=U8-1
+Added Pin To Net: NetName=GND Pin=U8-2
+Added Pin To Net: NetName=+12 Pin=U9-1
+Added Pin To Net: NetName=METER_HTR_OUT Pin=U9-2
+Added Pin To Net: NetName=Board1 Thermistor Pin=U10-1
+Added Pin To Net: NetName=GND Pin=U10-2
+Added Member To Class: ClassName=LM_HTR_001 Member=Component U3 B2B-ZR(LF)(SN)
+Added Member To Class: ClassName=LM_HTR_001 Member=Component U4 B2B-ZR(LF)(SN)
+Added Member To Class: ClassName=LM_HTR_001 Member=Component U5 B2B-ZR(LF)(SN)
+Added Member To Class: ClassName=LM_HTR_001 Member=Component U6 B2B-ZR(LF)(SN)
+Added Member To Class: ClassName=LM_HTR_001 Member=Component U7 B2B-ZR(LF)(SN)
+Added Member To Class: ClassName=LM_HTR_001 Member=Component U8 B2B-ZR(LF)(SN)
+Added Member To Class: ClassName=LM_HTR_001 Member=Component U9 B2B-ZR(LF)(SN)
+Added Member To Class: ClassName=LM_HTR_001 Member=Component U10 B2B-ZR(LF)(SN)

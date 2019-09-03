@@ -1,0 +1,3 @@
+Added Pin To Net: NetName=PWM2A_Buff Pin=U33-4
+Change Net Name : Old Net Name=NetU12_1 New Net Name=PWM2A_Lvl_Preshift
+Change Net Name : Old Net Name=NetU14_1 New Net Name=PWM2B_Lvl_Preshift

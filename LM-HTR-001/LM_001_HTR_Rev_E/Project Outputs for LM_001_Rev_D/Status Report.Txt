@@ -1,0 +1,31 @@
+Output: Gerber X2 Files
+Type  : GerberX2
+From  : Project [LM_001_Rev_D.PrjPcb]
+   Generated File[LM_001_Rev_D_Copper_Signal_Top.gbr]
+   Generated File[LM_001_Rev_D_Copper_Plane_1.gbr]
+   Generated File[LM_001_Rev_D_Copper_Signal_1.gbr]
+   Generated File[LM_001_Rev_D_Copper_Signal_Bot.gbr]
+   Generated File[LM_001_Rev_D_Pads_Bot.gbr]
+   Generated File[LM_001_Rev_D_Pads_Top.gbr]
+   Generated File[LM_001_Rev_D_Paste_Top.gbr]
+   Generated File[LM_001_Rev_D_Legend_Bot.gbr]
+   Generated File[LM_001_Rev_D_Paste_Bot.gbr]
+   Generated File[LM_001_Rev_D_Soldermask_Top.gbr]
+   Generated File[LM_001_Rev_D_Legend_Top.gbr]
+   Generated File[LM_001_Rev_D_Soldermask_Bot.gbr]
+   Generated File[LM_001_Rev_D_Mechanical_13.gbr]
+   Generated File[LM_001_Rev_D_Mechanical_15.gbr]
+   Generated File[LM_001_Rev_D_Mechanical_1.gbr]
+   Generated File[LM_001_Rev_D_Profile.gbr]
+   Generated File[LM_001_Rev_D_PTH_Drill.gbr]
+   Generated File[LM_001_Rev_D_Drawing_1.gbr]
+   Generated File[LM_001_Rev_D_Drillmap_1.gbr]
+   Generated File[LM_001_Rev_D.RUL]
+   Generated File[LM_001_Rev_D.EXTREP]
+   Generated File[LM_001_Rev_D.REP]
+
+
+Files Generated   : 22
+Documents Printed : 0
+
+Finished Output Generation At 9:22:36 AM On 1/18/2019

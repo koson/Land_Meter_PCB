@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=+5 Pin=U7-1
+Removed Pin From Net: NetName=Pre5V Pin=U7-2
+Removed Pin From Net: NetName=GND Pin=U7-3
+Removed Pin From Net: NetName=SCL Pin=U7-6
+Removed Pin From Net: NetName=SDA Pin=U7-7
+Removed Pin From Net: NetName=Power_IN Pin=U7-11
+Removed Pin From Net: NetName=+5 BBB Pin=U7-14
+Removed Pin From Net: NetName=PostBBR Pin=U7-15
+Removed Member From Class: ClassName=LM-008 Member=U7
+Added Pin To Net: NetName=GND Pin=U8-11

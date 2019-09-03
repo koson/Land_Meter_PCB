@@ -1,0 +1,14 @@
+Removed Member From Class: ClassName=BBB Headers Member=DS6
+Removed Member From Class: ClassName=Connectors Member=P3
+Removed Member From Class: ClassName=Connectors Member=P11
+Removed Member From Class: ClassName=BBB Headers Member=R1
+Removed Member From Class: ClassName=Power Member=R11
+Removed Member From Class: ClassName=BBB Headers Member=R15
+Added Member To Class: ClassName=BBB Headers Member=Component C1 CAP 100nF 25V 0805(2012)
+Added Member To Class: ClassName=BBB Headers Member=Component DS2 Visible Name Value Type    False Description Lite-On LTST-S220KRKT Red LED, 631 nm 2012 (0805) Side View, Rectangle Lens SMD package STRING
+Added Member To Class: ClassName=Connectors Member=Component P10 Header 3
+Added Member To Class: ClassName=Power Member=Component R2 RES SMD 0.0 OHM JUMPER 1/8W 0805
+Added Member To Class: ClassName=BBB Headers Member=Component R3 3K74 0.125W 1% 0805 (2012 Metric)  SMD
+Added Member To Class: ClassName=BBB Headers Member=Component R7 
+Added Member To Class: ClassName=BBB Headers Member=Component U1 BBB
+Added Member To Class: ClassName=BBB Headers Member=Component U2 OPA188AIDBVR

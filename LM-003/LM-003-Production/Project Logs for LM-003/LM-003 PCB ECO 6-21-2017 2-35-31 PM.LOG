@@ -1,0 +1,22 @@
+Added Component: Designator=H9(SMTSO-256-8ET)
+Add component. Clean all parameters for all variants
+Added Component: Designator=H10(SMTSO-256-8ET)
+Add component. Clean all parameters for all variants
+Added Component: Designator=H11(SMTSO-256-8ET)
+Add component. Clean all parameters for all variants
+Added Component: Designator=H12(SMTSO-256-8ET)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=Power_IN Pin=U3-3
+Added Member To Class: ClassName=BBB Headers Member=Component H9 SMTSO-256-8ET Pem Nut Standoff
+Added Member To Class: ClassName=BBB Headers Member=Component H10 SMTSO-256-8ET Pem Nut Standoff
+Added Member To Class: ClassName=BBB Headers Member=Component H11 SMTSO-256-8ET Pem Nut Standoff
+Added Member To Class: ClassName=BBB Headers Member=Component H12 SMTSO-256-8ET Pem Nut Standoff
+Added Room: Name=ADC
+Added Room: Name=BBB Headers
+Added Room: Name=Connectors
+Added Room: Name=FeedbackLoop
+Added Room: Name=heater_control
+Added Room: Name=Power
+Added Room: Name=Power Monitor
+Added Room: Name=Real Time Clock
+Added Room: Name=RS232

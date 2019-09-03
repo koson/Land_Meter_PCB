@@ -1,0 +1,4 @@
+Removed Member From Class: ClassName=Beam_Amp Member=P4
+Added Pin To Net: NetName=PLATE_P_S Pin=P1-19
+Change Net Name : Old Net Name=NetTP1_1 New Net Name=NetU1_1
+Added Member To Class: ClassName=Beam_Amp Member=Component P1 FTSH-110-02-F-D-ES

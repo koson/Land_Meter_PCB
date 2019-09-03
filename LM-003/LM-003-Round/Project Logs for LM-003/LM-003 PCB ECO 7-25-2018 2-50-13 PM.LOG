@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=DTA+ Pin=P10-3
+Removed Pin From Net: NetName=CLK+ Pin=P10-4
+Added Pin To Net: NetName=CLK+ Pin=P10-3
+Added Pin To Net: NetName=DTA+ Pin=P10-4

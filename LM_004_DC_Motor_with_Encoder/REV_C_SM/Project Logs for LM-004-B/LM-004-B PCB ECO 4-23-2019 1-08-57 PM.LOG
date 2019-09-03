@@ -1,0 +1,20 @@
+Removed Pin From Net: NetName=Vmotor Pin=C7-2
+Removed Pin From Net: NetName=VINT Pin=C8-1
+Removed Pin From Net: NetName=GND Pin=C8-2
+Removed Pin From Net: NetName=Vmotor Pin=C11-1
+Removed Pin From Net: NetName=GND Pin=C11-2
+Change Component Footprint: Designator=C7 Old Footprint=CAPC0805(2012)145_N New Footprint=CAPC0402(1005)60_L
+Change Component Footprint: Designator=C8 Old Footprint=CAPC0805(2012)145_N New Footprint=CAPC0402(1005)60_L
+Change Component Footprint: Designator=C11 Old Footprint=CAPC0805(2012)145_N New Footprint=CAPC0402(1005)60_L
+Change Component Comment : Designator=C7 Old Comment=0.01uF New Comment=.01uF
+Change Component Comment : Designator=C11 Old Comment=0.01uF New Comment=.01uF
+Added Pin To Net: NetName=Vmotor Pin=C7-1
+Added Pin To Net: NetName=GND Pin=C8-1
+Added Pin To Net: NetName=VINT Pin=C8-2
+Added Pin To Net: NetName=GND Pin=C11-1
+Added Pin To Net: NetName=Vmotor Pin=C11-2
+Added Pin To Net: NetName=NetC7_2 Pin=C7-2
+Added Pin To Net: NetName=NetC7_2 Pin=U4-14
+Added Net: Name=NetC7_2
+Added Member To Class: ClassName=Stepper Motor Driver Member=Component R11 0.1R
+Added Member To Class: ClassName=Stepper Motor Driver Member=Component R12 0.1R

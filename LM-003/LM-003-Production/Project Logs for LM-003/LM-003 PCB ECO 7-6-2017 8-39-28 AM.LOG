@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=GND Pin=P9-5
+Removed Pin From Net: NetName=GND Pin=P9-6
+Removed Member From Class: ClassName=Power Member=U20
+Added Member To Class: ClassName=FeedbackLoop Member=Component U8 OPA188AIDBVR

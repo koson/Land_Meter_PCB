@@ -1,0 +1,55 @@
+Removed Member From Class: ClassName=HTR_Bridge Member=P1
+Removed Member From Class: ClassName=HTR_Bridge Member=P2
+Removed Member From Class: ClassName=HTR_Bridge Member=R4
+Removed Member From Class: ClassName=HTR_Bridge Member=R9
+Removed Member From Class: ClassName=HTR_Bridge Member=R11
+Removed Member From Class: ClassName=HTR_Bridge Member=R13
+Removed Member From Class: ClassName=HTR_Bridge Member=R14
+Removed Member From Class: ClassName=HTR_Bridge Member=R15
+Removed Member From Class: ClassName=HTR_Bridge Member=R17
+Removed Member From Class: ClassName=HTR_Bridge Member=R18
+Removed Member From Class: ClassName=HTR_Bridge Member=R21
+Removed Member From Class: ClassName=HTR_Bridge Member=R22
+Removed Member From Class: ClassName=HTR_Bridge Member=R27
+Removed Member From Class: ClassName=Signal_Conditioner Member=R30
+Removed Member From Class: ClassName=Signal_Conditioner Member=R31
+Removed Member From Class: ClassName=Signal_Conditioner Member=R35
+Removed Member From Class: ClassName=Signal_Conditioner Member=R37
+Removed Member From Class: ClassName=Signal_Conditioner Member=R38
+Removed Member From Class: ClassName=Signal_Conditioner Member=R40
+Removed Member From Class: ClassName=Signal_Conditioner Member=R43
+Removed Member From Class: ClassName=Signal_Conditioner Member=R45
+Removed Member From Class: ClassName=Signal_Conditioner Member=R46
+Removed Member From Class: ClassName=Signal_Conditioner Member=R47
+Removed Member From Class: ClassName=Signal_Conditioner Member=R48
+Added Pin To Net: NetName=NetR39_1 Pin=R39-1
+Added Pin To Net: NetName=NetR39_1 Pin=R42-2
+Added Net: Name=NetR39_1
+Added Pin To Net: NetName=NetR40_1 Pin=R40-1
+Added Pin To Net: NetName=NetR40_1 Pin=R43-2
+Added Net: Name=NetR40_1
+Added Pin To Net: NetName=NetR41_1 Pin=R41-1
+Added Pin To Net: NetName=NetR41_1 Pin=R44-2
+Added Net: Name=NetR41_1
+Added Member To Class: ClassName=HTR_Bridge Member=Component P13 IPL1-102-01-F-S-K
+Added Member To Class: ClassName=Signal_Conditioner Member=Component R2 10k
+Added Member To Class: ClassName=Signal_Conditioner Member=Component R3 1K
+Added Member To Class: ClassName=Signal_Conditioner Member=Component R7 DNP
+Added Member To Class: ClassName=Signal_Conditioner Member=Component R9 1.21k
+Added Member To Class: ClassName=Signal_Conditioner Member=Component R10 DNP
+Added Member To Class: ClassName=Signal_Conditioner Member=Component R12 DNP
+Added Member To Class: ClassName=Signal_Conditioner Member=Component R15 KTY81-120
+Added Member To Class: ClassName=Signal_Conditioner Member=Component R17 10k
+Added Member To Class: ClassName=Signal_Conditioner Member=Component R19 100K
+Added Member To Class: ClassName=Signal_Conditioner Member=Component R20 24.3K
+Added Member To Class: ClassName=HTR_Bridge Member=Component R29 1.5k
+Added Member To Class: ClassName=HTR_Bridge Member=Component R31 
+Added Member To Class: ClassName=HTR_Bridge Member=Component R33 
+Added Member To Class: ClassName=HTR_Bridge Member=Component R34 6K98 1% 0805(2012)
+Added Member To Class: ClassName=HTR_Bridge Member=Component R35 #NAME?
+Added Member To Class: ClassName=HTR_Bridge Member=Component R37 #NAME?
+Added Member To Class: ClassName=HTR_Bridge Member=Component R38 
+Added Member To Class: ClassName=HTR_Bridge Member=Component R41 #NAME?
+Added Member To Class: ClassName=HTR_Bridge Member=Component R42 #NAME?
+Added Member To Class: ClassName=HTR_Bridge Member=Component R44 #NAME?
+Added Member To Class: ClassName=HTR_Bridge Member=Component R47 

@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=+12 Pin=DS1-1
+Removed Pin From Net: NetName=+12 Pin=DS2-1
+Removed Pin From Net: NetName=+12 Pin=DS3-1
+Removed Pin From Net: NetName=+12 Pin=DS4-1
+Removed Pin From Net: NetName=Arrestment Htr Out Pin=R10-2
+Removed Pin From Net: NetName=METER_HTR_OUT Pin=R11-2
+Removed Member From Class: ClassName=LM_HTR_001 Member=DS1
+Removed Member From Class: ClassName=LM_HTR_001 Member=DS2
+Removed Member From Class: ClassName=LM_HTR_001 Member=DS3
+Removed Member From Class: ClassName=LM_HTR_001 Member=DS4
+Added Pin To Net: NetName=+12 Pin=R2-2
+Added Pin To Net: NetName=+12 Pin=R5-2
+Added Pin To Net: NetName=Arrestment Htr Out Pin=R10-1
+Added Pin To Net: NetName=+12 Pin=R10-2
+Added Pin To Net: NetName=METER_HTR_OUT Pin=R11-1
+Added Pin To Net: NetName=+12 Pin=R11-2

@@ -1,0 +1,159 @@
+Removed Member From Class: ClassName=36V_HV_Supply Member=C3
+Removed Member From Class: ClassName=System_Supply Member=C3
+Removed Member From Class: ClassName=36V_HV_Supply Member=C4
+Removed Member From Class: ClassName=System_Supply Member=C4
+Removed Member From Class: ClassName=36V_HV_Supply Member=C5
+Removed Member From Class: ClassName=36V_HV_Supply Member=C6
+Removed Member From Class: ClassName=Power_Input_FET Member=P3
+Removed Member From Class: ClassName=Power_Input_FET Member=P4
+Removed Member From Class: ClassName=36V_HV_Supply Member=R1
+Removed Member From Class: ClassName=36V_HV_Supply Member=R2
+Removed Member From Class: ClassName=12_Supply Member=R4
+Removed Member From Class: ClassName=12_Supply Member=R6
+Removed Member From Class: ClassName=Power_Input_FET Member=R7
+Removed Member From Class: ClassName=Power_Input_FET Member=R8
+Removed Member From Class: ClassName=12_Supply Member=R9
+Removed Member From Class: ClassName=12_Supply Member=R10
+Removed Member From Class: ClassName=36V_HV_Supply Member=R11
+Removed Member From Class: ClassName=36V_HV_Supply Member=U2
+Removed Member From Class: ClassName=12_Supply Member=U4
+Removed Member From Class: ClassName=System_Supply Member=U4
+Removed Member From Class: ClassName=12_Supply Member=U5
+Removed Member From Class: ClassName=Power_Input_FET Member=U6
+Removed Member From Class: ClassName=System_Supply Member=U6
+Removed Member From Class: ClassName=Power_Input_FET Member=U7
+Removed Member From Class: ClassName=BBB Headers Member=U13
+Change Component Footprint: Designator=D1 Old Footprint=VISH-DO-214AC-2_M New Footprint=VISH-DO-214AC-2_M
+Change Component Designator: OldDesignator=C3 NewDesignator=C7
+Change Component Designator: OldDesignator=C3 NewDesignator=C19
+Change Component Designator: OldDesignator=C4 NewDesignator=C9
+Change Component Designator: OldDesignator=C4 NewDesignator=C20
+Change Component Designator: OldDesignator=C5 NewDesignator=C21
+Change Component Designator: OldDesignator=C6 NewDesignator=C22
+Change Component Designator: OldDesignator=C7 NewDesignator=C23
+Change Component Designator: OldDesignator=C9 NewDesignator=C11
+Change Component Designator: OldDesignator=C11 NewDesignator=C13
+Change Component Designator: OldDesignator=C12 NewDesignator=C14
+Change Component Designator: OldDesignator=C13 NewDesignator=C12
+Change Component Designator: OldDesignator=C14 NewDesignator=C15
+Change Component Designator: OldDesignator=C15 NewDesignator=C17
+Change Component Designator: OldDesignator=C17 NewDesignator=C24
+Change Component Designator: OldDesignator=C18 NewDesignator=C25
+Change Component Designator: OldDesignator=C19 NewDesignator=C26
+Change Component Designator: OldDesignator=C21 NewDesignator=C18
+Change Component Designator: OldDesignator=C22 NewDesignator=C16
+Change Component Designator: OldDesignator=D1 NewDesignator=D2
+Change Component Designator: OldDesignator=D2 NewDesignator=D1
+Change Component Designator: OldDesignator=P3 NewDesignator=P5
+Change Component Designator: OldDesignator=P4 NewDesignator=P6
+Change Component Designator: OldDesignator=P5 NewDesignator=P7
+Change Component Designator: OldDesignator=R1 NewDesignator=R18
+Change Component Designator: OldDesignator=R2 NewDesignator=R19
+Change Component Designator: OldDesignator=R4 NewDesignator=R15
+Change Component Designator: OldDesignator=R6 NewDesignator=R14
+Change Component Designator: OldDesignator=R7 NewDesignator=R22
+Change Component Designator: OldDesignator=R8 NewDesignator=R23
+Change Component Designator: OldDesignator=R9 NewDesignator=R16
+Change Component Designator: OldDesignator=R10 NewDesignator=R17
+Change Component Designator: OldDesignator=R11 NewDesignator=R20
+Change Component Designator: OldDesignator=R14 NewDesignator=R21
+Change Component Designator: OldDesignator=U2 NewDesignator=U3
+Change Component Designator: OldDesignator=U2 NewDesignator=U15
+Change Component Designator: OldDesignator=U3 NewDesignator=U4
+Change Component Designator: OldDesignator=U4 NewDesignator=U5
+Change Component Designator: OldDesignator=U4 NewDesignator=U10
+Change Component Designator: OldDesignator=U4 NewDesignator=U13
+Change Component Designator: OldDesignator=U5 NewDesignator=U6
+Change Component Designator: OldDesignator=U5 NewDesignator=U14
+Change Component Designator: OldDesignator=U6 NewDesignator=U7
+Change Component Designator: OldDesignator=U6 NewDesignator=U12
+Change Component Designator: OldDesignator=U6 NewDesignator=U16
+Change Component Designator: OldDesignator=U7 NewDesignator=U8
+Change Component Designator: OldDesignator=U7 NewDesignator=U17
+Change Component Designator: OldDesignator=U8 NewDesignator=U9
+Change Component Designator: OldDesignator=U9 NewDesignator=U11
+Change Component Designator: OldDesignator=U13 NewDesignator=U2
+Added Pin To Net: NetName=+12 Pin=U13-A1
+Added Pin To Net: NetName=+12 Pin=U13-A2
+Added Pin To Net: NetName=+12 Pin=U13-A3
+Added Pin To Net: NetName=+12 Pin=U13-A4
+Added Pin To Net: NetName=+12 Pin=U13-A5
+Added Pin To Net: NetName=+12 Pin=U13-A6
+Added Pin To Net: NetName=+12 Pin=U13-B1
+Added Pin To Net: NetName=+12 Pin=U13-B2
+Added Pin To Net: NetName=+12 Pin=U13-B3
+Added Pin To Net: NetName=+12 Pin=U13-B4
+Added Pin To Net: NetName=+12 Pin=U13-B5
+Added Pin To Net: NetName=+12 Pin=U13-B6
+Added Pin To Net: NetName=+12 Pin=U13-C1
+Added Pin To Net: NetName=+12 Pin=U13-C2
+Added Pin To Net: NetName=+12 Pin=U13-C3
+Added Pin To Net: NetName=+12 Pin=U13-C4
+Added Pin To Net: NetName=+12 Pin=U13-C5
+Added Pin To Net: NetName=+12 Pin=U13-C6
+Added Pin To Net: NetName=+12 Pin=U13-D1
+Added Pin To Net: NetName=Power_IN Pin=U13-F10
+Added Pin To Net: NetName=Power_IN Pin=U13-F11
+Added Pin To Net: NetName=Power_IN Pin=U13-G10
+Added Pin To Net: NetName=Power_IN Pin=U13-G11
+Added Pin To Net: NetName=GND Pin=U13-H2
+Added Pin To Net: NetName=Power_IN Pin=U13-H10
+Added Pin To Net: NetName=Power_IN Pin=U13-H11
+Added Pin To Net: NetName=Power_IN Pin=U13-J10
+Added Pin To Net: NetName=Power_IN Pin=U13-J11
+Added Pin To Net: NetName=Power_IN Pin=U13-K10
+Added Pin To Net: NetName=Power_IN Pin=U13-K11
+Added Pin To Net: NetName=RC Pin=U13-L4
+Added Pin To Net: NetName=Power_IN Pin=U13-L9
+Added Pin To Net: NetName=Power_IN Pin=U13-L10
+Added Pin To Net: NetName=Power_IN Pin=U13-L11
+Change Net Name : Old Net Name=NetC4_1 New Net Name=NetC20_1
+Change Net Name : Old Net Name=NetC6_2 New Net Name=NetC22_2
+Change Net Name : Old Net Name=NetC7_2 New Net Name=NetC23_2
+Change Net Name : Old Net Name=NetC9_2 New Net Name=NetC11_2
+Change Net Name : Old Net Name=NetC13_2 New Net Name=NetC12_2
+Change Net Name : Old Net Name=NetC14_1 New Net Name=NetC15_1
+Change Net Name : Old Net Name=NetC14_2 New Net Name=NetC15_2
+Change Net Name : Old Net Name=NetD2_1 New Net Name=NetD1_1
+Change Net Name : Old Net Name=NetR2_2 New Net Name=NetR19_2
+Change Net Name : Old Net Name=NetR11_1 New Net Name=NetR20_1
+Change Net Name : Old Net Name=NetR14_1 New Net Name=NetR21_1
+Added Pin To Net: NetName=NetR14_2 Pin=R14-2
+Added Pin To Net: NetName=NetR14_2 Pin=R16-1
+Added Pin To Net: NetName=NetR14_2 Pin=U13-J1
+Added Net: Name=NetR14_2
+Added Pin To Net: NetName=NetR17_1 Pin=R17-1
+Added Pin To Net: NetName=NetR17_1 Pin=U13-H1
+Added Net: Name=NetR17_1
+Added Member To Class: ClassName=System_Supply Member=Component C7 CAP CER 1UF 50V X7R 1210
+Added Member To Class: ClassName=System_Supply Member=Component C13 CAP CER 10UF 6.3V X5R 1206
+Added Member To Class: ClassName=System_Supply Member=Component C14 CAP CER 10UF 6.3V X5R 1206
+Added Member To Class: ClassName=System_Supply Member=Component C15 CAP CER 1UF 10V X5R 0805
+Added Member To Class: ClassName=36V_HV_Supply Member=Component C19 4.7uF
+Added Member To Class: ClassName=36V_HV_Supply Member=Component C20 4.7uF
+Added Member To Class: ClassName=36V_HV_Supply Member=Component C21 4.7uF
+Added Member To Class: ClassName=36V_HV_Supply Member=Component C22 4.7uF
+Added Member To Class: ClassName=Power_Input_FET Member=Component P6 IPL1-102-01-F-S-RA-K
+Added Member To Class: ClassName=Power_Input_FET Member=Component P7 IPL1-102-01-F-S-RA-K
+Added Member To Class: ClassName=heater_control Member=Component R3 4.99K
+Added Member To Class: ClassName=heater_control Member=Component R5 4.99K
+Added Member To Class: ClassName=heater_control Member=Component R12 20K
+Added Member To Class: ClassName=heater_control Member=Component R13 4.99K
+Added Member To Class: ClassName=12_Supply Member=Component R14 RES SMD 100K OHM 1% 1/8W 0805
+Added Member To Class: ClassName=12_Supply Member=Component R15 RES SMD 100K OHM 1% 1/8W 0805
+Added Member To Class: ClassName=12_Supply Member=Component R16 RES SMD 11K OHM 1% 1/8W 0805
+Added Member To Class: ClassName=12_Supply Member=Component R17 RES SMD 35K OHM 1% 1/8W 0805
+Added Member To Class: ClassName=36V_HV_Supply Member=Component R18 RES SMD 100K OHM 1% 1/8W 0805
+Added Member To Class: ClassName=36V_HV_Supply Member=Component R19 RES SMD 100K OHM 1% 1/8W 0805
+Added Member To Class: ClassName=36V_HV_Supply Member=Component R20 RES SMD 100K OHM 1% 1/8W 0805
+Added Member To Class: ClassName=Power_Input_FET Member=Component R22 560k
+Added Member To Class: ClassName=Power_Input_FET Member=Component R23 560k
+Added Member To Class: ClassName=BBB Headers Member=Component U3 ADG1608BRUZ
+Added Member To Class: ClassName=System_Supply Member=Component U10 LT1763CS8-5#PBF
+Added Member To Class: ClassName=System_Supply Member=Component U12 LTC1983ES6-5#TRMPBF
+Added Member To Class: ClassName=12_Supply Member=Component U13 LTM8055IY
+Added Member To Class: ClassName=12_Supply Member=Component U14 OPA188AIDBVR
+Added Member To Class: ClassName=36V_HV_Supply Member=Component U15 LT8570
+Added Member To Class: ClassName=Power_Input_FET Member=Component U16 LTC4414EMS8#TRPBF
+Added Member To Class: ClassName=Power_Input_FET Member=Component U17 LTC4414EMS8#TRPBF
+Added Room: Name=Power_Input_FET

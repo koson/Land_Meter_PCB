@@ -1,0 +1,19 @@
+Change component parameters: Designator = "U2"; Footprint = "DRV8801PWPR"; UniqueID = "\DPSPCQOW"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "296-25378-1-ND"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U3"; Footprint = "DRV8801PWPR"; UniqueID = "\JMWKQRIU"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "296-25378-1-ND"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U5"; Footprint = "DRV8801PWPR"; UniqueID = "\CTDUUTTA"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "296-25378-1-ND"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U6"; Footprint = "DRV8801PWPR"; UniqueID = "\FPQVVPTA"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "296-25378-1-ND"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=U3-17
+Added Pin To Net: NetName=GND Pin=U5-17
+Added Pin To Net: NetName=GND Pin=U6-17

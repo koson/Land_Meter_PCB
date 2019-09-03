@@ -1,0 +1,10 @@
+Change Component Footprint: Designator=P1 Old Footprint=HDR2X11 New Footprint=IPL1-112-01-F-S-K
+Change Component Comment : Designator=P1 Old Comment=Header 11X2 New Comment=IPL1-112-01-F-S-K
+Change component parameters: Designator = "P1"; Footprint = "IPL1-112-01-F-S-K"; UniqueID = "\LKUVDROY"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "SAMTEC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "IPL1-112-01-F-D-RA-K"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pricing 1"; Value = "1=4.98, 10=4.35, 100=3.69, 500=3.16, 1000=2.76, 5000=2.44, 10000=2.32 (USD)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Stock 1"; Value = "0"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Newark"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "08W3504"; VariantName = "[No Variations]"

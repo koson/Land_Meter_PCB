@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=Board2 Thermistor Pin=P8-1
+Removed Pin From Net: NetName=GND Pin=P8-2
+Removed Pin From Net: NetName=+12 Pin=P12-1
+Removed Pin From Net: NetName=Lid Thermistor Pin=P14-1
+Removed Pin From Net: NetName=GND Pin=P14-2
+Removed Pin From Net: NetName=+12 Pin=P15-1
+Removed Pin From Net: NetName=+5 Pin=R19-1
+Removed Pin From Net: NetName=Board2 Thermistor Pin=R19-2
+Removed Pin From Net: NetName=+5 Pin=R20-1
+Removed Pin From Net: NetName=Lid Thermistor Pin=R20-2
+Removed Member From Class: ClassName=LM_HTR_001 Member=P8
+Removed Member From Class: ClassName=LM_HTR_001 Member=P12
+Removed Member From Class: ClassName=LM_HTR_001 Member=P14
+Removed Member From Class: ClassName=LM_HTR_001 Member=P15
+Removed Member From Class: ClassName=LM_HTR_001 Member=R19
+Removed Member From Class: ClassName=LM_HTR_001 Member=R20

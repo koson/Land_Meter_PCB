@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=ADC STRB Pin=P6-4
+Removed Pin From Net: NetName=Conning Tower FET Pin=P6-6
+Removed Pin From Net: NetName=SPI0_CS0 Pin=P6-7
+Removed Pin From Net: NetName=SPI0_MISO Pin=P6-9
+Removed Pin From Net: NetName=Gearbox Heater FET Pin=P6-11
+Removed Pin From Net: NetName=Meter Heater FET Pin=P6-12
+Added Pin To Net: NetName=ADC STRB Pin=P6-2
+Added Pin To Net: NetName=Gearbox Heater FET Pin=P6-3
+Added Pin To Net: NetName=Conning Tower FET Pin=P6-4
+Added Pin To Net: NetName=Meter Heater FET Pin=P6-6
+Added Pin To Net: NetName=SPI0_CS0 Pin=P6-9
+Added Pin To Net: NetName=SPI0_MISO Pin=P6-11

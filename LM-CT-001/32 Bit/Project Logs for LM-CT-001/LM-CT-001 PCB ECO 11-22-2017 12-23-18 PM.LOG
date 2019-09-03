@@ -1,0 +1,27 @@
+Removed Pin From Net: NetName=Guard Pin=U17-6
+Removed Pin From Net: NetName=Guard Pin=U17-6
+Removed Pin From Net: NetName=Guard Pin=U17-6
+Removed Pin From Net: NetName=Guard Pin=U17-6
+Removed Pin From Net: NetName=Top_Sense_Plate Pin=U-1
+Removed Pin From Net: NetName=Guard Pin=U-8
+Removed Pin From Net: NetName=Guard Pin=U-8
+Removed Pin From Net: NetName=Guard Pin=U-8
+Removed Pin From Net: NetName=Guard Pin=U-8
+Removed Member From Class: ClassName=Sense Member=U
+Change Component Designator: OldDesignator=U17 NewDesignator=U15
+Added Component: Designator=U17(GRF1-P-P-04-E-ST-TH1)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=Guard Pin=U15-8
+Added Pin To Net: NetName=Guard Pin=U15-8
+Added Pin To Net: NetName=Guard Pin=U15-8
+Added Pin To Net: NetName=Guard Pin=U15-8
+Added Pin To Net: NetName=Top_Sense_Plate Pin=U16-1
+Added Pin To Net: NetName=Guard Pin=U17-6
+Added Pin To Net: NetName=Guard Pin=U17-6
+Added Pin To Net: NetName=Guard Pin=U17-6
+Added Pin To Net: NetName=Guard Pin=U17-6
+Change Net Name : Old Net Name=NetU15_6 New Net Name=NetU15_2
+Added Pin To Net: NetName=NetU15_1 Pin=U15-1
+Added Pin To Net: NetName=NetU15_1 Pin=U15-7
+Added Net: Name=NetU15_1
+Added Member To Class: ClassName=Sense Member=Component U17 GRF1-P-P-04-E-ST-TH1

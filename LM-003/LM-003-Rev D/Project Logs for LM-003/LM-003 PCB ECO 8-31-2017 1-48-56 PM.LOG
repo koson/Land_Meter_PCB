@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=GND Pin=BT1-2
+Removed Pin From Net: NetName=GND Pin=BT1-2
+Removed Pin From Net: NetName=+3.3 Pin=U19-2
+Removed Pin From Net: NetName=GND Pin=U19-5
+Removed Member From Class: ClassName=Real Time Clock Member=BT1
+Removed Member From Class: ClassName=Real Time Clock Member=U19
+Added Pin To Net: NetName=NetU36_9 Pin=U36-9
+Added Net: Name=NetU36_9

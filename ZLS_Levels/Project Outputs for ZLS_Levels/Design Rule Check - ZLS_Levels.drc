@@ -1,0 +1,67 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\zls\Desktop\Land_Meter_PCB\ZLS_Levels\ZLS_Levels.PcbDoc
+Date     : 5/7/2019
+Time     : 4:06:41 PM
+
+Processing Rule : Clearance Constraint (Gap=0.1mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+   Violation between Un-Routed Net Constraint: Net Levels_PWM Between Pad U2-11(352.622mm,445.639mm) on Top Layer And Pad U2-20(352.622mm,451.489mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net Cross_Out Between Pad U9-4(343.668mm,431.226mm) on Top Layer And Via (343.713mm,432.816mm) from Top Layer to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U2-14(352.622mm,447.589mm) on Top Layer And Pad U2-19(352.622mm,450.839mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net +5 Between Track (316.992mm,459.613mm)(329.196mm,459.613mm) on Top Layer And Via (330.454mm,461.162mm) from Top Layer to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net +5 Between Pad U8-7(331.223mm,450.08mm) on Top Layer And Pad U7-4(331.238mm,455.102mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net +5 BBB Between Pad U16-9-5(316.992mm,462.153mm) on Multi-Layer And Pad U16-9-6(319.532mm,462.153mm) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net +3.3 Between Pad U16-9-3(316.992mm,464.693mm) on Multi-Layer And Track (319.532mm,464.693mm)(320.116mm,464.693mm) on Bottom Layer 
+Rule Violations :7
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.254mm) (Max=0.254mm) (Preferred=0.254mm) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.025mm) (Max=2.54mm) (All)
+   Violation between Hole Size Constraint: (3mm > 2.54mm) Pad U16-(366.522mm,472.313mm) on Multi-Layer Actual Hole Size = 3mm
+   Violation between Hole Size Constraint: (3mm > 2.54mm) Pad U16-(318.262mm,472.313mm) on Multi-Layer Actual Hole Size = 3mm
+   Violation between Hole Size Constraint: (3mm > 2.54mm) Pad U16-(321.437mm,406.273mm) on Multi-Layer Actual Hole Size = 3mm
+   Violation between Hole Size Constraint: (3mm > 2.54mm) Pad U16-(363.347mm,406.273mm) on Multi-Layer Actual Hole Size = 3mm
+Rule Violations :4
+
+Processing Rule : Hole To Hole Clearance (Gap=0.1mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0.05mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=0.1mm) (IsPad),(All)
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.1mm) Between Text "U8" (330.581mm,451.968mm) on Top Overlay And Pad U7-6(331.238mm,453.202mm) on Top Layer [Top Overlay] to [Top Solder] clearance [0mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.1mm) Between Text "U10" (347.675mm,432.867mm) on Top Overlay And Pad C9-1(350.161mm,433.324mm) on Top Layer [Top Overlay] to [Top Solder] clearance [0mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.1mm) Between Text "U10" (347.675mm,432.867mm) on Top Overlay And Pad C9-2(348.361mm,433.324mm) on Top Layer [Top Overlay] to [Top Solder] clearance [0mm]
+Rule Violations :3
+
+Processing Rule : Silk to Silk (Clearance=0.1mm) (All),(All)
+   Violation between Silk To Silk Clearance Constraint: (Collision < 0.1mm) Between Text "U8" (330.581mm,451.968mm) on Top Overlay And Track (332.113mm,452.652mm)(332.113mm,455.652mm) on Top Overlay Silk Text to Silk Clearance [0mm]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 0.1mm) Between Text "U8" (330.581mm,451.968mm) on Top Overlay And Track (332.113mm,452.652mm)(333.113mm,452.652mm) on Top Overlay Silk Text to Silk Clearance [0mm]
+   Violation between Silk To Silk Clearance Constraint: (0.063mm < 0.1mm) Between Text "U10" (347.675mm,432.867mm) on Top Overlay And Track (349.211mm,432.699mm)(349.311mm,432.699mm) on Top Overlay Silk Text to Silk Clearance [0.063mm]
+Rule Violations :3
+
+Processing Rule : Net Antennae (Tolerance=0mm) (All)
+   Violation between Net Antennae: Via (343.713mm,432.816mm) from Top Layer to Bottom Layer 
+   Violation between Net Antennae: Via (330.454mm,461.162mm) from Top Layer to Bottom Layer 
+Rule Violations :2
+
+Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
+Rule Violations :0
+
+
+Violations Detected : 19
+Waived Violations : 0
+Time Elapsed        : 00:00:01

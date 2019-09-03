@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=Arrestment Heater FET_Buff Pin=P7-13
+Removed Pin From Net: NetName=Gearbox Heater FET_Buff Pin=P7-14
+Removed Pin From Net: NetName=Conning Tower FET_Buff Pin=P7-15
+Removed Pin From Net: NetName=Meter Heater FET_Buff Pin=P7-16
+Added Pin To Net: NetName=Meter Heater FET_Buff Pin=P7-13
+Added Pin To Net: NetName=Conning Tower FET_Buff Pin=P7-14
+Added Pin To Net: NetName=Gearbox Heater FET_Buff Pin=P7-15
+Added Pin To Net: NetName=Arrestment Heater FET_Buff Pin=P7-16
+Change Net Name : Old Net Name=NetP2_1 New Net Name=I2C2_SDA
+Change Net Name : Old Net Name=NetP2_3 New Net Name=I2C2_SCL

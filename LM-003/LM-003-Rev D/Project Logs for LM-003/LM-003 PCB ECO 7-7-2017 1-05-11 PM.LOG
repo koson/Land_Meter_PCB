@@ -1,0 +1,96 @@
+Removed Pin From Net: NetName=GND Pin=P7-5
+Removed Pin From Net: NetName=NetP7_5 Pin=P7-5
+Removed Pin From Net: NetName=GND Pin=U21-1
+Removed Pin From Net: NetName=NetU17_1 Pin=U21-2
+Removed Pin From Net: NetName=NetU18_1 Pin=U21-3
+Removed Pin From Net: NetName=+5 Pin=U21-11
+Removed Pin From Net: NetName=GND Pin=U21-12
+Removed Pin From Net: NetName=NetU16_8-41 Pin=U21-13
+Removed Pin From Net: NetName=NetU16_8-40 Pin=U21-14
+Removed Pin From Net: NetName=NetU16_8-39 Pin=U21-15
+Change Component Footprint: Designator=U21 Old Footprint=ADI-CP-16-22_L New Footprint=TI-RTJ20-2600X2600TP_V
+Change Component Footprint: Designator=C40 Old Footprint=LIBRARYSOURCE=Vault New Footprint=CAPC0402(1005)60_L
+Change Component Footprint: Designator=C43 Old Footprint=LIBRARYSOURCE=Vault New Footprint=CAPC0402(1005)60_L
+Change Component Footprint: Designator=C48 Old Footprint=LIBRARYSOURCE=Vault New Footprint=CAPC0402(1005)60_L
+Change Component Footprint: Designator=C49 Old Footprint=LIBRARYSOURCE=Vault New Footprint=CAPC0402(1005)60_L
+Change Component Footprint: Designator=C50 Old Footprint=LIBRARYSOURCE=Vault New Footprint=CAPC0402(1005)60_L
+Change Component Comment : Designator=U21 Old Comment=ADG1608BCPZ-REEL7 New Comment=ADS8028IRTJT
+Change component parameters: Designator = "U21"; Footprint = "TI-RTJ20-2600X2600TP_V"; UniqueID = "\LPYSDLYH"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "# Input Channels"; Value = "8"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Analog Voltage AV/DD(Max)(V)"; Value = "5.25"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Analog Voltage AV/DD(Min)(V)"; Value = "2.7"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Architecture"; Value = "SAR"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.ti.com/"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=ADS8028&fileType=pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.ti.com/lit/ml/mpqf156e/mpqf156e.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DatasheetVersion"; Value = "SBAS549B"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Digital Supply(Max)(V)"; Value = "5.25"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Digital Supply(Min)(V)"; Value = "1.65"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Eco-Plan"; Value = "Green (RoHS & no Sb/Br)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "INL(Max)(+/-LSB)"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Interface"; Value = "Serial SPI"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "20-Pin Plastic Flat Pack, Body 4 X 4 mm, Pitch 0.5 mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "RTJ20-2600X2600TP"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageVersion"; Value = "4205505/F, 07/2011"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PartNumber"; Value = "ADS8028IRTJT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resolution(Bits)"; Value = "12"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Sample Rate (max)(SPS)"; Value = "1M"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SFDR(dB)"; Value = "84"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SINAD(dB)"; Value = "71"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SNR(dB)"; Value = "72"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SubFamily"; Value = "Precision ADC (<=10MSPS)"; VariantName = "[No Variations]"
+Added Component: Designator=U33(ADI-CP-16-22_N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Bandwidth (Hz)"; Value = "40M, 40M, 37M, 34M"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Code_JEDEC"; Value = "MO-220-WEED-6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.analog.com/en/index.html"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.analog.com/static/imported-files/data_sheets/ADG1608_1609.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.analog.com/static/imported-files/packages/PKG_PDF/LFCSP(CP)/CP-16/CP_16_22.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Rev. 0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Analog Devices"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Analog Signal Range"; Value = "0 to Vdd"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "16-Pin Lead Frame Chip Scale Package, Body 3 x 3 mm, Pitch 0.5 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "CP-16-22"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "08-16-2010-E, 09/2011"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packing"; Value = "Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "ADG1608BCPZ-REEL7"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ron (ohms)"; Value = "4.4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "t transition (s)"; Value = "150n"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=U21-6
+Added Pin To Net: NetName=GND Pin=U21-9
+Added Pin To Net: NetName=+5 Pin=U21-10
+Added Pin To Net: NetName=NetU17_1 Pin=U21-18
+Added Pin To Net: NetName=NetU18_1 Pin=U21-19
+Added Pin To Net: NetName=NetU16_8-41 Pin=U33-13
+Added Pin To Net: NetName=NetU16_8-40 Pin=U33-14
+Added Pin To Net: NetName=NetU16_8-39 Pin=U33-15
+Added Pin To Net: NetName=NetU16_8-42 Pin=U16-8-42
+Added Pin To Net: NetName=NetU16_8-42 Pin=U33-16
+Added Net: Name=NetU16_8-42
+Added Pin To Net: NetName=NetU21_1 Pin=U21-1
+Added Pin To Net: NetName=NetU21_1 Pin=U23-1
+Added Pin To Net: NetName=NetU21_1 Pin=U23-4
+Added Net: Name=NetU21_1
+Added Pin To Net: NetName=NetU21_2 Pin=U21-2
+Added Pin To Net: NetName=NetU21_2 Pin=U25-1
+Added Pin To Net: NetName=NetU21_2 Pin=U25-4
+Added Net: Name=NetU21_2
+Added Pin To Net: NetName=NetU21_3 Pin=U21-3
+Added Pin To Net: NetName=NetU21_3 Pin=U24-1
+Added Pin To Net: NetName=NetU21_3 Pin=U24-4
+Added Net: Name=NetU21_3
+Added Pin To Net: NetName=NetU21_20 Pin=U21-20
+Added Pin To Net: NetName=NetU21_20 Pin=U22-1
+Added Pin To Net: NetName=NetU21_20 Pin=U22-4
+Added Net: Name=NetU21_20
+Added Member To Class: ClassName=BBB Headers Member=Component U33 ADG1608BCPZ-REEL7

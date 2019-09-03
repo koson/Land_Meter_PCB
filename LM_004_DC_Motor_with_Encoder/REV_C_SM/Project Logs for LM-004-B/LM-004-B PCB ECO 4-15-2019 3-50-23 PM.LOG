@@ -1,0 +1,20 @@
+Change Component Designator: OldDesignator=P*1 NewDesignator=P1
+Change Component Designator: OldDesignator=P*2 NewDesignator=P2
+Added Component: Designator=R11(RESC0402(1005)_M)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R12(RESC0402(1005)_M)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=NetR11_1 Pin=R11-1
+Added Pin To Net: NetName=NetR11_1 Pin=U1-8-9
+Added Net: Name=NetR11_1
+Added Pin To Net: NetName=NetR11_2 Pin=R11-2
+Added Pin To Net: NetName=NetR11_2 Pin=U6-13
+Added Net: Name=NetR11_2
+Added Pin To Net: NetName=NetR12_1 Pin=R12-1
+Added Pin To Net: NetName=NetR12_1 Pin=U1-8-30
+Added Net: Name=NetR12_1
+Added Pin To Net: NetName=NetR12_2 Pin=R12-2
+Added Pin To Net: NetName=NetR12_2 Pin=U7-13
+Added Net: Name=NetR12_2
+Added Member To Class: ClassName=Stepper Motor Driver Member=Component R11 1.5k
+Added Member To Class: ClassName=Stepper Motor Driver Member=Component R12 1.5k

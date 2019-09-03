@@ -1,0 +1,15 @@
+Removed Pin From Net: NetName=+12 Pin=DS7-1
+Removed Pin From Net: NetName=+12 Pin=P17-2
+Removed Pin From Net: NetName=GND Pin=P17-3
+Removed Pin From Net: NetName=GND Pin=Q5-3
+Removed Pin From Net: NetName=+5 Pin=R47-1
+Removed Member From Class: ClassName=heater_control Member=DS7
+Removed Member From Class: ClassName=heater_control Member=P17
+Removed Member From Class: ClassName=heater_control Member=Q5
+Removed Member From Class: ClassName=heater_control Member=R47
+Removed Member From Class: ClassName=heater_control Member=R48
+Removed Member From Class: ClassName=heater_control Member=R49
+Added Pin To Net: NetName=NetU23_8-14 Pin=U23-8-14
+Added Net: Name=NetU23_8-14
+Added Pin To Net: NetName=NetU30_3 Pin=U30-3
+Added Net: Name=NetU30_3

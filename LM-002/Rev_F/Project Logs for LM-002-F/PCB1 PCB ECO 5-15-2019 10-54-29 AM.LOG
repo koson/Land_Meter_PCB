@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=CT_CS0 Pin=P3-6
+Removed Pin From Net: NetName=SPI0_SCLK Pin=U4-14
+Removed Pin From Net: NetName=SPI0_MOSI Pin=U4-15
+Removed Pin From Net: NetName=SPI0_MISO Pin=U4-16
+Removed Pin From Net: NetName=SPI0_MISO Pin=U16-1
+Removed Pin From Net: NetName=SPI0_SCLK Pin=U16-10
+Added Pin To Net: NetName=FB_CS0 Pin=P3-6
+Added Pin To Net: NetName=CT_CS0 Pin=P3-14
+Change Net Name : Old Net Name=FB_MUX_A0 New Net Name=FB_MUX_A1
+Added Pin To Net: NetName=FB_MUX_A0 Pin=P2-25
+Added Pin To Net: NetName=FB_MUX_A0 Pin=U15-14
+Added Net: Name=FB_MUX_A0
+Added Pin To Net: NetName=SPIO_MISO Pin=U16-1
+Added Net: Name=SPIO_MISO
+Added Pin To Net: NetName=SPIO_SCLK Pin=U16-10
+Added Net: Name=SPIO_SCLK

@@ -1,0 +1,22 @@
+Removed Pin From Net: NetName=PLATE_N_F Pin=R16-1
+Removed Pin From Net: NetName=PLATE_N_F Pin=R16-2
+Removed Pin From Net: NetName=PLATE_P_F Pin=R26-1
+Removed Pin From Net: NetName=PLATE_P_F Pin=R26-2
+Removed Member From Class: ClassName=Sense&Connectors Member=C5
+Removed Member From Class: ClassName=Sense&Connectors Member=C8
+Removed Member From Class: ClassName=Sense&Connectors Member=C9
+Removed Member From Class: ClassName=Sense&Connectors Member=C10
+Removed Member From Class: ClassName=Synch_Demod Member=R7
+Removed Member From Class: ClassName=Synch_Demod Member=R8
+Removed Member From Class: ClassName=Synch_Demod Member=R10
+Removed Member From Class: ClassName=Synch_Demod Member=R11
+Removed Member From Class: ClassName=Sense&Connectors Member=R16
+Removed Member From Class: ClassName=Sense&Connectors Member=R26
+Added Member To Class: ClassName=Sense&Connectors Member=Component C15 CAP CER 0.1UF 25V X7R 0805
+Added Member To Class: ClassName=Sense&Connectors Member=Component C16 CAP CER 0.1UF 25V X7R 0805
+Added Member To Class: ClassName=Sense&Connectors Member=Component C17 CAP CER 0.1UF 25V X7R 0805
+Added Member To Class: ClassName=Sense&Connectors Member=Component C18 CAP CER 0.1UF 25V X7R 0805
+Added Member To Class: ClassName=Synch_Demod Member=Component R1 300K
+Added Member To Class: ClassName=Synch_Demod Member=Component R2 499K
+Added Member To Class: ClassName=Synch_Demod Member=Component R3 18.2K
+Added Member To Class: ClassName=Synch_Demod Member=Component R4 249K

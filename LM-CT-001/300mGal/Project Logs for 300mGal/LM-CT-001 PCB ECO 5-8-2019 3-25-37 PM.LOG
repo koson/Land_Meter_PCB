@@ -1,0 +1,15 @@
+Removed Pin From Net: NetName=NetR15_2 Pin=U8-2
+Removed Pin From Net: NetName=TFP Pin=U8-3
+Removed Pin From Net: NetName=GND Pin=U8-4
+Removed Pin From Net: NetName=Top Forcing Plate Force Pin=U8-6
+Removed Pin From Net: NetName=ZP Pin=U8-7
+Removed Pin From Net: NetName=NetR20_1 Pin=U9-2
+Removed Pin From Net: NetName=BFP Pin=U9-3
+Removed Pin From Net: NetName=GND Pin=U9-4
+Removed Pin From Net: NetName=Bottom Forcing Plate Force Pin=U9-6
+Removed Pin From Net: NetName=ZP Pin=U9-7
+Removed Member From Class: ClassName=ZP_Force_Plates Member=*
+Removed Member From Class: ClassName=ZP_Force_Plates Member=U8
+Removed Member From Class: ClassName=ZP_Force_Plates Member=U9
+Added Pin To Net: NetName=ZP Pin=P4-A4
+Added Pin To Net: NetName=ZH Pin=P4-B4

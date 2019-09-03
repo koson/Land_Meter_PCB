@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=Guard Pin=P3-2
+Removed Pin From Net: NetName=Guard Pin=P3-2
+Removed Pin From Net: NetName=Guard Pin=P3-2
+Removed Pin From Net: NetName=Guard Pin=P3-2
+Change Component Footprint: Designator=P3 Old Footprint=MMCX-P-P-H-ST-MT1 New Footprint=Triax_Conn
+Change Component Comment : Designator=P3 Old Comment=MMCX-P-P-H-ST-MT1 New Comment=Triax_Conn
+Change component parameters: Designator = "P3"; Footprint = "Triax_Conn"; UniqueID = "\UVXYJGOX"
+Change component parameters. Clean all parameters for all variants
+Added Pin To Net: NetName=Beam_In Pin=P3-2
+Added Pin To Net: NetName=Guard Pin=P3-3
+Added Room: Name=Beam_Amp

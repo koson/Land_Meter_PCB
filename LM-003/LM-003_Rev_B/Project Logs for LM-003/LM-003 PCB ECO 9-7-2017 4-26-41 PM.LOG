@@ -1,0 +1,28 @@
+Removed Pin From Net: NetName=+5 BBB Pin=C13-1
+Removed Pin From Net: NetName=+5 BBB Pin=U4-1
+Removed Pin From Net: NetName=+5 BBB Pin=U4-2
+Removed Pin From Net: NetName=Power_IN Pin=U4-5
+Removed Pin From Net: NetName=GND Pin=U4-6
+Removed Pin From Net: NetName=GND Pin=U4-7
+Removed Pin From Net: NetName=Power_IN Pin=U4-8
+Removed Member From Class: ClassName=Connectors Member=P14
+Removed Member From Class: ClassName=Connectors Member=P16
+Change Component Footprint: Designator=F1 Old Footprint=01530007Z New Footprint=PIN-W2/E2.8
+Change Component Footprint: Designator=U4 Old Footprint=LT-S8-8_M New Footprint=CC1R5-0505SR-E
+Change Component Comment : Designator=F1 Old Comment=Fuse holder New Comment=Fuse 1
+Change Component Comment : Designator=U4 Old Comment=LT1763CS8-5#PBF New Comment=CC1R5-0505SR-E
+Change component parameters: Designator = "U4"; Footprint = "CC1R5-0505SR-E"; UniqueID = "\PTFXFGKE"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "445-3267-ND"; VariantName = "[No Variations]"
+Change component parameters: Designator = "F1"; Footprint = "PIN-W2/E2.8"; UniqueID = "\QNMNECJO"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "Thru-Hole; 2 Leads"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "PIN-W2/E2.8"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=Power_IN Pin=U4-1
+Added Pin To Net: NetName=GND Pin=U4-5
+Added Pin To Net: NetName=+5 BBB Pin=U4-7

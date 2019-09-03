@@ -1,0 +1,792 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+		h1, h2, h3, h4, h5, h6 {
+			font-family : segoe ui;
+			color : black;
+			background-color : #EDE7D9;
+			padding: 0.3em;
+		}
+
+		h1 {
+			font-size: 1.2em;
+		}		
+
+		h2 {
+			font-size: 1.2em;
+		}
+
+		body {
+			font-family : segoe ui;
+		}
+
+		td, th {
+			padding: 0.5em;
+			text-align : left;
+			width: 10em;
+		}
+		th {
+			background-color : #EEEEEE;
+
+		}
+		th.column1, td.column1 {
+			text-align: left;
+			width : auto;
+		}
+		table {
+			width : 100%;
+			font-size: 0.9em;
+		}
+
+		.DRC_summary_header {
+			padding-bottom : 0.1em;
+			border : 0px solid black;
+			width: 100%;
+			align: left;
+		}
+
+		.DRC_summary_header_col1,
+		.DRC_summary_header_col2, 
+		.DRC_summary_header_col3 {
+			color : black;
+			font-size:100%;
+			padding : 0em;
+			padding-top : 0.2em;
+			padding-bottom 0.2em;
+			border : 0px solid black;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.DRC_summary_header_col1 {
+			font-weight: bold;
+			width: 8em;
+		}
+
+		.DRC_summary_header_col2 {
+			width: 0.1em;
+		
+		}
+
+		.DRC_summary_header_col3 {
+			width : auto;
+		}
+
+		.header_holder {
+		    Width = 100%;
+		    border = 0px solid green;
+		    padding = 0;
+		}
+
+
+		.front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+		{
+			left : 0;
+			top : 0;
+			padding: 0em;
+			padding-top : 0.1em;
+			border : 0px solid black;
+			width : 100%;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.front_matter_column1 {
+			width : 8em;
+			font-weight: bold;
+		}
+
+		.front_matter_column2 {
+			width: 0.1em;
+		}
+
+		.front_matter_column3 {
+			width : auto;
+		}
+
+		.total_column1, .total_column {
+			font-weight : bold;
+		}
+		.total_column1 {
+			text-align : left;
+		}
+		.warning, .error {
+			color : red;
+			font-weight : bold;
+		}
+		tr.onmouseout_odd {
+			background-color : #white;
+		}
+		tr.onmouseout_even { 
+			background-color : #FAFAFA;
+		}
+		tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : #EEEEEE;
+		} 
+		a:link, a:visited, .q a:link,.q a:active,.q {
+			color: #21489e; 
+		}
+		a:link.callback, a:visited.callback { 
+			color: #21489e;
+		}
+		a:link.customize, a:visited.customize {
+			color: #C0C0C0;
+			position: absolute; 
+			right: 10px;
+		}	
+		p.contents_level1 {
+			font-weight : bold;
+			font-size : 110%;
+			margin : 0.5em;
+		}
+		p.contents_level2 {
+			position : relative;
+			left : 20px;
+			margin : 0.5em;
+		}
+	</style><script type="text/javascript">
+		function coordToMils(coord) {
+			var number = coord / 10000;
+			
+			if (number != number.toFixed(3))
+				number = number.toFixed(3);
+
+			return number + 'mil'
+		}
+
+		function coordToMM(coord) {
+			var number = 0.0254 * coord / 10000;
+			
+			if (number != number.toFixed(4))
+				number = number.toFixed(4);
+			
+			return number + 'mm'
+		}
+	
+		function convertCoord(coordNode, units) {
+			for (var i = 0; i < coordNode.childNodes.length; i++) {
+				coordNode.removeChild(coordNode.childNodes[i]);
+			}
+
+			var coord = coordNode.getAttribute('value');
+			if (coord != null) {
+				if (units == 'mm') {
+					textNode = document.createTextNode(coordToMM(coord));
+					coordNode.appendChild(textNode);
+				} else if (units == 'mil') {
+					textNode = document.createTextNode(coordToMils(coord));		
+					coordNode.appendChild(textNode);	
+				}
+			}
+		}
+	
+		function convertUnits(unitNode, units) {
+			for (var i = 0; i < unitNode.childNodes.length; i++) {
+				unitNode.removeChild(unitNode.childNodes[i]);		
+			}
+		
+			textNode = document.createTextNode(units); 
+			unitNode.appendChild(textNode);
+		}
+	
+		function changeUnits(radio_input, units) {
+			if (radio_input.checked) {
+			
+				var elements = document.getElementsByName('coordinate');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertCoord(elements[i], units);
+					}
+				}
+	
+				var elements = document.getElementsByName('units');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertUnits(elements[i], units);
+					}
+				}
+			}
+		}
+	</script><title>Design Rule Verification Report</title>
+</head>
+<body onload=""><img ALT="Altium" src="
+			file://C:\Users\Public\Documents\Altium\AD17\Templates\AD_logo.png
+		"><h1>Design Rule Verification Report</h1>
+<table class="header_holder">
+<td class="column1">
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">5/10/2019</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">3:06:21 PM</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">00:00:01</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3"><a href="file:///C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc" class="file"><acronym title="C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc">C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc</acronym></a></td>
+</tr>
+</table>
+</td>
+<td class="column2">
+<table class="DRC_summary_header">
+<tr>
+<td class="DRC_summary_header_col1">Warnings:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">3</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Rule Violations:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">137</td></tr>
+</table>
+</td>
+</table><a name="IDU5KGILUKPUTHNHLB04VMB0YIMLVZTGJY5VJYZIICN5A1G44VRSLC"><h2>Summary</h2></a><table>
+<tr>
+<th class="column1">Warnings</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDF1EGX23GKPX2Z03TBC10MSBYJQ2031ZZL0TQZLMJKIRI3WFMTPP">Design contains shelved or modified (but not repoured) polygons. The result of DRC is not correct. Recommended to restore/repour all polygons and proceed with DRC again</a></td>
+<td class="column2">3</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">3</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Rule Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID1Z2ZGVRNVPQ10HTU5TFVCB1BC5TDB4CH2GHDRO4B41GUSZSPS4L">Clearance Constraint (Gap=0.15mm) (All),(All)</a></td>
+<td class="column2">12</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDZOO0NOHS5YZTHKOSPB2KW0KI1BDHPKKL15VUKNKO3WBOSPH5QL4F">Short-Circuit Constraint (Allowed=No) (All),(All)</a></td>
+<td class="column2">11</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDP0IY3ZXQ3ASMI30KZQS3KHYSXNIY40EAHWTTCSEOT0VJ3B5QI00L">Un-Routed Net Constraint ( (All) )</a></td>
+<td class="column2">17</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID0AJWJYSO2SDHEOPAI3JENW104EURUEGN45E4ZAIX43YUO0PYPVOG">Modified Polygon (Allow modified: No), (Allow shelved: No)</a></td>
+<td class="column2">3</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDYI324HZUTNYSMM2MEHTWT5ZPQMXTSHOIB5DR2BGUQDBVFFSYYBGF">Width Constraint (Min=0.254mm) (Max=0.762mm) (Preferred=0.254mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDWPBI03I5MOWWLGKYJ0N4LOQOXB5LOZ2YYPSGGJIBFNLOZHYWVQ4M">Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDZBYEQEY2N15OENPN3HZQ50V5QJX5GS32T3ZDMVPM4QYX1ZXSWRYI">Hole Size Constraint (Min=0.025mm) (Max=2.54mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDPUM4W3IKCIQZGLMPFDBT1HJBCMVQCTKAT1PGDVITMFHSFLBUZHUI">Hole To Hole Clearance (Gap=0.254mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDSNMOIQSNOVEIFPE5UFFT0DRGDM5GFDAGTCWCZSLHMPLCZA3GWSLN">Minimum Solder Mask Sliver (Gap=0.045mm) (All),(All)</a></td>
+<td class="column2">3</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID2OVABV5K4IS4OW3PR0GCILPPCMIP1XKFLJPO3EPQWRDJSHNOFNUJ">Silk To Solder Mask (Clearance=0.127mm) (IsPad),(All)</a></td>
+<td class="column2">1</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID4LBGILXHBQEXNWYSNZ2KF3RQDPIMSKKQVIVDLXK2OVMCQSCXKOIE">Silk to Silk (Clearance=0.127mm) (All),(All)</a></td>
+<td class="column2">3</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID11J0J5B03FJVNZCHMN4RTZV2PJ4JYBVSBKIBYEGZU34ZAG4VQKOE">Net Antennae (Tolerance=0mm) (All)</a></td>
+<td class="column2">17</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDQFPRWOLNBPYPF1FNW1L5LKF4SKW4PMUAZAHXZBFD2WBYNLGJUFPF">Room LM_001 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('LM_001'))</a></td>
+<td class="column2">70</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDSPA0JBFMCQINJKPLZKJH44WCCJALNDU2CFLUV1L2IRX5D1DFQZYM">Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">137</td>
+</tr>
+</table><br><a name="IDA0FHVPYNH3ZCTDZL1XO4OEWGP4FAY4HEI331AEYKBZWLHZJ0G4N"><h2>Warnings</h2></a><a name="IDF1EGX23GKPX2Z03TBC10MSBYJQ2031ZZL0TQZLMJKIRI3WFMTPP"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="warning">Design contains shelved or modified (but not repoured) polygons. The result of DRC is not correct. Recommended to restore/repour all polygons and proceed with DRC again</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Polygon named: GND_L03_P003 In net GND On Signal Layer 1</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Polygon named: GND_L01_P001 In net GND On Top Layer</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Polygon named: GND_L04_P000 In net GND On Bottom Layer</td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="ID1Z2ZGVRNVPQ10HTU5TFVCB1BC5TDB4CH2GHDRO4B41GUSZSPS4L"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Clearance Constraint (Gap=0.15mm) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=44123.507mil|Location2.X=44128.444mil|Location1.Y=32300.12mil|Location2.Y=32305.057mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=44123.507mil|Location2.X=44128.444mil|Location1.Y=32300.12mil|Location2.Y=32305.057mil|Absolute=True">Clearance Constraint: (Collision &lt; 0.15mm) Between Track (46.088mm,170.216mm)(46.088mm,172.534mm) on Top Layer And Pad P14-9(44.958mm,171.958mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=44118.607mil|Location2.X=44127.284mil|Location1.Y=32316.859mil|Location2.Y=32326.181mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=44118.607mil|Location2.X=44127.284mil|Location1.Y=32316.859mil|Location2.Y=32326.181mil|Absolute=True">Clearance Constraint: (0.085mm &lt; 0.15mm) Between Track (45.998mm,172.624mm)(46.088mm,172.534mm) on Top Layer And Pad P14-9(44.958mm,171.958mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43981.399mil|Location2.X=43986.336mil|Location1.Y=32276.228mil|Location2.Y=32281.165mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43981.399mil|Location2.X=43986.336mil|Location1.Y=32276.228mil|Location2.Y=32281.165mil|Absolute=True">Clearance Constraint: (Collision &lt; 0.15mm) Between Track (42.278mm,151.917mm)(42.278mm,171.486mm) on Bottom Layer And Pad P14-7(42.418mm,171.958mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43991.735mil|Location2.X=43996.672mil|Location1.Y=32296.844mil|Location2.Y=32301.781mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43991.735mil|Location2.X=43996.672mil|Location1.Y=32296.844mil|Location2.Y=32301.781mil|Absolute=True">Clearance Constraint: (Collision &lt; 0.15mm) Between Track (42.278mm,171.486mm)(43.417mm,172.624mm) on Bottom Layer And Pad P14-7(42.418mm,171.958mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43881.399mil|Location2.X=43886.336mil|Location1.Y=32276.228mil|Location2.Y=32281.165mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43881.399mil|Location2.X=43886.336mil|Location1.Y=32276.228mil|Location2.Y=32281.165mil|Absolute=True">Clearance Constraint: (Collision &lt; 0.15mm) Between Track (39.738mm,169.821mm)(39.738mm,171.486mm) on Top Layer And Pad P14-5(39.878mm,171.958mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43871.676mil|Location2.X=43876.613mil|Location1.Y=32283.337mil|Location2.Y=32288.274mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43871.676mil|Location2.X=43876.613mil|Location1.Y=32283.337mil|Location2.Y=32288.274mil|Absolute=True">Clearance Constraint: (Collision &lt; 0.15mm) Between Track (38.6mm,172.624mm)(39.738mm,171.486mm) on Top Layer And Pad P14-5(39.878mm,171.958mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43881.399mil|Location2.X=43886.336mil|Location1.Y=32276.228mil|Location2.Y=32281.165mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43881.399mil|Location2.X=43886.336mil|Location1.Y=32276.228mil|Location2.Y=32281.165mil|Absolute=True">Clearance Constraint: (Collision &lt; 0.15mm) Between Track (39.738mm,121.062mm)(39.738mm,171.486mm) on Signal Layer 1 And Pad P14-5(39.878mm,171.958mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43891.735mil|Location2.X=43896.672mil|Location1.Y=32296.844mil|Location2.Y=32301.781mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43891.735mil|Location2.X=43896.672mil|Location1.Y=32296.844mil|Location2.Y=32301.781mil|Absolute=True">Clearance Constraint: (Collision &lt; 0.15mm) Between Track (39.738mm,171.486mm)(40.877mm,172.624mm) on Signal Layer 1 And Pad P14-5(39.878mm,171.958mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43786.293mil|Location2.X=43791.23mil|Location1.Y=32273.825mil|Location2.Y=32278.762mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43786.293mil|Location2.X=43791.23mil|Location1.Y=32273.825mil|Location2.Y=32278.762mil|Absolute=True">Clearance Constraint: (Collision &lt; 0.15mm) Between Track (37.291mm,150.719mm)(37.291mm,171.393mm) on Top Layer And Pad P14-3(37.338mm,171.958mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43771.676mil|Location2.X=43776.613mil|Location1.Y=32283.337mil|Location2.Y=32288.274mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43771.676mil|Location2.X=43776.613mil|Location1.Y=32283.337mil|Location2.Y=32288.274mil|Absolute=True">Clearance Constraint: (Collision &lt; 0.15mm) Between Track (36.06mm,172.624mm)(37.291mm,171.393mm) on Top Layer And Pad P14-3(37.338mm,171.958mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43681.399mil|Location2.X=43686.336mil|Location1.Y=32276.228mil|Location2.Y=32281.165mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43681.399mil|Location2.X=43686.336mil|Location1.Y=32276.228mil|Location2.Y=32281.165mil|Absolute=True">Clearance Constraint: (Collision &lt; 0.15mm) Between Track (34.658mm,133.284mm)(34.658mm,171.486mm) on Signal Layer 1 And Pad P14-1(34.798mm,171.958mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43671.676mil|Location2.X=43676.613mil|Location1.Y=32283.337mil|Location2.Y=32288.274mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43671.676mil|Location2.X=43676.613mil|Location1.Y=32283.337mil|Location2.Y=32288.274mil|Absolute=True">Clearance Constraint: (Collision &lt; 0.15mm) Between Track (33.52mm,172.624mm)(34.658mm,171.486mm) on Signal Layer 1 And Pad P14-1(34.798mm,171.958mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDZOO0NOHS5YZTHKOSPB2KW0KI1BDHPKKL15VUKNKO3WBOSPH5QL4F"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Short-Circuit Constraint (Allowed=No) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=44116.711mil|Location2.X=44135.264mil|Location1.Y=32293.312mil|Location2.Y=32311.865mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=44116.711mil|Location2.X=44135.264mil|Location1.Y=32293.312mil|Location2.Y=32311.865mil|Absolute=True">Short-Circuit Constraint: Between Track (46.088mm,170.216mm)(46.088mm,172.534mm) on Top Layer And Pad P14-9(44.958mm,171.958mm) on Multi-Layer Location : [X = 1120.8mm][Y = 820.486mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43971.803mil|Location2.X=43999.061mil|Location1.Y=32264.454mil|Location2.Y=32291.711mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43971.803mil|Location2.X=43999.061mil|Location1.Y=32264.454mil|Location2.Y=32291.711mil|Absolute=True">Short-Circuit Constraint: Between Track (42.278mm,151.917mm)(42.278mm,171.486mm) on Bottom Layer And Pad P14-7(42.418mm,171.958mm) on Multi-Layer Location : [X = 1117.23mm][Y = 819.863mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43969.08mil|Location2.X=44035.25mil|Location1.Y=32268.632mil|Location2.Y=32334.802mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43969.08mil|Location2.X=44035.25mil|Location1.Y=32268.632mil|Location2.Y=32334.802mil|Absolute=True">Short-Circuit Constraint: Between Track (42.278mm,171.486mm)(43.417mm,172.624mm) on Bottom Layer And Pad P14-7(42.418mm,171.958mm) on Multi-Layer Location : [X = 1117.655mm][Y = 820.464mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43871.803mil|Location2.X=43899.061mil|Location1.Y=32264.454mil|Location2.Y=32291.711mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43871.803mil|Location2.X=43899.061mil|Location1.Y=32264.454mil|Location2.Y=32291.711mil|Absolute=True">Short-Circuit Constraint: Between Track (39.738mm,169.821mm)(39.738mm,171.486mm) on Top Layer And Pad P14-5(39.878mm,171.958mm) on Multi-Layer Location : [X = 1114.69mm][Y = 819.863mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43845.512mil|Location2.X=43900.712mil|Location1.Y=32270.73mil|Location2.Y=32325.93mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43845.512mil|Location2.X=43900.712mil|Location1.Y=32270.73mil|Location2.Y=32325.93mil|Absolute=True">Short-Circuit Constraint: Between Track (38.6mm,172.624mm)(39.738mm,171.486mm) on Top Layer And Pad P14-5(39.878mm,171.958mm) on Multi-Layer Location : [X = 1114.377mm][Y = 820.378mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43871.803mil|Location2.X=43899.061mil|Location1.Y=32264.454mil|Location2.Y=32291.711mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43871.803mil|Location2.X=43899.061mil|Location1.Y=32264.454mil|Location2.Y=32291.711mil|Absolute=True">Short-Circuit Constraint: Between Track (39.738mm,121.062mm)(39.738mm,171.486mm) on Signal Layer 1 And Pad P14-5(39.878mm,171.958mm) on Multi-Layer Location : [X = 1114.69mm][Y = 819.863mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43869.08mil|Location2.X=43935.25mil|Location1.Y=32268.632mil|Location2.Y=32334.802mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43869.08mil|Location2.X=43935.25mil|Location1.Y=32268.632mil|Location2.Y=32334.802mil|Absolute=True">Short-Circuit Constraint: Between Track (39.738mm,171.486mm)(40.877mm,172.624mm) on Signal Layer 1 And Pad P14-5(39.878mm,171.958mm) on Multi-Layer Location : [X = 1115.115mm][Y = 820.464mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43777.085mil|Location2.X=43801.103mil|Location1.Y=32264.227mil|Location2.Y=32288.245mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43777.085mil|Location2.X=43801.103mil|Location1.Y=32264.227mil|Location2.Y=32288.245mil|Absolute=True">Short-Circuit Constraint: Between Track (37.291mm,150.719mm)(37.291mm,171.393mm) on Top Layer And Pad P14-3(37.338mm,171.958mm) on Multi-Layer Location : [X = 1112.243mm][Y = 819.816mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43744.757mil|Location2.X=43805.129mil|Location1.Y=32266.313mil|Location2.Y=32326.685mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43744.757mil|Location2.X=43805.129mil|Location1.Y=32266.313mil|Location2.Y=32326.685mil|Absolute=True">Short-Circuit Constraint: Between Track (36.06mm,172.624mm)(37.291mm,171.393mm) on Top Layer And Pad P14-3(37.338mm,171.958mm) on Multi-Layer Location : [X = 1111.884mm][Y = 820.331mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43671.803mil|Location2.X=43699.061mil|Location1.Y=32264.454mil|Location2.Y=32291.711mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43671.803mil|Location2.X=43699.061mil|Location1.Y=32264.454mil|Location2.Y=32291.711mil|Absolute=True">Short-Circuit Constraint: Between Track (34.658mm,133.284mm)(34.658mm,171.486mm) on Signal Layer 1 And Pad P14-1(34.798mm,171.958mm) on Multi-Layer Location : [X = 1109.61mm][Y = 819.863mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43645.512mil|Location2.X=43700.712mil|Location1.Y=32270.73mil|Location2.Y=32325.93mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43645.512mil|Location2.X=43700.712mil|Location1.Y=32270.73mil|Location2.Y=32325.93mil|Absolute=True">Short-Circuit Constraint: Between Track (33.52mm,172.624mm)(34.658mm,171.486mm) on Signal Layer 1 And Pad P14-1(34.798mm,171.958mm) on Multi-Layer Location : [X = 1109.297mm][Y = 820.378mm]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDP0IY3ZXQ3ASMI30KZQS3KHYSXNIY40EAHWTTCSEOT0VJ3B5QI00L"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Un-Routed Net Constraint ( (All) )</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43831.89mil|Location2.X=44590.928mil|Location1.Y=32228.818mil|Location2.Y=32502.588mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43831.89mil|Location2.X=44590.928mil|Location1.Y=32228.818mil|Location2.Y=32502.588mil|Absolute=True">Un-Routed Net Constraint: Net Board2 Heater FET Between Track (40.877mm,172.624mm)(40.918mm,172.624mm) on Signal Layer 1 And Pad P14-18(55.118mm,174.498mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43844.146mil|Location2.X=44590.928mil|Location1.Y=32125.276mil|Location2.Y=32402.588mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43844.146mil|Location2.X=44590.928mil|Location1.Y=32125.276mil|Location2.Y=32402.588mil|Absolute=True">Un-Routed Net Constraint: Net Board1 Heater FET Between Track (41.23mm,169.994mm)(42.319mm,168.905mm) on Signal Layer 1 And Pad P14-17(55.118mm,171.958mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43585.432mil|Location2.X=44290.928mil|Location1.Y=32183.99mil|Location2.Y=32502.588mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43585.432mil|Location2.X=44290.928mil|Location1.Y=32183.99mil|Location2.Y=32502.588mil|Absolute=True">Un-Routed Net Constraint: Net Thermistor_CS0 Between Track (34.658mm,133.284mm)(34.658mm,171.486mm) on Signal Layer 1 And Pad P14-12(47.498mm,174.498mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43485.432mil|Location2.X=44190.928mil|Location1.Y=32183.99mil|Location2.Y=32502.588mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43485.432mil|Location2.X=44190.928mil|Location1.Y=32183.99mil|Location2.Y=32502.588mil|Absolute=True">Un-Routed Net Constraint: Net SPI0_SCLK Between Track (30.98mm,172.624mm)(32.118mm,171.486mm) on Signal Layer 1 And Pad P14-10(44.958mm,174.498mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43435.432mil|Location2.X=44190.928mil|Location1.Y=32125.276mil|Location2.Y=32402.588mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43435.432mil|Location2.X=44190.928mil|Location1.Y=32125.276mil|Location2.Y=32402.588mil|Absolute=True">Un-Routed Net Constraint: Net SPI0_MISO Between Track (30.848mm,136.086mm)(30.848mm,169.994mm) on Signal Layer 1 And Pad P14-9(44.958mm,171.958mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43331.89mil|Location2.X=44090.928mil|Location1.Y=32128.818mil|Location2.Y=32402.588mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43331.89mil|Location2.X=44090.928mil|Location1.Y=32128.818mil|Location2.Y=32402.588mil|Absolute=True">Un-Routed Net Constraint: Net MUX A2 Between Track (28.048mm,169.913mm)(28.218mm,170.084mm) on Signal Layer 1 And Pad P14-7(42.418mm,171.958mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43285.432mil|Location2.X=43990.928mil|Location1.Y=32183.99mil|Location2.Y=32502.588mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43285.432mil|Location2.X=43990.928mil|Location1.Y=32183.99mil|Location2.Y=32502.588mil|Absolute=True">Un-Routed Net Constraint: Net MUX_A1 Between Track (25.9mm,172.624mm)(27.038mm,171.486mm) on Signal Layer 1 And Pad P14-6(39.878mm,174.498mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43384.432mil|Location2.X=44090.928mil|Location1.Y=32184.99mil|Location2.Y=32502.588mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43384.432mil|Location2.X=44090.928mil|Location1.Y=32184.99mil|Location2.Y=32502.588mil|Absolute=True">Un-Routed Net Constraint: Net MUX_A0 Between Track (29.553mm,144.231mm)(29.553mm,171.511mm) on Signal Layer 1 And Pad P14-8(42.418mm,174.498mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43635.432mil|Location2.X=44390.928mil|Location1.Y=32125.276mil|Location2.Y=32402.588mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43635.432mil|Location2.X=44390.928mil|Location1.Y=32125.276mil|Location2.Y=32402.588mil|Absolute=True">Un-Routed Net Constraint: Net Meter Heater FET Between Track (35.838mm,170.084mm)(35.928mm,169.994mm) on Top Layer And Pad P14-13(50.038mm,171.958mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43735.432mil|Location2.X=44490.928mil|Location1.Y=32125.276mil|Location2.Y=32402.588mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43735.432mil|Location2.X=44490.928mil|Location1.Y=32125.276mil|Location2.Y=32402.588mil|Absolute=True">Un-Routed Net Constraint: Net Gearbox Heater FET Between Track (38.378mm,170.084mm)(38.468mm,169.994mm) on Top Layer And Pad P14-15(52.578mm,171.958mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43689.094mil|Location2.X=44390.928mil|Location1.Y=32180.328mil|Location2.Y=32502.588mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43689.094mil|Location2.X=44390.928mil|Location1.Y=32180.328mil|Location2.Y=32502.588mil|Absolute=True">Un-Routed Net Constraint: Net Conning Tower Heater FET Between Track (37.291mm,150.719mm)(37.291mm,171.393mm) on Top Layer And Pad P14-14(50.038mm,174.498mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=44337.482mil|Location2.X=44434.235mil|Location1.Y=31881.447mil|Location2.Y=32445.895mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=44337.482mil|Location2.X=44434.235mil|Location1.Y=31881.447mil|Location2.Y=32445.895mil|Absolute=True">Un-Routed Net Constraint: Net Arrestment Heater FET Between Pad R9-1(52.07mm,161.886mm) on Top Layer And Pad P14-16(52.578mm,174.498mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43931.89mil|Location2.X=44690.928mil|Location1.Y=32228.818mil|Location2.Y=32502.588mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43931.89mil|Location2.X=44690.928mil|Location1.Y=32228.818mil|Location2.Y=32502.588mil|Absolute=True">Un-Routed Net Constraint: Net +3.3 Between Track (43.417mm,172.624mm)(43.458mm,172.624mm) on Bottom Layer And Pad P14-20(57.658mm,174.498mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=44647.621mil|Location2.X=44734.235mil|Location1.Y=32259.281mil|Location2.Y=32445.895mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=44647.621mil|Location2.X=44734.235mil|Location1.Y=32259.281mil|Location2.Y=32445.895mil|Absolute=True">Un-Routed Net Constraint: Net +12 Between Pad P14-21(60.198mm,171.958mm) on Multi-Layer And Pad P14-22(60.198mm,174.498mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=44590.928mil|Location2.X=44850.946mil|Location1.Y=32202.588mil|Location2.Y=32155.838mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=44590.928mil|Location2.X=44850.946mil|Location1.Y=32202.588mil|Location2.Y=32155.838mil|Absolute=True">Un-Routed Net Constraint: Net +12 Between Pad P14-21(60.198mm,171.958mm) on Multi-Layer And Track (49.851mm,165.691mm)(61.722mm,165.691mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43535.432mil|Location2.X=44290.928mil|Location1.Y=32125.276mil|Location2.Y=32402.588mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43535.432mil|Location2.X=44290.928mil|Location1.Y=32125.276mil|Location2.Y=32402.588mil|Absolute=True">Un-Routed Net Constraint: Net MUX A3 Between Track (33.298mm,170.084mm)(33.388mm,169.994mm) on Top Layer And Pad P14-11(47.498mm,171.958mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43085.495mil|Location2.X=43156.361mil|Location1.Y=31791.447mil|Location2.Y=31848.534mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43085.495mil|Location2.X=43156.361mil|Location1.Y=31791.447mil|Location2.Y=31848.534mil|Absolute=True">Un-Routed Net Constraint: Net NetP27_2 Between Pad R20-1(20.32mm,159.7mm) on Bottom Layer And Pad R56-1(20.32mm,159.7mm) on Top Layer </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="ID0AJWJYSO2SDHEOPAI3JENW104EURUEGN45E4ZAIX43YUO0PYPVOG"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Modified Polygon (Allow modified: No), (Allow shelved: No)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=42269.434mil|Location2.X=44950.855mil|Location1.Y=25532.587mil|Location2.Y=32619.202mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=42269.434mil|Location2.X=44950.855mil|Location1.Y=25532.587mil|Location2.Y=32619.202mil|Absolute=True">Modified Polygon: Polygon Shelved  (NONET_L03_P003) on Signal Layer 1 </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=42275.55mil|Location2.X=44957.088mil|Location1.Y=25532.588mil|Location2.Y=32619.202mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=42275.55mil|Location2.X=44957.088mil|Location1.Y=25532.588mil|Location2.Y=32619.202mil|Absolute=True">Modified Polygon: Polygon Shelved  (NONET_L01_P001) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=42275.549mil|Location2.X=44956.969mil|Location1.Y=25532.587mil|Location2.Y=32619.206mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=42275.549mil|Location2.X=44956.969mil|Location1.Y=25532.587mil|Location2.Y=32619.206mil|Absolute=True">Modified Polygon: Polygon Shelved  (NONET_L04_P000) on Bottom Layer </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDSNMOIQSNOVEIFPE5UFFT0DRGDM5GFDAGTCWCZSLHMPLCZA3GWSLN"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Minimum Solder Mask Sliver (Gap=0.045mm) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43459.426mil|Location2.X=43462.448mil|Location1.Y=31209.483mil|Location2.Y=31212.505mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43459.426mil|Location2.X=43462.448mil|Location1.Y=31209.483mil|Location2.Y=31212.505mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.044mm &lt; 0.045mm) Between Via (29.553mm,144.231mm) from Top Layer to Bottom Layer And Pad U2-17(27.809mm,144.232mm) on Top Layer [Top Solder] Mask Sliver [0.044mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43369.257mil|Location2.X=43372.279mil|Location1.Y=31236.433mil|Location2.Y=31239.455mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43369.257mil|Location2.X=43372.279mil|Location1.Y=31236.433mil|Location2.Y=31239.455mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.04mm &lt; 0.045mm) Between Via (26.073mm,144.968mm) from Top Layer to Bottom Layer And Pad U2-16(27.809mm,144.882mm) on Top Layer [Top Solder] Mask Sliver [0.04mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43590.534mil|Location2.X=43597.143mil|Location1.Y=30599.259mil|Location2.Y=30608.386mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43590.534mil|Location2.X=43597.143mil|Location1.Y=30599.259mil|Location2.Y=30608.386mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.009mm &lt; 0.045mm) Between Via (33.033mm,129.271mm) from Top Layer to Bottom Layer And Pad U3-6(31.393mm,128.736mm) on Top Layer [Top Solder] Mask Sliver [0.009mm]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="ID2OVABV5K4IS4OW3PR0GCILPPCMIP1XKFLJPO3EPQWRDJSHNOFNUJ"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Silk To Solder Mask (Clearance=0.127mm) (IsPad),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43777.368mil|Location2.X=43781.701mil|Location1.Y=32428.802mil|Location2.Y=32433.135mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43777.368mil|Location2.X=43781.701mil|Location1.Y=32428.802mil|Location2.Y=32433.135mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.127mm) Between Track (37mm,175.336mm)(37mm,176mm) on Top Overlay And Pad P14-4(37.338mm,174.498mm) on Multi-Layer [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="ID4LBGILXHBQEXNWYSNZ2KF3RQDPIMSKKQVIVDLXK2OVMCQSCXKOIE"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Silk to Silk (Clearance=0.127mm) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=44516.647mil|Location2.X=44522.897mil|Location1.Y=32506.184mil|Location2.Y=32512.434mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=44516.647mil|Location2.X=44522.897mil|Location1.Y=32506.184mil|Location2.Y=32512.434mil|Absolute=True">Silk To Silk Clearance Constraint: (0.087mm &lt; 0.127mm) Between Text "TOP" (55.317mm,177.152mm) on Top Overlay And Track (32.258mm,177.038mm)(65.278mm,177.038mm) on Top Overlay Silk Text to Silk Clearance [0.087mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=44759.789mil|Location2.X=44764.122mil|Location1.Y=30602.088mil|Location2.Y=30606.421mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=44759.789mil|Location2.X=44764.122mil|Location1.Y=30602.088mil|Location2.Y=30606.421mil|Absolute=True">Silk To Silk Clearance Constraint: (Collision &lt; 0.127mm) Between Text "BH1" (61.849mm,129.083mm) on Top Overlay And Track (61.939mm,125.686mm)(61.939mm,128.736mm) on Top Overlay Silk Text to Silk Clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=44759.789mil|Location2.X=44764.122mil|Location1.Y=30602.088mil|Location2.Y=30606.421mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=44759.789mil|Location2.X=44764.122mil|Location1.Y=30602.088mil|Location2.Y=30606.421mil|Absolute=True">Silk To Silk Clearance Constraint: (Collision &lt; 0.127mm) Between Text "BH1" (61.849mm,129.083mm) on Top Overlay And Track (59.539mm,128.736mm)(61.939mm,128.736mm) on Top Overlay Silk Text to Silk Clearance [0mm]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="ID11J0J5B03FJVNZCHMN4RTZV2PJ4JYBVSBKIBYEGZU34ZAG4VQKOE"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Net Antennae (Tolerance=0mm) (All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=44021.76mil|Location2.X=44045.349mil|Location1.Y=32320.318mil|Location2.Y=32354.518mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=44021.76mil|Location2.X=44045.349mil|Location1.Y=32320.318mil|Location2.Y=32354.518mil|Absolute=True">Net Antennae: Track (42.278mm,171.486mm)(43.417mm,172.624mm) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43112.429mil|Location2.X=43136.017mil|Location1.Y=31883.301mil|Location2.Y=31917.5mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43112.429mil|Location2.X=43136.017mil|Location1.Y=31883.301mil|Location2.Y=31917.5mil|Absolute=True">Net Antennae: Track (20.32mm,161.524mm)(21.102mm,162.306mm) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43732.104mil|Location2.X=43755.693mil|Location1.Y=32320.318mil|Location2.Y=32354.518mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43732.104mil|Location2.X=43755.693mil|Location1.Y=32320.318mil|Location2.Y=32354.518mil|Absolute=True">Net Antennae: Track (36.06mm,172.624mm)(37.291mm,171.393mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43626.932mil|Location2.X=43650.521mil|Location1.Y=32216.776mil|Location2.Y=32250.976mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43626.932mil|Location2.X=43650.521mil|Location1.Y=32216.776mil|Location2.Y=32250.976mil|Absolute=True">Net Antennae: Track (33.388mm,145.576mm)(33.388mm,169.994mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43832.104mil|Location2.X=43855.693mil|Location1.Y=32320.318mil|Location2.Y=32354.518mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43832.104mil|Location2.X=43855.693mil|Location1.Y=32320.318mil|Location2.Y=32354.518mil|Absolute=True">Net Antennae: Track (38.6mm,172.624mm)(39.738mm,171.486mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=44122.09mil|Location2.X=44156.22mil|Location1.Y=32311.933mil|Location2.Y=32363.518mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=44122.09mil|Location2.X=44156.22mil|Location1.Y=32311.933mil|Location2.Y=32363.518mil|Absolute=True">Net Antennae: Track (46.088mm,170.216mm)(46.088mm,172.534mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43402.428mil|Location2.X=43426.017mil|Location1.Y=27921.49mil|Location2.Y=27955.69mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43402.428mil|Location2.X=43426.017mil|Location1.Y=27921.49mil|Location2.Y=27955.69mil|Absolute=True">Net Antennae: Track (27.686mm,60.894mm)(27.686mm,115.57mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43494.428mil|Location2.X=43518.017mil|Location1.Y=27227.088mil|Location2.Y=27261.288mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43494.428mil|Location2.X=43518.017mil|Location1.Y=27227.088mil|Location2.Y=27261.288mil|Absolute=True">Net Antennae: Track (30.023mm,43.256mm)(30.023mm,115.113mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43826.932mil|Location2.X=43850.521mil|Location1.Y=32216.776mil|Location2.Y=32250.976mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43826.932mil|Location2.X=43850.521mil|Location1.Y=32216.776mil|Location2.Y=32250.976mil|Absolute=True">Net Antennae: Track (38.468mm,159.258mm)(38.468mm,169.994mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43726.932mil|Location2.X=43750.521mil|Location1.Y=32216.776mil|Location2.Y=32250.976mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43726.932mil|Location2.X=43750.521mil|Location1.Y=32216.776mil|Location2.Y=32250.976mil|Absolute=True">Net Antennae: Track (35.928mm,145.376mm)(35.928mm,169.994mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43416.668mil|Location2.X=43440.257mil|Location1.Y=32213.596mil|Location2.Y=32247.796mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43416.668mil|Location2.X=43440.257mil|Location1.Y=32213.596mil|Location2.Y=32247.796mil|Absolute=True">Net Antennae: Track (28.048mm,146.765mm)(28.048mm,169.913mm) on Signal Layer 1 </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43526.932mil|Location2.X=43550.521mil|Location1.Y=32216.776mil|Location2.Y=32250.976mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43526.932mil|Location2.X=43550.521mil|Location1.Y=32216.776mil|Location2.Y=32250.976mil|Absolute=True">Net Antennae: Track (30.848mm,136.086mm)(30.848mm,169.994mm) on Signal Layer 1 </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43432.104mil|Location2.X=43455.693mil|Location1.Y=32320.318mil|Location2.Y=32354.518mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43432.104mil|Location2.X=43455.693mil|Location1.Y=32320.318mil|Location2.Y=32354.518mil|Absolute=True">Net Antennae: Track (28.44mm,172.624mm)(29.553mm,171.511mm) on Signal Layer 1 </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43632.104mil|Location2.X=43655.693mil|Location1.Y=32320.318mil|Location2.Y=32354.518mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43632.104mil|Location2.X=43655.693mil|Location1.Y=32320.318mil|Location2.Y=32354.518mil|Absolute=True">Net Antennae: Track (33.52mm,172.624mm)(34.658mm,171.486mm) on Signal Layer 1 </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43532.104mil|Location2.X=43555.693mil|Location1.Y=32320.318mil|Location2.Y=32354.518mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43532.104mil|Location2.X=43555.693mil|Location1.Y=32320.318mil|Location2.Y=32354.518mil|Absolute=True">Net Antennae: Track (30.98mm,172.624mm)(32.118mm,171.486mm) on Signal Layer 1 </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43332.104mil|Location2.X=43355.693mil|Location1.Y=32320.318mil|Location2.Y=32354.518mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43332.104mil|Location2.X=43355.693mil|Location1.Y=32320.318mil|Location2.Y=32354.518mil|Absolute=True">Net Antennae: Track (25.9mm,172.624mm)(27.038mm,171.486mm) on Signal Layer 1 </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43921.76mil|Location2.X=43945.349mil|Location1.Y=32320.318mil|Location2.Y=32354.518mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=43921.76mil|Location2.X=43945.349mil|Location1.Y=32320.318mil|Location2.Y=32354.518mil|Absolute=True">Net Antennae: Track (39.738mm,171.486mm)(40.877mm,172.624mm) on Signal Layer 1 </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDQFPRWOLNBPYPF1FNW1L5LKF4SKW4PMUAZAHXZBFD2WBYNLGJUFPF"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Room LM_001 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('LM_001'))</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=43038.526mil|Location1.Y=0mil|Location2.Y=30587.904mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=43038.526mil|Location1.Y=0mil|Location2.Y=30587.904mil|Absolute=True">Room Definition: Between SMT Small Component R19-6.98K (17.252mm,126.63mm) on Bottom Layer And Room LM_001 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('LM_001')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=42799.314mil|Location1.Y=0mil|Location2.Y=30587.904mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=42799.314mil|Location1.Y=0mil|Location2.Y=30587.904mil|Absolute=True">Room Definition: Between SMT Small Component R18-6.98K (11.176mm,126.63mm) on Bottom Layer And Room LM_001 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('LM_001')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=44404.418mil|Location1.Y=0mil|Location2.Y=30330.659mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=44404.418mil|Location1.Y=0mil|Location2.Y=30330.659mil|Absolute=True">Room Definition: Between SMT Small Component R17-75 (52.071mm,120.396mm) on Top Layer And Room LM_001 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('LM_001')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=44404.416mil|Location1.Y=0mil|Location2.Y=30660.661mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=44404.416mil|Location1.Y=0mil|Location2.Y=30660.661mil|Absolute=True">Room Definition: Between SMT Small Component R16-75 (52.071mm,128.778mm) on Top Layer And Room LM_001 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('LM_001')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=44543.622mil|Location1.Y=0mil|Location2.Y=30218.386mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=44543.622mil|Location1.Y=0mil|Location2.Y=30218.386mil|Absolute=True">Room Definition: Between SMT Small Component R13-4.99K (55.606mm,117.544mm) on Top Layer And Room LM_001 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('LM_001')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=44544.393mil|Location1.Y=0mil|Location2.Y=30550.66mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=44544.393mil|Location1.Y=0mil|Location2.Y=30550.66mil|Absolute=True">Room Definition: Between SMT Small Component R12-4.99K (55.626mm,125.984mm) on Top Layer And Room LM_001 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('LM_001')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=44395.616mil|Location1.Y=0mil|Location2.Y=30175.159mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=44395.616mil|Location1.Y=0mil|Location2.Y=30175.159mil|Absolute=True">Room Definition: Between SMT Small Component Q6-CSD17585F5T (52.07mm,116.694mm) on Top Layer And Room LM_001 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('LM_001')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=44545.377mil|Location1.Y=0mil|Location2.Y=30670.659mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=44545.377mil|Location1.Y=0mil|Location2.Y=30670.659mil|Absolute=True">Room Definition: Between SMT Small Component DS5-LTST-S220KRKT (55.626mm,129.032mm) on Top Layer And Room LM_001 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('LM_001')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=44545.377mil|Location1.Y=0mil|Location2.Y=31910.659mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=44545.377mil|Location1.Y=0mil|Location2.Y=31910.659mil|Absolute=True">Room Definition: Between SMT Small Component DS4-LTST-S220KRKT (55.626mm,160.528mm) on Top Layer And Room LM_001 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('LM_001')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=44895.928mil|Location1.Y=0mil|Location2.Y=32507.588mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=44895.928mil|Location1.Y=0mil|Location2.Y=32507.588mil|Absolute=True">Room Definition: Between DIP Component P14-IPL1-112-01-L-D-K (48.768mm,173.228mm) on Top Layer And Room LM_001 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('LM_001')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=43592.323mil|Location1.Y=0mil|Location2.Y=30559.606mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=43592.323mil|Location1.Y=0mil|Location2.Y=30559.606mil|Absolute=True">Room Definition: Between SOIC Component U1-MAX6070AAUT41+T (30.168mm,125.636mm) on Top Layer And Room LM_001 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('LM_001')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=43681.282mil|Location1.Y=0mil|Location2.Y=30502.47mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=43681.282mil|Location1.Y=0mil|Location2.Y=30502.47mil|Absolute=True">Room Definition: Between SMT Small Component C2-CAP CER 0.1UF 25V X7R 0805 (33.528mm,124.46mm) on Top Layer And Room LM_001 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('LM_001')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=43401.282mil|Location1.Y=0mil|Location2.Y=30542.47mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=43401.282mil|Location1.Y=0mil|Location2.Y=30542.47mil|Absolute=True">Room Definition: Between SMT Small Component C1-CAP CER 0.1UF 25V X7R 0805 (26.416mm,125.476mm) on Top Layer And Room LM_001 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('LM_001')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=43593.309mil|Location1.Y=0mil|Location2.Y=30716.102mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=43593.309mil|Location1.Y=0mil|Location2.Y=30716.102mil|Absolute=True">Room Definition: Between SOIC Component U3-MAX11100EUB+T (29.368mm,129.736mm) on Top Layer And Room LM_001 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('LM_001')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=43703.19mil|Location1.Y=0mil|Location2.Y=31309.422mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=43703.19mil|Location1.Y=0mil|Location2.Y=31309.422mil|Absolute=True">Room Definition: Between SOIC Component U2-ADG1606BRUZ-REEL7 (30.734mm,141.307mm) on Top Layer And Room LM_001 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('LM_001')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=44404.411mil|Location1.Y=0mil|Location2.Y=31930.66mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=44404.411mil|Location1.Y=0mil|Location2.Y=31930.66mil|Absolute=True">Room Definition: Between SMT Small Component R9-75 (52.07mm,161.036mm) on Top Layer And Room LM_001 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('LM_001')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=44404.393mil|Location1.Y=0mil|Location2.Y=31620.661mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=44404.393mil|Location1.Y=0mil|Location2.Y=31620.661mil|Absolute=True">Room Definition: Between SMT Small Component R10-75 (52.07mm,153.162mm) on Top Layer And Room LM_001 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('LM_001')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=44541.495mil|Location1.Y=0mil|Location2.Y=31790.662mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=44541.495mil|Location1.Y=0mil|Location2.Y=31790.662mil|Absolute=True">Room Definition: Between SMT Small Component R8-4.99K (55.552mm,157.48mm) on Top Layer And Room LM_001 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('LM_001')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=44544.393mil|Location1.Y=0mil|Location2.Y=31500.659mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=44544.393mil|Location1.Y=0mil|Location2.Y=31500.659mil|Absolute=True">Room Definition: Between SMT Small Component R7-4.99K (55.626mm,150.114mm) on Top Layer And Room LM_001 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('LM_001')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=44404.395mil|Location1.Y=0mil|Location2.Y=30960.658mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=44404.395mil|Location1.Y=0mil|Location2.Y=30960.658mil|Absolute=True">Room Definition: Between SMT Small Component R5-75 (52.07mm,136.398mm) on Top Layer And Room LM_001 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('LM_001')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=44404.414mil|Location1.Y=0mil|Location2.Y=31280.658mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=44404.414mil|Location1.Y=0mil|Location2.Y=31280.658mil|Absolute=True">Room Definition: Between SMT Small Component R4-75 (52.07mm,144.526mm) on Top Layer And Room LM_001 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('LM_001')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=44541.495mil|Location1.Y=0mil|Location2.Y=30851.534mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=44541.495mil|Location1.Y=0mil|Location2.Y=30851.534mil|Absolute=True">Room Definition: Between SMT Small Component R2-4.99K (55.552mm,133.626mm) on Top Layer And Room LM_001 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('LM_001')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=44544.393mil|Location1.Y=0mil|Location2.Y=31179.25mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=44544.393mil|Location1.Y=0mil|Location2.Y=31179.25mil|Absolute=True">Room Definition: Between SMT Small Component R1-4.99K (55.626mm,141.95mm) on Top Layer And Room LM_001 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('LM_001')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=44395.632mil|Location1.Y=0mil|Location2.Y=31753.033mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=44395.632mil|Location1.Y=0mil|Location2.Y=31753.033mil|Absolute=True">Room Definition: Between SMT Small Component Q3-CSD17585F5T (52.07mm,156.772mm) on Top Layer And Room LM_001 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('LM_001')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=44395.613mil|Location1.Y=0mil|Location2.Y=31460.895mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=44395.613mil|Location1.Y=0mil|Location2.Y=31460.895mil|Absolute=True">Room Definition: Between SMT Small Component Q4-CSD17585F5T (52.07mm,149.352mm) on Top Layer And Room LM_001 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('LM_001')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=44395.637mil|Location1.Y=0mil|Location2.Y=30810.895mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=44395.637mil|Location1.Y=0mil|Location2.Y=30810.895mil|Absolute=True">Room Definition: Between SMT Small Component Q2-CSD17585F5T (52.071mm,132.842mm) on Top Layer And Room LM_001 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('LM_001')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=44395.613mil|Location1.Y=0mil|Location2.Y=31135.943mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=44395.613mil|Location1.Y=0mil|Location2.Y=31135.943mil|Absolute=True">Room Definition: Between SMT Small Component Q1-CSD17585F5T (52.07mm,141.098mm) on Top Layer And Room LM_001 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('LM_001')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=44544.607mil|Location1.Y=0mil|Location2.Y=30336.497mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=44544.607mil|Location1.Y=0mil|Location2.Y=30336.497mil|Absolute=True">Room Definition: Between SMT Small Component DS6-LTST-S220KRKT (55.606mm,120.544mm) on Top Layer And Room LM_001 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('LM_001')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=44542.481mil|Location1.Y=0mil|Location2.Y=31620.659mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=44542.481mil|Location1.Y=0mil|Location2.Y=31620.659mil|Absolute=True">Room Definition: Between SMT Small Component DS3-LTST-S220KRKT (55.552mm,153.162mm) on Top Layer And Room LM_001 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('LM_001')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=44545.377mil|Location1.Y=0mil|Location2.Y=30980.659mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=44545.377mil|Location1.Y=0mil|Location2.Y=30980.659mil|Absolute=True">Room Definition: Between SMT Small Component DS2-LTST-S220KRKT (55.626mm,136.906mm) on Top Layer And Room LM_001 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('LM_001')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=44545.377mil|Location1.Y=0mil|Location2.Y=31294.656mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=44545.377mil|Location1.Y=0mil|Location2.Y=31294.656mil|Absolute=True">Room Definition: Between SMT Small Component DS1-LTST-S220KRKT (55.626mm,144.882mm) on Top Layer And Room LM_001 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('LM_001')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=43501.102mil|Location1.Y=0mil|Location2.Y=30657.716mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=43501.102mil|Location1.Y=0mil|Location2.Y=30657.716mil|Absolute=True">Room Definition: Between SMT Small Component C5-CAP CER 0.1UF 25V X7R 0805 (28.951mm,128.403mm) on Bottom Layer And Room LM_001 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('LM_001')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=43746.282mil|Location1.Y=0mil|Location2.Y=30652.47mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=43746.282mil|Location1.Y=0mil|Location2.Y=30652.47mil|Absolute=True">Room Definition: Between SMT Small Component C4-CAP CER 0.1UF 25V X7R 0805 (35.179mm,128.27mm) on Bottom Layer And Room LM_001 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('LM_001')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=42979.315mil|Location1.Y=0mil|Location2.Y=31852.47mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=42979.315mil|Location1.Y=0mil|Location2.Y=31852.47mil|Absolute=True">Room Definition: Between SMT Small Component R11-6.98K (15.748mm,158.75mm) on Bottom Layer And Room LM_001 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('LM_001')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=42609.313mil|Location1.Y=0mil|Location2.Y=32422.47mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=42609.313mil|Location1.Y=0mil|Location2.Y=32422.47mil|Absolute=True">Room Definition: Between SMT Small Component R15-6.98K (6.35mm,173.228mm) on Bottom Layer And Room LM_001 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('LM_001')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=42429.313mil|Location1.Y=0mil|Location2.Y=32422.47mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=42429.313mil|Location1.Y=0mil|Location2.Y=32422.47mil|Absolute=True">Room Definition: Between SMT Small Component R14-6.98K (1.778mm,173.228mm) on Bottom Layer And Room LM_001 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('LM_001')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=42799.315mil|Location1.Y=0mil|Location2.Y=31852.47mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=42799.315mil|Location1.Y=0mil|Location2.Y=31852.47mil|Absolute=True">Room Definition: Between SMT Small Component R6-6.98K (11.176mm,158.75mm) on Bottom Layer And Room LM_001 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('LM_001')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=42619.313mil|Location1.Y=0mil|Location2.Y=31852.47mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=42619.313mil|Location1.Y=0mil|Location2.Y=31852.47mil|Absolute=True">Room Definition: Between SMT Small Component R3-6.98K (6.604mm,158.75mm) on Bottom Layer And Room LM_001 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('LM_001')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=43159.313mil|Location1.Y=0mil|Location2.Y=31852.47mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=43159.313mil|Location1.Y=0mil|Location2.Y=31852.47mil|Absolute=True">Room Definition: Between SMT Small Component R20-6.98K (20.32mm,158.75mm) on Bottom Layer And Room LM_001 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('LM_001')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=43560.81mil|Location1.Y=0mil|Location2.Y=30402.942mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=43560.81mil|Location1.Y=0mil|Location2.Y=30402.942mil|Absolute=True">Room Definition: Between SMT Small Component C3-CAP CER 0.1UF 25V X7R 0805 (29.718mm,122.682mm) on Top Layer And Room LM_001 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('LM_001')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=42701.282mil|Location1.Y=0mil|Location2.Y=31852.47mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=42701.282mil|Location1.Y=0mil|Location2.Y=31852.47mil|Absolute=True">Room Definition: Between SMT Small Component C14-10uF (8.636mm,158.75mm) on Top Layer And Room LM_001 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('LM_001')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=42881.282mil|Location1.Y=0mil|Location2.Y=31852.47mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=42881.282mil|Location1.Y=0mil|Location2.Y=31852.47mil|Absolute=True">Room Definition: Between SMT Small Component C15-10uF (13.208mm,158.75mm) on Top Layer And Room LM_001 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('LM_001')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=43061.282mil|Location1.Y=0mil|Location2.Y=31852.47mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=43061.282mil|Location1.Y=0mil|Location2.Y=31852.47mil|Absolute=True">Room Definition: Between SMT Small Component C16-10uF (17.78mm,158.75mm) on Top Layer And Room LM_001 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('LM_001')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=42521.282mil|Location1.Y=0mil|Location2.Y=32422.47mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=42521.282mil|Location1.Y=0mil|Location2.Y=32422.47mil|Absolute=True">Room Definition: Between SMT Small Component C17-10uF (4.064mm,173.228mm) on Top Layer And Room LM_001 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('LM_001')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=42699.312mil|Location1.Y=0mil|Location2.Y=32422.47mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=42699.312mil|Location1.Y=0mil|Location2.Y=32422.47mil|Absolute=True">Room Definition: Between SMT Small Component C18-10uF (8.586mm,173.228mm) on Top Layer And Room LM_001 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('LM_001')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=42711.283mil|Location1.Y=0mil|Location2.Y=30586.182mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=42711.283mil|Location1.Y=0mil|Location2.Y=30586.182mil|Absolute=True">Room Definition: Between SMT Small Component C19-10uF (8.89mm,126.586mm) on Top Layer And Room LM_001 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('LM_001')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=42951.283mil|Location1.Y=0mil|Location2.Y=30587.904mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=42951.283mil|Location1.Y=0mil|Location2.Y=30587.904mil|Absolute=True">Room Definition: Between SMT Small Component C20-10uF (14.986mm,126.63mm) on Top Layer And Room LM_001 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('LM_001')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=43251.282mil|Location1.Y=0mil|Location2.Y=31852.47mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=43251.282mil|Location1.Y=0mil|Location2.Y=31852.47mil|Absolute=True">Room Definition: Between SMT Small Component C21-10uF (22.606mm,158.75mm) on Top Layer And Room LM_001 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('LM_001')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=42619.097mil|Location1.Y=0mil|Location2.Y=31852.471mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=42619.097mil|Location1.Y=0mil|Location2.Y=31852.471mil|Absolute=True">Room Definition: Between SMT Small Component R49-1.6K (6.598mm,158.75mm) on Top Layer And Room LM_001 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('LM_001')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=42799.315mil|Location1.Y=0mil|Location2.Y=31852.471mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=42799.315mil|Location1.Y=0mil|Location2.Y=31852.471mil|Absolute=True">Room Definition: Between SMT Small Component R50-1.6K (11.176mm,158.75mm) on Top Layer And Room LM_001 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('LM_001')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=42979.315mil|Location1.Y=0mil|Location2.Y=31852.471mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=42979.315mil|Location1.Y=0mil|Location2.Y=31852.471mil|Absolute=True">Room Definition: Between SMT Small Component R51-1.6K (15.748mm,158.75mm) on Top Layer And Room LM_001 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('LM_001')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=42429.315mil|Location1.Y=0mil|Location2.Y=32422.471mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=42429.315mil|Location1.Y=0mil|Location2.Y=32422.471mil|Absolute=True">Room Definition: Between SMT Small Component R52-1.6K (1.778mm,173.228mm) on Top Layer And Room LM_001 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('LM_001')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=42610.102mil|Location1.Y=0mil|Location2.Y=32422.471mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=42610.102mil|Location1.Y=0mil|Location2.Y=32422.471mil|Absolute=True">Room Definition: Between SMT Small Component R53-1.6K (6.37mm,173.228mm) on Top Layer And Room LM_001 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('LM_001')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=42799.314mil|Location1.Y=0mil|Location2.Y=30586.182mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=42799.314mil|Location1.Y=0mil|Location2.Y=30586.182mil|Absolute=True">Room Definition: Between SMT Small Component R54-1.6K (11.176mm,126.586mm) on Top Layer And Room LM_001 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('LM_001')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=43038.526mil|Location1.Y=0mil|Location2.Y=30587.904mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=43038.526mil|Location1.Y=0mil|Location2.Y=30587.904mil|Absolute=True">Room Definition: Between SMT Small Component R55-1.6K (17.252mm,126.63mm) on Top Layer And Room LM_001 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('LM_001')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=43159.315mil|Location1.Y=0mil|Location2.Y=31852.471mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=43159.315mil|Location1.Y=0mil|Location2.Y=31852.471mil|Absolute=True">Room Definition: Between SMT Small Component R56-1.6K (20.32mm,158.75mm) on Top Layer And Room LM_001 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('LM_001')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=42701.361mil|Location1.Y=0mil|Location2.Y=31986.132mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=42701.361mil|Location1.Y=0mil|Location2.Y=31986.132mil|Absolute=True">Room Definition: Between Small Component P16-0530470210 (8.636mm,163.068mm) on Top Layer And Room LM_001 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('LM_001')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=42881.362mil|Location1.Y=0mil|Location2.Y=31986.132mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=42881.362mil|Location1.Y=0mil|Location2.Y=31986.132mil|Absolute=True">Room Definition: Between Small Component P17-0530470210 (13.208mm,163.068mm) on Top Layer And Room LM_001 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('LM_001')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=44754.489mil|Location1.Y=0mil|Location2.Y=31561.234mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=44754.489mil|Location1.Y=0mil|Location2.Y=31561.234mil|Absolute=True">Room Definition: Between Small Component P18-0530470210 (60.96mm,150.851mm) on Top Layer And Room LM_001 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('LM_001')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=44754.507mil|Location1.Y=0mil|Location2.Y=31251.234mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=44754.507mil|Location1.Y=0mil|Location2.Y=31251.234mil|Absolute=True">Room Definition: Between Small Component P19-0530470210 (60.961mm,142.977mm) on Top Layer And Room LM_001 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('LM_001')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=44757.489mil|Location1.Y=0mil|Location2.Y=31837.234mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=44757.489mil|Location1.Y=0mil|Location2.Y=31837.234mil|Absolute=True">Room Definition: Between Small Component P20-0530470210 (61.037mm,157.861mm) on Top Layer And Room LM_001 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('LM_001')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=43061.361mil|Location1.Y=0mil|Location2.Y=31986.132mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=43061.361mil|Location1.Y=0mil|Location2.Y=31986.132mil|Absolute=True">Room Definition: Between Small Component P21-0530470210 (17.78mm,163.068mm) on Top Layer And Room LM_001 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('LM_001')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=44762.471mil|Location1.Y=0mil|Location2.Y=30943.234mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=44762.471mil|Location1.Y=0mil|Location2.Y=30943.234mil|Absolute=True">Room Definition: Between Small Component P22-0530470210 (61.163mm,135.153mm) on Top Layer And Room LM_001 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('LM_001')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=44764.471mil|Location1.Y=0mil|Location2.Y=30605.945mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=44764.471mil|Location1.Y=0mil|Location2.Y=30605.945mil|Absolute=True">Room Definition: Between Small Component P23-0530470210 (61.214mm,126.586mm) on Top Layer And Room LM_001 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('LM_001')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=44772.471mil|Location1.Y=0mil|Location2.Y=30332.234mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=44772.471mil|Location1.Y=0mil|Location2.Y=30332.234mil|Absolute=True">Room Definition: Between Small Component P24-0530470210 (61.417mm,119.634mm) on Top Layer And Room LM_001 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('LM_001')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=42795.3mil|Location1.Y=0mil|Location2.Y=30423.533mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=42795.3mil|Location1.Y=0mil|Location2.Y=30423.533mil|Absolute=True">Room Definition: Between Small Component P25-0530470210 (9.772mm,122.428mm) on Top Layer And Room LM_001 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('LM_001')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=43040.574mil|Location1.Y=0mil|Location2.Y=30423.533mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=43040.574mil|Location1.Y=0mil|Location2.Y=30423.533mil|Absolute=True">Room Definition: Between Small Component P26-0530470210 (16.002mm,122.428mm) on Top Layer And Room LM_001 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('LM_001')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=43241.361mil|Location1.Y=0mil|Location2.Y=31986.132mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=43241.361mil|Location1.Y=0mil|Location2.Y=31986.132mil|Absolute=True">Room Definition: Between Small Component P27-0530470210 (22.352mm,163.068mm) on Top Layer And Room LM_001 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('LM_001')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=44395.637mil|Location1.Y=0mil|Location2.Y=30507.431mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=44395.637mil|Location1.Y=0mil|Location2.Y=30507.431mil|Absolute=True">Room Definition: Between SMT Small Component Q5-CSD17585F5T (52.071mm,125.134mm) on Top Layer And Room LM_001 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('LM_001')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=42661.361mil|Location1.Y=0mil|Location2.Y=32556.132mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=42661.361mil|Location1.Y=0mil|Location2.Y=32556.132mil|Absolute=True">Room Definition: Between SIP Component P3-0530470410 (7.62mm,177.546mm) on Top Layer And Room LM_001 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('LM_001')) </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br></body>
+</html>

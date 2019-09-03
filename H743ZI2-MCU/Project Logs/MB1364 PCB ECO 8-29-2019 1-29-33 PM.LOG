@@ -1,0 +1,14 @@
+Removed Pin From Net: NetName=PD9 Pin=SB81-1
+Removed Pin From Net: NetName=NetCN11_69 Pin=SB81-2
+Removed Member From Class: ClassName=U_Connectors Member=SB81
+Added Component: Designator=R47(RESC0402(1005)_N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Case-EIA"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case-Metric"; Value = "1005"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Imperial)"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Metric)"; Value = "1005"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "0R"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=PD9 Pin=R47-1
+Added Pin To Net: NetName=NetCN11_69 Pin=R47-2
+Added Member To Class: ClassName=U_Connectors Member=Component R47 0R

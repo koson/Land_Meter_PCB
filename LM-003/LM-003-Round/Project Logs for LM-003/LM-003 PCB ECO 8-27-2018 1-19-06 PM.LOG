@@ -1,0 +1,84 @@
+Removed Pin From Net: NetName=GND Pin=C7-1
+Removed Pin From Net: NetName=+5 Pin=C7-2
+Removed Pin From Net: NetName=GND Pin=C8-1
+Removed Pin From Net: NetName=+5 Pin=C8-2
+Removed Pin From Net: NetName=GND Pin=C9-1
+Removed Pin From Net: NetName=+5 Pin=C9-2
+Removed Pin From Net: NetName=GND Pin=C10-1
+Removed Pin From Net: NetName=+5 Pin=C10-2
+Removed Pin From Net: NetName=GND Pin=C11-1
+Removed Pin From Net: NetName=+5 Pin=C11-2
+Removed Pin From Net: NetName=GND Pin=C12-1
+Removed Pin From Net: NetName=+5 Pin=C12-2
+Removed Pin From Net: NetName=SPI0_MISO Pin=P2-11
+Removed Pin From Net: NetName=SPI0_SCLK Pin=P2-13
+Removed Pin From Net: NetName=GND Pin=P12-1
+Removed Pin From Net: NetName=GND Pin=P12-2
+Removed Pin From Net: NetName=-5 Pin=P12-3
+Removed Pin From Net: NetName=SPI0_MISO Pin=P12-9
+Removed Pin From Net: NetName=SPI0_SCLK Pin=P12-10
+Removed Pin From Net: NetName=Thermistor_CS0 Pin=P12-12
+Removed Pin From Net: NetName=+5 Pin=P12-19
+Removed Pin From Net: NetName=+3.3 Pin=P12-20
+Removed Pin From Net: NetName=+12 Pin=P12-21
+Removed Pin From Net: NetName=+12 Pin=P12-22
+Removed Pin From Net: NetName=GND Pin=P12-23
+Removed Pin From Net: NetName=GND Pin=P12-24
+Removed Pin From Net: NetName=Meter Heater FET Pin=R15-1
+Removed Pin From Net: NetName=GND Pin=R15-2
+Removed Pin From Net: NetName=GND Pin=R16-2
+Removed Pin From Net: NetName=Arrestment Heater FET Pin=R17-1
+Removed Pin From Net: NetName=GND Pin=R17-2
+Removed Pin From Net: NetName=GND Pin=R18-2
+Removed Pin From Net: NetName=GND Pin=R19-2
+Removed Pin From Net: NetName=GND Pin=R20-2
+Removed Pin From Net: NetName=Gearbox Heater FET Pin=R21-1
+Removed Pin From Net: NetName=GND Pin=R21-2
+Removed Pin From Net: NetName=GND Pin=R22-2
+Removed Pin From Net: NetName=GND Pin=R23-2
+Removed Pin From Net: NetName=GND Pin=R24-2
+Removed Pin From Net: NetName=GND Pin=R25-2
+Removed Pin From Net: NetName=Conning Tower FET Pin=R26-1
+Removed Pin From Net: NetName=GND Pin=R26-2
+Removed Pin From Net: NetName=SPI0_MISO Pin=U5-9-21
+Removed Pin From Net: NetName=SPI0_SCLK Pin=U5-9-22
+Removed Pin From Net: NetName=GND Pin=U6-2
+Removed Pin From Net: NetName=Meter Heater FET Pin=U6-3
+Removed Pin From Net: NetName=+5 Pin=U6-5
+Removed Pin From Net: NetName=GND Pin=U8-2
+Removed Pin From Net: NetName=Arrestment Heater FET Pin=U8-3
+Removed Pin From Net: NetName=+5 Pin=U8-5
+Removed Pin From Net: NetName=GND Pin=U9-2
+Removed Pin From Net: NetName=+5 Pin=U9-5
+Removed Pin From Net: NetName=GND Pin=U10-2
+Removed Pin From Net: NetName=Gearbox Heater FET Pin=U10-3
+Removed Pin From Net: NetName=+5 Pin=U10-5
+Removed Pin From Net: NetName=GND Pin=U11-2
+Removed Pin From Net: NetName=+5 Pin=U11-5
+Removed Pin From Net: NetName=GND Pin=U12-2
+Removed Pin From Net: NetName=Conning Tower FET Pin=U12-3
+Removed Pin From Net: NetName=+5 Pin=U12-5
+Added Component: Designator=P4(HDR1X4)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+12 Pin=P4-1
+Added Pin To Net: NetName=+12 Pin=P4-2
+Added Pin To Net: NetName=+3.3 Pin=P4-3
+Added Pin To Net: NetName=+3.3 Pin=P4-4
+Added Pin To Net: NetName=SPI0_MISO Pin=U2-1
+Added Pin To Net: NetName=SPI0_SCLK Pin=U2-10
+Added Pin To Net: NetName=-5 Pin=U3-4
+Added Pin To Net: NetName=NetU5_8-7 Pin=U5-8-7
+Added Net: Name=NetU5_8-7
+Added Pin To Net: NetName=NetU5_8-8 Pin=U5-8-8
+Added Net: Name=NetU5_8-8
+Added Pin To Net: NetName=Thermistor_MUX_A0 Pin=U5-8-31
+Added Net: Name=Thermistor_MUX_A0
+Added Pin To Net: NetName=Thermistor_MUX_A1 Pin=U5-8-32
+Added Net: Name=Thermistor_MUX_A1
+Added Pin To Net: NetName=Thermistor_MUX A2 Pin=U5-8-33
+Added Net: Name=Thermistor_MUX A2
+Added Pin To Net: NetName=Thermistor_MUX A3 Pin=U5-8-34
+Added Net: Name=Thermistor_MUX A3

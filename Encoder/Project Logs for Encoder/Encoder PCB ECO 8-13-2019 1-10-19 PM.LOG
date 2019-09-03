@@ -1,0 +1,14 @@
+Removed Pin From Net: NetName=SCLK Pin=P1-1
+Removed Pin From Net: NetName=MOSI Pin=P1-3
+Removed Pin From Net: NetName=MISO Pin=P1-5
+Removed Pin From Net: NetName=CS Pin=P1-7
+Removed Pin From Net: NetName=OUT Pin=P1-9
+Removed Pin From Net: NetName=+5 Pin=P1-11
+Removed Pin From Net: NetName=+3.3 Pin=P1-13
+Added Pin To Net: NetName=OUT Pin=P1-1
+Added Pin To Net: NetName=+3.3 Pin=P1-3
+Added Pin To Net: NetName=SCLK Pin=P1-5
+Added Pin To Net: NetName=MOSI Pin=P1-7
+Added Pin To Net: NetName=MISO Pin=P1-9
+Added Pin To Net: NetName=CS Pin=P1-11
+Added Pin To Net: NetName=+5 Pin=P1-13

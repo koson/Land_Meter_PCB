@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=Beam_Reduced Pin=TP13-1
+Removed Pin From Net: NetName=ZP_Reduced Pin=TP15-1
+Removed Pin From Net: NetName=ZH_Reduced Pin=TP16-1
+Removed Member From Class: ClassName=Sheet2 Member=TP13
+Removed Member From Class: ClassName=Sheet2 Member=TP15
+Removed Member From Class: ClassName=Sheet2 Member=TP16

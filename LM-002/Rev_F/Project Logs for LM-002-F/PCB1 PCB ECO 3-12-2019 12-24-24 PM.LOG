@@ -1,0 +1,86 @@
+Removed Pin From Net: NetName=GND Pin=C20-1
+Removed Pin From Net: NetName=+5 Pin=C20-2
+Removed Pin From Net: NetName=+5 Pin=C22-1
+Removed Pin From Net: NetName=+3.3 Pin=C23-1
+Removed Pin From Net: NetName=+5 Pin=R2-2
+Removed Pin From Net: NetName=NetC1_2 Pin=U2-1
+Removed Pin From Net: NetName=NetC1_1 Pin=U2-2
+Removed Pin From Net: NetName=NetR6_2 Pin=U2-3
+Removed Pin From Net: NetName=GND Pin=U2-5
+Removed Pin From Net: NetName=GND Pin=U9-2
+Removed Pin From Net: NetName=+5 Pin=U9-5
+Removed Pin From Net: NetName=FB_MUX_A0 Pin=U11-1
+Removed Pin From Net: NetName=+5 Pin=U11-2
+Removed Pin From Net: NetName=GND Pin=U11-3
+Removed Pin From Net: NetName=ZH_Reduced Pin=U11-4
+Removed Pin From Net: NetName=Beam Sync Demod Out Pin=U11-5
+Removed Pin From Net: NetName=+5R_Reduced Pin=U11-10
+Removed Pin From Net: NetName=ZP_Reduced Pin=U11-11
+Removed Pin From Net: NetName=+5 Pin=U11-12
+Removed Pin From Net: NetName=GND Pin=U11-13
+Removed Pin From Net: NetName=FB_MUX_A1 Pin=U11-14
+Removed Pin From Net: NetName=SPI0_MISO Pin=U12-1
+Removed Pin From Net: NetName=GND Pin=U12-2
+Removed Pin From Net: NetName=+3.3 Pin=U12-3
+Removed Pin From Net: NetName=GND Pin=U12-4
+Removed Pin From Net: NetName=ADC REF Pin=U12-6
+Removed Pin From Net: NetName=+5 Pin=U12-7
+Removed Pin From Net: NetName=GND Pin=U12-8
+Removed Pin From Net: NetName=FB_CS0 Pin=U12-9
+Removed Pin From Net: NetName=SPI0_SCLK Pin=U12-10
+Removed Member From Class: ClassName=Sheet2 Member=C20
+Removed Member From Class: ClassName=Sheet2 Member=U11
+Removed Member From Class: ClassName=Sheet2 Member=U12
+Change Component Footprint: Designator=U9 Old Footprint=DBV0005A_M New Footprint=ADS1262
+Change Component Comment : Designator=U9 Old Comment=OPA188AIDBVR New Comment=ADS1262
+Change component parameters: Designator = "U9"; Footprint = "ADS1262"; UniqueID = "\PLBJWYXI"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Case/Package"; Value = "TSSOP"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Plating"; Value = "Gold"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Interface"; Value = "SPI"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "ADS1262IPW"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = "125°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Supply Voltage"; Value = "5.25V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = "-40°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Supply Voltage"; Value = "4.75V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of A/D Converters"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Bits"; Value = "32"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Inputs"; Value = "10"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Pins"; Value = "28"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Supply Voltage"; Value = "5V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Rail/Tube"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Polarity"; Value = "Bipolar,Unipolar"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power Consumption"; Value = "27mW"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pricing 1"; Value = "1=18.662, 10=17.123, 100=14.538, 500=12.925 (USD)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resolution"; Value = "32b"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Sampling Rate"; Value = "38400S/s"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Stock 1"; Value = "86"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Arrow"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "ADS1262IPW"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supply Type"; Value = "Single"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetR6_2 Pin=U2-5
+Added Pin To Net: NetName=NetC1_1 Pin=U2-6
+Added Pin To Net: NetName=NetC1_2 Pin=U2-7
+Added Pin To Net: NetName=+5 Pin=U9-6
+Added Pin To Net: NetName=FB_CS0 Pin=U9-10
+Added Pin To Net: NetName=SPI0_SCLK Pin=U9-11
+Added Pin To Net: NetName=SPI0_MISO Pin=U9-12
+Added Pin To Net: NetName=SPI0_MOSI Pin=U9-13
+Added Pin To Net: NetName=GND Pin=U9-18
+Added Pin To Net: NetName=+3.3 Pin=U9-19
+Added Pin To Net: NetName=Beam Sync Demod Out Pin=U9-21
+Added Pin To Net: NetName=ZH_Reduced Pin=U9-22
+Added Pin To Net: NetName=ZP_Reduced Pin=U9-23
+Added Pin To Net: NetName=+5R_Reduced Pin=U9-24
+Added Pin To Net: NetName=AGND Pin=U9-7
+Added Net: Name=AGND
+Added Pin To Net: NetName=Beam Pull up Pin=R2-2
+Added Pin To Net: NetName=Beam Pull up Pin=U2-1
+Added Pin To Net: NetName=Beam Pull up Pin=U2-2
+Added Net: Name=Beam Pull up
+Added Pin To Net: NetName=NetU2_3 Pin=U2-3
+Added Net: Name=NetU2_3

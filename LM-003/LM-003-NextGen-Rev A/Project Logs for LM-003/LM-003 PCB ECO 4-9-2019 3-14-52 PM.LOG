@@ -1,0 +1,68 @@
+Removed Pin From Net: NetName=Power_CS0 Pin=P2-9
+Removed Pin From Net: NetName=GND Pin=U1-8-1
+Removed Pin From Net: NetName=GND Pin=U1-8-2
+Removed Pin From Net: NetName=Arrestment Heater FET Pin=U1-8-3
+Removed Pin From Net: NetName=Conning Tower FET Pin=U1-8-4
+Removed Pin From Net: NetName=Meter Heater FET Pin=U1-8-5
+Removed Pin From Net: NetName=Gearbox Heater FET Pin=U1-8-6
+Removed Pin From Net: NetName=Board Heater FET 1 Pin=U1-8-7
+Removed Pin From Net: NetName=Board Heater FET 2 Pin=U1-8-8
+Removed Pin From Net: NetName=PWM2B Pin=U1-8-13
+Removed Pin From Net: NetName=PWM2A Pin=U1-8-19
+Removed Pin From Net: NetName=Sys_Pwr_Enable Pin=U1-8-22
+Removed Pin From Net: NetName=FB_MUX_A0 Pin=U1-8-25
+Removed Pin From Net: NetName=FB_MUX_A1 Pin=U1-8-26
+Removed Pin From Net: NetName=T_MUX_A0 Pin=U1-8-31
+Removed Pin From Net: NetName=T_MUX_A1 Pin=U1-8-32
+Removed Pin From Net: NetName=T_MUX_A2 Pin=U1-8-33
+Removed Pin From Net: NetName=T_MUX_A3 Pin=U1-8-34
+Removed Pin From Net: NetName=SPI0_CS0_MUX_A0 Pin=U1-8-39
+Removed Pin From Net: NetName=SPI0_CS0_MUX_A1 Pin=U1-8-40
+Removed Pin From Net: NetName=SPI0_CS0_MUX A2 Pin=U1-8-41
+Removed Pin From Net: NetName=Power A0 Pin=U1-8-42
+Removed Pin From Net: NetName=Power A1 Pin=U1-8-43
+Removed Pin From Net: NetName=Power A2 Pin=U1-8-44
+Removed Pin From Net: NetName=GND Pin=U1-9-1
+Removed Pin From Net: NetName=GND Pin=U1-9-2
+Removed Pin From Net: NetName=+5 BBB Pin=U1-9-5
+Removed Pin From Net: NetName=+5 BBB Pin=U1-9-6
+Removed Pin From Net: NetName=BBB_PWR_SW Pin=U1-9-9
+Removed Pin From Net: NetName=PWM1A Pin=U1-9-14
+Removed Pin From Net: NetName=+3.3 Pin=U1-9-15
+Removed Pin From Net: NetName=SPI0_CS0 Pin=U1-9-17
+Removed Pin From Net: NetName=SPI0_MOSI Pin=U1-9-18
+Removed Pin From Net: NetName=SPI0_MISO Pin=U1-9-21
+Removed Pin From Net: NetName=SPI0_SCLK Pin=U1-9-22
+Removed Pin From Net: NetName=GND Pin=U1-9-43
+Removed Pin From Net: NetName=GND Pin=U1-9-44
+Removed Pin From Net: NetName=GND Pin=U1-9-45
+Removed Pin From Net: NetName=GND Pin=U1-9-46
+Change Component Footprint: Designator=U1 Old Footprint=BEAGLEBONE BLACK THRU New Footprint=TI-PGF176_L
+Change Component Footprint: Designator=U13 Old Footprint=PW0014A_L New Footprint=PW0014A_N
+Change Component Comment : Designator=U1 Old Comment=BBB Header x 2 New Comment=TMS320F28332PGFA
+Change component parameters: Designator = "U1"; Footprint = "TI-PGF176_L"; UniqueID = "\LXNNWCPR"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "12-Bit ADC No. Of Channels"; Value = "16"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "CAN"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.ti.com/"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.ti.com/lit/ds/symlink/tms320f28335.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.ti.com/lit/ml/mtqf020a/mtqf020a.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DatasheetVersion"; Value = "SPRS439M"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Eco Plan"; Value = "Green (RoHS & no Sb/Br)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Frequency (MHz)"; Value = "100"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "GPIO"; Value = "88"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "I2C"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature"; Value = "-40 to 85 degC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "176-Pin Plastic Quad Flatpack, Body 24 x 24 mm, Pitch 0.5 mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "PGF176"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageVersion"; Value = "4040134/B"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PartId"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PartNumber"; Value = "TMS320F28332PGFA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SPI"; Value = "1"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=DAC_CS0 Pin=P2-9
+Added Net: Name=DAC_CS0

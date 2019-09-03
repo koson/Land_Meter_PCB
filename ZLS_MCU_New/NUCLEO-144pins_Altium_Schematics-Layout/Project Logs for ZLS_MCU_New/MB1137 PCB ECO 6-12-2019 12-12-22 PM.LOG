@@ -1,0 +1,36 @@
+Removed Member From Class: ClassName=U_USB Member=R76
+Added Pin To Net: NetName=BOOT0 Pin=R36-1
+Added Pin To Net: NetName=BOOT0 Pin=U8-138
+Added Net: Name=BOOT0
+Added Net: Name=IOREF
+Added Net: Name=NetCN7_14
+Added Net: Name=NetCN9_7
+Added Net: Name=NetCN9_9
+Added Net: Name=NetCN9_11
+Added Net: Name=NetCN9_13
+Added Pin To Net: NetName=NetCN9_15 Pin=JP6-2
+Added Pin To Net: NetName=NetCN9_15 Pin=R40-2
+Added Net: Name=NetCN9_15
+Added Net: Name=NetCN9_17
+Added Net: Name=NetCN9_19
+Added Net: Name=NetCN9_21
+Added Net: Name=NetCN10_11
+Added Net: Name=NetCN10_14
+Added Net: Name=NetCN10_16
+Added Net: Name=NetCN10_19
+Added Net: Name=NetCN10_21
+Added Net: Name=NetCN10_23
+Added Net: Name=NetCN10_29
+Added Net: Name=NetCN11_25
+Added Net: Name=NetCN11_27
+Added Net: Name=NetCN11_29
+Added Net: Name=NetCN11_31
+Added Net: Name=NetCN11_69
+Added Net: Name=NetCN12_1
+Added Net: Name=NetCN12_2
+Added Net: Name=NetCN12_10
+Added Net: Name=NetLD1_1
+Added Net: Name=NetR32_1
+Added Net: Name=NetR33_1
+Added Net: Name=NetR34_2
+Added Class: Name=U_Connectors

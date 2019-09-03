@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=Gearbox Htr Out Pin=*-3
+Removed Pin From Net: NetName=Cross_Black Pin=Q4-2
+Removed Pin From Net: NetName=Board1 Htr Out Pin=Q4-3
+Change Component Designator: OldDesignator=* NewDesignator=Q5
+Added Pin To Net: NetName=Board1 Htr Out Pin=Q4-2
+Added Pin To Net: NetName=Cross_Black Pin=Q4-3
+Added Pin To Net: NetName=Gearbox Htr Out Pin=Q5-2
+Change Net Name : Old Net Name=Net*_1 New Net Name=NetQ5_1

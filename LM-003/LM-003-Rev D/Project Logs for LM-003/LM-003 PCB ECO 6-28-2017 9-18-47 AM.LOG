@@ -1,0 +1,61 @@
+Removed Pin From Net: NetName=SPI1_CS0 Pin=P4-1
+Removed Pin From Net: NetName=+5 Pin=P4-2
+Removed Pin From Net: NetName=SPI1_MISO Pin=P4-3
+Removed Pin From Net: NetName=SPI1_SCLK Pin=P4-7
+Removed Pin From Net: NetName=GND Pin=P4-8
+Change Component Footprint: Designator=P4 Old Footprint=IPL1-104-01-F-D-K New Footprint=HDR1X7
+Change Component Comment : Designator=P4 Old Comment=SAMTEC - IPL1-104-01-F-D-K - .100 TERMINAL ASSEMBLY New Comment=Header 7
+Change component parameters: Designator = "P4"; Footprint = "HDR1X7"; UniqueID = "\PHBOCMVI"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=P14(HDR1X3)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=P15(HDR1X3)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=P16(HDR1X3)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=P17(HDR1X3)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+5 Pin=P4-1
+Added Pin To Net: NetName=GND Pin=P4-2
+Added Pin To Net: NetName=GND Pin=P4-3
+Added Pin To Net: NetName=SPI1_MISO Pin=P4-4
+Added Pin To Net: NetName=SPI1_SCLK Pin=P4-6
+Added Pin To Net: NetName=SPI1_CS0 Pin=P4-7
+Added Pin To Net: NetName=Cross_Green Pin=P14-2
+Added Pin To Net: NetName=Cross_Green Pin=P16-2
+Added Net: Name=Cross_Green
+Added Pin To Net: NetName=Cross_Orange Pin=P14-3
+Added Pin To Net: NetName=Cross_Orange Pin=P16-3
+Added Net: Name=Cross_Orange
+Added Pin To Net: NetName=Cross_Yellow Pin=P14-1
+Added Pin To Net: NetName=Cross_Yellow Pin=P16-1
+Added Net: Name=Cross_Yellow
+Added Pin To Net: NetName=Long_Green Pin=P15-2
+Added Pin To Net: NetName=Long_Green Pin=P17-2
+Added Net: Name=Long_Green
+Added Pin To Net: NetName=Long_Orange Pin=P15-3
+Added Pin To Net: NetName=Long_Orange Pin=P17-3
+Added Net: Name=Long_Orange
+Added Pin To Net: NetName=Long_Yellow Pin=P15-1
+Added Pin To Net: NetName=Long_Yellow Pin=P17-1
+Added Net: Name=Long_Yellow
+Added Member To Class: ClassName=heater_control Member=Component P7 IPL1-103-02-L-D-K
+Added Member To Class: ClassName=Connectors Member=Component P14 Header 3
+Added Member To Class: ClassName=Connectors Member=Component P15 Header 3
+Added Member To Class: ClassName=Connectors Member=Component P16 Header 3
+Added Member To Class: ClassName=Connectors Member=Component P17 Header 3

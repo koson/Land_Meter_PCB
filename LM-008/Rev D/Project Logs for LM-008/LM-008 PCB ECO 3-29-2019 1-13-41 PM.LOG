@@ -1,0 +1,330 @@
+Removed Pin From Net: NetName=GND Pin=C14-1
+Removed Pin From Net: NetName=GND Pin=C15-1
+Removed Pin From Net: NetName=GND Pin=C33-1
+Removed Pin From Net: NetName=GND Pin=R5-2
+Removed Pin From Net: NetName=GND Pin=R9-1
+Removed Pin From Net: NetName=GND Pin=R10-1
+Removed Pin From Net: NetName=GND Pin=U4-A1
+Removed Pin From Net: NetName=GND Pin=U4-A2
+Removed Pin From Net: NetName=GND Pin=U4-A3
+Removed Pin From Net: NetName=GND Pin=U4-A5
+Removed Pin From Net: NetName=RC Pin=U4-A8
+Removed Pin From Net: NetName=GND Pin=U4-A12
+Removed Pin From Net: NetName=GND Pin=U4-B1
+Removed Pin From Net: NetName=GND Pin=U4-B2
+Removed Pin From Net: NetName=GND Pin=U4-B3
+Removed Pin From Net: NetName=GND Pin=U4-B4
+Removed Pin From Net: NetName=GND Pin=U4-B12
+Removed Pin From Net: NetName=GND Pin=U4-C1
+Removed Pin From Net: NetName=GND Pin=U4-C2
+Removed Pin From Net: NetName=GND Pin=U4-C3
+Removed Pin From Net: NetName=GND Pin=U4-C4
+Removed Pin From Net: NetName=GND Pin=U4-C5
+Removed Pin From Net: NetName=GND Pin=U4-C6
+Removed Pin From Net: NetName=GND Pin=U4-C12
+Removed Pin From Net: NetName=GND Pin=U4-D1
+Removed Pin From Net: NetName=GND Pin=U4-D12
+Removed Pin From Net: NetName=+12 Pin=U4-E1
+Removed Pin From Net: NetName=+12 Pin=U4-E2
+Removed Pin From Net: NetName=GND Pin=U4-E12
+Removed Pin From Net: NetName=+12 Pin=U4-F1
+Removed Pin From Net: NetName=+12 Pin=U4-F2
+Removed Pin From Net: NetName=+12 Pin=U4-F3
+Removed Pin From Net: NetName=+12 Pin=U4-F4
+Removed Pin From Net: NetName=+12 Pin=U4-G1
+Removed Pin From Net: NetName=+12 Pin=U4-G2
+Removed Pin From Net: NetName=+12 Pin=U4-G3
+Removed Pin From Net: NetName=+12 Pin=U4-G4
+Removed Pin From Net: NetName=+12 Pin=U4-H1
+Removed Pin From Net: NetName=+12 Pin=U4-H2
+Removed Pin From Net: NetName=+12 Pin=U4-H3
+Removed Pin From Net: NetName=+12 Pin=U4-H4
+Removed Pin From Net: NetName=Power_IN Pin=U4-J12
+Removed Pin From Net: NetName=Power_IN Pin=U4-K12
+Removed Pin From Net: NetName=Power_IN Pin=U4-L12
+Removed Pin From Net: NetName=Power_IN Pin=U4-M10
+Removed Pin From Net: NetName=Power_IN Pin=U4-M11
+Removed Pin From Net: NetName=Power_IN Pin=U4-M12
+Removed Member From Class: ClassName=12_Supply Member=C14
+Removed Member From Class: ClassName=12_Supply Member=C15
+Removed Member From Class: ClassName=12_Supply Member=C33
+Removed Member From Class: ClassName=12_Supply Member=L2
+Removed Member From Class: ClassName=12_Supply Member=R3
+Removed Member From Class: ClassName=12_Supply Member=R5
+Removed Member From Class: ClassName=12_Supply Member=R6
+Removed Member From Class: ClassName=12_Supply Member=R9
+Removed Member From Class: ClassName=12_Supply Member=R10
+Change Component Footprint: Designator=U4 Old Footprint=LT-LGA-141-05-08-1815_V New Footprint=LT-BGA-121-15000X15000X4920
+Change Component Comment : Designator=U4 Old Comment=LTM4605EV#PBF New Comment=LTM8055IY
+Change component parameters: Designator = "U4"; Footprint = "LT-BGA-121-15000X15000X4920"; UniqueID = "\OIQCPGHN"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Applications"; Value = "ITE(Commercial)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Category"; Value = "PowerSupplies-BoardMount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Current - Output (Max)"; Value = "8.5A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet URL"; Value = "http://cds.linear.com/docs/en/datasheet/8055fa.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Version"; Value = "Rev. A, 01/2016"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Efficiency"; Value = "97.5%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Family"; Value = "DCDCConverters"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Features"; Value = "OTP"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "LinearTechnology"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer URL"; Value = "http://www.linear.com/"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Technology"; Value = "SurfaceMount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Type"; Value = "SurfaceMount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Outputs"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature"; Value = "-40°C~125°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package / Case"; Value = "121-BGA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package Description"; Value = "121-Ball BGA, Body 15 x 15 mm, Pitch 1.27 mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package Reference"; Value = "BGA-121"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package URL"; Value = "http://www.linear.com/docs/41075"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package Version"; Value = "Rev. A, 11/2012"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Tray"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PartId"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power (Watts) - Manufacture Series"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power (Watts) - Max"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Series"; Value = "µModule®"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = "Non-IsolatedPoLModule"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage - Input (Max)"; Value = "36V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage - Input (Min)"; Value = "5V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage - Isolation"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage - Output 1"; Value = "1.2~36V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage - Output 2"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage - Output 3"; Value = "-"; VariantName = "[No Variations]"
+Added Component: Designator=C12(PNSC-SVP-F8_L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Capacitance"; Value = "180uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Construction"; Value = "Cylindrical"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet URL"; Value = "https://industrial.panasonic.com/cdbs/www-data/pdf/AAB8000/AAB8000C193.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "11/2015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DCL"; Value = "576uA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ESR"; Value = "30mOhm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Failure Rate"; Value = "NotRequired"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Diameter (nom)"; Value = "NotRequiredmm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Spacing (nom)"; Value = "NotRequiredmm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lifetime"; Value = "2000hr"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.panasonic.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Style"; Value = "SurfaceMount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "SurfaceMount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temp Range"; Value = "-55Cto105C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Description"; Value = "2-Pin Surface Mount Device, Body 10.3 x 10.3 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "SVP-F8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "TapeandReel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Product Depth (mm)"; Value = "NotRequiredmm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Product Diameter (mm)"; Value = "10mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Product Height (mm)"; Value = "7.9mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Product Length (mm)"; Value = "NotRequiredmm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ripple Current"; Value = "3.02A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Seated Plane Height"; Value = "NotRequiredmm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size (mm)"; Value = "10X7.9mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance (+ or -)"; Value = "20%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "OS-CON"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "16VDC"; VariantName = "[No Variations]"
+Added Component: Designator=C13(PNSC-SVP-F8_L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Capacitance"; Value = "180uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Construction"; Value = "Cylindrical"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet URL"; Value = "https://industrial.panasonic.com/cdbs/www-data/pdf/AAB8000/AAB8000C193.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "11/2015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DCL"; Value = "576uA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ESR"; Value = "30mOhm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Failure Rate"; Value = "NotRequired"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Diameter (nom)"; Value = "NotRequiredmm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Spacing (nom)"; Value = "NotRequiredmm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lifetime"; Value = "2000hr"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.panasonic.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Style"; Value = "SurfaceMount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "SurfaceMount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temp Range"; Value = "-55Cto105C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Description"; Value = "2-Pin Surface Mount Device, Body 10.3 x 10.3 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "SVP-F8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "TapeandReel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Product Depth (mm)"; Value = "NotRequiredmm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Product Diameter (mm)"; Value = "10mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Product Height (mm)"; Value = "7.9mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Product Length (mm)"; Value = "NotRequiredmm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ripple Current"; Value = "3.02A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Seated Plane Height"; Value = "NotRequiredmm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size (mm)"; Value = "10X7.9mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance (+ or -)"; Value = "20%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "OS-CON"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "16VDC"; VariantName = "[No Variations]"
+Added Component: Designator=C23(PNSC-SVP-F8_L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Capacitance"; Value = "180uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Construction"; Value = "Cylindrical"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet URL"; Value = "https://industrial.panasonic.com/cdbs/www-data/pdf/AAB8000/AAB8000C193.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "11/2015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DCL"; Value = "576uA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ESR"; Value = "30mOhm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Failure Rate"; Value = "NotRequired"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Diameter (nom)"; Value = "NotRequiredmm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Spacing (nom)"; Value = "NotRequiredmm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lifetime"; Value = "2000hr"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.panasonic.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Style"; Value = "SurfaceMount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "SurfaceMount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temp Range"; Value = "-55Cto105C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Description"; Value = "2-Pin Surface Mount Device, Body 10.3 x 10.3 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "SVP-F8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "TapeandReel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Product Depth (mm)"; Value = "NotRequiredmm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Product Diameter (mm)"; Value = "10mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Product Height (mm)"; Value = "7.9mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Product Length (mm)"; Value = "NotRequiredmm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ripple Current"; Value = "3.02A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Seated Plane Height"; Value = "NotRequiredmm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size (mm)"; Value = "10X7.9mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance (+ or -)"; Value = "20%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "OS-CON"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "16VDC"; VariantName = "[No Variations]"
+Added Component: Designator=C25(PNSC-SVP-F8_L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Capacitance"; Value = "180uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Construction"; Value = "Cylindrical"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet URL"; Value = "https://industrial.panasonic.com/cdbs/www-data/pdf/AAB8000/AAB8000C193.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "11/2015"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DCL"; Value = "576uA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ESR"; Value = "30mOhm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Failure Rate"; Value = "NotRequired"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Diameter (nom)"; Value = "NotRequiredmm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Spacing (nom)"; Value = "NotRequiredmm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lifetime"; Value = "2000hr"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.panasonic.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Style"; Value = "SurfaceMount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "SurfaceMount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temp Range"; Value = "-55Cto105C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Description"; Value = "2-Pin Surface Mount Device, Body 10.3 x 10.3 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "SVP-F8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "TapeandReel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Product Depth (mm)"; Value = "NotRequiredmm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Product Diameter (mm)"; Value = "10mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Product Height (mm)"; Value = "7.9mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Product Length (mm)"; Value = "NotRequiredmm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ripple Current"; Value = "3.02A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Seated Plane Height"; Value = "NotRequiredmm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size (mm)"; Value = "10X7.9mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance (+ or -)"; Value = "20%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "OS-CON"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "16VDC"; VariantName = "[No Variations]"
+Added Component: Designator=U9(LT-LGA-133-05-08-1766_V)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Code_JEDEC"; Value = "MO-222"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.linear.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://cds.linear.com/docs/en/datasheet/4612fb.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://cds.linear.com/docs/en/packaging/05081766_A_lga133.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Rev. B"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Extended Temp"; Value = "E, I, MP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Frequency(kHz)"; Value = "940"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Frequency Sync Range"; Value = "200kHz - 1.3MHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ishutdown(uA)"; Value = "50"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Isupply(mA)"; Value = "4.5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Linear Technology"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Outputs"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Output Current(A)"; Value = "5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "133-Pin LGA, Body 15 x 15 mm, Pitch 1.27 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "LGA-133"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "Rev. A, 02/2013"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packing"; Value = "Tray"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartId"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "LTM4612EV#PBF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "TRUE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Switch Current(A)"; Value = "9"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Synchronous"; Value = "yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Topology"; Value = "Buck"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tracking"; Value = "yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vin Max(V)"; Value = "36"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vin Min(V)"; Value = "5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vout Max(V)"; Value = "15"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vout Min(V)"; Value = "3.3"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=Power_IN Pin=C12-1
+Added Pin To Net: NetName=GND Pin=C12-2
+Added Pin To Net: NetName=+12 Pin=C13-1
+Added Pin To Net: NetName=GND Pin=C13-2
+Added Pin To Net: NetName=Power_IN Pin=C23-1
+Added Pin To Net: NetName=GND Pin=C23-2
+Added Pin To Net: NetName=+5 BBB Pin=C25-1
+Added Pin To Net: NetName=GND Pin=C25-2
+Added Pin To Net: NetName=+12 Pin=U4-A1
+Added Pin To Net: NetName=+12 Pin=U4-A2
+Added Pin To Net: NetName=+12 Pin=U4-A3
+Added Pin To Net: NetName=+12 Pin=U4-A4
+Added Pin To Net: NetName=+12 Pin=U4-A5
+Added Pin To Net: NetName=+12 Pin=U4-A6
+Added Pin To Net: NetName=GND Pin=U4-A8
+Added Pin To Net: NetName=GND Pin=U4-A9
+Added Pin To Net: NetName=GND Pin=U4-A10
+Added Pin To Net: NetName=+12 Pin=U4-B1
+Added Pin To Net: NetName=+12 Pin=U4-B2
+Added Pin To Net: NetName=+12 Pin=U4-B3
+Added Pin To Net: NetName=+12 Pin=U4-B4
+Added Pin To Net: NetName=+12 Pin=U4-B5
+Added Pin To Net: NetName=+12 Pin=U4-B6
+Added Pin To Net: NetName=GND Pin=U4-B7
+Added Pin To Net: NetName=GND Pin=U4-B8
+Added Pin To Net: NetName=GND Pin=U4-B9
+Added Pin To Net: NetName=+12 Pin=U4-C1
+Added Pin To Net: NetName=+12 Pin=U4-C2
+Added Pin To Net: NetName=+12 Pin=U4-C3
+Added Pin To Net: NetName=+12 Pin=U4-C4
+Added Pin To Net: NetName=+12 Pin=U4-C5
+Added Pin To Net: NetName=+12 Pin=U4-C6
+Added Pin To Net: NetName=GND Pin=U4-E1
+Added Pin To Net: NetName=GND Pin=U4-E2
+Added Pin To Net: NetName=GND Pin=U4-F2
+Added Pin To Net: NetName=GND Pin=U4-F3
+Added Pin To Net: NetName=GND Pin=U4-F4
+Added Pin To Net: NetName=GND Pin=U4-F5
+Added Pin To Net: NetName=GND Pin=U4-F6
+Added Pin To Net: NetName=GND Pin=U4-F7
+Added Pin To Net: NetName=GND Pin=U4-F8
+Added Pin To Net: NetName=GND Pin=U4-F9
+Added Pin To Net: NetName=GND Pin=U4-G3
+Added Pin To Net: NetName=GND Pin=U4-G4
+Added Pin To Net: NetName=GND Pin=U4-G5
+Added Pin To Net: NetName=GND Pin=U4-G6
+Added Pin To Net: NetName=GND Pin=U4-G7
+Added Pin To Net: NetName=GND Pin=U4-G8
+Added Pin To Net: NetName=GND Pin=U4-G9
+Added Pin To Net: NetName=Power_IN Pin=U4-G10
+Added Pin To Net: NetName=Power_IN Pin=U4-G11
+Added Pin To Net: NetName=GND Pin=U4-H3
+Added Pin To Net: NetName=GND Pin=U4-H4
+Added Pin To Net: NetName=GND Pin=U4-H5
+Added Pin To Net: NetName=GND Pin=U4-H6
+Added Pin To Net: NetName=GND Pin=U4-H7
+Added Pin To Net: NetName=GND Pin=U4-H8
+Added Pin To Net: NetName=GND Pin=U4-H9
+Added Pin To Net: NetName=Power_IN Pin=U4-H10
+Added Pin To Net: NetName=Power_IN Pin=U4-H11
+Added Pin To Net: NetName=GND Pin=U4-J3
+Added Pin To Net: NetName=GND Pin=U4-J4
+Added Pin To Net: NetName=GND Pin=U4-J5
+Added Pin To Net: NetName=GND Pin=U4-J6
+Added Pin To Net: NetName=GND Pin=U4-J7
+Added Pin To Net: NetName=GND Pin=U4-J8
+Added Pin To Net: NetName=GND Pin=U4-J9
+Added Pin To Net: NetName=GND Pin=U4-K3
+Added Pin To Net: NetName=GND Pin=U4-K4
+Added Pin To Net: NetName=GND Pin=U4-K5
+Added Pin To Net: NetName=GND Pin=U4-K6
+Added Pin To Net: NetName=GND Pin=U4-K7
+Added Pin To Net: NetName=GND Pin=U4-K8
+Added Pin To Net: NetName=GND Pin=U4-K9
+Added Pin To Net: NetName=GND Pin=U4-L1
+Added Pin To Net: NetName=RC Pin=U4-L4
+Added Pin To Net: NetName=GND Pin=U4-L5
+Added Pin To Net: NetName=GND Pin=U4-L6
+Added Pin To Net: NetName=GND Pin=U4-L7
+Added Pin To Net: NetName=GND Pin=U4-L8
+Added Member To Class: ClassName=12_Supply Member=Component C12 16SVP180MX
+Added Member To Class: ClassName=12_Supply Member=Component C13 16SVP180MX
+Added Member To Class: ClassName=BBB-Supply Member=Component C23 16SVP180MX
+Added Member To Class: ClassName=BBB-Supply Member=Component C25 16SVP180MX
+Added Member To Class: ClassName=BBB-Supply Member=Component U9 LTM4612EV#PBF

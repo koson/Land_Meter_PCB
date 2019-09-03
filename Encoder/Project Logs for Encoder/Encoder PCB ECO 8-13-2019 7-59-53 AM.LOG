@@ -1,0 +1,22 @@
+Change Component Footprint: Designator=U1 Old Footprint=AMS-QFN-16-4000X4000DE-2400X2400TP_N New Footprint=AMS-QFN-16-4000X4000DE-2400X2400TP_L
+Change Component Comment : Designator=U1 Old Comment=Comment New Comment=AS5055 EQFT
+Change component parameters: Designator = "U1"; Footprint = "AMS-QFN-16-4000X4000DE-2400X2400TP_L"; UniqueID = "\JOFFOXWN"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "www.ams.com"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.ams.com/eng/content/download/383163/1241077/19752"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DatasheetVersion"; Value = "Rev. 1.16"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Features"; Value = "low power consumption, automatic wakeup over serial interface, small size, SPI interface"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "AMS"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Output"; Value = "SPI Interface"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "16-Pin Plastic Quad Flatpack, No Leads, 4 x 4 mm Body, 0.65 mm Pitch, 2.4 x 2.4 mm Exposed Pad"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "QFN-16 (4x4x0.85mm)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageVersion"; Value = "Rev. 3.7, 06/2011"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PartNumber"; Value = "AS5055 EQFT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resolution"; Value = "12 bit"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supply Voltage (V)"; Value = "3.0 to 3.6"; VariantName = "[No Variations]"
+Added Component: Designator=P1(SAMTEC-TFM-104-02-X-D)
+Add component. Clean all parameters for all variants
+Added Class: Name=eNCODER

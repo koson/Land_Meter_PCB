@@ -1,0 +1,41 @@
+Removed Pin From Net: NetName=AGND Pin=R15-2
+Added Component: Designator=R70(VH102K)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R71(VH102K)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R72(VH102K)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R73(VH102K)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R74(VH102K)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=NetR15_1 Pin=R70-1
+Added Pin To Net: NetName=AGND Pin=R71-2
+Added Pin To Net: NetName=NetR15_1 Pin=R72-1
+Added Pin To Net: NetName=AGND Pin=R73-2
+Added Pin To Net: NetName=AGND Pin=R74-2
+Added Pin To Net: NetName=Power_IN Pin=U3-3
+Added Pin To Net: NetName=NetR15_2 Pin=R15-2
+Added Pin To Net: NetName=NetR15_2 Pin=R74-1
+Added Net: Name=NetR15_2
+Added Pin To Net: NetName=NetR70_2 Pin=R70-2
+Added Pin To Net: NetName=NetR70_2 Pin=R71-1
+Added Net: Name=NetR70_2
+Added Pin To Net: NetName=NetR72_2 Pin=R72-2
+Added Pin To Net: NetName=NetR72_2 Pin=R73-1
+Added Net: Name=NetR72_2
+Added Member To Class: ClassName=heater_control Member=Component R48 6K98 1% 0805(2012)
+Added Member To Class: ClassName=FeedbackLoop Member=Component R70 TBD
+Added Member To Class: ClassName=FeedbackLoop Member=Component R71 TBD
+Added Member To Class: ClassName=FeedbackLoop Member=Component R72 TBD
+Added Member To Class: ClassName=FeedbackLoop Member=Component R73 TBD
+Added Member To Class: ClassName=FeedbackLoop Member=Component R74 TBD
+Added Room: Name=ADC
+Added Room: Name=BBB Headers
+Added Room: Name=Connectors
+Added Room: Name=FeedbackLoop
+Added Room: Name=heater_control
+Added Room: Name=Power
+Added Room: Name=Power Monitor
+Added Room: Name=Real Time Clock
+Added Room: Name=RS232

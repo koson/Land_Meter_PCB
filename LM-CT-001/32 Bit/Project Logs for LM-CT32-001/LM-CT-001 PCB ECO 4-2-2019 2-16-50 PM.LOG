@@ -1,0 +1,17 @@
+Removed Pin From Net: NetName=GND Pin=C1-2
+Removed Pin From Net: NetName=GND Pin=C4-2
+Removed Pin From Net: NetName=GND Pin=C15-1
+Removed Pin From Net: NetName=GND Pin=C15-2
+Removed Pin From Net: NetName=GND Pin=C16-1
+Removed Pin From Net: NetName=GND Pin=C16-2
+Removed Pin From Net: NetName=Beam Sync Demod Out Pin=TP2-1
+Removed Member From Class: ClassName=ADC Member=C1
+Removed Member From Class: ClassName=ADC Member=C4
+Removed Member From Class: ClassName=ADC Member=C15
+Removed Member From Class: ClassName=ADC Member=C16
+Removed Member From Class: ClassName=Synch_Demod Member=TP2
+Added Pin To Net: NetName=GND Pin=U2-15
+Added Pin To Net: NetName=GND Pin=U2-16
+Added Pin To Net: NetName=GND Pin=U2-21
+Added Pin To Net: NetName=GND Pin=U2-23
+Added Pin To Net: NetName=GND Pin=U2-24

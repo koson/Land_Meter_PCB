@@ -1,0 +1,174 @@
+Removed Pin From Net: NetName=PB8 Pin=CN12-3
+Removed Pin From Net: NetName=PC6 Pin=CN12-4
+Removed Pin From Net: NetName=PB9 Pin=CN12-5
+Removed Pin From Net: NetName=PC5 Pin=CN12-6
+Removed Pin From Net: NetName=GND Pin=CN12-9
+Removed Pin From Net: NetName=PA5 Pin=CN12-11
+Removed Pin From Net: NetName=PA6 Pin=CN12-13
+Removed Pin From Net: NetName=PA7 Pin=CN12-15
+Removed Pin From Net: NetName=PB12 Pin=CN12-16
+Removed Pin From Net: NetName=PB6 Pin=CN12-17
+Removed Pin From Net: NetName=PB11 Pin=CN12-18
+Removed Pin From Net: NetName=PC7 Pin=CN12-19
+Removed Pin From Net: NetName=GND Pin=CN12-20
+Removed Pin From Net: NetName=PA9 Pin=CN12-21
+Removed Pin From Net: NetName=PB2 Pin=CN12-22
+Removed Pin From Net: NetName=PA8 Pin=CN12-23
+Removed Pin From Net: NetName=PB1 Pin=CN12-24
+Removed Pin From Net: NetName=PB10 Pin=CN12-25
+Removed Pin From Net: NetName=PB15 Pin=CN12-26
+Removed Pin From Net: NetName=PB4 Pin=CN12-27
+Removed Pin From Net: NetName=PB14 Pin=CN12-28
+Removed Pin From Net: NetName=PB5 Pin=CN12-29
+Removed Pin From Net: NetName=PB13 Pin=CN12-30
+Removed Pin From Net: NetName=PB3 Pin=CN12-31
+Removed Pin From Net: NetName=AGND Pin=CN12-32
+Removed Pin From Net: NetName=PA10 Pin=CN12-33
+Removed Pin From Net: NetName=PC4 Pin=CN12-34
+Removed Pin From Net: NetName=PA2 Pin=CN12-35
+Removed Pin From Net: NetName=PF5 Pin=CN12-36
+Removed Pin From Net: NetName=PA3 Pin=CN12-37
+Removed Pin From Net: NetName=PF4 Pin=CN12-38
+Removed Pin From Net: NetName=GND Pin=CN12-39
+Removed Pin From Net: NetName=PE8 Pin=CN12-40
+Removed Pin From Net: NetName=PD13 Pin=CN12-41
+Removed Pin From Net: NetName=PF10 Pin=CN12-42
+Removed Pin From Net: NetName=PD12 Pin=CN12-43
+Removed Pin From Net: NetName=PE7 Pin=CN12-44
+Removed Pin From Net: NetName=PD11 Pin=CN12-45
+Removed Pin From Net: NetName=PD14 Pin=CN12-46
+Removed Pin From Net: NetName=PE10 Pin=CN12-47
+Removed Pin From Net: NetName=PD15 Pin=CN12-48
+Removed Pin From Net: NetName=PE12 Pin=CN12-49
+Removed Pin From Net: NetName=PF14 Pin=CN12-50
+Removed Pin From Net: NetName=PE14 Pin=CN12-51
+Removed Pin From Net: NetName=PE9 Pin=CN12-52
+Removed Pin From Net: NetName=PE15 Pin=CN12-53
+Removed Pin From Net: NetName=GND Pin=CN12-54
+Removed Pin From Net: NetName=PE13 Pin=CN12-55
+Removed Pin From Net: NetName=PE11 Pin=CN12-56
+Removed Pin From Net: NetName=PF13 Pin=CN12-57
+Removed Pin From Net: NetName=PF3 Pin=CN12-58
+Removed Pin From Net: NetName=PF12 Pin=CN12-59
+Removed Pin From Net: NetName=PF15 Pin=CN12-60
+Removed Pin From Net: NetName=PG14 Pin=CN12-61
+Removed Pin From Net: NetName=PF11 Pin=CN12-62
+Removed Pin From Net: NetName=GND Pin=CN12-63
+Removed Pin From Net: NetName=PE0 Pin=CN12-64
+Removed Pin From Net: NetName=PD10 Pin=CN12-65
+Removed Pin From Net: NetName=PG8 Pin=CN12-66
+Removed Pin From Net: NetName=PG7 Pin=CN12-67
+Removed Pin From Net: NetName=PG5 Pin=CN12-68
+Removed Pin From Net: NetName=PG4 Pin=CN12-69
+Removed Pin From Net: NetName=PG6 Pin=CN12-70
+Removed Pin From Net: NetName=NetCN12_10 Pin=R18-1
+Change Component Comment : Designator=CN12 Old Comment=Header 35x2 New Comment=SSW-140-23-G-D
+Change component parameters: Designator = "CN12"; Footprint = "SSW-140-23-G-D"; UniqueID = "\OUWECVDB\XABPOXYV\BECQDXGU"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "http://www.samtec.com/documents/webfiles/pdf/SSQ_TH.PDF?src-supplier=Avnet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.samtec.com/documents/webfiles/pdf/SSQ_TH.PDF?src-supplier=Avnet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Plating"; Value = "Gold"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Gender"; Value = "Female"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Samtec"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "SSW-140-23-G-D"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Contacts"; Value = "80"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Rows"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pitch"; Value = "2.54mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pricing 1"; Value = "1=13.99000, 10=13.29000, 25=12.59000, 50=12.09000, 100=11.29000 (USD)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS"; Value = "Yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Stock 1"; Value = "0"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Avnet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "SSW-140-23-G-D"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Termination"; Value = "Solder"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+3.3 Pin=CN12-1
+Added Pin To Net: NetName=+3.3 Pin=CN12-3
+Added Pin To Net: NetName=+5 Pin=CN12-5
+Added Pin To Net: NetName=+5 Pin=CN12-7
+Added Pin To Net: NetName=PB8 Pin=CN12-11
+Added Pin To Net: NetName=PC6 Pin=CN12-12
+Added Pin To Net: NetName=PB9 Pin=CN12-13
+Added Pin To Net: NetName=PC5 Pin=CN12-14
+Added Pin To Net: NetName=GND Pin=CN12-17
+Added Pin To Net: NetName=PA5 Pin=CN12-19
+Added Pin To Net: NetName=PA6 Pin=CN12-21
+Added Pin To Net: NetName=PA7 Pin=CN12-23
+Added Pin To Net: NetName=PB12 Pin=CN12-24
+Added Pin To Net: NetName=PB6 Pin=CN12-25
+Added Pin To Net: NetName=PB11 Pin=CN12-26
+Added Pin To Net: NetName=PC7 Pin=CN12-27
+Added Pin To Net: NetName=GND Pin=CN12-28
+Added Pin To Net: NetName=PA9 Pin=CN12-29
+Added Pin To Net: NetName=PB2 Pin=CN12-30
+Added Pin To Net: NetName=PA8 Pin=CN12-31
+Added Pin To Net: NetName=PB1 Pin=CN12-32
+Added Pin To Net: NetName=PB10 Pin=CN12-33
+Added Pin To Net: NetName=PB15 Pin=CN12-34
+Added Pin To Net: NetName=PB4 Pin=CN12-35
+Added Pin To Net: NetName=PB14 Pin=CN12-36
+Added Pin To Net: NetName=PB5 Pin=CN12-37
+Added Pin To Net: NetName=PB13 Pin=CN12-38
+Added Pin To Net: NetName=PB3 Pin=CN12-39
+Added Pin To Net: NetName=AGND Pin=CN12-40
+Added Pin To Net: NetName=PA10 Pin=CN12-41
+Added Pin To Net: NetName=PC4 Pin=CN12-42
+Added Pin To Net: NetName=PA2 Pin=CN12-43
+Added Pin To Net: NetName=PF5 Pin=CN12-44
+Added Pin To Net: NetName=PA3 Pin=CN12-45
+Added Pin To Net: NetName=PF4 Pin=CN12-46
+Added Pin To Net: NetName=GND Pin=CN12-49
+Added Pin To Net: NetName=PE8 Pin=CN12-50
+Added Pin To Net: NetName=PD13 Pin=CN12-51
+Added Pin To Net: NetName=PF10 Pin=CN12-52
+Added Pin To Net: NetName=PD12 Pin=CN12-53
+Added Pin To Net: NetName=PE7 Pin=CN12-54
+Added Pin To Net: NetName=PD11 Pin=CN12-55
+Added Pin To Net: NetName=PD14 Pin=CN12-56
+Added Pin To Net: NetName=PE10 Pin=CN12-57
+Added Pin To Net: NetName=PD15 Pin=CN12-58
+Added Pin To Net: NetName=PE12 Pin=CN12-59
+Added Pin To Net: NetName=PF14 Pin=CN12-60
+Added Pin To Net: NetName=PE14 Pin=CN12-61
+Added Pin To Net: NetName=PE9 Pin=CN12-62
+Added Pin To Net: NetName=PE15 Pin=CN12-63
+Added Pin To Net: NetName=GND Pin=CN12-64
+Added Pin To Net: NetName=PE13 Pin=CN12-65
+Added Pin To Net: NetName=PE11 Pin=CN12-66
+Added Pin To Net: NetName=PF13 Pin=CN12-67
+Added Pin To Net: NetName=PF3 Pin=CN12-68
+Added Pin To Net: NetName=PF12 Pin=CN12-69
+Added Pin To Net: NetName=PF15 Pin=CN12-70
+Added Pin To Net: NetName=PG14 Pin=CN12-71
+Added Pin To Net: NetName=PF11 Pin=CN12-72
+Added Pin To Net: NetName=GND Pin=CN12-73
+Added Pin To Net: NetName=PE0 Pin=CN12-74
+Added Pin To Net: NetName=PD10 Pin=CN12-75
+Added Pin To Net: NetName=PG8 Pin=CN12-76
+Added Pin To Net: NetName=PG7 Pin=CN12-77
+Added Pin To Net: NetName=PG5 Pin=CN12-78
+Added Pin To Net: NetName=PG4 Pin=CN12-79
+Added Pin To Net: NetName=PG6 Pin=CN12-80
+Added Pin To Net: NetName=NetCN12_10 Pin=R16-1
+Added Pin To Net: NetName=+12 Pin=CN12-2
+Added Pin To Net: NetName=+12 Pin=CN12-4
+Added Net: Name=+12
+Added Pin To Net: NetName=-5 Pin=CN12-6
+Added Pin To Net: NetName=-5 Pin=CN12-8
+Added Net: Name=-5
+Added Pin To Net: NetName=NetCN12_9 Pin=CN12-9
+Added Pin To Net: NetName=NetCN12_9 Pin=R15-2
+Added Net: Name=NetCN12_9
+Added Pin To Net: NetName=NetCN12_15 Pin=CN12-15
+Added Pin To Net: NetName=NetCN12_15 Pin=R14-1
+Added Net: Name=NetCN12_15
+Added Pin To Net: NetName=NetCN12_18 Pin=CN12-18
+Added Pin To Net: NetName=NetCN12_18 Pin=R18-1
+Added Net: Name=NetCN12_18
+Added Pin To Net: NetName=NetCN12_20 Pin=CN12-20
+Added Pin To Net: NetName=NetCN12_20 Pin=R19-1
+Added Net: Name=NetCN12_20
+Added Pin To Net: NetName=NetCN12_22 Pin=CN12-22
+Added Pin To Net: NetName=NetCN12_22 Pin=R20-1
+Added Net: Name=NetCN12_22

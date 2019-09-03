@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=Arrestment Heater FET_Buff Pin=P4-13
+Removed Pin From Net: NetName=Gearbox Heater FET_Buff Pin=P4-14
+Added Pin To Net: NetName=Gearbox Heater FET_Buff Pin=P4-13
+Added Pin To Net: NetName=Arrestment Heater FET_Buff Pin=P4-14
+Change Net Name : Old Net Name=Arrestment Heater FET_Buff New Net Name=Gearbox Heater FET_Buff
+Change Net Name : Old Net Name=Gearbox Heater FET New Net Name=Arrestment Heater FET
+Change Net Name : Old Net Name=Gearbox Heater FET_Buff New Net Name=Arrestment Heater FET_Buff

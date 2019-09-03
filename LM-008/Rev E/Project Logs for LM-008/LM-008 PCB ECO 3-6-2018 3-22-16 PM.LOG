@@ -1,0 +1,94 @@
+Removed Pin From Net: NetName=Aux+ Pin=D1-1
+Removed Pin From Net: NetName=NetC16_2 Pin=D1-2
+Removed Pin From Net: NetName=Batt+ Pin=Q1-1
+Removed Pin From Net: NetName=NetC16_2 Pin=Q1-3
+Change Component Footprint: Designator=D1 Old Footprint=DO-204AL New Footprint=ONSC-SMA-2-403D-02_F_V
+Change Component Footprint: Designator=Q1 Old Footprint=E3 New Footprint=ONSC-MCPH-6_V
+Change Component Comment : Designator=D1 Old Comment=Diode 11DQ03 New Comment=1SMA5942BT3G
+Change Component Comment : Designator=Q1 Old Comment=MOSFET-P New Comment=MCH6336-TL-E
+Change component parameters: Designator = "D1"; Footprint = "ONSC-SMA-2-403D-02_F_V"; UniqueID = "\BEYCMRKC"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.onsemi.com/"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.onsemi.com/pub_link/Collateral/1SMA5913BT3-D.PDF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.onsemi.com/pub_link/Collateral/1SMA5913BT3-D.PDF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DatasheetVersion"; Value = "Rev. 8"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "On Semiconductor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "2-Pin Small Molded Package, J-Bend Lead, Body 2.605 x 4.315 mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "SMA-2-403D-02_F"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageVersion"; Value = "Rev. F, 11/2008"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packing"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PartNumber"; Value = "1SMA5942BT3G"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS"; Value = "Pb-Free"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "VZ Typ (V)"; Value = "51"; VariantName = "[No Variations]"
+Change component parameters: Designator = "Q1"; Footprint = "ONSC-MCPH-6_V"; UniqueID = "\KFPAJWUE"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Channel Polarity"; Value = "P Channel"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ciss Typ (pF)"; Value = "660"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.onsemi.com/"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.onsemi.cn/pub_link/Collateral/MCH6336-D.PDF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.onsemi.com/pub_link/Collateral/ENA1601-D.PDF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Configuration"; Value = "Single"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Coss Typ (pF)"; Value = "210"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Crss Typ (pF)"; Value = "155"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ID Max (A)"; Value = "5"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "On Semiconductor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "6-Pin Small Outline Transistor, Body 2 x 1.6 mm, Pitch 0.65 mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "MCPH-6"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package Type"; Value = "SC-88FL / MCPH-6"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packing"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PartNumber"; Value = "MCH6336-TL-E"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PD Max (W)"; Value = "1.5"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS"; Value = "Pb-Free"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "V(BR)DSS Min (V)"; Value = "12"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "VGS(th) Max (V)"; Value = "1.4"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "VGS Max (V)"; Value = "10"; VariantName = "[No Variations]"
+Added Component: Designator=Q?(ONSC-ECH-8_V)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Channel Polarity"; Value = "P Channel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ciss Typ (pF)"; Value = "1000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.onsemi.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.onsemi.com/pub_link/Collateral/ECH8652-D.PDF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.onsemi.com/pub_link/Collateral/ECH8308-D.PDF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Configuration"; Value = "Dual"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Coss Typ (pF)"; Value = "320"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Crss Typ (pF)"; Value = "250"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ID Max (A)"; Value = "6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "On Semiconductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "8-Pin SOT23, Body 2.9 x 2.3 mm, Pitch 0.65 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "ECH-8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Type"; Value = "SOT-28 FL / ECH-8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packing"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartId"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "ECH8652-TL-H"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PD Max (W)"; Value = "1.3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Pb-Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "V(BR)DSS Min (V)"; Value = "12"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VGS(th) Max (V)"; Value = "1.4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VGS Max (V)"; Value = "10"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC16_2 Pin=D1-1
+Added Pin To Net: NetName=Aux+ Pin=D1-2
+Added Pin To Net: NetName=NetC16_2 Pin=Q1-4
+Added Pin To Net: NetName=NetQ1_1 Pin=Q1-1
+Added Pin To Net: NetName=NetQ1_1 Pin=Q1-2
+Added Pin To Net: NetName=NetQ1_1 Pin=Q1-5
+Added Pin To Net: NetName=NetQ1_1 Pin=Q1-6
+Added Net: Name=NetQ1_1
+Added Pin To Net: NetName=NetQ1_3 Pin=Q1-3
+Added Pin To Net: NetName=NetQ1_3 Pin=U9-5
+Added Net: Name=NetQ1_3
+Added Pin To Net: NetName=NetQ?_5 Pin=Q?-5
+Added Pin To Net: NetName=NetQ?_5 Pin=Q?-6
+Added Net: Name=NetQ?_5
+Added Member To Class: ClassName=Power_Input_FET Member=Component Q? ECH8652-TL-H

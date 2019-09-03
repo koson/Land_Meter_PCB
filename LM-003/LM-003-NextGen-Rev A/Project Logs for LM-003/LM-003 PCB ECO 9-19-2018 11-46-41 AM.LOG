@@ -1,0 +1,27 @@
+Removed Member From Class: ClassName=ADC Member=C1
+Removed Member From Class: ClassName=ADC Member=C4
+Removed Member From Class: ClassName=heater_control Member=C8
+Removed Member From Class: ClassName=heater_control Member=C9
+Removed Member From Class: ClassName=Connectors Member=P4
+Removed Member From Class: ClassName=ADC Member=R2
+Removed Member From Class: ClassName=heater_control Member=R15
+Removed Member From Class: ClassName=ADC Member=U7
+Added Pin To Net: NetName=GND Pin=U11-4
+Added Member To Class: ClassName=heater_control Member=Component C2 CAP CER 0.1UF 25V X7R 0805
+Added Member To Class: ClassName=heater_control Member=Component C3 CAP CER 0.1UF 25V X7R 0805
+Added Member To Class: ClassName=ADC Member=Component C7 CAP CER 0.1UF 25V X7R 0805
+Added Member To Class: ClassName=ADC Member=Component C10 0.1uF
+Added Member To Class: ClassName=heater_control Member=Component R4 20K
+Added Member To Class: ClassName=heater_control Member=Component R5 4.99K
+Added Member To Class: ClassName=heater_control Member=Component R6 20K
+Added Member To Class: ClassName=ADC Member=Component R14 10k
+Added Member To Class: ClassName=ADC Member=Component R15 27K
+Added Member To Class: ClassName=ADC Member=Component R16 100K
+Added Member To Class: ClassName=ADC Member=Component R18 10k
+Added Member To Class: ClassName=heater_control Member=Component U4 OPA188AIDBVR
+Added Member To Class: ClassName=heater_control Member=Component U5 OPA188AIDBVR
+Added Member To Class: ClassName=heater_control Member=Component U7 OPA188AIDBVR
+Added Member To Class: ClassName=ADC Member=Component U9 ADG1608BRUZ
+Added Member To Class: ClassName=ADC Member=Component U10 MAX11100EUB+T
+Added Member To Class: ClassName=ADC Member=Component U11 OPA2188AIDR
+Added Member To Class: ClassName=ADC Member=Component U12 MAX6070AAUT41+T

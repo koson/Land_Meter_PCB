@@ -1,13 +1,21 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\zls\Desktop\Land_Meter_PCB\LM-008\Rev D\LM-008.PcbDoc
-Date     : 8/20/2018
-Time     : 1:58:40 PM
+Date     : 4/4/2019
+Time     : 10:42:12 AM
 
 Processing Rule : Clearance Constraint (Gap=0.1mm) (All),(All)
-Rule Violations :0
+   Violation between Clearance Constraint: (Collision < 0.005mm) Between Pad U2-9(14.093mm,31.318mm) on Bottom Layer And Via (13.543mm,30.768mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (Collision < 0.005mm) Between Pad U2-9(14.093mm,31.318mm) on Bottom Layer And Via (13.543mm,31.868mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (Collision < 0.005mm) Between Pad U2-9(14.093mm,31.318mm) on Bottom Layer And Via (14.643mm,30.768mm) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (Collision < 0.005mm) Between Pad U2-9(14.093mm,31.318mm) on Bottom Layer And Via (14.643mm,31.868mm) from Top Layer to Bottom Layer 
+Rule Violations :4
 
 Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
-Rule Violations :0
+   Violation between Short-Circuit Constraint: Between Pad U2-9(14.093mm,31.318mm) on Bottom Layer And Via (13.543mm,30.768mm) from Top Layer to Bottom Layer Location : [X = 62.664mm][Y = 76.511mm]
+   Violation between Short-Circuit Constraint: Between Pad U2-9(14.093mm,31.318mm) on Bottom Layer And Via (13.543mm,31.868mm) from Top Layer to Bottom Layer Location : [X = 62.664mm][Y = 77.611mm]
+   Violation between Short-Circuit Constraint: Between Pad U2-9(14.093mm,31.318mm) on Bottom Layer And Via (14.643mm,30.768mm) from Top Layer to Bottom Layer Location : [X = 63.763mm][Y = 76.511mm]
+   Violation between Short-Circuit Constraint: Between Pad U2-9(14.093mm,31.318mm) on Bottom Layer And Via (14.643mm,31.868mm) from Top Layer to Bottom Layer Location : [X = 63.763mm][Y = 77.611mm]
+Rule Violations :4
 
 Processing Rule : Un-Routed Net Constraint ( (All) )
 Rule Violations :0
@@ -21,14 +29,17 @@ Rule Violations :0
 Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
 Rule Violations :0
 
-Processing Rule : Hole Size Constraint (Min=0.025mm) (Max=5mm) (All)
+Processing Rule : Hole Size Constraint (Min=0.01mm) (Max=5mm) (All)
 Rule Violations :0
 
-Processing Rule : Hole To Hole Clearance (Gap=0.254mm) (All),(All)
+Processing Rule : Hole To Hole Clearance (Gap=0.01mm) (All),(All)
 Rule Violations :0
 
 Processing Rule : Minimum Solder Mask Sliver (Gap=0.037mm) (All),(All)
-Rule Violations :0
+   Violation between Minimum Solder Mask Sliver Constraint: (0.008mm < 0.037mm) Between Pad P2-5(5.283mm,48.719mm) on Multi-Layer And Via (4.191mm,48.404mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.008mm] / [Bottom Solder] Mask Sliver [0.008mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.031mm < 0.037mm) Between Pad P3-1(26.415mm,57.393mm) on Multi-Layer And Via (27.051mm,58.564mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.031mm] / [Bottom Solder] Mask Sliver [0.031mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.031mm < 0.037mm) Between Pad P3-2(28.955mm,57.393mm) on Multi-Layer And Via (29.591mm,58.564mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.031mm] / [Bottom Solder] Mask Sliver [0.031mm]
+Rule Violations :3
 
 Processing Rule : Silk To Solder Mask (Clearance=0.175mm) (IsPad),(All)
 Rule Violations :0
@@ -39,25 +50,10 @@ Rule Violations :0
 Processing Rule : Net Antennae (Tolerance=0mm) (All)
 Rule Violations :0
 
-Processing Rule : Room 36V_Supply (Bounding Region = (76.22mm, 104.814mm, 102.687mm, 118.503mm) (InComponentClass('36V_Supply'))
-Rule Violations :0
-
-Processing Rule : Room ADC (Bounding Region = (55.848mm, 70.489mm, 78.073mm, 89.031mm) (InComponentClass('ADC'))
-Rule Violations :0
-
-Processing Rule : Room BBB-Supply (Bounding Region = (78.264mm, 78.048mm, 101.683mm, 102.813mm) (InComponentClass('BBB-Supply'))
-Rule Violations :0
-
-Processing Rule : Room 5R_Supply (Bounding Region = (55.143mm, 51.467mm, 72.669mm, 70.878mm) (InComponentClass('5R_Supply'))
-Rule Violations :0
-
-Processing Rule : Room 12_Supply (Bounding Region = (78.447mm, 51.796mm, 101.363mm, 76.434mm) (InComponentClass('12_Supply'))
-Rule Violations :0
-
 Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
 Rule Violations :0
 
 
-Violations Detected : 0
+Violations Detected : 11
 Waived Violations : 0
 Time Elapsed        : 00:00:01

@@ -1,0 +1,134 @@
+Removed Pin From Net: NetName=+5 Pin=C2-1
+Removed Pin From Net: NetName=Conning Tower Thermistor Pin=P19-16
+Removed Pin From Net: NetName=GND Pin=U2-2
+Removed Pin From Net: NetName=Lid Thermistor Pin=U2-3
+Removed Pin From Net: NetName=+5 Pin=U2-5
+Removed Pin From Net: NetName=+5 Pin=U4-13
+Removed Pin From Net: NetName=GND Pin=U4-14
+Removed Pin From Net: NetName=SPI0_MISO Pin=U8-1
+Removed Pin From Net: NetName=+3.3 Pin=U8-3
+Removed Pin From Net: NetName=GND Pin=U8-4
+Removed Pin From Net: NetName=+5 Pin=U8-7
+Removed Pin From Net: NetName=GND Pin=U8-8
+Removed Pin From Net: NetName=Heater_CS0 Pin=U8-9
+Removed Pin From Net: NetName=SPI0_SCLK Pin=U8-10
+Removed Member From Class: ClassName=BBB Headers Member=C3
+Removed Member From Class: ClassName=Connectors Member=P14
+Removed Member From Class: ClassName=BBB Headers Member=U16
+Change Component Comment : Designator=U8 Old Comment=MAX11100EUB+T New Comment=OPA188AIDBVR
+Change Component Designator: OldDesignator=C1 NewDesignator=C2
+Change Component Designator: OldDesignator=C3 NewDesignator=C1
+Change Component Designator: OldDesignator=C5 NewDesignator=C3
+Change Component Designator: OldDesignator=DS2 NewDesignator=DS6
+Change Component Designator: OldDesignator=DS3 NewDesignator=DS2
+Change Component Designator: OldDesignator=DS4 NewDesignator=DS3
+Change Component Designator: OldDesignator=DS5 NewDesignator=DS4
+Change Component Designator: OldDesignator=DS6 NewDesignator=DS5
+Change Component Designator: OldDesignator=P4 NewDesignator=P8
+Change Component Designator: OldDesignator=P5 NewDesignator=P4
+Change Component Designator: OldDesignator=P6 NewDesignator=P5
+Change Component Designator: OldDesignator=P8 NewDesignator=P11
+Change Component Designator: OldDesignator=P9 NewDesignator=P12
+Change Component Designator: OldDesignator=P10 NewDesignator=P3
+Change Component Designator: OldDesignator=P14 NewDesignator=P6
+Change Component Designator: OldDesignator=P15 NewDesignator=P9
+Change Component Designator: OldDesignator=P16 NewDesignator=P7
+Change Component Designator: OldDesignator=P17 NewDesignator=P10
+Change Component Designator: OldDesignator=P19 NewDesignator=P13
+Change Component Designator: OldDesignator=R1 NewDesignator=R10
+Change Component Designator: OldDesignator=R2 NewDesignator=R11
+Change Component Designator: OldDesignator=R3 NewDesignator=R1
+Change Component Designator: OldDesignator=R4 NewDesignator=R12
+Change Component Designator: OldDesignator=R5 NewDesignator=R13
+Change Component Designator: OldDesignator=R6 NewDesignator=R14
+Change Component Designator: OldDesignator=R7 NewDesignator=R15
+Change Component Designator: OldDesignator=R8 NewDesignator=R2
+Change Component Designator: OldDesignator=R9 NewDesignator=R5
+Change Component Designator: OldDesignator=R18 NewDesignator=R6
+Change Component Designator: OldDesignator=R33 NewDesignator=R7
+Change Component Designator: OldDesignator=R35 NewDesignator=R3
+Change Component Designator: OldDesignator=R36 NewDesignator=R4
+Change Component Designator: OldDesignator=R37 NewDesignator=R9
+Change Component Designator: OldDesignator=R38 NewDesignator=R8
+Change Component Designator: OldDesignator=R40 NewDesignator=R16
+Change Component Designator: OldDesignator=R42 NewDesignator=R17
+Change Component Designator: OldDesignator=R43 NewDesignator=R18
+Change Component Designator: OldDesignator=R44 NewDesignator=R19
+Change Component Designator: OldDesignator=R46 NewDesignator=R20
+Change Component Designator: OldDesignator=R47 NewDesignator=R21
+Change Component Designator: OldDesignator=R49 NewDesignator=R22
+Change Component Designator: OldDesignator=R50 NewDesignator=R23
+Change Component Designator: OldDesignator=U1 NewDesignator=U4
+Change Component Designator: OldDesignator=U5 NewDesignator=U2
+Change Component Designator: OldDesignator=U6 NewDesignator=U5
+Change Component Designator: OldDesignator=U16 NewDesignator=U1
+Change component parameters: Designator = "U8"; Footprint = "DBV0005A_M"; UniqueID = "\DGHQAGSA"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "CMRR(Min)(dB)"; Value = "120"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Code_JEDEC"; Value = "MO-178"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.ti.com/"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.ti.com/lit/ds/symlink/opa188.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.ti.com/litv/pdf/mpds018i"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DatasheetVersion"; Value = "SBOS642A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Eco-Plan"; Value = "Green (RoHS & no Sb/Br)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "GBW(Typ)(MHz)"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Iq per channel(Max)(mA)"; Value = "0.51"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Channels"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Offset Drift(Typ)(uV/C)"; Value = "0.03"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "5-Pin Plastic Small Outline, Body 1.6 x 2.9 mm, Pitch 0.95 mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "DBV0005A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageVersion"; Value = "4073253-4/K, 03/2006"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packing"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PartNumber"; Value = "OPA188AIDBVR"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Rating"; Value = "Catalog"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Slew Rate(Typ)(V/us)"; Value = "0.8"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SubFamily"; Value = "Zero Drift Precision Amplifier"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Total Supply Voltage(Max)(+5V is 5, +/-5V is 10)"; Value = "36"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Total Supply Voltage(Min)(+5V is 5, +/-5V is 10)"; Value = "4"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=Lid Thermistor Pin=U8-3
+Added Pin To Net: NetName=+5 Pin=U8-5
+Change Net Name : Old Net Name=NetDS2_1 New Net Name=NetDS6_1
+Change Net Name : Old Net Name=NetDS2_2 New Net Name=NetDS6_2
+Change Net Name : Old Net Name=NetDS3_1 New Net Name=NetDS2_1
+Change Net Name : Old Net Name=NetDS3_2 New Net Name=NetDS2_2
+Change Net Name : Old Net Name=NetDS4_1 New Net Name=NetDS3_1
+Change Net Name : Old Net Name=NetDS4_2 New Net Name=NetDS3_2
+Change Net Name : Old Net Name=NetDS5_1 New Net Name=NetDS4_1
+Change Net Name : Old Net Name=NetDS5_2 New Net Name=NetDS4_2
+Change Net Name : Old Net Name=NetDS6_1 New Net Name=NetDS5_1
+Change Net Name : Old Net Name=NetDS6_2 New Net Name=NetDS5_2
+Change Net Name : Old Net Name=NetP8_27 New Net Name=NetP11_27
+Change Net Name : Old Net Name=NetR43_1 New Net Name=NetR18_1
+Change Net Name : Old Net Name=NetR44_1 New Net Name=NetR19_1
+Change Net Name : Old Net Name=NetR47_1 New Net Name=NetR21_1
+Change Net Name : Old Net Name=NetR50_1 New Net Name=NetR23_1
+Change Net Name : Old Net Name=NetU6_9 New Net Name=NetU5_9
+Change Net Name : Old Net Name=NetU16_8-13 New Net Name=NetU1_8-13
+Change Net Name : Old Net Name=NetU16_8-14 New Net Name=NetU1_8-14
+Change Net Name : Old Net Name=NetU16_8-15 New Net Name=NetU1_8-15
+Change Net Name : Old Net Name=NetU16_8-16 New Net Name=NetU1_8-16
+Change Net Name : Old Net Name=NetU16_8-19 New Net Name=NetU1_8-19
+Change Net Name : Old Net Name=NetU16_8-28 New Net Name=NetU1_8-28
+Change Net Name : Old Net Name=NetU16_8-29 New Net Name=NetU1_8-29
+Change Net Name : Old Net Name=NetU16_8-30 New Net Name=NetU1_8-30
+Change Net Name : Old Net Name=NetU16_9-9 New Net Name=NetU1_9-9
+Change Net Name : Old Net Name=NetU16_9-16 New Net Name=NetU1_9-16
+Change Net Name : Old Net Name=NetU16_9-24 New Net Name=NetU1_9-24
+Change Net Name : Old Net Name=NetU16_9-26 New Net Name=NetU1_9-26
+Change Net Name : Old Net Name=NetU16_9-33 New Net Name=NetU1_9-33
+Change Net Name : Old Net Name=NetU16_9-36 New Net Name=NetU1_9-36
+Change Net Name : Old Net Name=NetU16_9-40 New Net Name=NetU1_9-40
+Added Net: Name=NetU6_8
+Added Pin To Net: NetName=NetU6_11 Pin=U8-1
+Added Pin To Net: NetName=NetU6_11 Pin=U8-4
+Added Net: Name=NetU6_11
+Added Member To Class: ClassName=BBB Headers Member=Component C2 CAP CER 0.1UF 16V X7R 0805
+Added Member To Class: ClassName=heater_control Member=Component C6 CAP CER 0.1UF 25V X7R 0805
+Added Member To Class: ClassName=Connectors Member=Component P8 Header 7
+Added Member To Class: ClassName=BBB Headers Member=Component U4 OPA4188AIPWR
+Added Member To Class: ClassName=heater_control Member=Component U8 OPA188AIDBVR

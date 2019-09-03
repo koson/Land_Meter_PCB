@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=FB_CS0 Pin=U7-4
+Removed Pin From Net: NetName=Power_CS0 Pin=U7-6
+Added Pin To Net: NetName=-5 Pin=U3-4
+Added Pin To Net: NetName=Power_CS0 Pin=U7-4

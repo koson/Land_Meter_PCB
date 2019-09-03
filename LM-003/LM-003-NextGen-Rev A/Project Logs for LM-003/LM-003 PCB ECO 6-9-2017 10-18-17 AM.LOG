@@ -1,0 +1,70 @@
+Removed Member From Class: ClassName=Connectors Member=P5
+Removed Member From Class: ClassName=Connectors Member=P11
+Removed Member From Class: ClassName=Connectors Member=P13
+Added Pin To Net: NetName=DGND Pin=U1-8-1
+Added Pin To Net: NetName=DGND Pin=U1-8-2
+Added Pin To Net: NetName=DGND Pin=U1-8-2
+Added Pin To Net: NetName=NetR8_1 Pin=U1-8-3
+Added Pin To Net: NetName=NetR31_1 Pin=U1-8-4
+Added Pin To Net: NetName=NetR32_1 Pin=U1-8-5
+Added Pin To Net: NetName=NetR7_1 Pin=U1-8-6
+Added Pin To Net: NetName=NetU1_P8-10 Pin=U1-8-10
+Added Pin To Net: NetName=PWM2 Pin=U1-8-13
+Added Pin To Net: NetName=NetR57_1 Pin=U1-8-14
+Added Pin To Net: NetName=NetP17_3 Pin=U1-8-19
+Added Pin To Net: NetName=NetU1_P8-22 Pin=U1-8-22
+Added Pin To Net: NetName=NetU1_P8-28 Pin=U1-8-28
+Added Pin To Net: NetName=NetU1_P8-29 Pin=U1-8-29
+Added Pin To Net: NetName=NetU1_P8-30 Pin=U1-8-30
+Added Pin To Net: NetName=DGND Pin=U1-9-1
+Added Pin To Net: NetName=DGND Pin=U1-9-1
+Added Pin To Net: NetName=DGND Pin=U1-9-2
+Added Pin To Net: NetName=DGND Pin=U1-9-2
+Added Pin To Net: NetName=+3.3 Pin=U1-9-3
+Added Pin To Net: NetName=+3.3 Pin=U1-9-4
+Added Pin To Net: NetName=+5 BBB Pin=U1-9-5
+Added Pin To Net: NetName=+5 BBB Pin=U1-9-6
+Added Pin To Net: NetName=NetP12_2 Pin=U1-9-9
+Added Pin To Net: NetName=SERIAL4_RX Pin=U1-9-11
+Added Pin To Net: NetName=GPIO 1-28 Pin=U1-9-12
+Added Pin To Net: NetName=SERIAL4_TX Pin=U1-9-13
+Added Pin To Net: NetName=NetU1_P9-14 Pin=U1-9-14
+Added Pin To Net: NetName=NetU1_P9-16 Pin=U1-9-16
+Added Pin To Net: NetName=SPI0_CS0 Pin=U1-9-17
+Added Pin To Net: NetName=SPI0_MOSI Pin=U1-9-18
+Added Pin To Net: NetName=I2C2_SCL Pin=U1-9-19
+Added Pin To Net: NetName=I2C2_SDA Pin=U1-9-20
+Added Pin To Net: NetName=SPI0_MISO Pin=U1-9-21
+Added Pin To Net: NetName=SPI0_SCLK Pin=U1-9-22
+Added Pin To Net: NetName=NetU1_P9-24 Pin=U1-9-24
+Added Pin To Net: NetName=NetU1_P9-26 Pin=U1-9-26
+Added Pin To Net: NetName=SPI1_CS0 Pin=U1-9-28
+Added Pin To Net: NetName=SPI1_MISO Pin=U1-9-29
+Added Pin To Net: NetName=SPI1_MOSI Pin=U1-9-30
+Added Pin To Net: NetName=SPI1_SCLK Pin=U1-9-31
+Added Pin To Net: NetName=NetU1_P9-33 Pin=U1-9-33
+Added Pin To Net: NetName=NetU1_P9-35 Pin=U1-9-35
+Added Pin To Net: NetName=NetP10_3 Pin=U1-9-36
+Added Pin To Net: NetName=NetU1_P9-37 Pin=U1-9-37
+Added Pin To Net: NetName=NetU1_P9-38 Pin=U1-9-38
+Added Pin To Net: NetName=NetU1_P9-39 Pin=U1-9-39
+Added Pin To Net: NetName=Lid Thermistor Out Pin=U1-9-40
+Added Pin To Net: NetName=SPI1_CS1 Pin=U1-9-42
+Added Pin To Net: NetName=DGND Pin=U1-9-43
+Added Pin To Net: NetName=DGND Pin=U1-9-44
+Added Pin To Net: NetName=DGND Pin=U1-9-45
+Added Pin To Net: NetName=DGND Pin=U1-9-46
+Change Net Name : Old Net Name=NetU1_P8-10 New Net Name=NetU1_8-10
+Change Net Name : Old Net Name=NetU1_P8-22 New Net Name=NetU1_8-22
+Change Net Name : Old Net Name=NetU1_P8-28 New Net Name=NetU1_8-28
+Change Net Name : Old Net Name=NetU1_P8-29 New Net Name=NetU1_8-29
+Change Net Name : Old Net Name=NetU1_P8-30 New Net Name=NetU1_8-30
+Change Net Name : Old Net Name=NetU1_P9-14 New Net Name=NetU1_9-14
+Change Net Name : Old Net Name=NetU1_P9-16 New Net Name=NetU1_9-16
+Change Net Name : Old Net Name=NetU1_P9-24 New Net Name=NetU1_9-24
+Change Net Name : Old Net Name=NetU1_P9-26 New Net Name=NetU1_9-26
+Change Net Name : Old Net Name=NetU1_P9-33 New Net Name=NetU1_9-33
+Change Net Name : Old Net Name=NetU1_P9-35 New Net Name=NetU1_9-35
+Change Net Name : Old Net Name=NetU1_P9-37 New Net Name=NetU1_9-37
+Change Net Name : Old Net Name=NetU1_P9-38 New Net Name=NetU1_9-38
+Change Net Name : Old Net Name=NetU1_P9-39 New Net Name=NetU1_9-39

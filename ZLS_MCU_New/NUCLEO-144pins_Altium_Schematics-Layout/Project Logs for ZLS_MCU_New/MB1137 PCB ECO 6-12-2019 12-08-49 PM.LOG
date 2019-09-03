@@ -1,0 +1,404 @@
+Removed Pin From Net: NetName=PC6 Pin=CN7-1
+Removed Pin From Net: NetName=PB8 Pin=CN7-2
+Removed Pin From Net: NetName=PB15 Pin=CN7-3
+Removed Pin From Net: NetName=PB9 Pin=CN7-4
+Removed Pin From Net: NetName=PB13 Pin=CN7-5
+Removed Pin From Net: NetName=AVDD Pin=CN7-6
+Removed Pin From Net: NetName=PB12 Pin=CN7-7
+Removed Pin From Net: NetName=GND Pin=CN7-8
+Removed Pin From Net: NetName=PA15 Pin=CN7-9
+Removed Pin From Net: NetName=PA5 Pin=CN7-10
+Removed Pin From Net: NetName=PC7 Pin=CN7-11
+Removed Pin From Net: NetName=PA6 Pin=CN7-12
+Removed Pin From Net: NetName=PB5 Pin=CN7-13
+Removed Pin From Net: NetName=PB3 Pin=CN7-15
+Removed Pin From Net: NetName=PD14 Pin=CN7-16
+Removed Pin From Net: NetName=PA4 Pin=CN7-17
+Removed Pin From Net: NetName=PD15 Pin=CN7-18
+Removed Pin From Net: NetName=PB4 Pin=CN7-19
+Removed Pin From Net: NetName=PF12 Pin=CN7-20
+Removed Pin From Net: NetName=PC8 Pin=CN8-2
+Removed Pin From Net: NetName=PC9 Pin=CN8-4
+Removed Pin From Net: NetName=NRST Pin=CN8-5
+Removed Pin From Net: NetName=PC10 Pin=CN8-6
+Removed Pin From Net: NetName=+3V3 Pin=CN8-7
+Removed Pin From Net: NetName=PC11 Pin=CN8-8
+Removed Pin From Net: NetName=+5V Pin=CN8-9
+Removed Pin From Net: NetName=PC12 Pin=CN8-10
+Removed Pin From Net: NetName=GND Pin=CN8-11
+Removed Pin From Net: NetName=PD2 Pin=CN8-12
+Removed Pin From Net: NetName=GND Pin=CN8-13
+Removed Pin From Net: NetName=PG2 Pin=CN8-14
+Removed Pin From Net: NetName=VIN Pin=CN8-15
+Removed Pin From Net: NetName=PG3 Pin=CN8-16
+Removed Pin From Net: NetName=PA3 Pin=CN9-1
+Removed Pin From Net: NetName=PD7 Pin=CN9-2
+Removed Pin From Net: NetName=PC0 Pin=CN9-3
+Removed Pin From Net: NetName=PD6 Pin=CN9-4
+Removed Pin From Net: NetName=PC3 Pin=CN9-5
+Removed Pin From Net: NetName=PD5 Pin=CN9-6
+Removed Pin From Net: NetName=PD4 Pin=CN9-8
+Removed Pin From Net: NetName=PD3 Pin=CN9-10
+Removed Pin From Net: NetName=GND Pin=CN9-12
+Removed Pin From Net: NetName=PE2 Pin=CN9-14
+Removed Pin From Net: NetName=PE4 Pin=CN9-16
+Removed Pin From Net: NetName=PE5 Pin=CN9-18
+Removed Pin From Net: NetName=PE6 Pin=CN9-20
+Removed Pin From Net: NetName=PE3 Pin=CN9-22
+Removed Pin From Net: NetName=GND Pin=CN9-23
+Removed Pin From Net: NetName=PF8 Pin=CN9-24
+Removed Pin From Net: NetName=PD0 Pin=CN9-25
+Removed Pin From Net: NetName=PF7 Pin=CN9-26
+Removed Pin From Net: NetName=PD1 Pin=CN9-27
+Removed Pin From Net: NetName=PF9 Pin=CN9-28
+Removed Pin From Net: NetName=PG0 Pin=CN9-29
+Removed Pin From Net: NetName=PG1 Pin=CN9-30
+Removed Pin From Net: NetName=AVDD Pin=CN10-1
+Removed Pin From Net: NetName=PF13 Pin=CN10-2
+Removed Pin From Net: NetName=AGND Pin=CN10-3
+Removed Pin From Net: NetName=PE9 Pin=CN10-4
+Removed Pin From Net: NetName=GND Pin=CN10-5
+Removed Pin From Net: NetName=PE11 Pin=CN10-6
+Removed Pin From Net: NetName=PB1 Pin=CN10-7
+Removed Pin From Net: NetName=PF14 Pin=CN10-8
+Removed Pin From Net: NetName=PC2 Pin=CN10-9
+Removed Pin From Net: NetName=PE13 Pin=CN10-10
+Removed Pin From Net: NetName=PF15 Pin=CN10-12
+Removed Pin From Net: NetName=PB6 Pin=CN10-13
+Removed Pin From Net: NetName=PB2 Pin=CN10-15
+Removed Pin From Net: NetName=GND Pin=CN10-17
+Removed Pin From Net: NetName=PE8 Pin=CN10-18
+Removed Pin From Net: NetName=PE7 Pin=CN10-20
+Removed Pin From Net: NetName=GND Pin=CN10-22
+Removed Pin From Net: NetName=PE10 Pin=CN10-24
+Removed Pin From Net: NetName=PE2 Pin=CN10-25
+Removed Pin From Net: NetName=PE12 Pin=CN10-26
+Removed Pin From Net: NetName=GND Pin=CN10-27
+Removed Pin From Net: NetName=PE14 Pin=CN10-28
+Removed Pin From Net: NetName=PE15 Pin=CN10-30
+Removed Pin From Net: NetName=PB0 Pin=CN10-31
+Removed Pin From Net: NetName=PB10 Pin=CN10-32
+Removed Pin From Net: NetName=PE0 Pin=CN10-33
+Removed Pin From Net: NetName=PB11 Pin=CN10-34
+Removed Pin From Net: NetName=PC10 Pin=CN11-1
+Removed Pin From Net: NetName=PC11 Pin=CN11-2
+Removed Pin From Net: NetName=PC12 Pin=CN11-3
+Removed Pin From Net: NetName=PD2 Pin=CN11-4
+Removed Pin From Net: NetName=VDD Pin=CN11-5
+Removed Pin From Net: NetName=E5V Pin=CN11-6
+Removed Pin From Net: NetName=GND Pin=CN11-8
+Removed Pin From Net: NetName=PF6 Pin=CN11-9
+Removed Pin From Net: NetName=PF7 Pin=CN11-11
+Removed Pin From Net: NetName=PA13 Pin=CN11-13
+Removed Pin From Net: NetName=NRST Pin=CN11-14
+Removed Pin From Net: NetName=PA14 Pin=CN11-15
+Removed Pin From Net: NetName=+3V3 Pin=CN11-16
+Removed Pin From Net: NetName=PA15 Pin=CN11-17
+Removed Pin From Net: NetName=+5V Pin=CN11-18
+Removed Pin From Net: NetName=GND Pin=CN11-19
+Removed Pin From Net: NetName=GND Pin=CN11-20
+Removed Pin From Net: NetName=PB7 Pin=CN11-21
+Removed Pin From Net: NetName=GND Pin=CN11-22
+Removed Pin From Net: NetName=PC13 Pin=CN11-23
+Removed Pin From Net: NetName=VIN Pin=CN11-24
+Removed Pin From Net: NetName=PA0 Pin=CN11-28
+Removed Pin From Net: NetName=PA1 Pin=CN11-30
+Removed Pin From Net: NetName=PA4 Pin=CN11-32
+Removed Pin From Net: NetName=VBAT Pin=CN11-33
+Removed Pin From Net: NetName=PB0 Pin=CN11-34
+Removed Pin From Net: NetName=PC2 Pin=CN11-35
+Removed Pin From Net: NetName=PC1 Pin=CN11-36
+Removed Pin From Net: NetName=PC3 Pin=CN11-37
+Removed Pin From Net: NetName=PC0 Pin=CN11-38
+Removed Pin From Net: NetName=PD4 Pin=CN11-39
+Removed Pin From Net: NetName=PD3 Pin=CN11-40
+Removed Pin From Net: NetName=PD5 Pin=CN11-41
+Removed Pin From Net: NetName=PG2 Pin=CN11-42
+Removed Pin From Net: NetName=PD6 Pin=CN11-43
+Removed Pin From Net: NetName=PG3 Pin=CN11-44
+Removed Pin From Net: NetName=PD7 Pin=CN11-45
+Removed Pin From Net: NetName=PE2 Pin=CN11-46
+Removed Pin From Net: NetName=PE3 Pin=CN11-47
+Removed Pin From Net: NetName=PE4 Pin=CN11-48
+Removed Pin From Net: NetName=GND Pin=CN11-49
+Removed Pin From Net: NetName=PE5 Pin=CN11-50
+Removed Pin From Net: NetName=PF1 Pin=CN11-51
+Removed Pin From Net: NetName=PF2 Pin=CN11-52
+Removed Pin From Net: NetName=PF0 Pin=CN11-53
+Removed Pin From Net: NetName=PF8 Pin=CN11-54
+Removed Pin From Net: NetName=PD1 Pin=CN11-55
+Removed Pin From Net: NetName=PF9 Pin=CN11-56
+Removed Pin From Net: NetName=PD0 Pin=CN11-57
+Removed Pin From Net: NetName=PG1 Pin=CN11-58
+Removed Pin From Net: NetName=PG0 Pin=CN11-59
+Removed Pin From Net: NetName=GND Pin=CN11-60
+Removed Pin From Net: NetName=PE1 Pin=CN11-61
+Removed Pin From Net: NetName=PE6 Pin=CN11-62
+Removed Pin From Net: NetName=PG9 Pin=CN11-63
+Removed Pin From Net: NetName=PG15 Pin=CN11-64
+Removed Pin From Net: NetName=PG12 Pin=CN11-65
+Removed Pin From Net: NetName=PG10 Pin=CN11-66
+Removed Pin From Net: NetName=PH2 Pin=CN11-67
+Removed Pin From Net: NetName=PG13 Pin=CN11-68
+Removed Pin From Net: NetName=PG11 Pin=CN11-70
+Removed Pin From Net: NetName=GND Pin=CN11-71
+Removed Pin From Net: NetName=GND Pin=CN11-72
+Removed Pin From Net: NetName=PB8 Pin=CN12-3
+Removed Pin From Net: NetName=PC6 Pin=CN12-4
+Removed Pin From Net: NetName=PB9 Pin=CN12-5
+Removed Pin From Net: NetName=PC5 Pin=CN12-6
+Removed Pin From Net: NetName=AVDD Pin=CN12-7
+Removed Pin From Net: NetName=U5V Pin=CN12-8
+Removed Pin From Net: NetName=GND Pin=CN12-9
+Removed Pin From Net: NetName=PA5 Pin=CN12-11
+Removed Pin From Net: NetName=PA12 Pin=CN12-12
+Removed Pin From Net: NetName=PA6 Pin=CN12-13
+Removed Pin From Net: NetName=PA11 Pin=CN12-14
+Removed Pin From Net: NetName=PA7 Pin=CN12-15
+Removed Pin From Net: NetName=PB12 Pin=CN12-16
+Removed Pin From Net: NetName=PB6 Pin=CN12-17
+Removed Pin From Net: NetName=PB11 Pin=CN12-18
+Removed Pin From Net: NetName=PC7 Pin=CN12-19
+Removed Pin From Net: NetName=GND Pin=CN12-20
+Removed Pin From Net: NetName=PA9 Pin=CN12-21
+Removed Pin From Net: NetName=PB2 Pin=CN12-22
+Removed Pin From Net: NetName=PA8 Pin=CN12-23
+Removed Pin From Net: NetName=PB1 Pin=CN12-24
+Removed Pin From Net: NetName=PB10 Pin=CN12-25
+Removed Pin From Net: NetName=PB15 Pin=CN12-26
+Removed Pin From Net: NetName=PB4 Pin=CN12-27
+Removed Pin From Net: NetName=PB14 Pin=CN12-28
+Removed Pin From Net: NetName=PB5 Pin=CN12-29
+Removed Pin From Net: NetName=PB13 Pin=CN12-30
+Removed Pin From Net: NetName=PB3 Pin=CN12-31
+Removed Pin From Net: NetName=AGND Pin=CN12-32
+Removed Pin From Net: NetName=PA10 Pin=CN12-33
+Removed Pin From Net: NetName=PC4 Pin=CN12-34
+Removed Pin From Net: NetName=PA2 Pin=CN12-35
+Removed Pin From Net: NetName=PF5 Pin=CN12-36
+Removed Pin From Net: NetName=PA3 Pin=CN12-37
+Removed Pin From Net: NetName=PF4 Pin=CN12-38
+Removed Pin From Net: NetName=GND Pin=CN12-39
+Removed Pin From Net: NetName=PE8 Pin=CN12-40
+Removed Pin From Net: NetName=PD13 Pin=CN12-41
+Removed Pin From Net: NetName=PF10 Pin=CN12-42
+Removed Pin From Net: NetName=PD12 Pin=CN12-43
+Removed Pin From Net: NetName=PE7 Pin=CN12-44
+Removed Pin From Net: NetName=PD11 Pin=CN12-45
+Removed Pin From Net: NetName=PD14 Pin=CN12-46
+Removed Pin From Net: NetName=PE10 Pin=CN12-47
+Removed Pin From Net: NetName=PD15 Pin=CN12-48
+Removed Pin From Net: NetName=PE12 Pin=CN12-49
+Removed Pin From Net: NetName=PF14 Pin=CN12-50
+Removed Pin From Net: NetName=PE14 Pin=CN12-51
+Removed Pin From Net: NetName=PE9 Pin=CN12-52
+Removed Pin From Net: NetName=PE15 Pin=CN12-53
+Removed Pin From Net: NetName=GND Pin=CN12-54
+Removed Pin From Net: NetName=PE13 Pin=CN12-55
+Removed Pin From Net: NetName=PE11 Pin=CN12-56
+Removed Pin From Net: NetName=PF13 Pin=CN12-57
+Removed Pin From Net: NetName=PF3 Pin=CN12-58
+Removed Pin From Net: NetName=PF12 Pin=CN12-59
+Removed Pin From Net: NetName=PF15 Pin=CN12-60
+Removed Pin From Net: NetName=PG14 Pin=CN12-61
+Removed Pin From Net: NetName=PF11 Pin=CN12-62
+Removed Pin From Net: NetName=GND Pin=CN12-63
+Removed Pin From Net: NetName=PE0 Pin=CN12-64
+Removed Pin From Net: NetName=PD10 Pin=CN12-65
+Removed Pin From Net: NetName=PG8 Pin=CN12-66
+Removed Pin From Net: NetName=PG7 Pin=CN12-67
+Removed Pin From Net: NetName=PG5 Pin=CN12-68
+Removed Pin From Net: NetName=PG4 Pin=CN12-69
+Removed Pin From Net: NetName=PG6 Pin=CN12-70
+Removed Pin From Net: NetName=GND Pin=CN12-71
+Removed Pin From Net: NetName=GND Pin=CN12-72
+Removed Pin From Net: NetName=GND Pin=LD1-2
+Removed Pin From Net: NetName=GND Pin=R33-2
+Removed Pin From Net: NetName=PD9 Pin=SB4-1
+Removed Pin From Net: NetName=PD8 Pin=SB7-2
+Removed Pin From Net: NetName=PF10 Pin=SB10-1
+Removed Pin From Net: NetName=PA1 Pin=SB11-2
+Removed Pin From Net: NetName=PF5 Pin=SB14-1
+Removed Pin From Net: NetName=PF3 Pin=SB15-1
+Removed Pin From Net: NetName=+3V3_PER Pin=SB113-1
+Removed Pin From Net: NetName=+3V3 Pin=SB114-1
+Removed Pin From Net: NetName=PA8 Pin=SB115-2
+Removed Pin From Net: NetName=PC8 Pin=SB116-1
+Removed Pin From Net: NetName=PC9 Pin=SB117-1
+Removed Pin From Net: NetName=PA5 Pin=SB119-2
+Removed Pin From Net: NetName=PB0 Pin=SB120-1
+Removed Pin From Net: NetName=PA7 Pin=SB121-2
+Removed Pin From Net: NetName=PB5 Pin=SB122-2
+Removed Pin From Net: NetName=PA10 Pin=SB126-2
+Removed Pin From Net: NetName=PA9 Pin=SB128-2
+Removed Pin From Net: NetName=PG9 Pin=SB130-1
+Removed Pin From Net: NetName=PG14 Pin=SB131-1
+Removed Pin From Net: NetName=PG9 Pin=SB134-1
+Removed Pin From Net: NetName=PG10 Pin=SB135-1
+Removed Pin From Net: NetName=PB6 Pin=SB136-2
+Removed Pin From Net: NetName=PB2 Pin=SB137-2
+Removed Pin From Net: NetName=PB8 Pin=SB138-2
+Removed Pin From Net: NetName=PC5 Pin=SB140-2
+Removed Pin From Net: NetName=PC5 Pin=SB141-1
+Removed Pin From Net: NetName=PB9 Pin=SB143-2
+Removed Pin From Net: NetName=PC14 Pin=SB144-1
+Removed Pin From Net: NetName=PC15 Pin=SB145-1
+Removed Pin From Net: NetName=PF3 Pin=SB146-2
+Removed Pin From Net: NetName=PF5 Pin=SB147-2
+Removed Pin From Net: NetName=PH0 Pin=SB148-1
+Removed Pin From Net: NetName=PC4 Pin=SB150-2
+Removed Pin From Net: NetName=PC4 Pin=SB151-1
+Removed Pin From Net: NetName=PF10 Pin=SB157-2
+Removed Pin From Net: NetName=PF4 Pin=SB158-1
+Removed Pin From Net: NetName=PA2 Pin=SB159-1
+Removed Pin From Net: NetName=PH1 Pin=SB163-1
+Removed Pin From Net: NetName=PC1 Pin=SB165-2
+Removed Pin From Net: NetName=PD13 Pin=SB167-2
+Removed Pin From Net: NetName=PD13 Pin=SB168-1
+Removed Pin From Net: NetName=PF2 Pin=SB169-2
+Removed Pin From Net: NetName=PF1 Pin=SB170-2
+Removed Pin From Net: NetName=PD12 Pin=SB171-2
+Removed Pin From Net: NetName=PD12 Pin=SB172-1
+Removed Pin From Net: NetName=PD11 Pin=SB174-2
+Removed Pin From Net: NetName=PD11 Pin=SB175-1
+Removed Pin From Net: NetName=PF0 Pin=SB176-2
+Removed Pin From Net: NetName=PA0 Pin=SB179-1
+Removed Pin From Net: NetName=GND Pin=U7-2
+Removed Pin From Net: NetName=+3V3_PER Pin=U7-5
+Removed Member From Class: ClassName=U_USB Member=R76
+Added Component: Designator=C79(CAPC0805(2012)75_L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Case-EIA"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case-Metric"; Value = "2012"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Thickness"; Value = "0.75 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Voltage"; Value = "16 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Technology"; Value = "SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "22uF"; VariantName = "[No Variations]"
+Added Component: Designator=C80(CAPC0805(2012)75_L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Case-EIA"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case-Metric"; Value = "2012"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Thickness"; Value = "0.75 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Voltage"; Value = "16 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Technology"; Value = "SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "22uF"; VariantName = "[No Variations]"
+Added Component: Designator=C81(CAPC0805(2012)75_L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Case-EIA"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case-Metric"; Value = "2012"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Thickness"; Value = "0.75 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Voltage"; Value = "16 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Technology"; Value = "SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "22uF"; VariantName = "[No Variations]"
+Added Component: Designator=R96(RESC0805(2012)_L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Case-EIA"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case-Metric"; Value = "2012"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "0.125 W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Technology"; Value = "SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1 %"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100k"; VariantName = "[No Variations]"
+Added Component: Designator=R97(RESC0805(2012)_L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Case-EIA"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case-Metric"; Value = "2012"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "0.125 W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Technology"; Value = "SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1 %"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100k"; VariantName = "[No Variations]"
+Added Component: Designator=R98(RESC0805(2012)_L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Case-EIA"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case-Metric"; Value = "2012"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "0.125 W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Technology"; Value = "SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1 %"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100k"; VariantName = "[No Variations]"
+Added Component: Designator=R99(RESC0805(2012)_L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Case-EIA"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case-Metric"; Value = "2012"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "0.125 W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Technology"; Value = "SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1 %"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100k"; VariantName = "[No Variations]"
+Added Component: Designator=R100(RESC0805(2012)_L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Case-EIA"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case-Metric"; Value = "2012"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "0.125 W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Technology"; Value = "SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1 %"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100k"; VariantName = "[No Variations]"
+Added Component: Designator=U21(DBV0005A_M)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "CMRR(Min)(dB)"; Value = "120"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Code_JEDEC"; Value = "MO-178"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.ti.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.ti.com/lit/ds/symlink/opa188.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.ti.com/litv/pdf/mpds018i"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "SBOS642A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Eco-Plan"; Value = "Green (RoHS & no Sb/Br)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GBW(Typ)(MHz)"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Iq per channel(Max)(mA)"; Value = "0.51"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Channels"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Offset Drift(Typ)(uV/C)"; Value = "0.03"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "5-Pin Plastic Small Outline, Body 1.6 x 2.9 mm, Pitch 0.95 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "DBV0005A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "4073253-4/K, 03/2006"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packing"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "OPA188AIDBVR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rating"; Value = "Catalog"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Slew Rate(Typ)(V/us)"; Value = "0.8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SubFamily"; Value = "Zero Drift Precision Amplifier"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Total Supply Voltage(Max)(+5V is 5, +/-5V is 10)"; Value = "36"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Total Supply Voltage(Min)(+5V is 5, +/-5V is 10)"; Value = "4"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C79-1
+Added Pin To Net: NetName=GND Pin=C80-1
+Added Pin To Net: NetName=GND Pin=C81-1
+Added Pin To Net: NetName=Beam Sync Demod Out Pin=R96-2
+Added Pin To Net: NetName=GND Pin=R100-1
+Added Pin To Net: NetName=GND Pin=U21-2
+Added Pin To Net: NetName=+3.3 Pin=U21-5
+Added Pin To Net: NetName=NetC79_2 Pin=C79-2
+Added Pin To Net: NetName=NetC79_2 Pin=R96-1
+Added Pin To Net: NetName=NetC79_2 Pin=R97-2
+Added Net: Name=NetC79_2
+Added Pin To Net: NetName=NetC80_2 Pin=C80-2
+Added Pin To Net: NetName=NetC80_2 Pin=R97-1
+Added Pin To Net: NetName=NetC80_2 Pin=R98-2
+Added Net: Name=NetC80_2
+Added Pin To Net: NetName=NetC81_2 Pin=C81-2
+Added Pin To Net: NetName=NetC81_2 Pin=R98-1
+Added Pin To Net: NetName=NetC81_2 Pin=R99-2
+Added Net: Name=NetC81_2
+Added Pin To Net: NetName=NetJP6_2 Pin=JP6-2
+Added Pin To Net: NetName=NetJP6_2 Pin=R40-2
+Added Net: Name=NetJP6_2
+Added Pin To Net: NetName=NetR36_1 Pin=R36-1
+Added Pin To Net: NetName=NetR36_1 Pin=U8-138
+Added Net: Name=NetR36_1
+Added Pin To Net: NetName=NetR99_1 Pin=R99-1
+Added Pin To Net: NetName=NetR99_1 Pin=R100-2
+Added Pin To Net: NetName=NetR99_1 Pin=U21-3
+Added Net: Name=NetR99_1
+Added Pin To Net: NetName=NetU21_1 Pin=U21-1
+Added Pin To Net: NetName=NetU21_1 Pin=U21-4
+Added Net: Name=NetU21_1
+Added Member To Class: ClassName=U_Feedback Member=Component C79 22uF
+Added Member To Class: ClassName=U_Feedback Member=Component C80 22uF
+Added Member To Class: ClassName=U_Feedback Member=Component C81 22uF
+Added Member To Class: ClassName=U_Feedback Member=Component R96 100k
+Added Member To Class: ClassName=U_Feedback Member=Component R97 100k
+Added Member To Class: ClassName=U_Feedback Member=Component R98 100k
+Added Member To Class: ClassName=U_Feedback Member=Component R99 100k
+Added Member To Class: ClassName=U_Feedback Member=Component R100 100k
+Added Member To Class: ClassName=U_Feedback Member=Component U21 OPA188AIDBVR

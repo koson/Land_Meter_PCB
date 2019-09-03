@@ -1,0 +1,20 @@
+Removed Member From Class: ClassName=Stepper Motor Driver Member=P1
+Removed Member From Class: ClassName=Stepper Motor Driver Member=R1
+Removed Member From Class: ClassName=Stepper Motor Driver Member=R2
+Removed Member From Class: ClassName=Stepper Motor Driver Member=R3
+Removed Member From Class: ClassName=Stepper Motor Driver Member=R6
+Removed Member From Class: ClassName=Bluetooth Member=R11
+Removed Member From Class: ClassName=Bluetooth Member=R12
+Removed Member From Class: ClassName=Bluetooth Member=R16
+Removed Member From Class: ClassName=Bluetooth Member=R17
+Change Net Name : Old Net Name=VmotorA New Net Name=+5
+Added Member To Class: ClassName=Stepper Motor Driver Member=Component P4 IPL1-104-01-L-S-RA-K
+Added Member To Class: ClassName=Bluetooth Member=Component R1 3.9k
+Added Member To Class: ClassName=Bluetooth Member=Component R2 3.9k
+Added Member To Class: ClassName=Bluetooth Member=Component R4 10K
+Added Member To Class: ClassName=Bluetooth Member=Component R5 100
+Added Member To Class: ClassName=Stepper Motor Driver Member=Component R7 47K
+Added Member To Class: ClassName=Stepper Motor Driver Member=Component R8 47K
+Added Member To Class: ClassName=Stepper Motor Driver Member=Component R23 1.5k
+Added Member To Class: ClassName=Stepper Motor Driver Member=Component R26 47K
+Added Member To Class: ClassName=Stepper Motor Driver Member=Component R27 0.1R

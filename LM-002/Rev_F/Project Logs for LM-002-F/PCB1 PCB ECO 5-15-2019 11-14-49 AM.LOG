@@ -1,0 +1,9 @@
+Added Pin To Net: NetName=SPI0_SCLK Pin=U4-14
+Added Pin To Net: NetName=SPI0_MOSI Pin=U4-15
+Added Pin To Net: NetName=SPI0_MISO Pin=U4-16
+Added Pin To Net: NetName=CT_MUX_A0 Pin=P1-12
+Added Pin To Net: NetName=CT_MUX_A0 Pin=P2-24
+Added Net: Name=CT_MUX_A0
+Added Pin To Net: NetName=CT_MUX_A1 Pin=P1-14
+Added Pin To Net: NetName=CT_MUX_A1 Pin=P2-22
+Added Net: Name=CT_MUX_A1

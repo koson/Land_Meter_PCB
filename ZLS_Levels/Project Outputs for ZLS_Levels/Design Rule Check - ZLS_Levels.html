@@ -1,0 +1,401 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+		h1, h2, h3, h4, h5, h6 {
+			font-family : segoe ui;
+			color : black;
+			background-color : #EDE7D9;
+			padding: 0.3em;
+		}
+
+		h1 {
+			font-size: 1.2em;
+		}		
+
+		h2 {
+			font-size: 1.2em;
+		}
+
+		body {
+			font-family : segoe ui;
+		}
+
+		td, th {
+			padding: 0.5em;
+			text-align : left;
+			width: 10em;
+		}
+		th {
+			background-color : #EEEEEE;
+
+		}
+		th.column1, td.column1 {
+			text-align: left;
+			width : auto;
+		}
+		table {
+			width : 100%;
+			font-size: 0.9em;
+		}
+
+		.DRC_summary_header {
+			padding-bottom : 0.1em;
+			border : 0px solid black;
+			width: 100%;
+			align: left;
+		}
+
+		.DRC_summary_header_col1,
+		.DRC_summary_header_col2, 
+		.DRC_summary_header_col3 {
+			color : black;
+			font-size:100%;
+			padding : 0em;
+			padding-top : 0.2em;
+			padding-bottom 0.2em;
+			border : 0px solid black;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.DRC_summary_header_col1 {
+			font-weight: bold;
+			width: 8em;
+		}
+
+		.DRC_summary_header_col2 {
+			width: 0.1em;
+		
+		}
+
+		.DRC_summary_header_col3 {
+			width : auto;
+		}
+
+		.header_holder {
+		    Width = 100%;
+		    border = 0px solid green;
+		    padding = 0;
+		}
+
+
+		.front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+		{
+			left : 0;
+			top : 0;
+			padding: 0em;
+			padding-top : 0.1em;
+			border : 0px solid black;
+			width : 100%;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.front_matter_column1 {
+			width : 8em;
+			font-weight: bold;
+		}
+
+		.front_matter_column2 {
+			width: 0.1em;
+		}
+
+		.front_matter_column3 {
+			width : auto;
+		}
+
+		.total_column1, .total_column {
+			font-weight : bold;
+		}
+		.total_column1 {
+			text-align : left;
+		}
+		.warning, .error {
+			color : red;
+			font-weight : bold;
+		}
+		tr.onmouseout_odd {
+			background-color : #white;
+		}
+		tr.onmouseout_even { 
+			background-color : #FAFAFA;
+		}
+		tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : #EEEEEE;
+		} 
+		a:link, a:visited, .q a:link,.q a:active,.q {
+			color: #21489e; 
+		}
+		a:link.callback, a:visited.callback { 
+			color: #21489e;
+		}
+		a:link.customize, a:visited.customize {
+			color: #C0C0C0;
+			position: absolute; 
+			right: 10px;
+		}	
+		p.contents_level1 {
+			font-weight : bold;
+			font-size : 110%;
+			margin : 0.5em;
+		}
+		p.contents_level2 {
+			position : relative;
+			left : 20px;
+			margin : 0.5em;
+		}
+	</style><script type="text/javascript">
+		function coordToMils(coord) {
+			var number = coord / 10000;
+			
+			if (number != number.toFixed(3))
+				number = number.toFixed(3);
+
+			return number + 'mil'
+		}
+
+		function coordToMM(coord) {
+			var number = 0.0254 * coord / 10000;
+			
+			if (number != number.toFixed(4))
+				number = number.toFixed(4);
+			
+			return number + 'mm'
+		}
+	
+		function convertCoord(coordNode, units) {
+			for (var i = 0; i < coordNode.childNodes.length; i++) {
+				coordNode.removeChild(coordNode.childNodes[i]);
+			}
+
+			var coord = coordNode.getAttribute('value');
+			if (coord != null) {
+				if (units == 'mm') {
+					textNode = document.createTextNode(coordToMM(coord));
+					coordNode.appendChild(textNode);
+				} else if (units == 'mil') {
+					textNode = document.createTextNode(coordToMils(coord));		
+					coordNode.appendChild(textNode);	
+				}
+			}
+		}
+	
+		function convertUnits(unitNode, units) {
+			for (var i = 0; i < unitNode.childNodes.length; i++) {
+				unitNode.removeChild(unitNode.childNodes[i]);		
+			}
+		
+			textNode = document.createTextNode(units); 
+			unitNode.appendChild(textNode);
+		}
+	
+		function changeUnits(radio_input, units) {
+			if (radio_input.checked) {
+			
+				var elements = document.getElementsByName('coordinate');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertCoord(elements[i], units);
+					}
+				}
+	
+				var elements = document.getElementsByName('units');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertUnits(elements[i], units);
+					}
+				}
+			}
+		}
+	</script><title>Design Rule Verification Report</title>
+</head>
+<body onload=""><img ALT="Altium" src="
+			file://C:\Users\Public\Documents\Altium\AD17\Templates\AD_logo.png
+		"><h1>Design Rule Verification Report</h1>
+<table class="header_holder">
+<td class="column1">
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">5/7/2019</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">4:06:41 PM</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">00:00:01</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3"><a href="file:///C:\Users\zls\Desktop\Land_Meter_PCB\ZLS_Levels\ZLS_Levels.PcbDoc" class="file"><acronym title="C:\Users\zls\Desktop\Land_Meter_PCB\ZLS_Levels\ZLS_Levels.PcbDoc">C:\Users\zls\Desktop\Land_Meter_PCB\ZLS_Levels\ZLS_Levels.PcbDoc</acronym></a></td>
+</tr>
+</table>
+</td>
+<td class="column2">
+<table class="DRC_summary_header">
+<tr>
+<td class="DRC_summary_header_col1">Warnings:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3">0</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Rule Violations:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">19</td></tr>
+</table>
+</td>
+</table><a name="IDX0ZB1XWDBFPRG1KH10NCRUVOUFMJV5XGGNEKSDOYEKRDJIEJ10HL"><h2>Summary</h2></a><table>
+<tr>
+<th class="column1">Warnings</th>
+<th class="column2">Count</th>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">0</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Rule Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDTAQKIWOROUEOGG5RS4VLGSA5POZVI2EUXOZSEDITQ0WM5TALOXSH">Clearance Constraint (Gap=0.1mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDYHDHE1LE3KS1NWDYU0WYXB1X2KCOJDM4OM35EMKJU01X4FOGYGTN">Short-Circuit Constraint (Allowed=No) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDRVDKC3TRF5BFPREW4EVMWBOTGLE0HKWU1TPDBITLQ4J0C3VTI3K">Un-Routed Net Constraint ( (All) )</a></td>
+<td class="column2">7</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDSLIJZSXAOQDWGLJITXP1Y10SONQ34OMDFZWQTDG1VNTK4RWRTVUK">Modified Polygon (Allow modified: No), (Allow shelved: No)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDVSR5MWZ44G2FOLVEAFFMAD3IBMX24XUQNWB3O3CYZJPRQBSM510M">Width Constraint (Min=0.254mm) (Max=0.254mm) (Preferred=0.254mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDAMNOBF4IDKKDD4KN1D2K3F00TDDMBZS4QC23PZPOFZ23WUX2AAIF">Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDBQQX05YM5T0HIMYR3YUCH5QE2BLTKRLUR1XOJSK0K3JI3IM0BHGB">Hole Size Constraint (Min=0.025mm) (Max=2.54mm) (All)</a></td>
+<td class="column2">4</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID2RJT35PBEXZRJQWBANPSGGDJWG3XHFX2TBMX0MNZYTDYSUQDSPZD">Hole To Hole Clearance (Gap=0.1mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDYRUI1N41KVAPPPCSQJWYK45X4MOVAITEECH0HTPB5XTAOHVLIXG">Minimum Solder Mask Sliver (Gap=0.05mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDXTQTXKDQ4NMTGKE4RHRDGIYEBEKOKENY345LMSLNX055YRFN4B3M">Silk To Solder Mask (Clearance=0.1mm) (IsPad),(All)</a></td>
+<td class="column2">3</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID1RCPTXQDWN2MLVYP4WHNHKYHZGXFRRA5RQ23TOOT1K2K5KXJ5VOK">Silk to Silk (Clearance=0.1mm) (All),(All)</a></td>
+<td class="column2">3</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDR5CLOHBSTRPYEDHHDTXUUSYN1NYW1N0TN0KSSDMHFXFDTAJOKWKN">Net Antennae (Tolerance=0mm) (All)</a></td>
+<td class="column2">2</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDFWYIMRXVH2EJLAGQUGVZWFLK2G5N1TH1SEFPP5GD3NBDYL4V4LBE">Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">19</td>
+</tr>
+</table><br><a name="IDRVDKC3TRF5BFPREW4EVMWBOTGLE0HKWU1TPDBITLQ4J0C3VTI3K"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Un-Routed Net Constraint ( (All) )</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\ZLS_Levels\ZLS_Levels.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13851.457mil|Location2.X=13914.055mil|Location1.Y=17534.213mil|Location2.Y=17785.787mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\ZLS_Levels\ZLS_Levels.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13851.457mil|Location2.X=13914.055mil|Location1.Y=17534.213mil|Location2.Y=17785.787mil|Absolute=True">Un-Routed Net Constraint: Net Levels_PWM Between Pad U2-11(352.622mm,445.639mm) on Top Layer And Pad U2-20(352.622mm,451.489mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\ZLS_Levels\ZLS_Levels.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13503.26mil|Location2.X=13560.74mil|Location1.Y=16962.835mil|Location2.Y=17068.74mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\ZLS_Levels\ZLS_Levels.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13503.26mil|Location2.X=13560.74mil|Location1.Y=16962.835mil|Location2.Y=17068.74mil|Absolute=True">Un-Routed Net Constraint: Net Cross_Out Between Pad U9-4(343.668mm,431.226mm) on Top Layer And Via (343.713mm,432.816mm) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\ZLS_Levels\ZLS_Levels.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13851.457mil|Location2.X=13914.055mil|Location1.Y=17610.984mil|Location2.Y=17760.197mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\ZLS_Levels\ZLS_Levels.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13851.457mil|Location2.X=13914.055mil|Location1.Y=17610.984mil|Location2.Y=17760.197mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad U2-14(352.622mm,447.589mm) on Top Layer And Pad U2-19(352.622mm,450.839mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\ZLS_Levels\ZLS_Levels.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12860.473mil|Location2.X=13110mil|Location1.Y=17995mil|Location2.Y=18256mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\ZLS_Levels\ZLS_Levels.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12860.473mil|Location2.X=13110mil|Location1.Y=17995mil|Location2.Y=18256mil|Absolute=True">Un-Routed Net Constraint: Net +5 Between Track (316.992mm,459.613mm)(329.196mm,459.613mm) on Top Layer And Via (330.454mm,461.162mm) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\ZLS_Levels\ZLS_Levels.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13007.992mil|Location2.X=13072.559mil|Location1.Y=17711.024mil|Location2.Y=17932.953mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\ZLS_Levels\ZLS_Levels.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13007.992mil|Location2.X=13072.559mil|Location1.Y=17711.024mil|Location2.Y=17932.953mil|Absolute=True">Un-Routed Net Constraint: Net +5 Between Pad U8-7(331.223mm,450.08mm) on Top Layer And Pad U7-4(331.238mm,455.102mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\ZLS_Levels\ZLS_Levels.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12446.26mil|Location2.X=12613.74mil|Location1.Y=18161.26mil|Location2.Y=18228.74mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\ZLS_Levels\ZLS_Levels.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12446.26mil|Location2.X=12613.74mil|Location1.Y=18161.26mil|Location2.Y=18228.74mil|Absolute=True">Un-Routed Net Constraint: Net +5 BBB Between Pad U16-9-5(316.992mm,462.153mm) on Multi-Layer And Pad U16-9-6(319.532mm,462.153mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\ZLS_Levels\ZLS_Levels.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12380mil|Location2.X=12680mil|Location1.Y=18195mil|Location2.Y=18395mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\ZLS_Levels\ZLS_Levels.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12380mil|Location2.X=12680mil|Location1.Y=18195mil|Location2.Y=18395mil|Absolute=True">Un-Routed Net Constraint: Net +3.3 Between Pad U16-9-3(316.992mm,464.693mm) on Multi-Layer And Track (319.532mm,464.693mm)(320.116mm,464.693mm) on Bottom Layer </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDBQQX05YM5T0HIMYR3YUCH5QE2BLTKRLUR1XOJSK0K3JI3IM0BHGB"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Hole Size Constraint (Min=0.025mm) (Max=2.54mm) (All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\ZLS_Levels\ZLS_Levels.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=14370.32mil|Location2.X=14489.68mil|Location1.Y=18535.32mil|Location2.Y=18654.68mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\ZLS_Levels\ZLS_Levels.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=14370.32mil|Location2.X=14489.68mil|Location1.Y=18535.32mil|Location2.Y=18654.68mil|Absolute=True">Hole Size Constraint: (3mm &gt; 2.54mm) Pad U16-(366.522mm,472.313mm) on Multi-Layer Actual Hole Size = 3mm</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\ZLS_Levels\ZLS_Levels.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12470.32mil|Location2.X=12589.68mil|Location1.Y=18535.32mil|Location2.Y=18654.68mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\ZLS_Levels\ZLS_Levels.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12470.32mil|Location2.X=12589.68mil|Location1.Y=18535.32mil|Location2.Y=18654.68mil|Absolute=True">Hole Size Constraint: (3mm &gt; 2.54mm) Pad U16-(318.262mm,472.313mm) on Multi-Layer Actual Hole Size = 3mm</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\ZLS_Levels\ZLS_Levels.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12595.32mil|Location2.X=12714.68mil|Location1.Y=15935.32mil|Location2.Y=16054.68mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\ZLS_Levels\ZLS_Levels.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12595.32mil|Location2.X=12714.68mil|Location1.Y=15935.32mil|Location2.Y=16054.68mil|Absolute=True">Hole Size Constraint: (3mm &gt; 2.54mm) Pad U16-(321.437mm,406.273mm) on Multi-Layer Actual Hole Size = 3mm</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\ZLS_Levels\ZLS_Levels.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=14245.32mil|Location2.X=14364.68mil|Location1.Y=15935.32mil|Location2.Y=16054.68mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\ZLS_Levels\ZLS_Levels.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=14245.32mil|Location2.X=14364.68mil|Location1.Y=15935.32mil|Location2.Y=16054.68mil|Absolute=True">Hole Size Constraint: (3mm &gt; 2.54mm) Pad U16-(363.347mm,406.273mm) on Multi-Layer Actual Hole Size = 3mm</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDXTQTXKDQ4NMTGKE4RHRDGIYEBEKOKENY345LMSLNX055YRFN4B3M"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Silk To Solder Mask (Clearance=0.1mm) (IsPad),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\ZLS_Levels\ZLS_Levels.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13039.426mil|Location2.X=13043.05mil|Location1.Y=17831.545mil|Location2.Y=17835.17mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\ZLS_Levels\ZLS_Levels.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13039.426mil|Location2.X=13043.05mil|Location1.Y=17831.545mil|Location2.Y=17835.17mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.1mm) Between Text "U8" (330.581mm,451.968mm) on Top Overlay And Pad U7-6(331.238mm,453.202mm) on Top Layer [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\ZLS_Levels\ZLS_Levels.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13764.903mil|Location2.X=13768.527mil|Location1.Y=17079.545mil|Location2.Y=17083.17mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\ZLS_Levels\ZLS_Levels.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13764.903mil|Location2.X=13768.527mil|Location1.Y=17079.545mil|Location2.Y=17083.17mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.1mm) Between Text "U10" (347.675mm,432.867mm) on Top Overlay And Pad C9-1(350.161mm,433.324mm) on Top Layer [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\ZLS_Levels\ZLS_Levels.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13692.747mil|Location2.X=13696.372mil|Location1.Y=17040.188mil|Location2.Y=17043.812mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\ZLS_Levels\ZLS_Levels.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13692.747mil|Location2.X=13696.372mil|Location1.Y=17040.188mil|Location2.Y=17043.812mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.1mm) Between Text "U10" (347.675mm,432.867mm) on Top Overlay And Pad C9-2(348.361mm,433.324mm) on Top Layer [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="ID1RCPTXQDWN2MLVYP4WHNHKYHZGXFRRA5RQ23TOOT1K2K5KXJ5VOK"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Silk to Silk (Clearance=0.1mm) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\ZLS_Levels\ZLS_Levels.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13072.863mil|Location2.X=13076.488mil|Location1.Y=17831.545mil|Location2.Y=17835.17mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\ZLS_Levels\ZLS_Levels.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13072.863mil|Location2.X=13076.488mil|Location1.Y=17831.545mil|Location2.Y=17835.17mil|Absolute=True">Silk To Silk Clearance Constraint: (Collision &lt; 0.1mm) Between Text "U8" (330.581mm,451.968mm) on Top Overlay And Track (332.113mm,452.652mm)(332.113mm,455.652mm) on Top Overlay Silk Text to Silk Clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\ZLS_Levels\ZLS_Levels.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13078.783mil|Location2.X=13082.408mil|Location1.Y=17822.059mil|Location2.Y=17825.684mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\ZLS_Levels\ZLS_Levels.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13078.783mil|Location2.X=13082.408mil|Location1.Y=17822.059mil|Location2.Y=17825.684mil|Absolute=True">Silk To Silk Clearance Constraint: (Collision &lt; 0.1mm) Between Text "U8" (330.581mm,451.968mm) on Top Overlay And Track (332.113mm,452.652mm)(333.113mm,452.652mm) on Top Overlay Silk Text to Silk Clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\ZLS_Levels\ZLS_Levels.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13741.877mil|Location2.X=13748.108mil|Location1.Y=17036.103mil|Location2.Y=17042.778mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\ZLS_Levels\ZLS_Levels.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13741.877mil|Location2.X=13748.108mil|Location1.Y=17036.103mil|Location2.Y=17042.778mil|Absolute=True">Silk To Silk Clearance Constraint: (0.063mm &lt; 0.1mm) Between Text "U10" (347.675mm,432.867mm) on Top Overlay And Track (349.211mm,432.699mm)(349.311mm,432.699mm) on Top Overlay Silk Text to Silk Clearance [0.063mm]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDR5CLOHBSTRPYEDHHDTXUUSYN1NYW1N0TN0KSSDMHFXFDTAJOKWKN"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Net Antennae (Tolerance=0mm) (All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\ZLS_Levels\ZLS_Levels.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13499.76mil|Location2.X=13575.03mil|Location1.Y=17007.76mil|Location2.Y=17128.761mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\ZLS_Levels\ZLS_Levels.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13499.76mil|Location2.X=13575.03mil|Location1.Y=17007.76mil|Location2.Y=17128.761mil|Absolute=True">Net Antennae: Via (343.713mm,432.816mm) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\ZLS_Levels\ZLS_Levels.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12977.76mil|Location2.X=13053.03mil|Location1.Y=18123.76mil|Location2.Y=18244.761mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\ZLS_Levels\ZLS_Levels.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12977.76mil|Location2.X=13053.03mil|Location1.Y=18123.76mil|Location2.Y=18244.761mil|Absolute=True">Net Antennae: Via (330.454mm,461.162mm) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br></body>
+</html>

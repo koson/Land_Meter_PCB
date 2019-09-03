@@ -1,0 +1,170 @@
+Removed Member From Class: ClassName=FeedbackLoop Member=C1
+Removed Member From Class: ClassName=FeedbackLoop Member=C2
+Removed Member From Class: ClassName=FeedbackLoop Member=C3
+Removed Member From Class: ClassName=FeedbackLoop Member=C4
+Removed Member From Class: ClassName=FeedbackLoop Member=C5
+Removed Member From Class: ClassName=FeedbackLoop Member=C6
+Removed Member From Class: ClassName=FeedbackLoop Member=C8
+Removed Member From Class: ClassName=FeedbackLoop Member=C9
+Removed Member From Class: ClassName=FeedbackLoop Member=C10
+Removed Member From Class: ClassName=ADC Member=C11
+Removed Member From Class: ClassName=ADC Member=C12
+Removed Member From Class: ClassName=ADC Member=C13
+Removed Member From Class: ClassName=ADC Member=C14
+Removed Member From Class: ClassName=ADC Member=C15
+Removed Member From Class: ClassName=ADC Member=C16
+Removed Member From Class: ClassName=ADC Member=C17
+Removed Member From Class: ClassName=FeedbackLoop Member=C17
+Removed Member From Class: ClassName=ADC Member=C18
+Removed Member From Class: ClassName=ADC Member=C20
+Removed Member From Class: ClassName=ADC Member=C21
+Removed Member From Class: ClassName=Power Monitor Member=C24
+Removed Member From Class: ClassName=Power Member=C25
+Removed Member From Class: ClassName=Power Monitor Member=C25
+Removed Member From Class: ClassName=Real Time Clock Member=C25
+Removed Member From Class: ClassName=Power Monitor Member=C29
+Removed Member From Class: ClassName=Power Member=C32
+Removed Member From Class: ClassName=Power Member=C34
+Removed Member From Class: ClassName=Power Member=C37
+Removed Member From Class: ClassName=Power Member=C38
+Removed Member From Class: ClassName=Power Member=C41
+Removed Member From Class: ClassName=Power Member=C42
+Removed Member From Class: ClassName=FeedbackLoop Member=C43
+Removed Member From Class: ClassName=Power Member=C43
+Removed Member From Class: ClassName=FeedbackLoop Member=C44
+Removed Member From Class: ClassName=FeedbackLoop Member=C45
+Removed Member From Class: ClassName=Power Member=DS3
+Removed Member From Class: ClassName=Power Member=DS8
+Removed Member From Class: ClassName=FeedbackLoop Member=P1
+Removed Member From Class: ClassName=heater_control Member=P1
+Removed Member From Class: ClassName=Connectors Member=P2
+Removed Member From Class: ClassName=RS232 Member=P3
+Removed Member From Class: ClassName=Connectors Member=P7
+Removed Member From Class: ClassName=Connectors Member=P8
+Removed Member From Class: ClassName=Connectors Member=P12
+Removed Member From Class: ClassName=heater_control Member=R1
+Removed Member From Class: ClassName=heater_control Member=R2
+Removed Member From Class: ClassName=Power Monitor Member=R6
+Removed Member From Class: ClassName=RS232 Member=R9
+Removed Member From Class: ClassName=RS232 Member=R16
+Removed Member From Class: ClassName=RS232 Member=R17
+Removed Member From Class: ClassName=RS232 Member=R19
+Removed Member From Class: ClassName=RS232 Member=R28
+Removed Member From Class: ClassName=heater_control Member=R32
+Removed Member From Class: ClassName=Power Monitor Member=R33
+Removed Member From Class: ClassName=heater_control Member=R34
+Removed Member From Class: ClassName=Power Monitor Member=R36
+Removed Member From Class: ClassName=Power Member=R37
+Removed Member From Class: ClassName=Power Monitor Member=R37
+Removed Member From Class: ClassName=Power Monitor Member=R38
+Removed Member From Class: ClassName=ADC Member=R39
+Removed Member From Class: ClassName=ADC Member=R40
+Removed Member From Class: ClassName=RS232 Member=R41
+Removed Member From Class: ClassName=Power Member=R42
+Removed Member From Class: ClassName=Power Monitor Member=R42
+Removed Member From Class: ClassName=Power Member=R43
+Removed Member From Class: ClassName=Power Monitor Member=R43
+Removed Member From Class: ClassName=Power Member=R44
+Removed Member From Class: ClassName=Power Monitor Member=R44
+Removed Member From Class: ClassName=Power Monitor Member=R45
+Removed Member From Class: ClassName=FeedbackLoop Member=R46
+Removed Member From Class: ClassName=Power Monitor Member=R47
+Removed Member From Class: ClassName=ADC Member=R48
+Removed Member From Class: ClassName=FeedbackLoop Member=R48
+Removed Member From Class: ClassName=RS232 Member=R48
+Removed Member From Class: ClassName=Power Monitor Member=R51
+Removed Member From Class: ClassName=RS232 Member=R51
+Removed Member From Class: ClassName=Power Monitor Member=R53
+Removed Member From Class: ClassName=BBB Headers Member=R54
+Removed Member From Class: ClassName=Power Member=R54
+Removed Member From Class: ClassName=ADC Member=R58
+Removed Member From Class: ClassName=heater_control Member=R61
+Removed Member From Class: ClassName=FeedbackLoop Member=R64
+Removed Member From Class: ClassName=FeedbackLoop Member=R66
+Removed Member From Class: ClassName=FeedbackLoop Member=R67
+Removed Member From Class: ClassName=heater_control Member=R67
+Removed Member From Class: ClassName=Power Monitor Member=U2
+Removed Member From Class: ClassName=ADC Member=U3
+Removed Member From Class: ClassName=Power Monitor Member=U3
+Removed Member From Class: ClassName=ADC Member=U4
+Removed Member From Class: ClassName=ADC Member=U5
+Removed Member From Class: ClassName=FeedbackLoop Member=U6
+Removed Member From Class: ClassName=Power Member=U10
+Removed Member From Class: ClassName=Power Member=U15
+Removed Member From Class: ClassName=ADC Member=U16
+Removed Member From Class: ClassName=Power Member=U16
+Removed Member From Class: ClassName=ADC Member=U18
+Removed Member From Class: ClassName=ADC Member=U19
+Added Pin To Net: NetName=RC Pin=U3-3
+Change Net Name : Old Net Name=NetP3_3 New Net Name=BEAM
+Added Member To Class: ClassName=Power Member=Component C1 CAP CER 22PF 50V X7R 0603
+Added Member To Class: ClassName=Power Member=Component C2 CAP CER 1UF 50V X7R 1210
+Added Member To Class: ClassName=Power Member=Component C8 CAP CER 0.047UF 16V X7R 0603
+Added Member To Class: ClassName=Power Member=Component C9 Aluminum Electrolytic Capacitors - Leaded 16V 470uF 20%
+Added Member To Class: ClassName=Power Member=Component C10 CAP CER 10000PF 50V X7R 0805
+Added Member To Class: ClassName=Power Member=Component C14 DNP
+Added Member To Class: ClassName=Power Member=Component C15 CAP CER 470PF 3KV X7R 1812
+Added Member To Class: ClassName=Power Member=Component C18 CAP CER 10UF 10V X7R 0805
+Added Member To Class: ClassName=FeedbackLoop Member=Component C20 CAP 100nF 25V 0805(2012)
+Added Member To Class: ClassName=FeedbackLoop Member=Component C21 CAP CER 0.47UF 25V X7R 0805
+Added Member To Class: ClassName=FeedbackLoop Member=Component C23 CAP CER 0.1UF 25V X7R 0805
+Added Member To Class: ClassName=FeedbackLoop Member=Component C24 CAP CER 10PF 200V C0G/NP0 0805
+Added Member To Class: ClassName=FeedbackLoop Member=Component C26 CAP CER 0.1UF 25V X7R 0805
+Added Member To Class: ClassName=FeedbackLoop Member=Component C27 Multilayer Ceramic Capacitors MLCC - SMD/SMT 0.01uF 50volts 10% X7R
+Added Member To Class: ClassName=FeedbackLoop Member=Component C31 CAP CER 1UF 25V X7R 0805
+Added Member To Class: ClassName=FeedbackLoop Member=Component C34 CAP CER 0.1UF 25V X7R 0805
+Added Member To Class: ClassName=FeedbackLoop Member=Component C35 Multilayer Ceramic Capacitors MLCC - SMD/SMT 0.01uF 50volts 10% X7R
+Added Member To Class: ClassName=ADC Member=Component C36 CAP CER 0.1UF 25V X7R 0805
+Added Member To Class: ClassName=ADC Member=Component C37 CAP CER 0.1UF 25V X7R 0805
+Added Member To Class: ClassName=ADC Member=Component C38 CAP CER 0.1UF 25V X7R 0805
+Added Member To Class: ClassName=ADC Member=Component C39 CAP CER 0.1UF 25V X7R 0805
+Added Member To Class: ClassName=ADC Member=Component C40 CAP CER 0.1UF 16V X7R 0805
+Added Member To Class: ClassName=ADC Member=Component C41 CAP CER 1UF 16V X7R 0805
+Added Member To Class: ClassName=ADC Member=Component C42 CAP CER 0.1UF 16V X7R 0805
+Added Member To Class: ClassName=Power Monitor Member=Component C44 CAP CER 0.1UF 25V X7R 0805
+Added Member To Class: ClassName=Real Time Clock Member=Component C46 CAP 1uF 25V 0805(2012)
+Added Member To Class: ClassName=Power Member=Component DS1 Lite-On LTST-S220KGKT Green LED, 571 nm 2012 (0805) Side View, Rectangle Lens SMD package
+Added Member To Class: ClassName=Power Member=Component DS2 Lite-On LTST-S220KGKT Green LED, 571 nm 2012 (0805) Side View, Rectangle Lens SMD package
+Added Member To Class: ClassName=Connectors Member=Component P3 FTE-106-01-G-DV
+Added Member To Class: ClassName=Connectors Member=Component P4 SAMTEC - IPL1-104-01-F-D-K - .100 TERMINAL ASSEMBLY
+Added Member To Class: ClassName=Connectors Member=Component P5 IPL1-104-01-L-S-RA-K
+Added Member To Class: ClassName=heater_control Member=Component P10 IPL1-104-01-L-S-RA-K
+Added Member To Class: ClassName=Power Member=Component R1 RES SMD 0.0 OHM JUMPER 1/8W 0805
+Added Member To Class: ClassName=Power Member=Component R3 RES SMD 10K OHM 1% 1/8W 0805
+Added Member To Class: ClassName=Power Member=Component R5 300K 5% 0805(2012)
+Added Member To Class: ClassName=Power Member=Component R7 RES SMD 100K OHM 1% 1/8W 0805
+Added Member To Class: ClassName=Power Member=Component R8 RES SMD 0.0 OHM JUMPER 1/8W 0805
+Added Member To Class: ClassName=FeedbackLoop Member=Component R14 RES SMD 33K OHM 1% 1/2W 0805
+Added Member To Class: ClassName=FeedbackLoop Member=Component R16 RES SMD 0.0 OHM JUMPER 1/8W 0805
+Added Member To Class: ClassName=FeedbackLoop Member=Component R20 RES SMD 0.0 OHM JUMPER 1/8W 0805
+Added Member To Class: ClassName=ADC Member=Component R34 RES SMD 1K OHM 1% 1/8W 0805
+Added Member To Class: ClassName=BBB Headers Member=Component R36 3K74 0.125W 1% 0805 (2012 Metric)  SMD
+Added Member To Class: ClassName=heater_control Member=Component R39 6K98 1% 0805(2012)
+Added Member To Class: ClassName=heater_control Member=Component R40 6K98 1% 0805(2012)
+Added Member To Class: ClassName=heater_control Member=Component R41 6K98 1% 0805(2012)
+Added Member To Class: ClassName=heater_control Member=Component R47 
+Added Member To Class: ClassName=heater_control Member=Component R49 
+Added Member To Class: ClassName=heater_control Member=Component R50 
+Added Member To Class: ClassName=Power Monitor Member=Component R56 RES SMD 10K OHM 1% 1/8W 0805
+Added Member To Class: ClassName=Power Monitor Member=Component R57 RES SMD 10K OHM 1% 1/8W 0805
+Added Member To Class: ClassName=Power Monitor Member=Component R58 RES SMD 1K OHM 1% 1/8W 0805
+Added Member To Class: ClassName=Power Monitor Member=Component R60 RES SMD 10K OHM 1% 1/8W 0805
+Added Member To Class: ClassName=RS232 Member=Component R64 RES SMD 0.0 OHM JUMPER 1/8W 0805
+Added Member To Class: ClassName=RS232 Member=Component R65 DNP
+Added Member To Class: ClassName=RS232 Member=Component R69 RES SMD 100 OHM 1% 1/8W 0805
+Added Member To Class: ClassName=Power Member=Component U1 LT3461
+Added Member To Class: ClassName=Power Member=Component U5 NCS2003XV53T2G
+Added Member To Class: ClassName=Power Member=Component U6 CCG302412S
+Added Member To Class: ClassName=ADC Member=Component U13 OPA4188AIDR
+Added Member To Class: ClassName=ADC Member=Component U14 OPA4188AIDR
+Added Member To Class: ClassName=ADC Member=Component U15 MAX1300AEUG
+Added Member To Class: ClassName=Power Monitor Member=Component U17 OPA4188AID
+Added Room: Name=ADC
+Added Room: Name=BBB Headers
+Added Room: Name=Connectors
+Added Room: Name=FeedbackLoop
+Added Room: Name=heater_control
+Added Room: Name=Power
+Added Room: Name=Power Monitor
+Added Room: Name=Real Time Clock
+Added Room: Name=RS232

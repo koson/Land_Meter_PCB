@@ -1,0 +1,9 @@
+Change Component Footprint: Designator=TP2 Old Footprint=KSTN-5003 New Footprint=TP-SM-C-100
+Change Component Comment : Designator=TP2 Old Comment=5003 New Comment=TP-SM-C-100
+Change Component Kind : Designator=TP2 Old Kind=Standard New Kind=Standard (No BOM)
+Change component parameters: Designator = "TP2"; Footprint = "TP-SM-C-100"; UniqueID = "\EHPNSLQA"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "No Vendor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PartNumber"; Value = "TP-SM-C-100"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=ZP Pin=P4-A4
+Added Pin To Net: NetName=ZH Pin=P4-B4

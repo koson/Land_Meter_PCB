@@ -1,0 +1,4 @@
+Change Component Footprint: Designator=P7 Old Footprint=IPL1-103-01-D New Footprint=B6B-ZR-SM4-TF
+Change Component Footprint: Designator=P2 Old Footprint=IPL1-104-01 New Footprint=B4B-ZR-SM4-TF
+Change Component Footprint: Designator=P5 Old Footprint=IPL1-104-01 New Footprint=B4B-ZR-SM4-TF
+Added Member To Class: ClassName=FeedbackLoop Member=Component U8 OPA188AIDBVR

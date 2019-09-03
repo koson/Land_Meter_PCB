@@ -1,0 +1,57 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\zls\Desktop\Land_Meter_PCB\LM-HTR-001\LM_001_HTR_Rev_D\LM_001_Rev_F.PcbDoc
+Date     : 5/6/2019
+Time     : 2:21:48 PM
+
+Processing Rule : Clearance Constraint (Gap=0.15mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+   Violation between Un-Routed Net Constraint: Net NetP27_2 Between Pad R20-1(20.32mm,159.7mm) on Bottom Layer And Pad R56-1(20.32mm,159.7mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net NetP16_2 Between Pad R49-1(6.598mm,159.7mm) on Top Layer And Pad R3-1(6.604mm,159.7mm) on Bottom Layer 
+Rule Violations :2
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.254mm) (Max=0.762mm) (Preferred=0.254mm) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.025mm) (Max=2.54mm) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0.254mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0.045mm) (All),(All)
+   Violation between Minimum Solder Mask Sliver Constraint: (0.012mm < 0.045mm) Between Pad R29-1(35.293mm,15.414mm) on Bottom Layer And Pad R33-2(35.306mm,16.676mm) on Bottom Layer [Bottom Solder] Mask Sliver [0.012mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.04mm < 0.045mm) Between Pad U2-16(27.809mm,144.882mm) on Top Layer And Via (26.073mm,144.968mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.04mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.044mm < 0.045mm) Between Pad U2-17(27.809mm,144.232mm) on Top Layer And Via (29.553mm,144.231mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.044mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.009mm < 0.045mm) Between Pad U3-6(31.393mm,128.736mm) on Top Layer And Via (33.033mm,129.271mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.009mm]
+Rule Violations :4
+
+Processing Rule : Silk To Solder Mask (Clearance=0.127mm) (IsPad),(All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=0.127mm) (All),(All)
+   Violation between Silk To Silk Clearance Constraint: (Collision < 0.127mm) Between Text "BH1" (61.849mm,129.083mm) on Top Overlay And Track (59.539mm,128.736mm)(61.939mm,128.736mm) on Top Overlay Silk Text to Silk Clearance [0mm]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 0.127mm) Between Text "BH1" (61.849mm,129.083mm) on Top Overlay And Track (61.939mm,125.686mm)(61.939mm,128.736mm) on Top Overlay Silk Text to Silk Clearance [0mm]
+Rule Violations :2
+
+Processing Rule : Net Antennae (Tolerance=0mm) (All)
+   Violation between Net Antennae: Track (6.604mm,162.306mm)(7.366mm,163.068mm) on Bottom Layer 
+Rule Violations :1
+
+Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
+Rule Violations :0
+
+
+Violations Detected : 9
+Waived Violations : 0
+Time Elapsed        : 00:00:01

@@ -1,0 +1,89 @@
+Added Component: Designator=P1(IPL1-112-01-F-S-K)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "https://datasheet.ciiva.com/9444/ipl1-9444389.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://datasheet.ciiva.com/9444/ipl1-9444389.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gender"; Value = "Male"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Samtec"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "IPL1-112-01-F-S-K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Contacts"; Value = "12"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Orientation"; Value = "Straight"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "2.54mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stock 2"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Newark"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = "Avnet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "08W3504"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "IPL1-112-01-F-S-K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination"; Value = "Solder"; VariantName = "[No Variations]"
+Added Component: Designator=P2(IPL1-105-01-F-S-RA)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "IPL1-105-01-F-S-RA-K-ND"; VariantName = "[No Variations]"
+Added Component: Designator=U1(Beaglebone Black)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=+3.3 Pin=P1-18
+Added Pin To Net: NetName=+3.3 Pin=P2-3
+Added Net: Name=+3.3
+Added Pin To Net: NetName=+5 Pin=P1-17
+Added Pin To Net: NetName=+5 Pin=P2-2
+Added Pin To Net: NetName=+5 Pin=U1-9-5
+Added Pin To Net: NetName=+5 Pin=U1-9-6
+Added Net: Name=+5
+Added Pin To Net: NetName=+12 Pin=P1-21
+Added Pin To Net: NetName=+12 Pin=P1-22
+Added Pin To Net: NetName=+12 Pin=P2-1
+Added Net: Name=+12
+Added Pin To Net: NetName=Arrestment Heater FET_Buff Pin=P1-16
+Added Net: Name=Arrestment Heater FET_Buff
+Added Pin To Net: NetName=Conning Tower FET_Buff Pin=P1-14
+Added Net: Name=Conning Tower FET_Buff
+Added Pin To Net: NetName=Cross_Green Pin=P1-3
+Added Net: Name=Cross_Green
+Added Pin To Net: NetName=Cross_Orange Pin=P1-1
+Added Net: Name=Cross_Orange
+Added Pin To Net: NetName=Cross_Yellow Pin=P1-5
+Added Net: Name=Cross_Yellow
+Added Pin To Net: NetName=Gearbox Heater FET_Buff Pin=P1-15
+Added Net: Name=Gearbox Heater FET_Buff
+Added Pin To Net: NetName=GND Pin=P1-19
+Added Pin To Net: NetName=GND Pin=P1-20
+Added Pin To Net: NetName=GND Pin=P1-23
+Added Pin To Net: NetName=GND Pin=P1-24
+Added Pin To Net: NetName=GND Pin=P2-4
+Added Pin To Net: NetName=GND Pin=P2-5
+Added Pin To Net: NetName=GND Pin=U1-8-1
+Added Pin To Net: NetName=GND Pin=U1-8-2
+Added Pin To Net: NetName=GND Pin=U1-9-1
+Added Pin To Net: NetName=GND Pin=U1-9-2
+Added Pin To Net: NetName=GND Pin=U1-9-43
+Added Pin To Net: NetName=GND Pin=U1-9-44
+Added Pin To Net: NetName=GND Pin=U1-9-45
+Added Pin To Net: NetName=GND Pin=U1-9-46
+Added Net: Name=GND
+Added Pin To Net: NetName=Long_Green Pin=P1-4
+Added Net: Name=Long_Green
+Added Pin To Net: NetName=Long_Orange Pin=P1-2
+Added Net: Name=Long_Orange
+Added Pin To Net: NetName=Long_Yellow Pin=P1-6
+Added Net: Name=Long_Yellow
+Added Pin To Net: NetName=Meter Heater FET_Buff Pin=P1-13
+Added Net: Name=Meter Heater FET_Buff
+Added Pin To Net: NetName=SPI0_MISO Pin=P1-7
+Added Net: Name=SPI0_MISO
+Added Pin To Net: NetName=SPI0_SCLK Pin=P1-10
+Added Net: Name=SPI0_SCLK
+Added Pin To Net: NetName=Thermistor_CS0 Pin=P1-9
+Added Net: Name=Thermistor_CS0
+Added Pin To Net: NetName=Thermistor_MUX_A0 Pin=P1-8
+Added Pin To Net: NetName=Thermistor_MUX_A0 Pin=U1-8-31
+Added Net: Name=Thermistor_MUX_A0
+Added Pin To Net: NetName=Thermistor_MUX_A1 Pin=P1-11
+Added Pin To Net: NetName=Thermistor_MUX_A1 Pin=U1-8-32
+Added Net: Name=Thermistor_MUX_A1
+Added Pin To Net: NetName=Thermistor_MUX A2 Pin=P1-12
+Added Pin To Net: NetName=Thermistor_MUX A2 Pin=U1-8-33
+Added Net: Name=Thermistor_MUX A2
+Added Class: Name=Connectors
+Added Class: Name=LM_HTR_001_TEST

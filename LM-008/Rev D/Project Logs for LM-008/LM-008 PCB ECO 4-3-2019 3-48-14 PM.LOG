@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=+5 BBB Pin=C9-1
+Removed Pin From Net: NetName=+5 BBB Pin=U3-3
+Removed Pin From Net: NetName=+5 BBB Pin=U3-4
+Added Pin To Net: NetName=+5 Pin=C9-1
+Added Pin To Net: NetName=+5 Pin=U3-3
+Added Pin To Net: NetName=+5 Pin=U3-4

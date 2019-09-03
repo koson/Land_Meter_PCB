@@ -1,0 +1,7 @@
+Added Component: Designator=R?(RESC0805(2012)_N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Resistance (Ohms)"; Value = "TBD"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+3.3 Pin=R?-1
+Added Pin To Net: NetName=NetR13_2 Pin=R?-2
+Added Pin To Net: NetName=NetR13_2 Pin=U1-8-29
+Added Member To Class: ClassName=BBB Headers Member=Component R? RES SMD TBD OHM 1% 1/8W 0805

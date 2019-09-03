@@ -1,0 +1,29 @@
+Removed Member From Class: ClassName=Connectors Member=P14
+Removed Member From Class: ClassName=Connectors Member=P15
+Change Component Footprint: Designator=P10 Old Footprint=IPL1-103-01-F-D New Footprint=HDR2X5
+Change Component Comment : Designator=P10 Old Comment=IPL1-103-01-F-D New Comment=Header 5X2
+Change Component Designator: OldDesignator=R? NewDesignator=R15
+Change Component Designator: OldDesignator=R? NewDesignator=R16
+Change component parameters: Designator = "P10"; Footprint = "HDR2X5"; UniqueID = "\BTBGMPAQ"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change Net Name : Old Net Name=NetR?_1 New Net Name=NetR15_1
+Change Net Name : Old Net Name=NetR?_2 New Net Name=NetR16_2
+Added Pin To Net: NetName=ARSTMT_OUT+ Pin=P10-7
+Added Pin To Net: NetName=ARSTMT_OUT+ Pin=U9-7
+Added Net: Name=ARSTMT_OUT+
+Added Pin To Net: NetName=ARSTMT_OUT- Pin=P10-9
+Added Pin To Net: NetName=ARSTMT_OUT- Pin=U9-10
+Added Net: Name=ARSTMT_OUT-
+Added Pin To Net: NetName=NetR15_2 Pin=R15-2
+Added Net: Name=NetR15_2
+Added Pin To Net: NetName=SHAFT_OUT+ Pin=P10-8
+Added Pin To Net: NetName=SHAFT_OUT+ Pin=U10-7
+Added Net: Name=SHAFT_OUT+
+Added Pin To Net: NetName=SHAFT_OUT- Pin=C10-1
+Added Pin To Net: NetName=SHAFT_OUT- Pin=P10-10
+Added Pin To Net: NetName=SHAFT_OUT- Pin=U10-9
+Added Net: Name=SHAFT_OUT-
+Added Member To Class: ClassName=DC-Motor-DRV Member=Component R15 0

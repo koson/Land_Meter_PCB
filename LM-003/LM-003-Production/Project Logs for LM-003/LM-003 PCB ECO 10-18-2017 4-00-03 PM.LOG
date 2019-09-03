@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=Meter Heater FET Pin=U2-8-3
+Removed Pin From Net: NetName=Arrestment Heater FET Pin=U2-8-5
+Added Pin To Net: NetName=Arrestment Heater FET Pin=U2-8-3
+Added Pin To Net: NetName=Meter Heater FET Pin=U2-8-5
+Added Pin To Net: NetName=Conning Tower FET Pin=U4-12

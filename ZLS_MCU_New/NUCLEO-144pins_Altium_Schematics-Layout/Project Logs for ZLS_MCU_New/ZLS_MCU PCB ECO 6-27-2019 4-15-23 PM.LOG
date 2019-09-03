@@ -1,0 +1,84 @@
+Removed Pin From Net: NetName=GND Pin=C40-1
+Removed Pin From Net: NetName=+3V3_PER Pin=C40-2
+Removed Pin From Net: NetName=GND Pin=C41-2
+Removed Pin From Net: NetName=GND Pin=C42-1
+Removed Pin From Net: NetName=GND Pin=C43-2
+Removed Pin From Net: NetName=GND Pin=C44-1
+Removed Pin From Net: NetName=GND Pin=C45-2
+Removed Pin From Net: NetName=GND Pin=C46-2
+Removed Pin From Net: NetName=GND Pin=C47-1
+Removed Pin From Net: NetName=GND Pin=C48-1
+Removed Pin From Net: NetName=GND Pin=C49-1
+Removed Pin From Net: NetName=GND Pin=C50-1
+Removed Pin From Net: NetName=+3V3_PER Pin=L2-2
+Removed Pin From Net: NetName=+3V3_PER Pin=R39-1
+Removed Pin From Net: NetName=NetCN9_15 Pin=R40-2
+Removed Pin From Net: NetName=GND Pin=R41-2
+Removed Pin From Net: NetName=+3V3_PER Pin=R43-1
+Removed Pin From Net: NetName=+3V3_PER Pin=R44-1
+Removed Pin From Net: NetName=+3V3_PER Pin=R46-2
+Removed Pin From Net: NetName=+3V3_PER Pin=R47-1
+Removed Pin From Net: NetName=GND Pin=R49-2
+Removed Pin From Net: NetName=GND Pin=R65-2
+Removed Pin From Net: NetName=GND Pin=R66-2
+Removed Pin From Net: NetName=GND Pin=R67-2
+Removed Pin From Net: NetName=GND Pin=SB16-2
+Removed Pin From Net: NetName=GND Pin=SB17-2
+Removed Pin From Net: NetName=NRST Pin=SB177-1
+Removed Pin From Net: NetName=+3V3_PER Pin=U9-9
+Removed Pin From Net: NetName=NetSB164_1 Pin=U9-13
+Removed Pin From Net: NetName=NetSB183_2 Pin=U9-16
+Removed Pin From Net: NetName=NetSB182_2 Pin=U9-17
+Removed Pin From Net: NetName=NetJP7_1 Pin=U9-18
+Removed Pin From Net: NetName=GND Pin=U9-25
+Removed Pin From Net: NetName=GND Pin=U10-2
+Removed Member From Class: ClassName=U_USB Member=R76
+Change Component Footprint: Designator=D7 Old Footprint=VISH-DO-214AC-2_M New Footprint=VISH-DO-214AC-2_M
+Added Component: Designator=P?(IPL1-103-01-F-D)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "https://webassistants.partcommunity.com/23d-libs/samtec/search/resolve.html?EMAIL=mysamtec@samtec.com&PN=HTSW-114-05-F-D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://webassistants.partcommunity.com/23d-libs/samtec/search/resolve.html?EMAIL=mysamtec@samtec.com&PN=HTSW-114-05-F-D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "SAMTEC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "IPL1-103-01-F-D-K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pricing 1"; Value = "1=1.8, 5000=1.56, 10000=1.46 (USD)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stock 1"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Newark"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "51P2678"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=Long_Yellow Pin=C102-2
+Added Pin To Net: NetName=Cross_Yellow Pin=C106-2
+Added Pin To Net: NetName=Cross_Yellow Pin=P?-1
+Added Pin To Net: NetName=Long_Yellow Pin=P?-2
+Added Pin To Net: NetName=Cross_Black Pin=P?-3
+Added Pin To Net: NetName=Long_Black Pin=P?-4
+Added Pin To Net: NetName=Cross_Blue Pin=P?-5
+Added Pin To Net: NetName=Long_Blue Pin=P?-6
+Added Pin To Net: NetName=Long_Blue Pin=U32-24
+Added Pin To Net: NetName=Long_Black Pin=U32-25
+Added Pin To Net: NetName=Long_Yellow Pin=U32-27
+Added Pin To Net: NetName=Cross_Blue Pin=U34-24
+Added Pin To Net: NetName=Cross_Black Pin=U34-25
+Added Pin To Net: NetName=Cross_Yellow Pin=U34-27
+Added Pin To Net: NetName=NetSB13_1 Pin=SB13-1
+Added Net: Name=NetSB13_1
+Added Pin To Net: NetName=NetSB160_1 Pin=SB160-1
+Added Net: Name=NetSB160_1
+Added Pin To Net: NetName=NetSB178_1 Pin=SB178-1
+Added Net: Name=NetSB178_1
+Added Pin To Net: NetName=NetSB181_1 Pin=SB181-1
+Added Net: Name=NetSB181_1
+Change Class Name : Old Net Name=MB1137 New Net Name=Top
+Added Member To Class: ClassName=U_Power Member=Component C? 22pF
+Added Member To Class: ClassName=U_Power Member=Component C? 4.7uF
+Added Member To Class: ClassName=U_Power Member=Component C? CAP CER 0.47UF 50V X7R 1206
+Added Member To Class: ClassName=U_Power Member=Component C? CAP CER 1UF 50V X7R 1210
+Added Member To Class: ClassName=U_Power Member=Component C? CAP CER 0.047UF 16V X7R 0603
+Added Member To Class: ClassName=U_Power Member=Component C? CAP CER 1UF 16V X7R 0805
+Added Member To Class: ClassName=U_Power Member=Component C? CAP CER 1UF 50V X7R 1210
+Added Member To Class: ClassName=U_Signal_Conditioner Member=Component P? IPL1-103-01-F-D
+Added Member To Class: ClassName=U_Power Member=Component R? RES SMD 10K OHM 1% 1/8W 0805
+Added Member To Class: ClassName=U_Power Member=Component R? RES SMD 280K OHM 1% 1/8W 0805
+Added Member To Class: ClassName=U_Power Member=Component R? DNP
+Added Member To Class: ClassName=U_Power Member=Component R? DNP
+Added Member To Class: ClassName=U_Power Member=Component R? RES SMD 100K OHM 1% 1/8W 0805
+Added Member To Class: ClassName=U_Power Member=Component U? LT3461
+Added Member To Class: ClassName=U_Power Member=Component U? CCG30-24-12S

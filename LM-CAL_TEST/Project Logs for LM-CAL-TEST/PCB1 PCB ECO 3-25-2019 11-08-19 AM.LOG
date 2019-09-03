@@ -1,0 +1,46 @@
+Removed Pin From Net: NetName=ZH Pin=C6-1
+Removed Pin From Net: NetName=GND Pin=C6-2
+Removed Pin From Net: NetName=ZP Pin=C7-1
+Removed Pin From Net: NetName=GND Pin=C7-2
+Removed Pin From Net: NetName=GND Pin=P9-1
+Removed Pin From Net: NetName=GND Pin=R27-2
+Removed Pin From Net: NetName=ZH Pin=U16-1
+Removed Pin From Net: NetName=GND Pin=U16-4
+Removed Pin From Net: NetName=ZP Pin=U16-8
+Removed Member From Class: ClassName=ZH Member=C6
+Removed Member From Class: ClassName=ZH Member=C7
+Removed Member From Class: ClassName=synch_demod Member=C10
+Removed Member From Class: ClassName=ZH Member=P9
+Removed Member From Class: ClassName=ZH Member=U16
+Change Component Footprint: Designator=R27 Old Footprint=VH102K New Footprint=RESC0402(1005)_M
+Change Component Comment : Designator=R27 Old Comment=TBD New Comment=1M
+Added Pin To Net: NetName=ZP_CT Pin=C5-1
+Added Pin To Net: NetName=GND Pin=C5-2
+Added Pin To Net: NetName=ZP Pin=P6-A4
+Added Pin To Net: NetName=ZH Pin=P6-B4
+Added Pin To Net: NetName=ZP Pin=P8-A4
+Added Pin To Net: NetName=ZP_CT Pin=P10-A4
+Added Pin To Net: NetName=ZH_CT Pin=R8-1
+Added Pin To Net: NetName=ZP_CT Pin=R27-2
+Added Pin To Net: NetName=+12 Pin=U12-5
+Added Pin To Net: NetName=GND Pin=U15-1
+Added Pin To Net: NetName=GND Pin=U15-4
+Added Pin To Net: NetName=ZH_CT Pin=U15-6
+Added Pin To Net: NetName=ZP_CT Pin=U15-7
+Added Pin To Net: NetName=ZP_CT Pin=U15-8
+Added Pin To Net: NetName=GND Pin=U15-9
+Added Pin To Net: NetName=NetR27_1 Pin=R27-1
+Added Pin To Net: NetName=NetR27_1 Pin=U15-5
+Added Net: Name=NetR27_1
+Added Pin To Net: NetName=ZH_PRE_CT_F Pin=P10-B9
+Added Pin To Net: NetName=ZH_PRE_CT_F Pin=P10-B10
+Added Pin To Net: NetName=ZH_PRE_CT_F Pin=U15-3
+Added Net: Name=ZH_PRE_CT_F
+Added Pin To Net: NetName=ZH_PRE_CT Pin=P10-B4
+Added Net: Name=ZH_PRE_CT
+Added Pin To Net: NetName=ZH_PRE_F Pin=P8-B9
+Added Pin To Net: NetName=ZH_PRE_F Pin=U12-4
+Added Net: Name=ZH_PRE_F
+Added Pin To Net: NetName=ZH_PRE_S Pin=P8-B10
+Added Pin To Net: NetName=ZH_PRE_S Pin=U12-1
+Added Net: Name=ZH_PRE_S

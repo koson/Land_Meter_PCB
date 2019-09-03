@@ -1,0 +1,28 @@
+Removed Pin From Net: NetName=SHAFT_OUT1+ Pin=P4-1
+Removed Pin From Net: NetName=SHAFT_OUT1+ Pin=P4-2
+Removed Pin From Net: NetName=SHAFT_OUT1- Pin=P4-3
+Removed Pin From Net: NetName=SHAFT_OUT1- Pin=P4-4
+Removed Pin From Net: NetName=SHAFT_OUT2+ Pin=P4-5
+Removed Pin From Net: NetName=SHAFT_OUT2+ Pin=P4-6
+Removed Pin From Net: NetName=SHAFT_OUT2- Pin=P4-7
+Removed Pin From Net: NetName=SHAFT_OUT2- Pin=P4-8
+Removed Pin From Net: NetName=SHAFT_OUT1+ Pin=U4-3
+Removed Pin From Net: NetName=SHAFT_OUT1- Pin=U4-5
+Removed Pin From Net: NetName=SHAFT_OUT2- Pin=U4-8
+Removed Pin From Net: NetName=SHAFT_OUT2+ Pin=U4-10
+Added Pin To Net: NetName=ARRESTMENT_OUT1+ Pin=P4-1
+Added Pin To Net: NetName=ARRESTMENT_OUT1+ Pin=P4-2
+Added Pin To Net: NetName=ARRESTMENT_OUT1+ Pin=U4-3
+Added Net: Name=ARRESTMENT_OUT1+
+Added Pin To Net: NetName=ARRESTMENT_OUT1- Pin=P4-3
+Added Pin To Net: NetName=ARRESTMENT_OUT1- Pin=P4-4
+Added Pin To Net: NetName=ARRESTMENT_OUT1- Pin=U4-5
+Added Net: Name=ARRESTMENT_OUT1-
+Added Pin To Net: NetName=ARRESTMENT_OUT2+ Pin=P4-5
+Added Pin To Net: NetName=ARRESTMENT_OUT2+ Pin=P4-6
+Added Pin To Net: NetName=ARRESTMENT_OUT2+ Pin=U4-10
+Added Net: Name=ARRESTMENT_OUT2+
+Added Pin To Net: NetName=ARRESTMENT_OUT2- Pin=P4-7
+Added Pin To Net: NetName=ARRESTMENT_OUT2- Pin=P4-8
+Added Pin To Net: NetName=ARRESTMENT_OUT2- Pin=U4-8
+Added Net: Name=ARRESTMENT_OUT2-

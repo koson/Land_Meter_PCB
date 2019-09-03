@@ -1,0 +1,39 @@
+Removed Member From Class: ClassName=BBB-Supply Member=R7
+Removed Member From Class: ClassName=Power_Input_FET Member=U4
+Added Pin To Net: NetName=DGND Pin=C1-1
+Added Pin To Net: NetName=DGND Pin=C2-1
+Added Pin To Net: NetName=DGND Pin=C3-1
+Added Pin To Net: NetName=DGND Pin=C4-1
+Added Pin To Net: NetName=DGND Pin=C6-1
+Added Pin To Net: NetName=DGND Pin=C7-1
+Added Pin To Net: NetName=DGND Pin=C8-1
+Added Pin To Net: NetName=DGND Pin=C9-1
+Added Pin To Net: NetName=DGND Pin=C10-1
+Added Pin To Net: NetName=DGND Pin=C15-2
+Added Pin To Net: NetName=DGND Pin=C16-1
+Added Pin To Net: NetName=DGND Pin=P1-6
+Added Pin To Net: NetName=DGND Pin=P1-8
+Added Pin To Net: NetName=DGND Pin=P1-10
+Added Pin To Net: NetName=DGND Pin=P1-12
+Added Pin To Net: NetName=DGND Pin=P1-13
+Added Pin To Net: NetName=DGND Pin=P1-14
+Added Pin To Net: NetName=DGND Pin=P2-5
+Added Pin To Net: NetName=DGND Pin=P2-7
+Added Pin To Net: NetName=DGND Pin=P2-9
+Added Pin To Net: NetName=DGND Pin=P2-11
+Added Pin To Net: NetName=DGND Pin=P2-13
+Added Pin To Net: NetName=DGND Pin=P2-15
+Added Pin To Net: NetName=DGND Pin=P3-2
+Added Pin To Net: NetName=DGND Pin=P4-3
+Added Pin To Net: NetName=DGND Pin=P4-4
+Added Pin To Net: NetName=DGND Pin=R2-2
+Added Pin To Net: NetName=DGND Pin=R9-1
+Added Pin To Net: NetName=DGND Pin=U1-3
+Added Pin To Net: NetName=DGND Pin=U2-2
+Added Pin To Net: NetName=DGND Pin=U3-2
+Added Pin To Net: NetName=DGND Pin=U8-2
+Added Pin To Net: NetName=DGND Pin=U9-2
+Added Pin To Net: NetName=DGND Pin=U9-3
+Change Net Name : Old Net Name=DGND New Net Name=GND
+Added Member To Class: ClassName=BBB-Supply Member=Component R10 RES SMD 43K OHM 1% 1/8W 0805
+Added Member To Class: ClassName=Power_Input_FET Member=Component U9 LTC4412HVIS6#TRMPBF

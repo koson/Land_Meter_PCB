@@ -1,0 +1,14 @@
+Removed Pin From Net: NetName=PLATE_P Pin=P2-1
+Removed Pin From Net: NetName=PLATE_N Pin=P2-2
+Removed Pin From Net: NetName=Guard Pin=P2-3
+Removed Member From Class: ClassName=Beam_Amp Member=P2
+Change Component Designator: OldDesignator=R? NewDesignator=R1
+Change Component Designator: OldDesignator=R? NewDesignator=R2
+Change Net Name : Old Net Name=NetR?_1 New Net Name=NetR2_1
+Change Net Name : Old Net Name=NetR?_2 New Net Name=NetR2_2
+Added Pin To Net: NetName=NetR1_1 Pin=R1-1
+Added Pin To Net: NetName=NetR1_1 Pin=U7-2
+Added Net: Name=NetR1_1
+Added Member To Class: ClassName=Force Member=Component P1 Triax_Conn
+Added Member To Class: ClassName=Sense Member=Component P2 Triax_Conn
+Added Member To Class: ClassName=Sense Member=Component R1 100

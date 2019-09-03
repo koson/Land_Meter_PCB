@@ -1,0 +1,91 @@
+Removed Pin From Net: NetName=GND Pin=C14-2
+Removed Pin From Net: NetName=VINT Pin=R29-1
+Removed Pin From Net: NetName=GND Pin=R30-2
+Removed Pin From Net: NetName=GND Pin=R31-2
+Removed Pin From Net: NetName=GND Pin=R32-2
+Removed Pin From Net: NetName=GND Pin=R33-2
+Removed Pin From Net: NetName=VINT Pin=R34-1
+Removed Pin From Net: NetName=GND Pin=R35-2
+Removed Pin From Net: NetName=GND Pin=R36-2
+Removed Pin From Net: NetName=GND Pin=R37-2
+Removed Pin From Net: NetName=GND Pin=R38-2
+Removed Member From Class: ClassName=Stepper Motor Driver Member=R29
+Removed Member From Class: ClassName=Stepper Motor Driver Member=R30
+Removed Member From Class: ClassName=Stepper Motor Driver Member=R31
+Removed Member From Class: ClassName=Stepper Motor Driver Member=R32
+Removed Member From Class: ClassName=Stepper Motor Driver Member=R33
+Removed Member From Class: ClassName=Stepper Motor Driver Member=R34
+Removed Member From Class: ClassName=Stepper Motor Driver Member=R35
+Removed Member From Class: ClassName=Stepper Motor Driver Member=R36
+Removed Member From Class: ClassName=Stepper Motor Driver Member=R37
+Removed Member From Class: ClassName=Stepper Motor Driver Member=R38
+Added Component: Designator=R1(RESC0402(1005)_M)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R2(RESC0402(1005)_M)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R3(RESC0402(1005)_M)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R4(RESC0402(1005)_M)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R5(RESC0402(1005)_M)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R6(RESC0402(1005)_M)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R7(RESC0402(1005)_M)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R8(RESC0402(1005)_M)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R9(RESC0402(1005)_M)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R10(RESC0402(1005)_M)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=VINT Pin=R1-1
+Added Pin To Net: NetName=GND Pin=R2-2
+Added Pin To Net: NetName=GND Pin=R3-2
+Added Pin To Net: NetName=GND Pin=R4-2
+Added Pin To Net: NetName=GND Pin=R5-2
+Added Pin To Net: NetName=VINT Pin=R6-1
+Added Pin To Net: NetName=GND Pin=R7-2
+Added Pin To Net: NetName=GND Pin=R8-2
+Added Pin To Net: NetName=GND Pin=R9-2
+Added Pin To Net: NetName=GND Pin=R10-2
+Added Pin To Net: NetName=NetR1_2 Pin=R1-2
+Added Pin To Net: NetName=NetR1_2 Pin=U6-12
+Added Net: Name=NetR1_2
+Added Pin To Net: NetName=NetR2_1 Pin=R2-1
+Added Pin To Net: NetName=NetR2_1 Pin=U6-5
+Added Net: Name=NetR2_1
+Added Pin To Net: NetName=NetR3_1 Pin=R3-1
+Added Pin To Net: NetName=NetR3_1 Pin=U6-2
+Added Net: Name=NetR3_1
+Added Pin To Net: NetName=NetR4_1 Pin=R4-1
+Added Pin To Net: NetName=NetR4_1 Pin=U6-24
+Added Net: Name=NetR4_1
+Added Pin To Net: NetName=NetR5_1 Pin=R5-1
+Added Pin To Net: NetName=NetR5_1 Pin=U6-23
+Added Net: Name=NetR5_1
+Added Pin To Net: NetName=NetR6_2 Pin=R6-2
+Added Pin To Net: NetName=NetR6_2 Pin=U7-12
+Added Net: Name=NetR6_2
+Added Pin To Net: NetName=NetR7_1 Pin=R7-1
+Added Pin To Net: NetName=NetR7_1 Pin=U7-5
+Added Net: Name=NetR7_1
+Added Pin To Net: NetName=NetR8_1 Pin=R8-1
+Added Pin To Net: NetName=NetR8_1 Pin=U7-2
+Added Net: Name=NetR8_1
+Added Pin To Net: NetName=NetR9_1 Pin=R9-1
+Added Pin To Net: NetName=NetR9_1 Pin=U7-24
+Added Net: Name=NetR9_1
+Added Pin To Net: NetName=NetR10_1 Pin=R10-1
+Added Pin To Net: NetName=NetR10_1 Pin=U7-23
+Added Net: Name=NetR10_1
+Added Member To Class: ClassName=Stepper Motor Driver Member=Component R1 47K
+Added Member To Class: ClassName=Stepper Motor Driver Member=Component R2 0.1R
+Added Member To Class: ClassName=Stepper Motor Driver Member=Component R3 0.1R
+Added Member To Class: ClassName=Stepper Motor Driver Member=Component R4 47K
+Added Member To Class: ClassName=Stepper Motor Driver Member=Component R5 47K
+Added Member To Class: ClassName=Stepper Motor Driver Member=Component R6 47K
+Added Member To Class: ClassName=Stepper Motor Driver Member=Component R7 0.1R
+Added Member To Class: ClassName=Stepper Motor Driver Member=Component R8 0.1R
+Added Member To Class: ClassName=Stepper Motor Driver Member=Component R9 47K
+Added Member To Class: ClassName=Stepper Motor Driver Member=Component R10 47K

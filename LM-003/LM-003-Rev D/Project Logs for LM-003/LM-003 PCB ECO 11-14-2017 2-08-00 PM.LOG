@@ -1,0 +1,20 @@
+Added Component: Designator=R24(RESC0805(2012)_N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Resistance (Ohms)"; Value = "TBD"; VariantName = "[No Variations]"
+Added Component: Designator=R25(RESC0805(2012)_N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Resistance (Ohms)"; Value = "TBD"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetR24_1 Pin=R24-1
+Added Pin To Net: NetName=NetR24_1 Pin=U1-8-11
+Added Net: Name=NetR24_1
+Added Pin To Net: NetName=NetR24_2 Pin=R24-2
+Added Pin To Net: NetName=NetR24_2 Pin=U1-8-13
+Added Net: Name=NetR24_2
+Added Pin To Net: NetName=NetR25_1 Pin=R25-1
+Added Pin To Net: NetName=NetR25_1 Pin=U1-8-36
+Added Net: Name=NetR25_1
+Added Pin To Net: NetName=NetR25_2 Pin=R25-2
+Added Pin To Net: NetName=NetR25_2 Pin=U1-8-35
+Added Net: Name=NetR25_2
+Added Member To Class: ClassName=BBB Headers Member=Component R24 RES SMD 10k OHM 1% 1/8W 0805
+Added Member To Class: ClassName=BBB Headers Member=Component R25 RES SMD 10k OHM 1% 1/8W 0805

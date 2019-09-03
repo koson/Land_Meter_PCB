@@ -1,0 +1,160 @@
+Removed Pin From Net: NetName=PLATE_P Pin=P2-1
+Removed Pin From Net: NetName=PLATE_N Pin=P2-2
+Removed Pin From Net: NetName=Guard Pin=P2-3
+Removed Pin From Net: NetName=Beam_In Pin=P3-1
+Removed Pin From Net: NetName=Beam_In Pin=P3-2
+Removed Pin From Net: NetName=GND Pin=P4-1
+Removed Pin From Net: NetName=GND Pin=P4-2
+Removed Pin From Net: NetName=-5 Pin=P4-3
+Removed Pin From Net: NetName=+5 Pin=P4-4
+Removed Pin From Net: NetName=CT_CS0 Pin=P4-5
+Removed Pin From Net: NetName=Sync_clk Pin=P4-6
+Removed Pin From Net: NetName=SPI0_SCLK Pin=P4-7
+Removed Pin From Net: NetName=PWM2B_DELAY Pin=P4-8
+Removed Pin From Net: NetName=SPI0_MISO Pin=P4-9
+Removed Pin From Net: NetName=SPI0_MOSI Pin=P4-11
+Removed Pin From Net: NetName=ZP Pin=P4-13
+Removed Pin From Net: NetName=PLATE_P_F Pin=P4-17
+Removed Pin From Net: NetName=PLATE_N_S Pin=P4-18
+Removed Pin From Net: NetName=PLATE_P_S Pin=P4-19
+Removed Pin From Net: NetName=PLATE_N_F Pin=P4-20
+Removed Pin From Net: NetName=NetC11_1 Pin=R5-1
+Removed Pin From Net: NetName=Guard Pin=R5-2
+Removed Pin From Net: NetName=NetC10_1 Pin=R6-1
+Removed Pin From Net: NetName=NetR4_1 Pin=R6-2
+Removed Pin From Net: NetName=NetR4_1 Pin=R7-1
+Removed Pin From Net: NetName=NetC13_2 Pin=R7-2
+Removed Pin From Net: NetName=Raw_Beam Pin=R8-1
+Removed Pin From Net: NetName=GND Pin=R8-2
+Removed Pin From Net: NetName=NetC11_2 Pin=R9-1
+Removed Pin From Net: NetName=GND Pin=R10-1
+Removed Pin From Net: NetName=Beam_In Pin=R10-2
+Removed Pin From Net: NetName=PWM2B_DELAY Pin=R11-1
+Removed Pin From Net: NetName=Sync_clk Pin=R11-2
+Removed Pin From Net: NetName=PWM2B_DELAY Pin=TP1-1
+Change Component Footprint: Designator=R5 Old Footprint=RESC0402(1005)_M New Footprint=RESC0805(2012)_L
+Change Component Footprint: Designator=R11 Old Footprint=RESC0805(2012)_L New Footprint=RESC0402(1005)_M
+Change Component Footprint: Designator=P4 Old Footprint=SMTC-FTSH-110-01-L-DV_V New Footprint=Triax_Conn
+Change Component Footprint: Designator=P2 Old Footprint=Triax_Conn New Footprint=SMTC-FTSH-110-01-L-DV_V
+Change Component Comment : Designator=R6 Old Comment= New Comment=100
+Change Component Comment : Designator=R11 Old Comment=0 New Comment=2.2M
+Change Component Comment : Designator=R10 Old Comment=2.2M New Comment=
+Change Component Comment : Designator=R5 Old Comment=100 New Comment=0
+Change Component Comment : Designator=P4 Old Comment=FTSH-110-01-L-DV New Comment=Triax_Conn
+Change Component Comment : Designator=P2 Old Comment=Triax_Conn New Comment=FTSH-110-01-L-DV
+Change component parameters: Designator = "R5"; Footprint = "RESC0805(2012)_L"; UniqueID = "\YFNGFSBH"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Category"; Value = "Resistors"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ6GEY0R00V+7+WW"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ6GEY0R00V+7+WW"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Composition"; Value = "Thick Film"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Failure Rate"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Features"; Value = "Automotive AEC-Q200"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height - Seated (Max)"; Value = "0.028" (0.70mm)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Panasonic Electronic Components"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "ERJ-6GEY0R00V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 155°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package / Case"; Value = "0805 (2012 Metric)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Cut Tape (CT)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Status"; Value = "Active"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power (Watts)"; Value = "0.125W, 1/8W"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pricing 1"; Value = "1=0.1, 10=0.074, 25=0.0532, 50=0.0406, 100=0.03, 250=0.02288, 500=0.0183, 1000=0.01347 (USD)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS"; Value = "RoHS Compliant"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Size / Dimension"; Value = "0.079" L x 0.049" W (2.00mm x 1.25mm)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Stock 1"; Value = "3414819"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Device Package"; Value = "0805"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "P0.0ACT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Temperature Coefficient"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "Jumper"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R11"; Footprint = "RESC0402(1005)_M"; UniqueID = "\CGVXHIWD"
+Change component parameters. Clean all parameters for all variants
+Change component parameters: Designator = "P2"; Footprint = "SMTC-FTSH-110-01-L-DV_V"; UniqueID = "\BFAAALNG"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Catalog Drawings"; Value = "FTSHSeriesFTSHSeriesSMTSide"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Category"; Value = "Connectors,Interconnects"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Color"; Value = "Black"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Connector Type"; Value = "Header,Unshrouded"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Finish"; Value = "Gold"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Finish Thickness"; Value = "10µin(0.25µm)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Type"; Value = "MalePin"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet URL"; Value = "http://suddendocs.samtec.com/catalog_english/ftsh_smt.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Version"; Value = "F-215 , 02/2016"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "EDA / CAD Models"; Value = "DownloadfromAcceleratedDesigns"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Family"; Value = "RectangularConnectors-Headers,MalePins"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fastening Type"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Featured Product"; Value = "Board-To-BoardInterconnectSystems"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Features"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Samtec"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer URL"; Value = "http://www.samtec.com/"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Technology"; Value = "SurfaceMount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Type"; Value = "SurfaceMount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Positions"; Value = "20"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Positions Loaded"; Value = "All"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Rows"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Online Catalog"; Value = "FTSHSeries"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Other Names"; Value = "SAM1161-10"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package Description"; Value = "Male Header, Pitch 1.27 mm, 2 x 10 Position, Height 6.1 mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package Reference"; Value = "FTSH-110-01-L-DV"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package URL"; Value = "http://suddendocs.samtec.com/prints/ftsh-1xx-xx-xxx-dv-xxx-xxx-mkt.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Product Training Modules"; Value = "Board-to-BoardConnectors"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Series"; Value = "FTSH"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Standard Package"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Termination"; Value = "Solder"; VariantName = "[No Variations]"
+Change component parameters: Designator = "P4"; Footprint = "Triax_Conn"; UniqueID = "\LTMMRHXY"
+Change component parameters. Clean all parameters for all variants
+Added Pin To Net: NetName=GND Pin=P2-1
+Added Pin To Net: NetName=GND Pin=P2-2
+Added Pin To Net: NetName=-5 Pin=P2-3
+Added Pin To Net: NetName=+5 Pin=P2-4
+Added Pin To Net: NetName=CT_CS0 Pin=P2-5
+Added Pin To Net: NetName=Sync_clk Pin=P2-6
+Added Pin To Net: NetName=SPI0_SCLK Pin=P2-7
+Added Pin To Net: NetName=SPI0_MISO Pin=P2-9
+Added Pin To Net: NetName=SPI0_MOSI Pin=P2-11
+Added Pin To Net: NetName=ZP Pin=P2-13
+Added Pin To Net: NetName=PLATE_P Pin=P3-1
+Added Pin To Net: NetName=PLATE_N Pin=P3-2
+Added Pin To Net: NetName=Beam_In Pin=P4-1
+Added Pin To Net: NetName=Beam_In Pin=P4-2
+Added Pin To Net: NetName=Guard Pin=P4-3
+Added Pin To Net: NetName=Sync_clk Pin=R5-2
+Added Pin To Net: NetName=NetC11_1 Pin=R6-1
+Added Pin To Net: NetName=Guard Pin=R6-2
+Added Pin To Net: NetName=NetC10_1 Pin=R7-1
+Added Pin To Net: NetName=NetR4_1 Pin=R7-2
+Added Pin To Net: NetName=NetR4_1 Pin=R8-1
+Added Pin To Net: NetName=NetC13_2 Pin=R8-2
+Added Pin To Net: NetName=Raw_Beam Pin=R9-1
+Added Pin To Net: NetName=NetC11_2 Pin=R10-1
+Added Pin To Net: NetName=GND Pin=R10-2
+Added Pin To Net: NetName=GND Pin=R11-1
+Added Pin To Net: NetName=Beam_In Pin=R11-2
+Added Pin To Net: NetName=PLATE_N_F Pin=U3-1
+Added Pin To Net: NetName=PLATE_N_S Pin=U3-4
+Added Pin To Net: NetName=PLATE_P_F Pin=U4-1
+Added Pin To Net: NetName=PLATE_P_S Pin=U4-4
+Added Pin To Net: NetName=PWM2B_DELAY Pin=U9-6
+Added Pin To Net: NetName=NetP2_10 Pin=P2-10
+Added Net: Name=NetP2_10
+Added Pin To Net: NetName=NetP2_12 Pin=P2-12
+Added Net: Name=NetP2_12
+Added Pin To Net: NetName=NetP2_14 Pin=P2-14
+Added Net: Name=NetP2_14
+Added Pin To Net: NetName=NetP2_16 Pin=P2-16
+Added Net: Name=NetP2_16
+Change Class Name : Old Net Name=Beam_Amp New Net Name=Synch_Demod
+Added Member To Class: ClassName=Synch_Demod Member=Component C6 470nF
+Added Member To Class: ClassName=Synch_Demod Member=Component C7 CAP CER 0.1UF 25V X7R 0805
+Added Member To Class: ClassName=Synch_Demod Member=Component C8 CAP CER 0.1UF 25V X7R 0805
+Added Member To Class: ClassName=Synch_Demod Member=Component C14 22uF
+Added Member To Class: ClassName=Synch_Demod Member=Component R20 300K
+Added Member To Class: ClassName=Synch_Demod Member=Component R21 499K
+Added Member To Class: ClassName=Synch_Demod Member=Component R22 18.2K
+Added Member To Class: ClassName=Synch_Demod Member=Component R23 249K
+Added Member To Class: ClassName=Synch_Demod Member=Component R24 33K
+Added Member To Class: ClassName=Synch_Demod Member=Component U6 LPC662AIM
+Added Room: Name=ADC
+Added Room: Name=Sense_Plates
+Added Room: Name=Synch_Demod

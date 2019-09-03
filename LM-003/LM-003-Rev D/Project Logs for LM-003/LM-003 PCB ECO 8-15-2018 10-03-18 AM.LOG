@@ -1,0 +1,21 @@
+Added Component: Designator=U6(89898-316LF)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=FB_CS0 Pin=U6-5
+Added Pin To Net: NetName=+5 Pin=U6-6
+Added Pin To Net: NetName=GND Pin=U6-8
+Added Pin To Net: NetName=+3.3 Pin=U6-10
+Added Pin To Net: NetName=ZH Pin=U6-14
+Added Pin To Net: NetName=Sys_Pwr_Enable Pin=U6-17
+Added Pin To Net: NetName=+12 Pin=U6-18
+Added Pin To Net: NetName=NetP7_1 Pin=U6-21
+Added Pin To Net: NetName=-5 Pin=U6-22
+Added Pin To Net: NetName=PWM2B Pin=U6-25
+Added Pin To Net: NetName=GND Pin=U6-27
+Added Pin To Net: NetName=FB_MUX_A1 Pin=U6-29
+Added Pin To Net: NetName=FB_MUX_A0 Pin=U6-31
+Added Pin To Net: NetName=GND Pin=U6-32
+Added Pin To Net: NetName=NetU6_11 Pin=U6-11
+Added Net: Name=NetU6_11
+Added Pin To Net: NetName=NetU6_13 Pin=U6-13
+Added Net: Name=NetU6_13
+Added Member To Class: ClassName=Connectors Member=Component U6 89898-316LF

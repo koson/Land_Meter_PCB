@@ -1,0 +1,830 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+		h1, h2, h3, h4, h5, h6 {
+			font-family : segoe ui;
+			color : black;
+			background-color : #EDE7D9;
+			padding: 0.3em;
+		}
+
+		h1 {
+			font-size: 1.2em;
+		}		
+
+		h2 {
+			font-size: 1.2em;
+		}
+
+		body {
+			font-family : segoe ui;
+		}
+
+		td, th {
+			padding: 0.5em;
+			text-align : left;
+			width: 10em;
+		}
+		th {
+			background-color : #EEEEEE;
+
+		}
+		th.column1, td.column1 {
+			text-align: left;
+			width : auto;
+		}
+		table {
+			width : 100%;
+			font-size: 0.9em;
+		}
+
+		.DRC_summary_header {
+			padding-bottom : 0.1em;
+			border : 0px solid black;
+			width: 100%;
+			align: left;
+		}
+
+		.DRC_summary_header_col1,
+		.DRC_summary_header_col2, 
+		.DRC_summary_header_col3 {
+			color : black;
+			font-size:100%;
+			padding : 0em;
+			padding-top : 0.2em;
+			padding-bottom 0.2em;
+			border : 0px solid black;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.DRC_summary_header_col1 {
+			font-weight: bold;
+			width: 8em;
+		}
+
+		.DRC_summary_header_col2 {
+			width: 0.1em;
+		
+		}
+
+		.DRC_summary_header_col3 {
+			width : auto;
+		}
+
+		.header_holder {
+		    Width = 100%;
+		    border = 0px solid green;
+		    padding = 0;
+		}
+
+
+		.front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+		{
+			left : 0;
+			top : 0;
+			padding: 0em;
+			padding-top : 0.1em;
+			border : 0px solid black;
+			width : 100%;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.front_matter_column1 {
+			width : 8em;
+			font-weight: bold;
+		}
+
+		.front_matter_column2 {
+			width: 0.1em;
+		}
+
+		.front_matter_column3 {
+			width : auto;
+		}
+
+		.total_column1, .total_column {
+			font-weight : bold;
+		}
+		.total_column1 {
+			text-align : left;
+		}
+		.warning, .error {
+			color : red;
+			font-weight : bold;
+		}
+		tr.onmouseout_odd {
+			background-color : #white;
+		}
+		tr.onmouseout_even { 
+			background-color : #FAFAFA;
+		}
+		tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : #EEEEEE;
+		} 
+		a:link, a:visited, .q a:link,.q a:active,.q {
+			color: #21489e; 
+		}
+		a:link.callback, a:visited.callback { 
+			color: #21489e;
+		}
+		a:link.customize, a:visited.customize {
+			color: #C0C0C0;
+			position: absolute; 
+			right: 10px;
+		}	
+		p.contents_level1 {
+			font-weight : bold;
+			font-size : 110%;
+			margin : 0.5em;
+		}
+		p.contents_level2 {
+			position : relative;
+			left : 20px;
+			margin : 0.5em;
+		}
+	</style><script type="text/javascript">
+		function coordToMils(coord) {
+			var number = coord / 10000;
+			
+			if (number != number.toFixed(3))
+				number = number.toFixed(3);
+
+			return number + 'mil'
+		}
+
+		function coordToMM(coord) {
+			var number = 0.0254 * coord / 10000;
+			
+			if (number != number.toFixed(4))
+				number = number.toFixed(4);
+			
+			return number + 'mm'
+		}
+	
+		function convertCoord(coordNode, units) {
+			for (var i = 0; i < coordNode.childNodes.length; i++) {
+				coordNode.removeChild(coordNode.childNodes[i]);
+			}
+
+			var coord = coordNode.getAttribute('value');
+			if (coord != null) {
+				if (units == 'mm') {
+					textNode = document.createTextNode(coordToMM(coord));
+					coordNode.appendChild(textNode);
+				} else if (units == 'mil') {
+					textNode = document.createTextNode(coordToMils(coord));		
+					coordNode.appendChild(textNode);	
+				}
+			}
+		}
+	
+		function convertUnits(unitNode, units) {
+			for (var i = 0; i < unitNode.childNodes.length; i++) {
+				unitNode.removeChild(unitNode.childNodes[i]);		
+			}
+		
+			textNode = document.createTextNode(units); 
+			unitNode.appendChild(textNode);
+		}
+	
+		function changeUnits(radio_input, units) {
+			if (radio_input.checked) {
+			
+				var elements = document.getElementsByName('coordinate');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertCoord(elements[i], units);
+					}
+				}
+	
+				var elements = document.getElementsByName('units');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertUnits(elements[i], units);
+					}
+				}
+			}
+		}
+	</script><title>Design Rule Verification Report</title>
+</head>
+<body onload=""><img ALT="Altium" src="
+			file://C:\Users\Public\Documents\Altium\AD18\Templates\AD_logo.png
+		"><h1>Design Rule Verification Report</h1>
+<table class="header_holder">
+<td class="column1">
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">2/6/2019</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">12:50:52 PM</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">00:00:01</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3"><a href="file:///C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc" class="file"><acronym title="C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc">C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc</acronym></a></td>
+</tr>
+</table>
+</td>
+<td class="column2">
+<table class="DRC_summary_header">
+<tr>
+<td class="DRC_summary_header_col1">Warnings:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3">0</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Rule Violations:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">150</td></tr>
+</table>
+</td>
+</table><a name="ID3MTFEL1UISUWCPBU3TARND3HTDZWJJICBB4BHKEZYKUTV0WJ5ZEK"><h2>Summary</h2></a><table>
+<tr>
+<th class="column1">Warnings</th>
+<th class="column2">Count</th>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">0</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Rule Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDTBY4O44ZCE0HMLKYRADCJSZX1D3QNZ2021E0SOPSCPNHCASLZLEL">Clearance Constraint (Gap=3.937mil) (All),(All)</a></td>
+<td class="column2">31</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDWX41ZZTQNLS0KLEXRT3NSZ3JFM11UYFSQZM5VTMUCC512BSUDK2J">Short-Circuit Constraint (Allowed=No) (All),(All)</a></td>
+<td class="column2">30</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID2WKJ405JQ1Q0N2CQSPYZRVH5YNEAK4Y2BQXAETOHGHW3JPBWQV2D">Un-Routed Net Constraint ( (All) )</a></td>
+<td class="column2">41</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID2JIVZW1EC4N2FGM2C4DFOL0H0NRZJ3LIAPGX5FOBJ4TDKHS4YYWB">Modified Polygon (Allow modified: No), (Allow shelved: No)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDI3LR0UVGC3BSMFE1YU0MC1I1FPYSCTV54J1DYKFUDIUZBLFO2OAI">Width Constraint (Min=10mil) (Max=10mil) (Preferred=10mil) (All)</a></td>
+<td class="column2">3</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDHDPNCUZXSQ41CXZ2S5BBUM2SVMWMQ4DIFMHDV5PBZPN0BGJSM0I">Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID5WZSYXL4HWFXHNMC3G015WPMDDZG1AAMMS1Z3GBZIDC5VMQ0CBXL">Hole Size Constraint (Min=1mil) (Max=196.85mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDR0S3WBJL1MCWEFNPAFPYEONTXHK2QFAX2U0WX4DX3EOCR1ML5V5B">Hole To Hole Clearance (Gap=1.968mil) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDTCNZ12FGSWQVGPPOWA2FJFN1WIMRWRC0JYI3IHNHGIVRRARMKPHD">Minimum Solder Mask Sliver (Gap=1.575mil) (All),(All)</a></td>
+<td class="column2">2</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDC1JCG42NUF0EMIHYVQ4AFOQXABNJRRGZGHQIPTFRRODBVQACCRPD">Silk To Solder Mask (Clearance=1.968mil) (IsPad),(All)</a></td>
+<td class="column2">5</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDLFES33H31KAZBUPWPZ0GS2QZT1SGF4SL4WSLLGP1SWOGBKPZ20B">Silk to Silk (Clearance=10mil) (All),(All)</a></td>
+<td class="column2">4</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDSAP0CBZNBGFILQQ1C4NVKQTJIDRJOAWO0XDJC3L3OLWNIRK00KGO">Net Antennae (Tolerance=0mil) (All)</a></td>
+<td class="column2">7</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDDMJLVT5HDYI4GE0AOPYLHGFXX3MGMWTVWT4WSBM2TTLEDAEVEXN">Room Bluetooth (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Bluetooth'))</a></td>
+<td class="column2">10</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDL5WTKUVJ2NBCFFKHSZ4RY1M3TO0ICBVW0PNXDIMLKV4DJB152GF">Room Encoder (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Encoder'))</a></td>
+<td class="column2">8</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDLOGSM1PMANALHPHZSEZZAUAWXNEIFHQN2IMRF4BDLT2OCLDZ1PAN">Room BBB_Connections (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('BBB_Connections'))</a></td>
+<td class="column2">9</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDOZJNYURVXZDIBQUAMX32E4CLHMEWX1UIK5MMQJFY1LRPU5BCQ25P">Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">150</td>
+</tr>
+</table><br><a name="IDTBY4O44ZCE0HMLKYRADCJSZX1D3QNZ2021E0SOPSCPNHCASLZLEL"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Clearance Constraint (Gap=3.937mil) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11729.329mil|Location2.X=11732.953mil|Location1.Y=5589.014mil|Location2.Y=5592.638mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11729.329mil|Location2.X=11732.953mil|Location1.Y=5589.014mil|Location2.Y=5592.638mil|Absolute=True">Clearance Constraint: (Collision &lt; 3.937mil) Between Pad C7-1(-310mil,532.559mil) on Bottom Layer And Track (-310mil,540.432mil)(-310mil,560mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11729.329mil|Location2.X=11732.953mil|Location1.Y=5518.148mil|Location2.Y=5521.772mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11729.329mil|Location2.X=11732.953mil|Location1.Y=5518.148mil|Location2.Y=5521.772mil|Absolute=True">Clearance Constraint: (Collision &lt; 3.937mil) Between Pad C7-2(-310mil,477.441mil) on Bottom Layer And Track (-364.567mil,469.566mil)(-310mil,469.566mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11814.673mil|Location2.X=11818.297mil|Location1.Y=5734.054mil|Location2.Y=5737.678mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11814.673mil|Location2.X=11818.297mil|Location1.Y=5734.054mil|Location2.Y=5737.678mil|Absolute=True">Clearance Constraint: (Collision &lt; 3.937mil) Between Pad R13-2(-225.877mil,682.284mil) on Top Layer And Track (-224.656mil,685.472mil)(-85mil,685.472mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11813.451mil|Location2.X=11817.076mil|Location1.Y=5732.833mil|Location2.Y=5736.457mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11813.451mil|Location2.X=11817.076mil|Location1.Y=5732.833mil|Location2.Y=5736.457mil|Absolute=True">Clearance Constraint: (Collision &lt; 3.937mil) Between Pad R13-2(-225.877mil,682.284mil) on Top Layer And Track (-225.877mil,684.251mil)(-224.656mil,685.472mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11863.767mil|Location2.X=11867.391mil|Location1.Y=5734.054mil|Location2.Y=5737.678mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11863.767mil|Location2.X=11867.391mil|Location1.Y=5734.054mil|Location2.Y=5737.678mil|Absolute=True">Clearance Constraint: (Collision &lt; 3.937mil) Between Pad R28-1(-155.877mil,682.283mil) on Top Layer And Track (-224.656mil,685.472mil)(-85mil,685.472mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11863.767mil|Location2.X=11867.391mil|Location1.Y=5785.117mil|Location2.Y=5788.741mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11863.767mil|Location2.X=11867.391mil|Location1.Y=5785.117mil|Location2.Y=5788.741mil|Absolute=True">Clearance Constraint: (Collision &lt; 3.937mil) Between Pad R29-1(-155.877mil,744.291mil) on Top Layer And Track (-222.413mil,736.535mil)(-40mil,736.535mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11472.793mil|Location2.X=11476.418mil|Location1.Y=5863.581mil|Location2.Y=5867.206mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11472.793mil|Location2.X=11476.418mil|Location1.Y=5863.581mil|Location2.Y=5867.206mil|Absolute=True">Clearance Constraint: (Collision &lt; 3.937mil) Between Pad R30-1(-568.504mil,815mil) on Bottom Layer And Track (-566.535mil,815mil)(-535mil,815mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13035.952mil|Location2.X=13039.576mil|Location1.Y=7237.582mil|Location2.Y=7241.206mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13035.952mil|Location2.X=13039.576mil|Location1.Y=7237.582mil|Location2.Y=7241.206mil|Absolute=True">Clearance Constraint: (Collision &lt; 3.937mil) Between Pad U1-8-12(996.623mil,2189mil) on Multi-Layer And Track (936.623mil,2129mil)(996.623mil,2189mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12499.801mil|Location2.X=12503.426mil|Location1.Y=5704.054mil|Location2.Y=5707.678mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12499.801mil|Location2.X=12503.426mil|Location1.Y=5704.054mil|Location2.Y=5707.678mil|Absolute=True">Clearance Constraint: (Collision &lt; 3.937mil) Between Pad U2-25(490mil,685mil) on Bottom Layer And Via (460.472mil,655.472mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12499.801mil|Location2.X=12503.426mil|Location1.Y=5733.581mil|Location2.Y=5737.206mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12499.801mil|Location2.X=12503.426mil|Location1.Y=5733.581mil|Location2.Y=5737.206mil|Absolute=True">Clearance Constraint: (Collision &lt; 3.937mil) Between Pad U2-25(490mil,685mil) on Bottom Layer And Via (460.472mil,685mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12499.801mil|Location2.X=12503.426mil|Location1.Y=5763.109mil|Location2.Y=5766.734mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12499.801mil|Location2.X=12503.426mil|Location1.Y=5763.109mil|Location2.Y=5766.734mil|Absolute=True">Clearance Constraint: (Collision &lt; 3.937mil) Between Pad U2-25(490mil,685mil) on Bottom Layer And Via (460.472mil,714.528mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12529.329mil|Location2.X=12532.953mil|Location1.Y=5704.054mil|Location2.Y=5707.678mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12529.329mil|Location2.X=12532.953mil|Location1.Y=5704.054mil|Location2.Y=5707.678mil|Absolute=True">Clearance Constraint: (Collision &lt; 3.937mil) Between Pad U2-25(490mil,685mil) on Bottom Layer And Via (490mil,655.472mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12529.329mil|Location2.X=12532.953mil|Location1.Y=5733.581mil|Location2.Y=5737.206mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12529.329mil|Location2.X=12532.953mil|Location1.Y=5733.581mil|Location2.Y=5737.206mil|Absolute=True">Clearance Constraint: (Collision &lt; 3.937mil) Between Pad U2-25(490mil,685mil) on Bottom Layer And Via (490mil,685mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12529.329mil|Location2.X=12532.953mil|Location1.Y=5763.109mil|Location2.Y=5766.734mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12529.329mil|Location2.X=12532.953mil|Location1.Y=5763.109mil|Location2.Y=5766.734mil|Absolute=True">Clearance Constraint: (Collision &lt; 3.937mil) Between Pad U2-25(490mil,685mil) on Bottom Layer And Via (490mil,714.528mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12558.856mil|Location2.X=12562.481mil|Location1.Y=5704.054mil|Location2.Y=5707.678mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12558.856mil|Location2.X=12562.481mil|Location1.Y=5704.054mil|Location2.Y=5707.678mil|Absolute=True">Clearance Constraint: (Collision &lt; 3.937mil) Between Pad U2-25(490mil,685mil) on Bottom Layer And Via (519.528mil,655.472mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12558.856mil|Location2.X=12562.481mil|Location1.Y=5733.581mil|Location2.Y=5737.206mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12558.856mil|Location2.X=12562.481mil|Location1.Y=5733.581mil|Location2.Y=5737.206mil|Absolute=True">Clearance Constraint: (Collision &lt; 3.937mil) Between Pad U2-25(490mil,685mil) on Bottom Layer And Via (519.528mil,685mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12558.856mil|Location2.X=12562.481mil|Location1.Y=5763.109mil|Location2.Y=5766.734mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12558.856mil|Location2.X=12562.481mil|Location1.Y=5763.109mil|Location2.Y=5766.734mil|Absolute=True">Clearance Constraint: (Collision &lt; 3.937mil) Between Pad U2-25(490mil,685mil) on Bottom Layer And Via (519.528mil,714.528mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11736.274mil|Location2.X=11739.898mil|Location1.Y=5753.739mil|Location2.Y=5757.364mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11736.274mil|Location2.X=11739.898mil|Location1.Y=5753.739mil|Location2.Y=5757.364mil|Absolute=True">Clearance Constraint: (Collision &lt; 3.937mil) Between Pad U3-10(-303.055mil,705.158mil) on Bottom Layer And Track (-303.055mil,705.158mil)(-244.843mil,705.158mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11736.274mil|Location2.X=11739.898mil|Location1.Y=5734.054mil|Location2.Y=5737.678mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11736.274mil|Location2.X=11739.898mil|Location1.Y=5734.054mil|Location2.Y=5737.678mil|Absolute=True">Clearance Constraint: (Collision &lt; 3.937mil) Between Pad U3-11(-303.055mil,685.472mil) on Bottom Layer And Track (-303.055mil,685.472mil)(-85mil,685.472mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11688.045mil|Location2.X=11691.67mil|Location1.Y=5685.825mil|Location2.Y=5689.45mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11688.045mil|Location2.X=11691.67mil|Location1.Y=5685.825mil|Location2.Y=5689.45mil|Absolute=True">Clearance Constraint: (Collision &lt; 3.937mil) Between Pad U3-14(-351.284mil,637.244mil) on Bottom Layer And Track (-351.284mil,601.284mil)(-351.284mil,637.244mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11580.762mil|Location2.X=11584.386mil|Location1.Y=5812.794mil|Location2.Y=5816.419mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11580.762mil|Location2.X=11584.386mil|Location1.Y=5812.794mil|Location2.Y=5816.419mil|Absolute=True">Clearance Constraint: (Collision &lt; 3.937mil) Between Pad U3-24(-458.567mil,764.213mil) on Bottom Layer And Track (-484.213mil,764.213mil)(-458.567mil,764.213mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11561.292mil|Location2.X=11566.479mil|Location1.Y=5812.013mil|Location2.Y=5817.2mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11561.292mil|Location2.X=11566.479mil|Location1.Y=5812.013mil|Location2.Y=5817.2mil|Absolute=True">Clearance Constraint: (3.913mil &lt; 3.937mil) Between Pad U3-24(-458.567mil,764.213mil) on Bottom Layer And Track (-535mil,815mil)(-484.213mil,764.213mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11688.045mil|Location2.X=11691.67mil|Location1.Y=5734.054mil|Location2.Y=5737.678mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11688.045mil|Location2.X=11691.67mil|Location1.Y=5734.054mil|Location2.Y=5737.678mil|Absolute=True">Clearance Constraint: (Collision &lt; 3.937mil) Between Pad U3-25(-380.811mil,715mil) on Bottom Layer And Via (-351.284mil,685.472mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11688.045mil|Location2.X=11691.67mil|Location1.Y=5763.581mil|Location2.Y=5767.206mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11688.045mil|Location2.X=11691.67mil|Location1.Y=5763.581mil|Location2.Y=5767.206mil|Absolute=True">Clearance Constraint: (Collision &lt; 3.937mil) Between Pad U3-25(-380.811mil,715mil) on Bottom Layer And Via (-351.284mil,715mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11688.045mil|Location2.X=11691.67mil|Location1.Y=5793.109mil|Location2.Y=5796.734mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11688.045mil|Location2.X=11691.67mil|Location1.Y=5793.109mil|Location2.Y=5796.734mil|Absolute=True">Clearance Constraint: (Collision &lt; 3.937mil) Between Pad U3-25(-380.811mil,715mil) on Bottom Layer And Via (-351.284mil,744.528mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11658.518mil|Location2.X=11662.142mil|Location1.Y=5734.054mil|Location2.Y=5737.678mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11658.518mil|Location2.X=11662.142mil|Location1.Y=5734.054mil|Location2.Y=5737.678mil|Absolute=True">Clearance Constraint: (Collision &lt; 3.937mil) Between Pad U3-25(-380.811mil,715mil) on Bottom Layer And Via (-380.811mil,685.472mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11658.518mil|Location2.X=11662.142mil|Location1.Y=5763.581mil|Location2.Y=5767.206mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11658.518mil|Location2.X=11662.142mil|Location1.Y=5763.581mil|Location2.Y=5767.206mil|Absolute=True">Clearance Constraint: (Collision &lt; 3.937mil) Between Pad U3-25(-380.811mil,715mil) on Bottom Layer And Via (-380.811mil,715mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11658.518mil|Location2.X=11662.142mil|Location1.Y=5793.109mil|Location2.Y=5796.734mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11658.518mil|Location2.X=11662.142mil|Location1.Y=5793.109mil|Location2.Y=5796.734mil|Absolute=True">Clearance Constraint: (Collision &lt; 3.937mil) Between Pad U3-25(-380.811mil,715mil) on Bottom Layer And Via (-380.811mil,744.528mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11628.99mil|Location2.X=11632.615mil|Location1.Y=5734.054mil|Location2.Y=5737.678mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11628.99mil|Location2.X=11632.615mil|Location1.Y=5734.054mil|Location2.Y=5737.678mil|Absolute=True">Clearance Constraint: (Collision &lt; 3.937mil) Between Pad U3-25(-380.811mil,715mil) on Bottom Layer And Via (-410.339mil,685.472mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11628.99mil|Location2.X=11632.615mil|Location1.Y=5763.581mil|Location2.Y=5767.206mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11628.99mil|Location2.X=11632.615mil|Location1.Y=5763.581mil|Location2.Y=5767.206mil|Absolute=True">Clearance Constraint: (Collision &lt; 3.937mil) Between Pad U3-25(-380.811mil,715mil) on Bottom Layer And Via (-410.339mil,715mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11628.99mil|Location2.X=11632.615mil|Location1.Y=5793.109mil|Location2.Y=5796.734mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11628.99mil|Location2.X=11632.615mil|Location1.Y=5793.109mil|Location2.Y=5796.734mil|Absolute=True">Clearance Constraint: (Collision &lt; 3.937mil) Between Pad U3-25(-380.811mil,715mil) on Bottom Layer And Via (-410.339mil,744.528mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDWX41ZZTQNLS0KLEXRT3NSZ3JFM11UYFSQZM5VTMUCC512BSUDK2J"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Short-Circuit Constraint (Allowed=No) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11722.14mil|Location2.X=11740.142mil|Location1.Y=5582.229mil|Location2.Y=5600.231mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11722.14mil|Location2.X=11740.142mil|Location1.Y=5582.229mil|Location2.Y=5600.231mil|Absolute=True">Short-Circuit Constraint: Between Pad C7-1(-310mil,532.559mil) on Bottom Layer And Track (-310mil,540.432mil)(-310mil,560mil) on Bottom Layer Location : [X = 11731.141mil][Y = 5591.23mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11710.837mil|Location2.X=11738.826mil|Location1.Y=5505.965mil|Location2.Y=5533.954mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11710.837mil|Location2.X=11738.826mil|Location1.Y=5505.965mil|Location2.Y=5533.954mil|Absolute=True">Short-Circuit Constraint: Between Pad C7-2(-310mil,477.441mil) on Bottom Layer And Track (-364.567mil,469.566mil)(-310mil,469.566mil) on Bottom Layer Location : [X = 11724.832mil][Y = 5519.96mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11808.831mil|Location2.X=11837.505mil|Location1.Y=5721.529mil|Location2.Y=5750.203mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11808.831mil|Location2.X=11837.505mil|Location1.Y=5721.529mil|Location2.Y=5750.203mil|Absolute=True">Short-Circuit Constraint: Between Pad R13-2(-225.877mil,682.284mil) on Top Layer And Track (-224.656mil,685.472mil)(-85mil,685.472mil) on Top Layer Location : [X = 11823.168mil][Y = 5735.866mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11806.301mil|Location2.X=11825.447mil|Location1.Y=5725.682mil|Location2.Y=5744.828mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11806.301mil|Location2.X=11825.447mil|Location1.Y=5725.682mil|Location2.Y=5744.828mil|Absolute=True">Short-Circuit Constraint: Between Pad R13-2(-225.877mil,682.284mil) on Top Layer And Track (-225.877mil,684.251mil)(-224.656mil,685.472mil) on Top Layer Location : [X = 11815.874mil][Y = 5735.255mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11863.43mil|Location2.X=11907.098mil|Location1.Y=5714.032mil|Location2.Y=5757.7mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11863.43mil|Location2.X=11907.098mil|Location1.Y=5714.032mil|Location2.Y=5757.7mil|Absolute=True">Short-Circuit Constraint: Between Pad R28-1(-155.877mil,682.283mil) on Top Layer And Track (-224.656mil,685.472mil)(-85mil,685.472mil) on Top Layer Location : [X = 11885.264mil][Y = 5735.866mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11863.43mil|Location2.X=11907.098mil|Location1.Y=5765.095mil|Location2.Y=5808.764mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11863.43mil|Location2.X=11907.098mil|Location1.Y=5765.095mil|Location2.Y=5808.764mil|Absolute=True">Short-Circuit Constraint: Between Pad R29-1(-155.877mil,744.291mil) on Top Layer And Track (-222.413mil,736.535mil)(-40mil,736.535mil) on Top Layer Location : [X = 11885.264mil][Y = 5786.929mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11466.828mil|Location2.X=11493.034mil|Location1.Y=5852.291mil|Location2.Y=5878.497mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11466.828mil|Location2.X=11493.034mil|Location1.Y=5852.291mil|Location2.Y=5878.497mil|Absolute=True">Short-Circuit Constraint: Between Pad R30-1(-568.504mil,815mil) on Bottom Layer And Track (-566.535mil,815mil)(-535mil,815mil) on Bottom Layer Location : [X = 11479.931mil][Y = 5865.394mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13005.567mil|Location2.X=13050.503mil|Location1.Y=7207.197mil|Location2.Y=7252.133mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13005.567mil|Location2.X=13050.503mil|Location1.Y=7207.197mil|Location2.Y=7252.133mil|Absolute=True">Short-Circuit Constraint: Between Pad U1-8-12(996.623mil,2189mil) on Multi-Layer And Track (936.623mil,2129mil)(996.623mil,2189mil) on Bottom Layer Location : [X = 13028.035mil][Y = 7229.665mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12486.074mil|Location2.X=12517.153mil|Location1.Y=5690.327mil|Location2.Y=5721.406mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12486.074mil|Location2.X=12517.153mil|Location1.Y=5690.327mil|Location2.Y=5721.406mil|Absolute=True">Short-Circuit Constraint: Between Pad U2-25(490mil,685mil) on Bottom Layer And Via (460.472mil,655.472mil) from Top Layer to Bottom Layer Location : [X = 12501.614mil][Y = 5705.866mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12486.074mil|Location2.X=12517.153mil|Location1.Y=5719.854mil|Location2.Y=5750.933mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12486.074mil|Location2.X=12517.153mil|Location1.Y=5719.854mil|Location2.Y=5750.933mil|Absolute=True">Short-Circuit Constraint: Between Pad U2-25(490mil,685mil) on Bottom Layer And Via (460.472mil,685mil) from Top Layer to Bottom Layer Location : [X = 12501.614mil][Y = 5735.394mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12486.074mil|Location2.X=12517.153mil|Location1.Y=5749.382mil|Location2.Y=5780.461mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12486.074mil|Location2.X=12517.153mil|Location1.Y=5749.382mil|Location2.Y=5780.461mil|Absolute=True">Short-Circuit Constraint: Between Pad U2-25(490mil,685mil) on Bottom Layer And Via (460.472mil,714.528mil) from Top Layer to Bottom Layer Location : [X = 12501.614mil][Y = 5764.921mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12515.602mil|Location2.X=12546.681mil|Location1.Y=5690.327mil|Location2.Y=5721.406mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12515.602mil|Location2.X=12546.681mil|Location1.Y=5690.327mil|Location2.Y=5721.406mil|Absolute=True">Short-Circuit Constraint: Between Pad U2-25(490mil,685mil) on Bottom Layer And Via (490mil,655.472mil) from Top Layer to Bottom Layer Location : [X = 12531.141mil][Y = 5705.866mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12515.602mil|Location2.X=12546.681mil|Location1.Y=5719.854mil|Location2.Y=5750.933mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12515.602mil|Location2.X=12546.681mil|Location1.Y=5719.854mil|Location2.Y=5750.933mil|Absolute=True">Short-Circuit Constraint: Between Pad U2-25(490mil,685mil) on Bottom Layer And Via (490mil,685mil) from Top Layer to Bottom Layer Location : [X = 12531.141mil][Y = 5735.394mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12515.602mil|Location2.X=12546.681mil|Location1.Y=5749.382mil|Location2.Y=5780.461mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12515.602mil|Location2.X=12546.681mil|Location1.Y=5749.382mil|Location2.Y=5780.461mil|Absolute=True">Short-Circuit Constraint: Between Pad U2-25(490mil,685mil) on Bottom Layer And Via (490mil,714.528mil) from Top Layer to Bottom Layer Location : [X = 12531.141mil][Y = 5764.921mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12545.129mil|Location2.X=12576.208mil|Location1.Y=5690.327mil|Location2.Y=5721.406mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12545.129mil|Location2.X=12576.208mil|Location1.Y=5690.327mil|Location2.Y=5721.406mil|Absolute=True">Short-Circuit Constraint: Between Pad U2-25(490mil,685mil) on Bottom Layer And Via (519.528mil,655.472mil) from Top Layer to Bottom Layer Location : [X = 12560.669mil][Y = 5705.866mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12545.129mil|Location2.X=12576.208mil|Location1.Y=5719.854mil|Location2.Y=5750.933mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12545.129mil|Location2.X=12576.208mil|Location1.Y=5719.854mil|Location2.Y=5750.933mil|Absolute=True">Short-Circuit Constraint: Between Pad U2-25(490mil,685mil) on Bottom Layer And Via (519.528mil,685mil) from Top Layer to Bottom Layer Location : [X = 12560.669mil][Y = 5735.394mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12545.129mil|Location2.X=12576.208mil|Location1.Y=5749.382mil|Location2.Y=5780.461mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12545.129mil|Location2.X=12576.208mil|Location1.Y=5749.382mil|Location2.Y=5780.461mil|Absolute=True">Short-Circuit Constraint: Between Pad U2-25(490mil,685mil) on Bottom Layer And Via (519.528mil,714.528mil) from Top Layer to Bottom Layer Location : [X = 12560.669mil][Y = 5764.921mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11730.358mil|Location2.X=11757.487mil|Location1.Y=5741.987mil|Location2.Y=5769.116mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11730.358mil|Location2.X=11757.487mil|Location1.Y=5741.987mil|Location2.Y=5769.116mil|Absolute=True">Short-Circuit Constraint: Between Pad U3-10(-303.055mil,705.158mil) on Bottom Layer And Track (-303.055mil,705.158mil)(-244.843mil,705.158mil) on Bottom Layer Location : [X = 11743.923mil][Y = 5755.551mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11730.358mil|Location2.X=11757.487mil|Location1.Y=5722.301mil|Location2.Y=5749.431mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11730.358mil|Location2.X=11757.487mil|Location1.Y=5722.301mil|Location2.Y=5749.431mil|Absolute=True">Short-Circuit Constraint: Between Pad U3-11(-303.055mil,685.472mil) on Bottom Layer And Track (-303.055mil,685.472mil)(-85mil,685.472mil) on Bottom Layer Location : [X = 11743.923mil][Y = 5735.866mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11676.293mil|Location2.X=11703.422mil|Location1.Y=5668.237mil|Location2.Y=5695.366mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11676.293mil|Location2.X=11703.422mil|Location1.Y=5668.237mil|Location2.Y=5695.366mil|Absolute=True">Short-Circuit Constraint: Between Pad U3-14(-351.284mil,637.244mil) on Bottom Layer And Track (-351.284mil,601.284mil)(-351.284mil,637.244mil) on Bottom Layer Location : [X = 11689.858mil][Y = 5681.801mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11563.173mil|Location2.X=11590.302mil|Location1.Y=5801.042mil|Location2.Y=5828.171mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11563.173mil|Location2.X=11590.302mil|Location1.Y=5801.042mil|Location2.Y=5828.171mil|Absolute=True">Short-Circuit Constraint: Between Pad U3-24(-458.567mil,764.213mil) on Bottom Layer And Track (-484.213mil,764.213mil)(-458.567mil,764.213mil) on Bottom Layer Location : [X = 11576.737mil][Y = 5814.606mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11674.318mil|Location2.X=11705.397mil|Location1.Y=5720.327mil|Location2.Y=5751.406mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11674.318mil|Location2.X=11705.397mil|Location1.Y=5720.327mil|Location2.Y=5751.406mil|Absolute=True">Short-Circuit Constraint: Between Pad U3-25(-380.811mil,715mil) on Bottom Layer And Via (-351.284mil,685.472mil) from Top Layer to Bottom Layer Location : [X = 11689.858mil][Y = 5735.866mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11674.318mil|Location2.X=11705.397mil|Location1.Y=5749.854mil|Location2.Y=5780.933mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11674.318mil|Location2.X=11705.397mil|Location1.Y=5749.854mil|Location2.Y=5780.933mil|Absolute=True">Short-Circuit Constraint: Between Pad U3-25(-380.811mil,715mil) on Bottom Layer And Via (-351.284mil,715mil) from Top Layer to Bottom Layer Location : [X = 11689.858mil][Y = 5765.394mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11674.318mil|Location2.X=11705.397mil|Location1.Y=5779.382mil|Location2.Y=5810.461mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11674.318mil|Location2.X=11705.397mil|Location1.Y=5779.382mil|Location2.Y=5810.461mil|Absolute=True">Short-Circuit Constraint: Between Pad U3-25(-380.811mil,715mil) on Bottom Layer And Via (-351.284mil,744.528mil) from Top Layer to Bottom Layer Location : [X = 11689.858mil][Y = 5794.921mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11644.791mil|Location2.X=11675.869mil|Location1.Y=5720.327mil|Location2.Y=5751.406mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11644.791mil|Location2.X=11675.869mil|Location1.Y=5720.327mil|Location2.Y=5751.406mil|Absolute=True">Short-Circuit Constraint: Between Pad U3-25(-380.811mil,715mil) on Bottom Layer And Via (-380.811mil,685.472mil) from Top Layer to Bottom Layer Location : [X = 11660.33mil][Y = 5735.866mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11644.791mil|Location2.X=11675.869mil|Location1.Y=5749.854mil|Location2.Y=5780.933mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11644.791mil|Location2.X=11675.869mil|Location1.Y=5749.854mil|Location2.Y=5780.933mil|Absolute=True">Short-Circuit Constraint: Between Pad U3-25(-380.811mil,715mil) on Bottom Layer And Via (-380.811mil,715mil) from Top Layer to Bottom Layer Location : [X = 11660.33mil][Y = 5765.394mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11644.791mil|Location2.X=11675.869mil|Location1.Y=5779.382mil|Location2.Y=5810.461mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11644.791mil|Location2.X=11675.869mil|Location1.Y=5779.382mil|Location2.Y=5810.461mil|Absolute=True">Short-Circuit Constraint: Between Pad U3-25(-380.811mil,715mil) on Bottom Layer And Via (-380.811mil,744.528mil) from Top Layer to Bottom Layer Location : [X = 11660.33mil][Y = 5794.921mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11615.263mil|Location2.X=11646.342mil|Location1.Y=5720.327mil|Location2.Y=5751.406mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11615.263mil|Location2.X=11646.342mil|Location1.Y=5720.327mil|Location2.Y=5751.406mil|Absolute=True">Short-Circuit Constraint: Between Pad U3-25(-380.811mil,715mil) on Bottom Layer And Via (-410.339mil,685.472mil) from Top Layer to Bottom Layer Location : [X = 11630.802mil][Y = 5735.866mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11615.263mil|Location2.X=11646.342mil|Location1.Y=5749.854mil|Location2.Y=5780.933mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11615.263mil|Location2.X=11646.342mil|Location1.Y=5749.854mil|Location2.Y=5780.933mil|Absolute=True">Short-Circuit Constraint: Between Pad U3-25(-380.811mil,715mil) on Bottom Layer And Via (-410.339mil,715mil) from Top Layer to Bottom Layer Location : [X = 11630.802mil][Y = 5765.394mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11615.263mil|Location2.X=11646.342mil|Location1.Y=5779.382mil|Location2.Y=5810.461mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11615.263mil|Location2.X=11646.342mil|Location1.Y=5779.382mil|Location2.Y=5810.461mil|Absolute=True">Short-Circuit Constraint: Between Pad U3-25(-380.811mil,715mil) on Bottom Layer And Via (-410.339mil,744.528mil) from Top Layer to Bottom Layer Location : [X = 11630.802mil][Y = 5794.921mil]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="ID2WKJ405JQ1Q0N2CQSPYZRVH5YNEAK4Y2BQXAETOHGHW3JPBWQV2D"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Un-Routed Net Constraint ( (All) )</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11673.079mil|Location2.X=11816.653mil|Location1.Y=5201.102mil|Location2.Y=5305.434mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11673.079mil|Location2.X=11816.653mil|Location1.Y=5201.102mil|Location2.Y=5305.434mil|Absolute=True">Un-Routed Net Constraint: Net VMOT Between Pad C12-1(-348.377mil,169.409mil) on Bottom Layer And Pad C8-2(-255mil,230.434mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11335.629mil|Location2.X=11492.322mil|Location1.Y=5266.221mil|Location2.Y=5887.047mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11335.629mil|Location2.X=11492.322mil|Location1.Y=5266.221mil|Location2.Y=5887.047mil|Absolute=True">Un-Routed Net Constraint: Net NetC13_2 Between Pad C13-2(-675mil,240.433mil) on Bottom Layer And Pad R30-1(-568.504mil,815mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12042.456mil|Location2.X=12631.299mil|Location1.Y=6180.866mil|Location2.Y=5757.638mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12042.456mil|Location2.X=12631.299mil|Location1.Y=6180.866mil|Location2.Y=5757.638mil|Absolute=True">Un-Routed Net Constraint: Net VMOT Between Pad C14-1(101.315mil,1230.473mil) on Bottom Layer And Track (490.158mil,430.591mil)(490.158mil,607.244mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11356.141mil|Location2.X=11568.685mil|Location1.Y=7095.866mil|Location2.Y=7739.394mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11356.141mil|Location2.X=11568.685mil|Location1.Y=7095.866mil|Location2.Y=7739.394mil|Absolute=True">Un-Routed Net Constraint: Net +12 Between Pad C15-1(-585mil,2145.472mil) on Bottom Layer And Track (-753.377mil,2589mil)(-572.456mil,2589mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11688.031mil|Location2.X=11750.826mil|Location1.Y=5567.205mil|Location2.Y=5650.079mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11688.031mil|Location2.X=11750.826mil|Location1.Y=5567.205mil|Location2.Y=5650.079mil|Absolute=True">Un-Routed Net Constraint: Net VMOT Between Pad C16-1(-334.409mil,580mil) on Top Layer And Pad C7-1(-310mil,532.559mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11642.22mil|Location2.X=11725.433mil|Location1.Y=5610.709mil|Location2.Y=5707.126mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11642.22mil|Location2.X=11725.433mil|Location1.Y=5610.709mil|Location2.Y=5707.126mil|Absolute=True">Un-Routed Net Constraint: Net VMOT Between Pad U3-16(-390.654mil,637.244mil) on Bottom Layer And Pad C16-1(-334.409mil,580mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11793.611mil|Location2.X=11934.33mil|Location1.Y=5712.992mil|Location2.Y=6349.016mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11793.611mil|Location2.X=11934.33mil|Location1.Y=5712.992mil|Location2.Y=6349.016mil|Absolute=True">Un-Routed Net Constraint: Net +3.3 Between Pad R13-2(-225.877mil,682.284mil) on Top Layer And Pad C2-2(-130.433mil,1275mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11686.456mil|Location2.X=12010.708mil|Location1.Y=7070.394mil|Location2.Y=6425.394mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11686.456mil|Location2.X=12010.708mil|Location1.Y=7070.394mil|Location2.Y=6425.394mil|Absolute=True">Un-Routed Net Constraint: Net +3.3 Between Track (-254.685mil,2120mil)(-245.685mil,2120mil) on Signal Layer 2 And Pad C2-2(-130.433mil,1275mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11631.141mil|Location2.X=11831.141mil|Location1.Y=5419.96mil|Location2.Y=5682.953mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11631.141mil|Location2.X=11831.141mil|Location1.Y=5419.96mil|Location2.Y=5682.953mil|Absolute=True">Un-Routed Net Constraint: Net VMOT Between Track (-364.567mil,469.566mil)(-310mil,469.566mil) on Bottom Layer And Pad C7-1(-310mil,532.559mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11681.59mil|Location2.X=11750.826mil|Location1.Y=5512.087mil|Location2.Y=5707.126mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11681.59mil|Location2.X=11750.826mil|Location1.Y=5512.087mil|Location2.Y=5707.126mil|Absolute=True">Un-Routed Net Constraint: Net NetC7_2 Between Pad U3-14(-351.284mil,637.244mil) on Bottom Layer And Pad C7-2(-310mil,477.441mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11631.141mil|Location2.X=11886.141mil|Location1.Y=5419.96mil|Location2.Y=5380.828mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11631.141mil|Location2.X=11886.141mil|Location1.Y=5419.96mil|Location2.Y=5380.828mil|Absolute=True">Un-Routed Net Constraint: Net VMOT Between Track (-364.567mil,469.566mil)(-310mil,469.566mil) on Bottom Layer And Pad C8-2(-255mil,230.434mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12034.96mil|Location2.X=12451.18mil|Location1.Y=5519.882mil|Location2.Y=5642.047mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12034.96mil|Location2.X=12451.18mil|Location1.Y=5519.882mil|Location2.Y=5642.047mil|Absolute=True">Un-Routed Net Constraint: Net +3.3 Between Pad R11-2(13.504mil,570mil) on Bottom Layer And Pad C9-1(385.432mil,500mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12401.967mil|Location2.X=12667.322mil|Location1.Y=5183.74mil|Location2.Y=5580.905mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12401.967mil|Location2.X=12667.322mil|Location1.Y=5183.74mil|Location2.Y=5580.905mil|Absolute=True">Un-Routed Net Constraint: Net +3.3 Between Pad C9-1(385.432mil,500mil) on Bottom Layer And Pad R12-2(606.496mil,155mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11718.598mil|Location2.X=12137.322mil|Location1.Y=5598.74mil|Location2.Y=5744.134mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11718.598mil|Location2.X=12137.322mil|Location1.Y=5598.74mil|Location2.Y=5744.134mil|Absolute=True">Un-Routed Net Constraint: Net NetR11_1 Between Pad U3-11(-303.055mil,685.472mil) on Bottom Layer And Pad R11-1(76.496mil,570mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11793.611mil|Location2.X=12074.33mil|Location1.Y=5598.74mil|Location2.Y=5752.362mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11793.611mil|Location2.X=12074.33mil|Location1.Y=5598.74mil|Location2.Y=5752.362mil|Absolute=True">Un-Routed Net Constraint: Net +3.3 Between Pad R13-2(-225.877mil,682.284mil) on Top Layer And Pad R11-2(13.504mil,570mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11718.598mil|Location2.X=12604.33mil|Location1.Y=5183.74mil|Location2.Y=5763.819mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11718.598mil|Location2.X=12604.33mil|Location1.Y=5183.74mil|Location2.Y=5763.819mil|Absolute=True">Un-Routed Net Constraint: Net NetR12_1 Between Pad U3-10(-303.055mil,705.158mil) on Bottom Layer And Pad R12-1(543.504mil,155mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11718.598mil|Location2.X=11836.917mil|Location1.Y=5650mil|Location2.Y=5724.449mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11718.598mil|Location2.X=11836.917mil|Location1.Y=5650mil|Location2.Y=5724.449mil|Absolute=True">Un-Routed Net Constraint: Net NetR13_1 Between Pad U3-12(-303.055mil,665.787mil) on Bottom Layer And Pad R13-1(-225.877mil,619.291mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11622.535mil|Location2.X=11836.917mil|Location1.Y=5668.15mil|Location2.Y=5752.362mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11622.535mil|Location2.X=11836.917mil|Location1.Y=5668.15mil|Location2.Y=5752.362mil|Absolute=True">Un-Routed Net Constraint: Net +3.3 Between Pad U3-17(-410.339mil,637.244mil) on Bottom Layer And Pad R13-2(-225.877mil,682.284mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10982.764mil|Location2.X=12212.677mil|Location1.Y=7084.394mil|Location2.Y=8180.394mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10982.764mil|Location2.X=12212.677mil|Location1.Y=7084.394mil|Location2.Y=8180.394mil|Absolute=True">Un-Routed Net Constraint: Net RS232_TX Between Track (-1003.345mil,2089.032mil)(-958.377mil,2134mil) on Top Layer And Pad R27-1(71.536mil,3030mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12076.141mil|Location2.X=12279.605mil|Location1.Y=7980.394mil|Location2.Y=8180.394mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12076.141mil|Location2.X=12279.605mil|Location1.Y=7980.394mil|Location2.Y=8180.394mil|Absolute=True">Un-Routed Net Constraint: Net Bluetooth_RXD Between Track (135mil,3030mil)(140mil,3035mil) on Signal Layer 1 And Pad R27-2(138.464mil,3030mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11863.611mil|Location2.X=11906.917mil|Location1.Y=5712.992mil|Location2.Y=5814.37mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11863.611mil|Location2.X=11906.917mil|Location1.Y=5712.992mil|Location2.Y=5814.37mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad R28-1(-155.877mil,682.283mil) on Top Layer And Pad R29-1(-155.877mil,744.291mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11563.086mil|Location2.X=11906.917mil|Location1.Y=5650mil|Location2.Y=5822.874mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11563.086mil|Location2.X=11906.917mil|Location1.Y=5650mil|Location2.Y=5822.874mil|Absolute=True">Un-Routed Net Constraint: Net NetR28_2 Between Pad U3-24(-458.567mil,764.213mil) on Bottom Layer And Pad R28-2(-155.877mil,619.291mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11609.346mil|Location2.X=11906.917mil|Location1.Y=5714.409mil|Location2.Y=5816.378mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11609.346mil|Location2.X=11906.917mil|Location1.Y=5714.409mil|Location2.Y=5816.378mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad U3-25(-380.811mil,715mil) on Bottom Layer And Pad R29-1(-155.877mil,744.291mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11563.086mil|Location2.X=11906.917mil|Location1.Y=5786.654mil|Location2.Y=5877.362mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11563.086mil|Location2.X=11906.917mil|Location1.Y=5786.654mil|Location2.Y=5877.362mil|Absolute=True">Un-Routed Net Constraint: Net NetR29_2 Between Pad U3-23(-458.567mil,744.528mil) on Bottom Layer And Pad R29-2(-155.877mil,807.284mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11389.96mil|Location2.X=11658.755mil|Location1.Y=5668.15mil|Location2.Y=5887.047mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11389.96mil|Location2.X=11658.755mil|Location1.Y=5668.15mil|Location2.Y=5887.047mil|Absolute=True">Un-Routed Net Constraint: Net VMOT Between Pad R30-2(-631.496mil,815mil) on Bottom Layer And Pad U3-16(-390.654mil,637.244mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11389.96mil|Location2.X=11536.889mil|Location1.Y=5843.74mil|Location2.Y=7500.118mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11389.96mil|Location2.X=11536.889mil|Location1.Y=5843.74mil|Location2.Y=7500.118mil|Absolute=True">Un-Routed Net Constraint: Net VMOT Between Pad R30-2(-631.496mil,815mil) on Bottom Layer And Pad U6-7(-520mil,2398.543mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11605.393mil|Location2.X=11803.7mil|Location1.Y=7590.669mil|Location2.Y=7693.032mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11605.393mil|Location2.X=11803.7mil|Location1.Y=7590.669mil|Location2.Y=7693.032mil|Absolute=True">Un-Routed Net Constraint: Net NetR33_1 Between Pad U6-4(-420mil,2591.457mil) on Bottom Layer And Pad R33-1(-265mil,2601.535mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11555.393mil|Location2.X=11803.7mil|Location1.Y=7397.756mil|Location2.Y=7737.559mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11555.393mil|Location2.X=11803.7mil|Location1.Y=7397.756mil|Location2.Y=7737.559mil|Absolute=True">Un-Routed Net Constraint: Net VMOT Between Pad U6-6(-470mil,2398.543mil) on Bottom Layer And Pad R33-2(-265mil,2668.465mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11447.574mil|Location2.X=11636.889mil|Location1.Y=6740.158mil|Location2.Y=7693.032mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11447.574mil|Location2.X=11636.889mil|Location1.Y=6740.158mil|Location2.Y=7693.032mil|Absolute=True">Un-Routed Net Constraint: Net NetR33_1 Between Pad R34-2(-566.008mil,1708.465mil) on Bottom Layer And Pad U6-4(-420mil,2591.457mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12589.409mil|Location2.X=13069.733mil|Location1.Y=5756.654mil|Location2.Y=7271.363mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12589.409mil|Location2.X=13069.733mil|Location1.Y=5756.654mil|Location2.Y=7271.363mil|Absolute=True">Un-Routed Net Constraint: Net NetU1_8-12 Between Pad U2-8(567.756mil,714.528mil) on Bottom Layer And Pad U1-8-12(996.623mil,2189mil) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11718.598mil|Location2.X=12969.733mil|Location1.Y=5766.968mil|Location2.Y=6971.363mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11718.598mil|Location2.X=12969.733mil|Location1.Y=5766.968mil|Location2.Y=6971.363mil|Absolute=True">Un-Routed Net Constraint: Net NetU1_8-17 Between Pad U3-9(-303.055mil,724.842mil) on Bottom Layer And Pad U1-8-17(896.623mil,1889mil) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11701.275mil|Location2.X=13069.733mil|Location1.Y=5668.15mil|Location2.Y=6371.363mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11701.275mil|Location2.X=13069.733mil|Location1.Y=5668.15mil|Location2.Y=6371.363mil|Absolute=True">Un-Routed Net Constraint: Net NetU1_8-30 Between Pad U3-13(-331.599mil,637.244mil) on Bottom Layer And Pad U1-8-30(996.623mil,1289mil) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12572.086mil|Location2.X=12969.733mil|Location1.Y=5638.15mil|Location2.Y=7371.363mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12572.086mil|Location2.X=12969.733mil|Location1.Y=5638.15mil|Location2.Y=7371.363mil|Absolute=True">Un-Routed Net Constraint: Net NetU1_8-9 Between Pad U2-13(539.213mil,607.244mil) on Bottom Layer And Pad U1-8-9(896.623mil,2289mil) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12473.661mil|Location2.X=12582.125mil|Location1.Y=5638.15mil|Location2.Y=5786.378mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12473.661mil|Location2.X=12582.125mil|Location1.Y=5638.15mil|Location2.Y=5786.378mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad U2-18(440.787mil,607.244mil) on Bottom Layer And Pad U2-25(490mil,685mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12484.968mil|Location2.X=12708.897mil|Location1.Y=6276.598mil|Location2.Y=5845.236mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12484.968mil|Location2.X=12708.897mil|Location1.Y=6276.598mil|Location2.Y=5845.236mil|Absolute=True">Un-Routed Net Constraint: Net NetU1_8-11 Between Track (543.827mil,1326.204mil)(686.429mil,1468.806mil) on Bottom Layer And Pad U2-9(567.756mil,694.842mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11602.85mil|Location2.X=11711.314mil|Location1.Y=5668.15mil|Location2.Y=5816.378mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11602.85mil|Location2.X=11711.314mil|Location1.Y=5668.15mil|Location2.Y=5816.378mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad U3-18(-430.024mil,637.244mil) on Bottom Layer And Pad U3-25(-380.811mil,715mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11638.086mil|Location2.X=12857.764mil|Location1.Y=5694.921mil|Location2.Y=6199.394mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11638.086mil|Location2.X=12857.764mil|Location1.Y=5694.921mil|Location2.Y=6199.394mil|Absolute=True">Un-Routed Net Constraint: Net NetU1_8-18 Between Pad U3-8(-303.055mil,744.528mil) on Bottom Layer And Track (716.623mil,1049mil)(716.623mil,1704mil) on Signal Layer 2 </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11732.764mil|Location2.X=12176.006mil|Location1.Y=7979.394mil|Location2.Y=7655.93mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11732.764mil|Location2.X=12176.006mil|Location1.Y=7979.394mil|Location2.Y=7655.93mil|Absolute=True">Un-Routed Net Constraint: Net +3.3 Between Via (-208.377mil,3029mil) from Top Layer to Bottom Layer And Track (17.229mil,2487.898mil)(34.865mil,2505.536mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11686.456mil|Location2.X=12209.708mil|Location1.Y=7070.394mil|Location2.Y=7512.386mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11686.456mil|Location2.X=12209.708mil|Location1.Y=7070.394mil|Location2.Y=7512.386mil|Absolute=True">Un-Routed Net Constraint: Net +3.3 Between Track (-254.685mil,2120mil)(-245.685mil,2120mil) on Signal Layer 2 And Track (34.865mil,2395.692mil)(68.567mil,2361.992mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11631.141mil|Location2.X=12516.141mil|Location1.Y=5419.96mil|Location2.Y=5580.984mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11631.141mil|Location2.X=12516.141mil|Location1.Y=5419.96mil|Location2.Y=5580.984mil|Absolute=True">Un-Routed Net Constraint: Net VMOT Between Track (-364.567mil,469.566mil)(-310mil,469.566mil) on Bottom Layer And Track (375mil,430.591mil)(445mil,430.591mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12401.614mil|Location2.X=12796.299mil|Location1.Y=5540.866mil|Location2.Y=5906.89mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12401.614mil|Location2.X=12796.299mil|Location1.Y=5540.866mil|Location2.Y=5906.89mil|Absolute=True">Un-Routed Net Constraint: Net +3.3 Between Track (430mil,560mil)(460.472mil,590.472mil) on Bottom Layer And Track (655mil,756.339mil)(655.158mil,756.496mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDI3LR0UVGC3BSMFE1YU0MC1I1FPYSCTV54J1DYKFUDIUZBLFO2OAI"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Width Constraint (Min=10mil) (Max=10mil) (Preferred=10mil) (All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12434.641mil|Location2.X=12479.131mil|Location1.Y=5464.484mil|Location2.Y=5497.484mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12434.641mil|Location2.X=12479.131mil|Location1.Y=5464.484mil|Location2.Y=5497.484mil|Absolute=True">Width Constraint: Track (375mil,430.591mil)(445mil,430.591mil) on Bottom Layer Actual Width = 30mil, Target Width = 10mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12492.22mil|Location2.X=12536.71mil|Location1.Y=5464.484mil|Location2.Y=5497.484mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12492.22mil|Location2.X=12536.71mil|Location1.Y=5464.484mil|Location2.Y=5497.484mil|Absolute=True">Width Constraint: Track (445mil,430.591mil)(490.158mil,430.591mil) on Bottom Layer Actual Width = 30mil, Target Width = 10mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12512.299mil|Location2.X=12550.299mil|Location1.Y=5550.311mil|Location2.Y=5588.311mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12512.299mil|Location2.X=12550.299mil|Location1.Y=5550.311mil|Location2.Y=5588.311mil|Absolute=True">Width Constraint: Track (490.158mil,430.591mil)(490.158mil,607.244mil) on Bottom Layer Actual Width = 35mil, Target Width = 10mil</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDTCNZ12FGSWQVGPPOWA2FJFN1WIMRWRC0JYI3IHNHGIVRRARMKPHD"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Minimum Solder Mask Sliver (Gap=1.575mil) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11617.17mil|Location2.X=11619.994mil|Location1.Y=6081.383mil|Location2.Y=6084.208mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11617.17mil|Location2.X=11619.994mil|Location1.Y=6081.383mil|Location2.Y=6084.208mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.867mil &lt; 1.575mil) Between Pad P5-3(-445mil,1000mil) on Multi-Layer And Pad R14-1(-395mil,1051.536mil) on Bottom Layer [Bottom Solder] Mask Sliver [0.867mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11662.76mil|Location2.X=11665.585mil|Location1.Y=6081.383mil|Location2.Y=6084.208mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11662.76mil|Location2.X=11665.585mil|Location1.Y=6081.383mil|Location2.Y=6084.208mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.867mil &lt; 1.575mil) Between Pad P5-4(-345mil,1000mil) on Multi-Layer And Pad R14-1(-395mil,1051.536mil) on Bottom Layer [Bottom Solder] Mask Sliver [0.867mil]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDC1JCG42NUF0EMIHYVQ4AFOQXABNJRRGZGHQIPTFRRODBVQACCRPD"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Silk To Solder Mask (Clearance=1.968mil) (IsPad),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11477.596mil|Location2.X=11479.908mil|Location1.Y=6039.238mil|Location2.Y=6041.55mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11477.596mil|Location2.X=11479.908mil|Location1.Y=6039.238mil|Location2.Y=6041.55mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 1.968mil) Between Pad P5-2(-545mil,1000mil) on Multi-Layer And Text "U3" (-555.811mil,990mil) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11966.781mil|Location2.X=11969.093mil|Location1.Y=7154.654mil|Location2.Y=7156.966mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11966.781mil|Location2.X=11969.093mil|Location1.Y=7154.654mil|Location2.Y=7156.966mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 1.968mil) Between Pad P6-3(-45.685mil,2120mil) on Multi-Layer And Text "Encoder" (-103.377mil,2105.535mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12065.297mil|Location2.X=12067.61mil|Location1.Y=7154.773mil|Location2.Y=7157.085mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12065.297mil|Location2.X=12067.61mil|Location1.Y=7154.773mil|Location2.Y=7157.085mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 1.968mil) Between Pad P6-4(54.315mil,2120mil) on Multi-Layer And Text "Encoder" (-103.377mil,2105.535mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12176.684mil|Location2.X=12178.997mil|Location1.Y=7154.581mil|Location2.Y=7156.893mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12176.684mil|Location2.X=12178.997mil|Location1.Y=7154.581mil|Location2.Y=7156.893mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 1.968mil) Between Pad P6-5(154.315mil,2120mil) on Multi-Layer And Text "Encoder" (-103.377mil,2105.535mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12134.198mil|Location2.X=12136.51mil|Location1.Y=5609.238mil|Location2.Y=5611.55mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12134.198mil|Location2.X=12136.51mil|Location1.Y=5609.238mil|Location2.Y=5611.55mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 1.968mil) Between Pad R11-1(76.496mil,570mil) on Bottom Layer And Text "R6" (155mil,560mil) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mil]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDLFES33H31KAZBUPWPZ0GS2QZT1SGF4SL4WSLLGP1SWOGBKPZ20B"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Silk to Silk (Clearance=10mil) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11792.308mil|Location2.X=11799.975mil|Location1.Y=5988.718mil|Location2.Y=5996.384mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11792.308mil|Location2.X=11799.975mil|Location1.Y=5988.718mil|Location2.Y=5996.384mil|Absolute=True">Silk To Silk Clearance Constraint: (Collision &lt; 10mil) Between Text "R15" (-248.2mil,942.157mil) on Top Overlay And Track (-245mil,940.945mil)(-245mil,1380mil) on Top Overlay Silk Text to Silk Clearance [0mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11789.108mil|Location2.X=11796.774mil|Location1.Y=5988.643mil|Location2.Y=5996.31mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11789.108mil|Location2.X=11796.774mil|Location1.Y=5988.643mil|Location2.Y=5996.31mil|Absolute=True">Silk To Silk Clearance Constraint: (Collision &lt; 10mil) Between Text "R15" (-248.2mil,942.157mil) on Top Overlay And Track (-745mil,940.945mil)(-245mil,940.945mil) on Top Overlay Silk Text to Silk Clearance [0mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12672.308mil|Location2.X=12679.975mil|Location1.Y=5893.12mil|Location2.Y=5900.787mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12672.308mil|Location2.X=12679.975mil|Location1.Y=5893.12mil|Location2.Y=5900.787mil|Absolute=True">Silk To Silk Clearance Constraint: (Collision &lt; 10mil) Between Text "R2" (635mil,794.842mil) on Bottom Overlay And Text "U2" (635mil,840mil) on Bottom Overlay Silk Text to Silk Clearance [0mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11792.808mil|Location2.X=11800.475mil|Location1.Y=7792.161mil|Location2.Y=7799.827mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11792.808mil|Location2.X=11800.475mil|Location1.Y=7792.161mil|Location2.Y=7799.827mil|Absolute=True">Silk To Silk Clearance Constraint: (Collision &lt; 10mil) Between Text "R33" (-244.5mil,2721.5mil) on Bottom Overlay And Track (-604.353mil,2745.6mil)(773.599mil,2745.6mil) on Bottom Overlay Silk Text to Silk Clearance [0mil]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDSAP0CBZNBGFILQQ1C4NVKQTJIDRJOAWO0XDJC3L3OLWNIRK00KGO"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Net Antennae (Tolerance=0mil) (All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11074.264mil|Location2.X=11097.853mil|Location1.Y=7175.894mil|Location2.Y=7210.093mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11074.264mil|Location2.X=11097.853mil|Location1.Y=7175.894mil|Location2.Y=7210.093mil|Absolute=True">Net Antennae: Track (-1003.345mil,2089.032mil)(-958.377mil,2134mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12172.641mil|Location2.X=12196.23mil|Location1.Y=8076.894mil|Location2.Y=8111.093mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12172.641mil|Location2.X=12196.23mil|Location1.Y=8076.894mil|Location2.Y=8111.093mil|Absolute=True">Net Antennae: Track (140mil,3035mil)(380mil,3035mil) on Signal Layer 1 </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11722.641mil|Location2.X=11746.23mil|Location1.Y=5511.46mil|Location2.Y=5545.659mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11722.641mil|Location2.X=11746.23mil|Location1.Y=5511.46mil|Location2.Y=5545.659mil|Absolute=True">Net Antennae: Track (-364.567mil,469.566mil)(-310mil,469.566mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12543.956mil|Location2.X=12567.545mil|Location1.Y=6919.894mil|Location2.Y=6954.093mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12543.956mil|Location2.X=12567.545mil|Location1.Y=6919.894mil|Location2.Y=6954.093mil|Absolute=True">Net Antennae: Track (511.315mil,1878mil)(511.315mil,2344.992mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12576.468mil|Location2.X=12600.057mil|Location1.Y=6368.098mil|Location2.Y=6402.297mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12576.468mil|Location2.X=12600.057mil|Location1.Y=6368.098mil|Location2.Y=6402.297mil|Absolute=True">Net Antennae: Track (543.827mil,1326.204mil)(686.429mil,1468.806mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11466.633mil|Location2.X=11490.222mil|Location1.Y=5786.421mil|Location2.Y=5820.621mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=11466.633mil|Location2.X=11490.222mil|Location1.Y=5786.421mil|Location2.Y=5820.621mil|Absolute=True">Net Antennae: Track (-566.008mil,744.528mil)(-458.567mil,744.528mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12749.264mil|Location2.X=12772.852mil|Location1.Y=6090.894mil|Location2.Y=6125.093mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=12749.264mil|Location2.X=12772.852mil|Location1.Y=6090.894mil|Location2.Y=6125.093mil|Absolute=True">Net Antennae: Track (716.623mil,1049mil)(716.623mil,1704mil) on Signal Layer 2 </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDDMJLVT5HDYI4GE0AOPYLHGFXX3MGMWTVWT4WSBM2TTLEDAEVEXN"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Room Bluetooth (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Bluetooth'))</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=12819.74mil|Location1.Y=0mil|Location2.Y=8273.794mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=12819.74mil|Location1.Y=0mil|Location2.Y=8273.794mil|Absolute=True">Room Definition: Between Component P7-FSI-120-03-G-D-E-AB (84.623mil,2982mil) on Bottom Layer And Room Bluetooth (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Bluetooth')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=12007.11mil|Location1.Y=0mil|Location2.Y=8370.866mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=12007.11mil|Location1.Y=0mil|Location2.Y=8370.866mil|Absolute=True">Room Definition: Between Room Bluetooth (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Bluetooth')) And SMT Small Component DS1-Lite-On LTST-S220KGKT Green LED, 571 nm 2012 (0805) Side View, Rectangle Lens SMD package (-90.133mil,3287.992mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=12339.346mil|Location1.Y=0mil|Location2.Y=8373.102mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=12339.346mil|Location1.Y=0mil|Location2.Y=8373.102mil|Absolute=True">Room Definition: Between Room Bluetooth (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Bluetooth')) And SMT Small Component DS2-Lite-On LTST-S220KGKT Green LED, 571 nm 2012 (0805) Side View, Rectangle Lens SMD package (242.103mil,3290.229mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=12169.346mil|Location1.Y=0mil|Location2.Y=8370.866mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=12169.346mil|Location1.Y=0mil|Location2.Y=8370.866mil|Absolute=True">Room Definition: Between Room Bluetooth (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Bluetooth')) And SMT Small Component DS3-Lite-On LTST-S220KGKT Green LED, 571 nm 2012 (0805) Side View, Rectangle Lens SMD package (72.103mil,3287.992mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=12007.11mil|Location1.Y=0mil|Location2.Y=8386.906mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=12007.11mil|Location1.Y=0mil|Location2.Y=8386.906mil|Absolute=True">Room Definition: Between Room Bluetooth (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Bluetooth')) And SMT Small Component R22-3.9k (-90.133mil,3306mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=12337.11mil|Location1.Y=0mil|Location2.Y=8386.906mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=12337.11mil|Location1.Y=0mil|Location2.Y=8386.906mil|Absolute=True">Room Definition: Between Room Bluetooth (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Bluetooth')) And SMT Small Component R23-3.9k (239.867mil,3306mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=12167.11mil|Location1.Y=0mil|Location2.Y=8386.906mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=12167.11mil|Location1.Y=0mil|Location2.Y=8386.906mil|Absolute=True">Room Definition: Between Room Bluetooth (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Bluetooth')) And SMT Small Component R24-3.9k (69.867mil,3306mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=12442.243mil|Location1.Y=0mil|Location2.Y=7995.906mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=12442.243mil|Location1.Y=0mil|Location2.Y=7995.906mil|Absolute=True">Room Definition: Between Room Bluetooth (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Bluetooth')) And SMT Small Component R25-10K (345mil,2915mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=12197.244mil|Location1.Y=0mil|Location2.Y=8005.906mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=12197.244mil|Location1.Y=0mil|Location2.Y=8005.906mil|Absolute=True">Room Definition: Between Room Bluetooth (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Bluetooth')) And SMT Small Component R26-100 (100mil,2925mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=12202.244mil|Location1.Y=0mil|Location2.Y=8110.906mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=12202.244mil|Location1.Y=0mil|Location2.Y=8110.906mil|Absolute=True">Room Definition: Between Room Bluetooth (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Bluetooth')) And SMT Small Component R27-100 (105mil,3030mil) on Top Layer </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDL5WTKUVJ2NBCFFKHSZ4RY1M3TO0ICBVW0PNXDIMLKV4DJB152GF"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Room Encoder (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Encoder'))</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=12380.456mil|Location1.Y=0mil|Location2.Y=7595.394mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=12380.456mil|Location1.Y=0mil|Location2.Y=7595.394mil|Absolute=True">Room Definition: Between Room Encoder (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Encoder')) And SIP Component P6-IPL1-106-01-L-S-RA-K (4.315mil,2120mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=12092.818mil|Location1.Y=0mil|Location2.Y=7572.74mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=12092.818mil|Location1.Y=0mil|Location2.Y=7572.74mil|Absolute=True">Room Definition: Between Room Encoder (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Encoder')) And SMT Small Component C11-CAP CER 0.1UF 25V X7R 0805 (-18.205mil,2481.992mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=12457.968mil|Location1.Y=0mil|Location2.Y=7745.496mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=12457.968mil|Location1.Y=0mil|Location2.Y=7745.496mil|Absolute=True">Room Definition: Between Room Encoder (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Encoder')) And SMT Small Component R18-10K (386.315mil,2639mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=12387.968mil|Location1.Y=0mil|Location2.Y=7745.496mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=12387.968mil|Location1.Y=0mil|Location2.Y=7745.496mil|Absolute=True">Room Definition: Between Room Encoder (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Encoder')) And SMT Small Component R19-10K (316.315mil,2639mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=12119.038mil|Location1.Y=0mil|Location2.Y=7332.898mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=12119.038mil|Location1.Y=0mil|Location2.Y=7332.898mil|Absolute=True">Room Definition: Between Room Encoder (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Encoder')) And SMT Small Component R20-DNP (21.795mil,2251.992mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=11949.038mil|Location1.Y=0mil|Location2.Y=7482.898mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=11949.038mil|Location1.Y=0mil|Location2.Y=7482.898mil|Absolute=True">Room Definition: Between Room Encoder (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Encoder')) And SMT Small Component R21-43.2K (-148.205mil,2401.992mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=12484.274mil|Location1.Y=0mil|Location2.Y=7577.378mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=12484.274mil|Location1.Y=0mil|Location2.Y=7577.378mil|Absolute=True">Room Definition: Between Room Encoder (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Encoder')) And SOIC Component U4-MAX1484EUB+ (369.315mil,2401mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=12164.826mil|Location1.Y=0mil|Location2.Y=7482.268mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=12164.826mil|Location1.Y=0mil|Location2.Y=7482.268mil|Absolute=True">Room Definition: Between Room Encoder (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Encoder')) And SOIC Component U5-LTC6994MPS6-2#TRMPBF (23.291mil,2361.992mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDLOGSM1PMANALHPHZSEZZAUAWXNEIFHQN2IMRF4BDLT2OCLDZ1PAN"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Room BBB_Connections (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('BBB_Connections'))</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=13085.261mil|Location1.Y=0mil|Location2.Y=8020.103mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=13085.261mil|Location1.Y=0mil|Location2.Y=8020.103mil|Absolute=True">Room Definition: Between Component U1-BBB (-3.377mil,1589mil) on Bottom Layer And Room BBB_Connections (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('BBB_Connections')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=12786.141mil|Location1.Y=0mil|Location2.Y=6435.394mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=12786.141mil|Location1.Y=0mil|Location2.Y=6435.394mil|Absolute=True">Room Definition: Between Room BBB_Connections (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('BBB_Connections')) And SIP Component P3-IPL1-104-01-F-S-RA (340mil,1000mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=11341.701mil|Location1.Y=0mil|Location2.Y=7793.331mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=11341.701mil|Location1.Y=0mil|Location2.Y=7793.331mil|Absolute=True">Room Definition: Between Room BBB_Connections (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('BBB_Connections')) And SIP Component P4-SSW-104-01-G-S (-753.377mil,2689mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=11801.141mil|Location1.Y=0mil|Location2.Y=6435.394mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=11801.141mil|Location1.Y=0mil|Location2.Y=6435.394mil|Absolute=True">Room Definition: Between Room BBB_Connections (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('BBB_Connections')) And SIP Component P5-IPL1-104-01-F-S-RA (-645mil,1000mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=12175.921mil|Location1.Y=0mil|Location2.Y=6367.48mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=12175.921mil|Location1.Y=0mil|Location2.Y=6367.48mil|Absolute=True">Room Definition: Between Room BBB_Connections (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('BBB_Connections')) And SMT Small Component C14-Cap Pol3 (101.315mil,1260mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=11489.606mil|Location1.Y=0mil|Location2.Y=7282.48mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=11489.606mil|Location1.Y=0mil|Location2.Y=7282.48mil|Absolute=True">Room Definition: Between Room BBB_Connections (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('BBB_Connections')) And SMT Small Component C15-Cap Pol3 (-585mil,2175mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=11806.653mil|Location1.Y=0mil|Location2.Y=7741.496mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=11806.653mil|Location1.Y=0mil|Location2.Y=7741.496mil|Absolute=True">Room Definition: Between Room BBB_Connections (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('BBB_Connections')) And SMT Small Component R33-0.1 (-265mil,2635mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=11505.645mil|Location1.Y=0mil|Location2.Y=6781.496mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=11505.645mil|Location1.Y=0mil|Location2.Y=6781.496mil|Absolute=True">Room Definition: Between Room BBB_Connections (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('BBB_Connections')) And SMT Small Component R34-0.1 (-566.008mil,1675mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=11665.236mil|Location1.Y=0mil|Location2.Y=7711.732mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\zls\Desktop\Land_Meter_PCB\LM_004_DC_Motor_with_Encoder\REV_B\LM-004-B.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=0mil|Location2.X=11665.236mil|Location1.Y=0mil|Location2.Y=7711.732mil|Absolute=True">Room Definition: Between Room BBB_Connections (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('BBB_Connections')) And SOIC Component U6-LM317LM/NOPB (-495mil,2495mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br></body>
+</html>

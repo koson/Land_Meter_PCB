@@ -1,0 +1,56 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\zls\Desktop\H743ZI2-MCU\MB1364.PcbDoc
+Date     : 8/29/2019
+Time     : 9:17:59 AM
+
+Processing Rule : Clearance Constraint (Gap=0.12mm) (InNetClass('NC_RXTX_DIFF_100R')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.12mm) (InNetClass('NC_USB_DIFF_90R_OPTION')),(OnLayer('Top Layer'))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.12mm) (InNetClass('NC_STLK_W200-ISO200')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.12mm) (InNetClass('NC_USB_DIFF_90R')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.12mm) (InNetClass('NC_VCP_ISO300')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.12mm) (InNetClass('NC_USB_DIFF_90R_OPTION')),(OnLayer('Signal Layer 2'))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.12mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.12mm) (InNetClass('NC_RMII_SINGLE_50R')),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+   Violation between Un-Routed Net Constraint: Net 5V Between Track (13.357mm,119.179mm)(15.491mm,119.179mm) on Signal Layer 2 And Pad R12-2(66.746mm,117.919mm) on Top Layer [Unplated] 
+   Violation between Un-Routed Net Constraint: Track (27.43mm,57.805mm)(27.43mm,58.105mm) on Top Layer 
+Rule Violations :2
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0.254mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mm) (All)
+   Violation between Net Antennae: Track (34.996mm,93.979mm)(34.996mm,97.154mm) on Top Layer 
+   Violation between Net Antennae: Track (47.891mm,119.379mm)(59.126mm,119.379mm) on Signal Layer 2 
+   Violation between Net Antennae: Track (34.996mm,93.979mm)(34.996mm,97.154mm) on Signal Layer 2 
+Rule Violations :3
+
+Processing Rule : Component Clearance Constraint ( Horizontal Gap = 0mm, Vertical Gap = 0mm ) (All),(All) 
+Rule Violations :0
+
+
+Violations Detected : 5
+Waived Violations : 0
+Time Elapsed        : 00:00:22

@@ -1,0 +1,41 @@
+Removed Pin From Net: NetName=Vmotor Pin=C1-1
+Removed Pin From Net: NetName=VINT Pin=C2-2
+Removed Pin From Net: NetName=VINT Pin=C3-2
+Removed Pin From Net: NetName=Vmotor Pin=C5-2
+Removed Pin From Net: NetName=Vmotor Pin=C7-1
+Removed Pin From Net: NetName=VINT Pin=C8-2
+Removed Pin From Net: NetName=Vmotor Pin=C11-2
+Removed Pin From Net: NetName=VINT Pin=R7-1
+Removed Pin From Net: NetName=VINT Pin=R8-1
+Removed Pin From Net: NetName=VINT Pin=R20-1
+Removed Pin From Net: NetName=Vmotor Pin=U2-15
+Removed Pin From Net: NetName=Vmotor Pin=U2-16
+Removed Pin From Net: NetName=VINT Pin=U2-17
+Removed Pin From Net: NetName=VINT Pin=U3-17
+Removed Pin From Net: NetName=Vmotor Pin=U4-15
+Removed Pin From Net: NetName=Vmotor Pin=U4-16
+Removed Pin From Net: NetName=VINT Pin=U4-17
+Change Net Name : Old Net Name=VINT New Net Name=VINTL
+Change Net Name : Old Net Name=Vmotor New Net Name=VmotorCL
+Added Pin To Net: NetName=VINTA Pin=C8-2
+Added Pin To Net: NetName=VINTA Pin=R20-1
+Added Pin To Net: NetName=VINTA Pin=U4-17
+Added Net: Name=VINTA
+Added Pin To Net: NetName=VINTC Pin=C3-2
+Added Pin To Net: NetName=VINTC Pin=R8-1
+Added Pin To Net: NetName=VINTC Pin=U3-17
+Added Net: Name=VINTC
+Added Pin To Net: NetName=VINTS Pin=C2-2
+Added Pin To Net: NetName=VINTS Pin=R7-1
+Added Pin To Net: NetName=VINTS Pin=U2-17
+Added Net: Name=VINTS
+Added Pin To Net: NetName=VmotorA Pin=C7-1
+Added Pin To Net: NetName=VmotorA Pin=C11-2
+Added Pin To Net: NetName=VmotorA Pin=U4-15
+Added Pin To Net: NetName=VmotorA Pin=U4-16
+Added Net: Name=VmotorA
+Added Pin To Net: NetName=VmotorS Pin=C1-1
+Added Pin To Net: NetName=VmotorS Pin=C5-2
+Added Pin To Net: NetName=VmotorS Pin=U2-15
+Added Pin To Net: NetName=VmotorS Pin=U2-16
+Added Net: Name=VmotorS

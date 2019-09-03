@@ -1,0 +1,40 @@
+Removed Pin From Net: NetName=GND Pin=R33-2
+Change Component Footprint: Designator=R1 Old Footprint=RESC0805(2012)_L New Footprint=RESC0402(1005)_M
+Change Component Footprint: Designator=R2 Old Footprint=RESC0805(2012)_L New Footprint=RESC0402(1005)_M
+Change Component Footprint: Designator=R3 Old Footprint=RESC0805(2012)_L New Footprint=RESC0402(1005)_M
+Change Component Footprint: Designator=R25 Old Footprint=RESC0805(2012)_L New Footprint=RESC0402(1005)_M
+Change Component Footprint: Designator=R27 Old Footprint=RESC0805(2012)_L New Footprint=RESC0402(1005)_M
+Change Component Footprint: Designator=R28 Old Footprint=RESC0805(2012)_L New Footprint=RESC0402(1005)_M
+Change Component Footprint: Designator=R29 Old Footprint=RESC0805(2012)_L New Footprint=RESC0402(1005)_M
+Change Component Footprint: Designator=R30 Old Footprint=RESC0805(2012)_L New Footprint=RESC0402(1005)_M
+Change Component Footprint: Designator=R31 Old Footprint=RESC0805(2012)_L New Footprint=RESC0402(1005)_M
+Change Component Footprint: Designator=R32 Old Footprint=RESC0805(2012)_L New Footprint=RESC0402(1005)_M
+Change Component Footprint: Designator=R33 Old Footprint=RESC0805(2012)_L New Footprint=RESC0402(1005)_M
+Change component parameters: Designator = "R1"; Footprint = "RESC0402(1005)_M"; UniqueID = "\TLJJNESB"
+Change component parameters. Clean all parameters for all variants
+Change component parameters: Designator = "R2"; Footprint = "RESC0402(1005)_M"; UniqueID = "\STEYTGRR"
+Change component parameters. Clean all parameters for all variants
+Change component parameters: Designator = "R3"; Footprint = "RESC0402(1005)_M"; UniqueID = "\CCDQJDSK"
+Change component parameters. Clean all parameters for all variants
+Change component parameters: Designator = "R25"; Footprint = "RESC0402(1005)_M"; UniqueID = "\VIEGWVIL"
+Change component parameters. Clean all parameters for all variants
+Change component parameters: Designator = "R27"; Footprint = "RESC0402(1005)_M"; UniqueID = "\TQSATBVE"
+Change component parameters. Clean all parameters for all variants
+Change component parameters: Designator = "R28"; Footprint = "RESC0402(1005)_M"; UniqueID = "\ANQKKOAA"
+Change component parameters. Clean all parameters for all variants
+Change component parameters: Designator = "R29"; Footprint = "RESC0402(1005)_M"; UniqueID = "\LQWERJSQ"
+Change component parameters. Clean all parameters for all variants
+Change component parameters: Designator = "R30"; Footprint = "RESC0402(1005)_M"; UniqueID = "\GQHXDGCE"
+Change component parameters. Clean all parameters for all variants
+Change component parameters: Designator = "R31"; Footprint = "RESC0402(1005)_M"; UniqueID = "\SCRXHAQN"
+Change component parameters. Clean all parameters for all variants
+Change component parameters: Designator = "R32"; Footprint = "RESC0402(1005)_M"; UniqueID = "\KTEWJHXD"
+Change component parameters. Clean all parameters for all variants
+Change component parameters: Designator = "R33"; Footprint = "RESC0402(1005)_M"; UniqueID = "\SJLHFAFV"
+Change component parameters. Clean all parameters for all variants
+Added Pin To Net: NetName=GND Pin=C4-1
+Added Pin To Net: NetName=GND Pin=C17-1
+Added Pin To Net: NetName=GND Pin=R33-1
+Added Pin To Net: NetName=NetR33_2 Pin=R33-2
+Added Pin To Net: NetName=NetR33_2 Pin=U9-3
+Added Net: Name=NetR33_2

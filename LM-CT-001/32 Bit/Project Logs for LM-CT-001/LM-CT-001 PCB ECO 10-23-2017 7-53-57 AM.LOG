@@ -1,0 +1,5 @@
+Added Pin To Net: NetName=Bottom_Sense_Plate Pin=U7-1
+Added Pin To Net: NetName=Bottom_Sense_Plate Pin=U7-2
+Added Pin To Net: NetName=Top_Sense_Plate Pin=U7-6
+Added Pin To Net: NetName=Top_Sense_Plate Pin=U7-7
+Change Net Name : Old Net Name=Top_Forcing+Plate New Net Name=Top_Forcing_Plate

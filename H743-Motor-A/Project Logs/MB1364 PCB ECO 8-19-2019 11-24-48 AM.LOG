@@ -1,0 +1,19 @@
+Removed Pin From Net: NetName=+3.3 Pin=P1-1
+Removed Pin From Net: NetName=PB2 Pin=P1-2
+Removed Pin From Net: NetName=+3.3 Pin=P1-3
+Removed Pin From Net: NetName=PB4 Pin=P1-4
+Removed Pin From Net: NetName=GND Pin=P1-5
+Removed Pin From Net: NetName=PC10 Pin=P1-6
+Removed Pin From Net: NetName=PA15 Pin=P1-7
+Removed Pin From Net: NetName=PF15 Pin=P1-8
+Removed Pin From Net: NetName=SHAFT_OUT1+ Pin=P2-2
+Removed Pin From Net: NetName=SHAFT_OUT1- Pin=P2-4
+Removed Pin From Net: NetName=SHAFT_OUT2+ Pin=P2-6
+Removed Pin From Net: NetName=SHAFT_OUT2- Pin=P2-8
+Removed Member From Class: ClassName=Connectors Member=P1
+Removed Member From Class: ClassName=Connectors Member=P2
+Added Pin To Net: NetName=SHAFT_OUT1+ Pin=P1-1
+Added Pin To Net: NetName=SHAFT_OUT1- Pin=P1-3
+Added Pin To Net: NetName=SHAFT_OUT2+ Pin=P1-5
+Added Pin To Net: NetName=SHAFT_OUT2- Pin=P1-7
+Added Member To Class: ClassName=Motors Member=Component P1 SAMTEC-TFM-104-02-X-DJ

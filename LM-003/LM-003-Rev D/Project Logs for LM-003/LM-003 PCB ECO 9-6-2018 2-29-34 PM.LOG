@@ -1,0 +1,2 @@
+Change Component Footprint: Designator=U1 Old Footprint=BEAGLEBONE BLACK New Footprint=Beaglebone Black Thru
+Added Pin To Net: NetName=GND Pin=U5-4

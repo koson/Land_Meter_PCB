@@ -1,0 +1,37 @@
+Removed Pin From Net: NetName=+5 BBB Pin=P2-1
+Removed Pin From Net: NetName=GND Pin=P2-2
+Removed Pin From Net: NetName=BBB_PWR_SW Pin=P2-3
+Removed Pin From Net: NetName=FB_CS0 Pin=P2-6
+Removed Pin From Net: NetName=PWM1A Pin=P2-7
+Removed Pin From Net: NetName=SPI0_MOSI Pin=P2-9
+Removed Pin From Net: NetName=Power_CS0 Pin=P2-10
+Removed Pin From Net: NetName=SPI0_MISO Pin=P2-11
+Removed Pin From Net: NetName=SPI0_SCLK Pin=P2-13
+Removed Pin From Net: NetName=ZH Pin=P2-18
+Removed Pin From Net: NetName=GND Pin=P2-21
+Removed Pin From Net: NetName=+5 Pin=P2-22
+Removed Pin From Net: NetName=+3.3 Pin=P2-25
+Removed Pin From Net: NetName=-5 Pin=P2-26
+Removed Member From Class: ClassName=heater_control Member=R27
+Removed Member From Class: ClassName=heater_control Member=R28
+Removed Member From Class: ClassName=heater_control Member=R29
+Removed Member From Class: ClassName=heater_control Member=U7
+Added Pin To Net: NetName=GND Pin=P2-1
+Added Pin To Net: NetName=+5 BBB Pin=P2-2
+Added Pin To Net: NetName=BBB_PWR_SW Pin=P2-4
+Added Pin To Net: NetName=FB_CS0 Pin=P2-5
+Added Pin To Net: NetName=PWM1A Pin=P2-8
+Added Pin To Net: NetName=Power_CS0 Pin=P2-9
+Added Pin To Net: NetName=SPI0_MOSI Pin=P2-10
+Added Pin To Net: NetName=SPI0_MISO Pin=P2-12
+Added Pin To Net: NetName=SPI0_SCLK Pin=P2-14
+Added Pin To Net: NetName=ZH Pin=P2-17
+Added Pin To Net: NetName=+5 Pin=P2-21
+Added Pin To Net: NetName=GND Pin=P2-22
+Added Pin To Net: NetName=-5 Pin=P2-25
+Added Pin To Net: NetName=+3.3 Pin=P2-26
+Added Pin To Net: NetName=-5 Pin=U5-4
+Added Member To Class: ClassName=heater_control Member=Component R15 20K
+Added Member To Class: ClassName=heater_control Member=Component R16 4.99K
+Added Member To Class: ClassName=heater_control Member=Component R17 20K
+Added Member To Class: ClassName=heater_control Member=Component U6 OPA188AIDBVR

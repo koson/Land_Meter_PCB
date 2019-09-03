@@ -1,0 +1,4 @@
+Added Component: Designator=H1(KF2-440-ET)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=RC Pin=U3-3
+Added Member To Class: ClassName=BBB Headers Member=Component H1 KF2-440-ET Pem Nut

@@ -1,0 +1,17 @@
+Removed Pin From Net: NetName=+3.3 Pin=C9-1
+Removed Pin From Net: NetName=GND Pin=C9-2
+Removed Pin From Net: NetName=GND Pin=R14-2
+Removed Pin From Net: NetName=GND Pin=R16-2
+Removed Member From Class: ClassName=DC-Motor-DRV Member=C9
+Removed Member From Class: ClassName=DC-Motor-DRV Member=R14
+Removed Member From Class: ClassName=DC-Motor-DRV Member=R16
+Added Pin To Net: NetName=GND Pin=C10-1
+Added Pin To Net: NetName=+3.3 Pin=C10-2
+Added Pin To Net: NetName=GND Pin=R10-2
+Added Pin To Net: NetName=GND Pin=R15-2
+Added Pin To Net: NetName=NetR10_1 Pin=R10-1
+Added Pin To Net: NetName=NetR10_1 Pin=U3-2
+Added Net: Name=NetR10_1
+Added Pin To Net: NetName=NetR15_1 Pin=R15-1
+Added Pin To Net: NetName=NetR15_1 Pin=U3-5
+Added Net: Name=NetR15_1

@@ -1,0 +1,52 @@
+Removed Pin From Net: NetName=PWR_GND Pin=P10-2
+Removed Pin From Net: NetName=AGND Pin=R64-1
+Removed Pin From Net: NetName=PWR_GND Pin=R64-2
+Removed Pin From Net: NetName=GND Pin=R65-1
+Removed Pin From Net: NetName=PWR_GND Pin=R66-1
+Added Component: Designator=RL1(1462042-9)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Category 1"; Value = "Relays"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Coil Power"; Value = "140 mW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Coil Resistance"; Value = "1.03 kOhms"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Coil Type"; Value = "Non Latching"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Coil Voltage"; Value = "12VDC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1462042-2&DocType=Customer+Drawing&DocLang=English"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1462042-2&DocType=Customer+Drawing&DocLang=English"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Form"; Value = "SPDT (1 Form C)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Material"; Value = "Palladium (Pd), Ruthenium (Ru), Gold (Au)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Description 1"; Value = "RELAY TELECOM SPDT 2A 12V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Features"; Value = "Sealed - Hermetically"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1"; Value = "TE Connectivity Potter & Brumfield Relays"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number 1"; Value = "1462042-9"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-40°C ~ 85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Cut Tape (CT)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pricing 1"; Value = "1=4.25, 10=3.98, 25=3.5376, 50=3.3608, 100=3.1838, 250=2.94064 (USD)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Relay Type"; Value = "Telecom"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS 1"; Value = "RoHS Compliant"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stock 1"; Value = "15694"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "PB1250CT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Switching Voltage"; Value = "250VAC, 220VDC - Max"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination Style"; Value = "Gull Wing"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Turn Off Voltage (Min)"; Value = "1.2 VDC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Turn On Voltage (Max)"; Value = "9 VDC"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=P10-2
+Added Pin To Net: NetName=PWR_GND Pin=Q1-3
+Added Pin To Net: NetName=PWR_GND Pin=Q2-3
+Added Pin To Net: NetName=PWR_GND Pin=Q3-3
+Added Pin To Net: NetName=PWR_GND Pin=Q4-3
+Added Pin To Net: NetName=PWR_GND Pin=Q5-3
+Added Pin To Net: NetName=PWR_GND Pin=R65-1
+Added Pin To Net: NetName=NetF1_1 Pin=RL1-1
+Added Pin To Net: NetName=Aux+ Pin=RL1-3
+Added Pin To Net: NetName=PWR_GND Pin=RL1-4
+Added Pin To Net: NetName=Aux+ Pin=RL1-5
+Change Net Name : Old Net Name=GND New Net Name=PWR_GND
+Change Net Name : Old Net Name=PWR_GND New Net Name=GND
+Added Member To Class: ClassName=Power Member=Component RL1 1462042-9
+Added Room: Name=ADC
+Added Room: Name=BBB Headers
+Added Room: Name=FeedbackLoop
+Added Room: Name=Power

@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=Cross_Yellow Pin=P2-1
+Removed Pin From Net: NetName=Cross_Green Pin=P2-2
+Removed Pin From Net: NetName=Cross_Orange Pin=P2-3
+Removed Pin From Net: NetName=+5 Pin=P3-1
+Removed Pin From Net: NetName=GND Pin=P3-2
+Removed Pin From Net: NetName=GND Pin=P3-3
+Removed Pin From Net: NetName=SPI1_MISO Pin=P3-4
+Removed Pin From Net: NetName=SPI1_MOSI Pin=P3-5
+Removed Pin From Net: NetName=SPI1_SCLK Pin=P3-6
+Removed Pin From Net: NetName=SPI1_CS0 Pin=P3-7
+Removed Pin From Net: NetName=Long_Yellow Pin=P4-1
+Removed Pin From Net: NetName=Long_Green Pin=P4-2
+Removed Pin From Net: NetName=Long_Orange Pin=P4-3
+Removed Member From Class: ClassName=Connectors Member=P2
+Removed Member From Class: ClassName=Connectors Member=P3
+Removed Member From Class: ClassName=Connectors Member=P4

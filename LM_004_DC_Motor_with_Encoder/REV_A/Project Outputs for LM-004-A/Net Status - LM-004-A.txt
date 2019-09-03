@@ -1,0 +1,97 @@
+Net Status Report
+Filename     : C:\Users\zls\Desktop\Land_Meter_PCB\BBB_DC_Motor_with_Encoder\LM-004-A.PcbDoc
+Date         : 9/21/2018
+Time         : 4:04:55 PM
+Time Elapsed : 00:00:00
+
+Nets, Layer, Length
+    +12, Signal Layers Only, 6849.214mils
+    +3.3, Signal Layers Only, 12524.579mils
+    +3.3 BBB, Signal Layers Only, 100mils
+    +5 BBB, Signal Layers Only, 100mils
+    Blue LED, Signal Layers Only, 167.73mils
+    CLK+, Signal Layers Only, 764.366mils
+    CLK-, Signal Layers Only, 727.774mils
+    DTA+, Signal Layers Only, 727.156mils
+    DTA-, Signal Layers Only, 670.808mils
+    GND, Signal Layers Only, 2023.984mils
+    Green LED, Signal Layers Only, 180.057mils
+    NetC10_1, Signal Layers Only, 77.28mils
+    NetC11_1, Signal Layers Only, 61.084mils
+    NetC12_1, Signal Layers Only, 60.832mils
+    NetC13_1, Signal Layers Only, 212.486mils
+    NetC13_2, Signal Layers Only, 288.222mils
+    NetC16_1, Signal Layers Only, 202.156mils
+    NetC16_2, Signal Layers Only, 273.949mils
+    NetC17_1, Signal Layers Only, 78.718mils
+    NetC18_1, Signal Layers Only, 69.064mils
+    NetC19_1, Signal Layers Only, 81.084mils
+    NetC1_1, Signal Layers Only, 61.084mils
+    NetC20_1, Signal Layers Only, 74.023mils
+    NetC2_1, Signal Layers Only, 212.973mils
+    NetC2_2, Signal Layers Only, 285.192mils
+    NetC4_1, Signal Layers Only, 68.427mils
+    NetC5_1, Signal Layers Only, 81.104mils
+    NetC6_1, Signal Layers Only, 72.904mils
+    NetC7_1, Signal Layers Only, 71.174mils
+    NetC7_2, Signal Layers Only, 69.951mils
+    NetC9_1, Signal Layers Only, 72.418mils
+    NetDS1_2, Signal Layers Only, 290.05mils
+    NetDS2_2, Signal Layers Only, 297.172mils
+    NetDS3_2, Signal Layers Only, 289.421mils
+    NetP1_1, Signal Layers Only, 1277.127mils
+    NetP1_2, Signal Layers Only, 666.839mils
+    NetP2_1, Signal Layers Only, 582.548mils
+    NetP2_2, Signal Layers Only, 1314.379mils
+    NetP3_1, Signal Layers Only, 779.446mils
+    NetP3_2, Signal Layers Only, 1386.929mils
+    NetP5_1, Signal Layers Only, 1080.911mils
+    NetP5_2, Signal Layers Only, 440.596mils
+    NetR11_2, Signal Layers Only, 219.31mils
+    NetR14_1, Signal Layers Only, 983.132mils
+    NetR15_1, Signal Layers Only, 63.361mils
+    NetR16_1, Signal Layers Only, 1594.912mils
+    NetR17_1, Signal Layers Only, 61.541mils
+    NetR18_2, Signal Layers Only, 186.363mils
+    NetR19_2, Signal Layers Only, 172.394mils
+    NetR1_2, Signal Layers Only, 265.088mils
+    NetR20_2, Signal Layers Only, 1167.852mils
+    NetR21_2, Signal Layers Only, 184.12mils
+    NetR22_2, Signal Layers Only, 169.835mils
+    NetR23_2, Signal Layers Only, 1827.289mils
+    NetR24_2, Signal Layers Only, 71.543mils
+    NetR25_2, Signal Layers Only, 77.567mils
+    NetR26_2, Signal Layers Only, 213.689mils
+    NetR27_2, Signal Layers Only, 219.254mils
+    NetR2_2, Signal Layers Only, 137.417mils
+    NetR30_1, Signal Layers Only, 1155.964mils
+    NetR31_1, Signal Layers Only, 71.541mils
+    NetR32_1, Signal Layers Only, 1091.695mils
+    NetR33_1, Signal Layers Only, 64.511mils
+    NetR34_1, Signal Layers Only, 99.572mils
+    NetR35_2, Signal Layers Only, 95.151mils
+    NetR37_1, Signal Layers Only, 77.1mils
+    NetR3_2, Signal Layers Only, 885.914mils
+    NetR4_2, Signal Layers Only, 71.647mils
+    NetR5_2, Signal Layers Only, 186.716mils
+    NetR6_2, Signal Layers Only, 175.344mils
+    NetR7_2, Signal Layers Only, 1295.219mils
+    NetR8_2, Signal Layers Only, 76.543mils
+    NetR9_2, Signal Layers Only, 217.077mils
+    NetU1_8-11, Signal Layers Only, 800.511mils
+    NetU1_8-17, Signal Layers Only, 892.222mils
+    NetU1_8-35, Signal Layers Only, 795.515mils
+    NetU1_8-37, Signal Layers Only, 1083.905mils
+    NetU1_9-9, Signal Layers Only, 0mils
+    RS232_RX, Signal Layers Only, 1720.08mils
+    RS232_TX, Signal Layers Only, 1567.436mils
+    RXD, Signal Layers Only, 385.507mils
+    Red LED, Signal Layers Only, 231.832mils
+    SPI1_CS0, Signal Layers Only, 0mils
+    SPI1_MISO, Signal Layers Only, 2059.349mils
+    SPI1_MISO_DELAY, Signal Layers Only, 414.045mils
+    SPI1_MOSI, Signal Layers Only, 0mils
+    SPI1_SCLK, Signal Layers Only, 3161.664mils
+    TXD, Signal Layers Only, 412.308mils
+    VCC_2V85, Signal Layers Only, 328.273mils
+count : 89

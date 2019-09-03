@@ -1,0 +1,61 @@
+Removed Pin From Net: NetName=NetDS7_1 Pin=K1-1
+Removed Pin From Net: NetName=GND Pin=K1-2
+Removed Pin From Net: NetName=Batt+ Pin=K1-4
+Removed Pin From Net: NetName=Aux+ Pin=K1-5
+Change Component Footprint: Designator=K1 Old Footprint=PNSC-CP1-12V_V New Footprint=PNSC-PF-5-2800x500x1500_V
+Change Component Comment : Designator=K1 Old Comment=CP1-12V New Comment=APF30312
+Change Component Comment : Designator=F1 Old Comment=Fuse 1 New Comment=Fuse
+Change component parameters: Designator = "F1"; UniqueID = "\UKVELHFH"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Approvals"; Value = "cURus, TUV"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Category"; Value = "Circuit Protection"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "http://www.littelfuse.com/~/media/electronics/datasheets/resettable_ptcs/littelfuse_ptc_2920l_datasheet.pdf.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.littelfuse.com/~/media/electronics/datasheets/resettable_ptcs/littelfuse_ptc_2920l_datasheet.pdf.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height - Seated (Max)"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lead Spacing"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Littelfuse Inc."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "2920L200/24DR"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Type"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature"; Value = "-40°C ~ 85°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package / Case"; Value = "2920 (7351 Metric), Concave"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Cut Tape (CT)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Status"; Value = "Active"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pricing 1"; Value = "1=0.87, 5=0.838, 10=0.785, 50=0.6494, 100=0.5412, 250=0.52768, 500=0.4465 (USD)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ratings"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS"; Value = "RoHS Compliant"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Size / Dimension"; Value = "0.289" L x 0.202" W (7.35mm x 5.12mm)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Stock 1"; Value = "62473"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "F2872CT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Thickness (Max)"; Value = "0.049" (1.25mm)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = "Polymeric"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage - Max"; Value = "24V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "K1"; Footprint = "PNSC-PF-5-2800x500x1500_V"; UniqueID = "\NMJUKPMH"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Coil Voltage"; Value = "12 V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www3.panasonic.biz/ac/ae/index.jsp"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = "http://www3.panasonic.biz/ac/e_download/control/relay/power/catalog/mech_eng_pf.pdf?f_cd=300412"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3URL"; Value = "http://www3.panasonic.biz/ac/e_download/control/relay/power/catalog/mech_eng_pf.pdf?f_cd=300412"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DatasheetVersion"; Value = "201402-T"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Electrical Life"; Value = "5x10^4 (N.O.), 3x10^4 (N.C.)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Switching Current"; Value = "6 A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Switching Voltage"; Value = "250 V AC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mechanical Life(Min.operation)"; Value = "5x10^6"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Technology"; Value = "Through Hole"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Nominal Operating Power"; Value = "170 mW"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "5-Pin Through Hole Terminal Package, Body 28 x 5 mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "PF-5-2800x500x1500"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageVersion"; Value = "ASCTB205E, 02/2014"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packing"; Value = "Tube, Case"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PartNumber"; Value = "APF30312"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pb-Free"; Value = "True"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS"; Value = "True"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Series"; Value = "PF Relays"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=K1-1
+Added Pin To Net: NetName=Aux+ Pin=K1-2
+Added Pin To Net: NetName=NetDS7_1 Pin=K1-4
+Added Pin To Net: NetName=Batt+ Pin=K1-5

@@ -1,0 +1,28 @@
+Change Component Comment : Designator=H5 Old Comment=KF2-440-ET Pem Nut New Comment=Hole for BBB
+Change Component Comment : Designator=H6 Old Comment=KF2-440-ET Pem Nut New Comment=Hole for BBB
+Change Component Comment : Designator=H7 Old Comment=KF2-440-ET Pem Nut New Comment=Hole for BBB
+Change Component Comment : Designator=H8 Old Comment=KF2-440-ET Pem Nut New Comment=Hole for BBB
+Change Component Comment : Designator=H1 Old Comment=KF2-440-ET Pem Nut New Comment=Hole for IC heater
+Change Component Comment : Designator=H2 Old Comment=KF2-440-ET Pem Nut New Comment=Hole for IC heater
+Change Component Comment : Designator=H3 Old Comment=KF2-440-ET Pem Nut New Comment=Hole for IC heater
+Change Component Comment : Designator=H4 Old Comment=KF2-440-ET Pem Nut New Comment=Hole for IC heater
+Change Component Comment : Designator=H9 Old Comment=SMTSO-256-8ET Pem Nut Standoff New Comment=Hole for Levels board
+Change Component Comment : Designator=H10 Old Comment=SMTSO-256-8ET Pem Nut Standoff New Comment=Hole for Levels board
+Change Component Comment : Designator=H11 Old Comment=SMTSO-256-8ET Pem Nut Standoff New Comment=Hole for Levels board
+Change Component Comment : Designator=H12 Old Comment=SMTSO-256-8ET Pem Nut Standoff New Comment=Hole for Levels board
+Change component parameters: Designator = "H5"; UniqueID = "\XCFDNWWK"
+Change component parameters. Clean all parameters for all variants
+Change component parameters: Designator = "H6"; UniqueID = "\HTGDAAJG"
+Change component parameters. Clean all parameters for all variants
+Change component parameters: Designator = "H7"; UniqueID = "\GSYCVMXS"
+Change component parameters. Clean all parameters for all variants
+Change component parameters: Designator = "H8"; UniqueID = "\FTIWTHAK"
+Change component parameters. Clean all parameters for all variants
+Change component parameters: Designator = "H9"; UniqueID = "\UGQJLSXJ"
+Change component parameters. Clean all parameters for all variants
+Change component parameters: Designator = "H10"; UniqueID = "\OWXQNFUI"
+Change component parameters. Clean all parameters for all variants
+Change component parameters: Designator = "H11"; UniqueID = "\GPYGSKAB"
+Change component parameters. Clean all parameters for all variants
+Change component parameters: Designator = "H12"; UniqueID = "\GTVWOXAB"
+Change component parameters. Clean all parameters for all variants

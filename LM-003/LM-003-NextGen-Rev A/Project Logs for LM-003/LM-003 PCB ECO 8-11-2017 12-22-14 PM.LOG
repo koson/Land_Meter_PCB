@@ -1,0 +1,138 @@
+Removed Pin From Net: NetName=NetC30_2 Pin=R18-1
+Removed Pin From Net: NetName=NetR17_1 Pin=R18-2
+Removed Pin From Net: NetName=NetC30_2 Pin=R19-2
+Removed Pin From Net: NetName=NetC30_1 Pin=R20-2
+Removed Pin From Net: NetName=REF_V Pin=R21-1
+Removed Pin From Net: NetName=+5 Pin=R21-2
+Removed Pin From Net: NetName=REF_V Pin=R22-1
+Removed Pin From Net: NetName=+5R Pin=R22-2
+Removed Pin From Net: NetName=NetC30_1 Pin=R24-2
+Removed Pin From Net: NetName=NetC31_2 Pin=R25-1
+Removed Pin From Net: NetName=NetR23_1 Pin=R25-2
+Removed Pin From Net: NetName=NetR20_1 Pin=R27-1
+Removed Pin From Net: NetName=NetC31_1 Pin=R29-2
+Removed Pin From Net: NetName=GND Pin=R30-1
+Removed Pin From Net: NetName=NetC30_1 Pin=R30-2
+Removed Pin From Net: NetName=GND Pin=TP1-1
+Removed Pin From Net: NetName=ZP Pin=TP2-1
+Removed Pin From Net: NetName=ZH Pin=TP3-1
+Removed Pin From Net: NetName=NetP3_12 Pin=U7-2
+Removed Pin From Net: NetName=GND Pin=U7-4
+Removed Pin From Net: NetName=NetP3_12 Pin=U7-6
+Removed Pin From Net: NetName=+5 Pin=U7-7
+Removed Pin From Net: NetName=NetR20_1 Pin=U11-5
+Removed Member From Class: ClassName=FeedbackLoop Member=TP1
+Removed Member From Class: ClassName=FeedbackLoop Member=TP2
+Removed Member From Class: ClassName=FeedbackLoop Member=TP3
+Removed Member From Class: ClassName=FeedbackLoop Member=U32
+Change Component Footprint: Designator=U7 Old Footprint=D0008A_M New Footprint=DBV0005A_M
+Change Component Footprint: Designator=R16 Old Footprint=RESC0805(2012)_M New Footprint=RESC0402(1005)_M
+Change Component Footprint: Designator=R17 Old Footprint=RESC0805(2012)_M New Footprint=RESC0402(1005)_M
+Change Component Footprint: Designator=R20 Old Footprint=RESC0805(2012)_M New Footprint=RESC0402(1005)_M
+Change Component Footprint: Designator=R21 Old Footprint=RESC0805(2012)_M New Footprint=RESC0402(1005)_M
+Change Component Footprint: Designator=R22 Old Footprint=RESC0805(2012)_M New Footprint=RESC0402(1005)_M
+Change Component Footprint: Designator=R24 Old Footprint=RESC0805(2012)_M New Footprint=RESC0402(1005)_M
+Change Component Footprint: Designator=R27 Old Footprint=RESC0805(2012)_M New Footprint=RESC0402(1005)_M
+Change Component Footprint: Designator=R28 Old Footprint=RESC0805(2012)_M New Footprint=RESC0402(1005)_M
+Change Component Footprint: Designator=R19 Old Footprint=RESC0805(2012)_N New Footprint=RESC0402(1005)_M
+Change Component Footprint: Designator=R25 Old Footprint=RESC0805(2012)_N New Footprint=RESC0402(1005)_M
+Change Component Footprint: Designator=R26 Old Footprint=RESC0805(2012)_N New Footprint=RESC0402(1005)_M
+Change Component Footprint: Designator=R29 Old Footprint=RESC0805(2012)_N New Footprint=RESC0402(1005)_M
+Change Component Footprint: Designator=R30 Old Footprint=RESC0805(2012)_N New Footprint=RESC0402(1005)_M
+Change Component Comment : Designator=U7 Old Comment=OPA188AIDR New Comment=OPA188AIDBVR
+Change Component Comment : Designator=R16 Old Comment=RES SMD 0.0 OHM JUMPER 1/8W 0805 New Comment=0
+Change Component Comment : Designator=R21 Old Comment=RES SMD 0.0 OHM JUMPER 1/8W 0805 New Comment=0
+Change Component Comment : Designator=R27 Old Comment=RES SMD 0.0 OHM JUMPER 1/8W 0805 New Comment=0
+Change Component Comment : Designator=R28 Old Comment=RES SMD 0.0 OHM JUMPER 1/8W 0805 New Comment=1M
+Change Component Comment : Designator=R20 Old Comment=RES SMD 0.0 OHM JUMPER 1/8W 0805 New Comment=7.5k
+Change Component Comment : Designator=R24 Old Comment=RES SMD 0.0 OHM JUMPER 1/8W 0805 New Comment=7.5k
+Change Component Comment : Designator=R17 Old Comment=RES SMD 0.0 OHM JUMPER 1/8W 0805 New Comment=DNP
+Change Component Comment : Designator=R30 Old Comment=RES SMD 1M OHM 1% 1/8W 0805 New Comment=0
+Change Component Comment : Designator=R29 Old Comment=RES SMD 1M OHM 1% 1/8W 0805 New Comment=1M
+Change Component Comment : Designator=R26 Old Comment=RES SMD 3.9K OHM 5% 1/8W 0805 New Comment=3.9k
+Change Component Comment : Designator=R19 Old Comment=RES SMD 7.5K OHM 1% 1/8W 0805 New Comment=3.9k
+Change Component Comment : Designator=R25 Old Comment=RES SMD 7.5K OHM 1% 1/8W 0805 New Comment=DNP
+Change component parameters: Designator = "U7"; Footprint = "DBV0005A_M"; UniqueID = "\MSOXGIOU"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "CMRR(Min)(dB)"; Value = "120"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Code_JEDEC"; Value = "MO-178"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.ti.com/"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.ti.com/lit/ds/symlink/opa188.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.ti.com/litv/pdf/mpds018i"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DatasheetVersion"; Value = "SBOS642A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Eco-Plan"; Value = "Green (RoHS & no Sb/Br)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "GBW(Typ)(MHz)"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Iq per channel(Max)(mA)"; Value = "0.51"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Channels"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Offset Drift(Typ)(uV/C)"; Value = "0.03"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "5-Pin Plastic Small Outline, Body 1.6 x 2.9 mm, Pitch 0.95 mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "DBV0005A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageVersion"; Value = "4073253-4/K, 03/2006"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packing"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PartNumber"; Value = "OPA188AIDBVR"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Rating"; Value = "Catalog"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Slew Rate(Typ)(V/us)"; Value = "0.8"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SubFamily"; Value = "Zero Drift Precision Amplifier"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Total Supply Voltage(Max)(+5V is 5, +/-5V is 10)"; Value = "36"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Total Supply Voltage(Min)(+5V is 5, +/-5V is 10)"; Value = "4"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R16"; Footprint = "RESC0402(1005)_M"; UniqueID = "\EDEFXATR"
+Change component parameters. Clean all parameters for all variants
+Change component parameters: Designator = "R17"; Footprint = "RESC0402(1005)_M"; UniqueID = "\PTGCXPCT"
+Change component parameters. Clean all parameters for all variants
+Change component parameters: Designator = "R19"; Footprint = "RESC0402(1005)_M"; UniqueID = "\BVPOEAGR"
+Change component parameters. Clean all parameters for all variants
+Change component parameters: Designator = "R20"; Footprint = "RESC0402(1005)_M"; UniqueID = "\TLSEHCDP"
+Change component parameters. Clean all parameters for all variants
+Change component parameters: Designator = "R21"; Footprint = "RESC0402(1005)_M"; UniqueID = "\IDDUHIQU"
+Change component parameters. Clean all parameters for all variants
+Change component parameters: Designator = "R22"; Footprint = "RESC0402(1005)_M"; UniqueID = "\UGHWQNHA"
+Change component parameters. Clean all parameters for all variants
+Change component parameters: Designator = "R24"; Footprint = "RESC0402(1005)_M"; UniqueID = "\VFMYTKFR"
+Change component parameters. Clean all parameters for all variants
+Change component parameters: Designator = "R25"; Footprint = "RESC0402(1005)_M"; UniqueID = "\TCRUOYSI"
+Change component parameters. Clean all parameters for all variants
+Change component parameters: Designator = "R26"; Footprint = "RESC0402(1005)_M"; UniqueID = "\GOTEQAKU"
+Change component parameters. Clean all parameters for all variants
+Change component parameters: Designator = "R27"; Footprint = "RESC0402(1005)_M"; UniqueID = "\JWVNYIJL"
+Change component parameters. Clean all parameters for all variants
+Change component parameters: Designator = "R28"; Footprint = "RESC0402(1005)_M"; UniqueID = "\EOTPHTGL"
+Change component parameters. Clean all parameters for all variants
+Change component parameters: Designator = "R29"; Footprint = "RESC0402(1005)_M"; UniqueID = "\WBEIMGHU"
+Change component parameters. Clean all parameters for all variants
+Change component parameters: Designator = "R30"; Footprint = "RESC0402(1005)_M"; UniqueID = "\DITKBEBR"
+Change component parameters. Clean all parameters for all variants
+Added Component: Designator=R62(RESC0402(1005)_M)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=NetC30_2 Pin=R19-1
+Added Pin To Net: NetName=NetR17_1 Pin=R19-2
+Added Pin To Net: NetName=NetC30_2 Pin=R20-2
+Added Pin To Net: NetName=NetC30_1 Pin=R21-2
+Added Pin To Net: NetName=NetC30_1 Pin=R22-2
+Added Pin To Net: NetName=NetR20_1 Pin=R23-3
+Added Pin To Net: NetName=NetC31_2 Pin=R24-1
+Added Pin To Net: NetName=NetR23_1 Pin=R24-2
+Added Pin To Net: NetName=NetC31_1 Pin=R25-2
+Added Pin To Net: NetName=GND Pin=R28-1
+Added Pin To Net: NetName=NetC30_1 Pin=R29-2
+Added Pin To Net: NetName=REF_V Pin=R30-1
+Added Pin To Net: NetName=+5 Pin=R30-2
+Added Pin To Net: NetName=REF_V Pin=R62-1
+Added Pin To Net: NetName=+5R Pin=R62-2
+Added Pin To Net: NetName=NetP3_12 Pin=U7-1
+Added Pin To Net: NetName=GND Pin=U7-2
+Added Pin To Net: NetName=NetP3_12 Pin=U7-4
+Added Pin To Net: NetName=+5 Pin=U7-5
+Added Pin To Net: NetName=NetR21_1 Pin=R21-1
+Added Pin To Net: NetName=NetR21_1 Pin=R25-1
+Added Pin To Net: NetName=NetR21_1 Pin=U11-5
+Added Net: Name=NetR21_1
+Added Pin To Net: NetName=NetR22_1 Pin=R22-1
+Added Pin To Net: NetName=NetR22_1 Pin=R27-1
+Added Pin To Net: NetName=NetR22_1 Pin=U11-3
+Added Net: Name=NetR22_1
+Added Member To Class: ClassName=FeedbackLoop Member=Component R62 DNP

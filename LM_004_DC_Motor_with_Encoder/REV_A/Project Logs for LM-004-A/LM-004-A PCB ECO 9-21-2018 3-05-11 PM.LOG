@@ -1,0 +1,40 @@
+Removed Pin From Net: NetName=SPI1_CS0 Pin=R35-1
+Removed Pin From Net: NetName=NetR34_1 Pin=R35-2
+Removed Pin From Net: NetName=SPI1_CS0 Pin=U6-2
+Removed Pin From Net: NetName=GND Pin=U7-2
+Removed Pin From Net: NetName=GND Pin=U7-3
+Removed Pin From Net: NetName=NetR34_1 Pin=U7-4
+Removed Pin From Net: NetName=+3.3 Pin=U7-5
+Removed Member From Class: ClassName=Encoder Member=U7
+Change component parameters: Designator = "U6"; Footprint = "MAX1486EUB+"; UniqueID = "\MTNGDXXW"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Base Part Number"; Value = "MAX1484"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Category"; Value = "Integrated Circuits (ICs)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "https://datasheets.maximintegrated.com/en/ds/MAX1481-MAX1486.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://datasheets.maximintegrated.com/en/ds/MAX1481-MAX1486.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Data Rate"; Value = "12Mbps"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Duplex"; Value = "Full"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Maxim Integrated"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "MAX1484EUB+"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Type"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Drivers/Receivers"; Value = "1/1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature"; Value = "-40°C ~ 85°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package / Case"; Value = "10-TFSOP, 10-MSOP (0.118", 3.00mm Width)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Tube"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Status"; Value = "Active"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pricing 1"; Value = "1=2.57, 10=2.442, 25=2.28, 50=2.28 (USD)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Protocol"; Value = "RS422, RS485"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS"; Value = "RoHS Compliant"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Stock 1"; Value = "1906"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Device Package"; Value = "10-uMAX"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "MAX1484EUB+-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = "Transceiver"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage - Supply"; Value = "4.75 V ~ 5.25 V"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+3.3 Pin=R34-2
+Added Pin To Net: NetName=GND Pin=R35-1
+Added Pin To Net: NetName=NetR34_1 Pin=U6-3
+Added Pin To Net: NetName=SPI1_SCLK Pin=U6-4
+Added Pin To Net: NetName=NetR35_2 Pin=R35-2
+Added Pin To Net: NetName=NetR35_2 Pin=U6-2
+Added Net: Name=NetR35_2

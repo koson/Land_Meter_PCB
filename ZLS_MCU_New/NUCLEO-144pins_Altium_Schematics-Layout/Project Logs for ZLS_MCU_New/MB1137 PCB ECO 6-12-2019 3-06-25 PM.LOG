@@ -1,0 +1,39 @@
+Removed Pin From Net: NetName=+12 Pin=C78-1
+Removed Pin From Net: NetName=GND Pin=C78-2
+Removed Pin From Net: NetName=NetC77_2 Pin=U19-1
+Removed Pin From Net: NetName=NetC77_2 Pin=U19-2
+Removed Pin From Net: NetName=GND Pin=U19-4
+Removed Pin From Net: NetName=+12 Pin=U19-8
+Removed Member From Class: ClassName=U_Feedback Member=C78
+Removed Member From Class: ClassName=U_Feedback Member=U19
+Added Component: Designator=U16(ADI-R-8_L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Code_JEDEC"; Value = "MS-012-AA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.analog.com/en/index.html"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.analog.com/static/imported-files/data_sheets/ADR4520_4525_4530_4533_4540_4550.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.analog.com/static/imported-files/packages/PKG_PDF/SOIC_Narrow%20(R)/R_8.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4Description"; Value = "URL Link1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4URL"; Value = "Product URL:http://www.analog.com/en/special-linear-functions/voltage-references/adr4550/products/product.html"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Rev. 0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Analog Devices"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max V Supply (V)"; Value = "15"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min V Supply (V)"; Value = "3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temp Range"; Value = "-40 to 125 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "8-Pin Standard Small Outline Package, Body 4.9 x 3.9 mm, Pitch 1.27 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "R-8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "060506-A, 06/2006"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packing"; Value = "Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartId"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "ADR4550BRZ-R7"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ref Out TC (ppm/C)"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vout"; Value = "5V"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C76-1
+Added Pin To Net: NetName=+12 Pin=C76-2
+Added Pin To Net: NetName=+12 Pin=U16-2
+Added Pin To Net: NetName=GND Pin=U16-4
+Added Pin To Net: NetName=NetC77_2 Pin=U16-6
+Added Member To Class: ClassName=U_Feedback Member=Component U16 ADR4550BRZ-R7

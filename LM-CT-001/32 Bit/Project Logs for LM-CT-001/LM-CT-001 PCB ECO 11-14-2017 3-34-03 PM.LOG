@@ -1,0 +1,11 @@
+Added Component: Designator=R30(RESC0402(1005)_M)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R31(RESC0402(1005)_M)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=GND Pin=R31-2
+Added Pin To Net: NetName=NetR30_2 Pin=R30-2
+Added Pin To Net: NetName=NetR30_2 Pin=R31-1
+Added Pin To Net: NetName=NetR30_2 Pin=U11-5
+Added Net: Name=NetR30_2
+Added Member To Class: ClassName=LM-CT-001 Member=Component R30 500
+Added Member To Class: ClassName=LM-CT-001 Member=Component R31 2k

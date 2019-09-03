@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=PWM2A Pin=P8-1
+Removed Pin From Net: NetName=+9 Pin=P8-2
+Removed Pin From Net: NetName=GND Pin=P8-4
+Change Component Footprint: Designator=P8 Old Footprint=SLW-104-01-G-S New Footprint=MTLW-103-08-G-D-004
+Change Component Comment : Designator=P8 Old Comment=SLW-104-01-G-S New Comment=MTLW-103-08-G-D-004
+Change component parameters: Designator = "P8"; Footprint = "MTLW-103-08-G-D-004"; UniqueID = "\WSUEQKRK"
+Change component parameters. Clean all parameters for all variants
+Added Pin To Net: NetName=+12 Pin=P8-1
+Added Pin To Net: NetName=+5 Pin=P8-2
+Added Pin To Net: NetName=PWM2A Pin=P8-4
+Added Pin To Net: NetName=GND Pin=P8-5
+Added Pin To Net: NetName=+9 Pin=P8-6

@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=Conning Tower Thermistor Pin=U15-5
+Removed Pin From Net: NetName=Arrestment Thermistor Pin=U15-6
+Removed Pin From Net: NetName=Gearbox Thermistor Pin=U15-7
+Removed Pin From Net: NetName=Meter Thermistor 1 Pin=U15-8
+Removed Pin From Net: NetName=Meter Thermistor 2 Pin=U15-9
+Added Pin To Net: NetName=Meter Thermistor 2 Pin=U15-5
+Added Pin To Net: NetName=Meter Thermistor 1 Pin=U15-6
+Added Pin To Net: NetName=Arrestment Thermistor Pin=U15-7
+Added Pin To Net: NetName=Conning Tower Thermistor Pin=U15-8
+Added Pin To Net: NetName=Gearbox Thermistor Pin=U15-9

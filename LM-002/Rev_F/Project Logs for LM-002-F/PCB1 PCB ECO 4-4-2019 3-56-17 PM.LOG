@@ -1,0 +1,11 @@
+Added Pin To Net: NetName=+12 Pin=U8-3
+Added Pin To Net: NetName=+12 Pin=U8-5
+Added Pin To Net: NetName=SPI0_MISO Pin=U8-11
+Added Pin To Net: NetName=SPI0_MOSI Pin=U8-12
+Added Pin To Net: NetName=SPI0_SCLK Pin=U8-13
+Added Pin To Net: NetName=GND Pin=U8-15
+Added Pin To Net: NetName=GND Pin=U8-17
+Added Pin To Net: NetName=GND Pin=U8-18
+Added Pin To Net: NetName=GND Pin=U8-19
+Added Pin To Net: NetName=DAC_CS0 Pin=U8-14
+Added Net: Name=DAC_CS0

@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=NetDS6_1 Pin=DS6-1
+Removed Member From Class: ClassName=RS232 Member=DS6
+Removed Member From Class: ClassName=RS232 Member=R12
+Change Net Name : Old Net Name=NetDS6_1 New Net Name=NetP11_5

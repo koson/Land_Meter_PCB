@@ -1,0 +1,3 @@
+Removed Pin From Net: NetName=ZP Pin=R20-2
+Removed Pin From Net: NetName=ZH Pin=R22-2
+Added Pin To Net: NetName=ZP Pin=R22-2

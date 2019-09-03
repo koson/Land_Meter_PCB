@@ -1,0 +1,29 @@
+Added Component: Designator=P7(IPL1-112-01-F-S-K)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Supplier 1"; Value = "Newark"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "08W3504"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=Cross_Orange Pin=P7-1
+Added Pin To Net: NetName=Long_Orange Pin=P7-2
+Added Pin To Net: NetName=Cross_Green Pin=P7-3
+Added Pin To Net: NetName=Long_Green Pin=P7-4
+Added Pin To Net: NetName=Cross_Yellow Pin=P7-5
+Added Pin To Net: NetName=Long_Yellow Pin=P7-6
+Added Pin To Net: NetName=SPI0_MISO Pin=P7-7
+Added Pin To Net: NetName=Thermistor_MUX_A0 Pin=P7-8
+Added Pin To Net: NetName=Thermistor_CS0 Pin=P7-9
+Added Pin To Net: NetName=SPI0_SCLK Pin=P7-10
+Added Pin To Net: NetName=Thermistor_MUX_A1 Pin=P7-11
+Added Pin To Net: NetName=Thermistor_MUX A2 Pin=P7-12
+Added Pin To Net: NetName=Arrestment Heater FET_Buff Pin=P7-13
+Added Pin To Net: NetName=Gearbox Heater FET_Buff Pin=P7-14
+Added Pin To Net: NetName=Conning Tower FET_Buff Pin=P7-15
+Added Pin To Net: NetName=Meter Heater FET_Buff Pin=P7-16
+Added Pin To Net: NetName=+5 Pin=P7-17
+Added Pin To Net: NetName=+3.3 Pin=P7-18
+Added Pin To Net: NetName=GND Pin=P7-19
+Added Pin To Net: NetName=GND Pin=P7-20
+Added Pin To Net: NetName=+12 Pin=P7-21
+Added Pin To Net: NetName=+12 Pin=P7-22
+Added Pin To Net: NetName=GND Pin=P7-23
+Added Pin To Net: NetName=GND Pin=P7-24
+Added Member To Class: ClassName=BBB Headers Member=Component P7 IPL1-112-01-F-S-K

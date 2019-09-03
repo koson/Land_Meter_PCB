@@ -1,0 +1,100 @@
+Removed Pin From Net: NetName=GND Pin=C22-1
+Removed Pin From Net: NetName=+5 Pin=C22-2
+Removed Pin From Net: NetName=GND Pin=C24-1
+Removed Pin From Net: NetName=+5 Pin=C24-2
+Removed Pin From Net: NetName=GND Pin=C27-1
+Removed Pin From Net: NetName=+5 Pin=C27-2
+Removed Pin From Net: NetName=ZH_Reduced Pin=U12-1
+Removed Pin From Net: NetName=GND Pin=U12-2
+Removed Pin From Net: NetName=ZH_Reduced Pin=U12-4
+Removed Pin From Net: NetName=+5 Pin=U12-5
+Removed Pin From Net: NetName=ZP_Reduced Pin=U14-1
+Removed Pin From Net: NetName=GND Pin=U14-2
+Removed Pin From Net: NetName=ZP_Reduced Pin=U14-4
+Removed Pin From Net: NetName=+5 Pin=U14-5
+Removed Pin From Net: NetName=+5R_Reduced Pin=U18-1
+Removed Pin From Net: NetName=GND Pin=U18-2
+Removed Pin From Net: NetName=+5R_Reduced Pin=U18-4
+Removed Pin From Net: NetName=+5 Pin=U18-5
+Removed Member From Class: ClassName=Voltage_Sources Member=C2
+Removed Member From Class: ClassName=Voltage_Sources Member=C4
+Removed Member From Class: ClassName=Sense&Connectors Member=C5
+Removed Member From Class: ClassName=Synch_Demod Member=C5
+Removed Member From Class: ClassName=Sense&Connectors Member=C9
+Removed Member From Class: ClassName=Sense&Connectors Member=C10
+Removed Member From Class: ClassName=ADC Member=C12
+Removed Member From Class: ClassName=Voltage_Sources Member=C17
+Removed Member From Class: ClassName=Voltage_Sources Member=C18
+Removed Member From Class: ClassName=ADC Member=C22
+Removed Member From Class: ClassName=Sense&Connectors Member=C22
+Removed Member From Class: ClassName=Voltage_Sources Member=C22
+Removed Member From Class: ClassName=ADC Member=C27
+Removed Member From Class: ClassName=Sense&Connectors Member=C27
+Removed Member From Class: ClassName=Voltage_Sources Member=C27
+Removed Member From Class: ClassName=Voltage_Sources Member=R3
+Removed Member From Class: ClassName=Voltage_Sources Member=R5
+Removed Member From Class: ClassName=Sense&Connectors Member=R6
+Removed Member From Class: ClassName=Synch_Demod Member=R7
+Removed Member From Class: ClassName=Sense&Connectors Member=R11
+Removed Member From Class: ClassName=Synch_Demod Member=R11
+Removed Member From Class: ClassName=Synch_Demod Member=R12
+Removed Member From Class: ClassName=Voltage_Sources Member=R12
+Removed Member From Class: ClassName=ADC Member=R13
+Removed Member From Class: ClassName=ADC Member=R15
+Removed Member From Class: ClassName=ADC Member=R23
+Removed Member From Class: ClassName=Sense&Connectors Member=R32
+Removed Member From Class: ClassName=Sense&Connectors Member=R33
+Removed Member From Class: ClassName=Sense&Connectors Member=R34
+Removed Member From Class: ClassName=Voltage_Sources Member=TP2
+Removed Member From Class: ClassName=Synch_Demod Member=TP3
+Removed Member From Class: ClassName=ADC Member=U6
+Removed Member From Class: ClassName=ADC Member=U7
+Removed Member From Class: ClassName=Voltage_Sources Member=U7
+Removed Member From Class: ClassName=Voltage_Sources Member=U8
+Removed Member From Class: ClassName=ADC Member=U10
+Removed Member From Class: ClassName=ADC Member=U14
+Removed Member From Class: ClassName=Voltage_Sources Member=U14
+Removed Member From Class: ClassName=Sense&Connectors Member=U16
+Removed Member From Class: ClassName=ADC Member=U18
+Removed Member From Class: ClassName=Sense&Connectors Member=U18
+Added Pin To Net: NetName=ZH_Reduced Pin=R29-1
+Added Pin To Net: NetName=ZH_Reduced Pin=R30-2
+Added Pin To Net: NetName=ZP_Reduced Pin=R32-1
+Added Pin To Net: NetName=ZP_Reduced Pin=R33-2
+Added Pin To Net: NetName=+5R_Reduced Pin=R34-1
+Added Pin To Net: NetName=+5R_Reduced Pin=R35-2
+Added Member To Class: ClassName=Synch_Demod Member=Component C3 CAP CER 0.1UF 25V X7R 0805
+Added Member To Class: ClassName=Voltage_Sources Member=Component C5 4.7uF
+Added Member To Class: ClassName=Voltage_Sources Member=Component C9 CAP CER 1UF 25V X7R 0805
+Added Member To Class: ClassName=Voltage_Sources Member=Component C11 .47uF
+Added Member To Class: ClassName=Voltage_Sources Member=Component C12 CAP CER 0.1UF 25V X7R 0805
+Added Member To Class: ClassName=Voltage_Sources Member=Component C13 Multilayer Ceramic Capacitors MLCC - SMD/SMT 0.01uF 50volts 10% X7R
+Added Member To Class: ClassName=Voltage_Sources Member=Component C14 CAP CER 0.1UF 25V X7R 0805
+Added Member To Class: ClassName=Sense&Connectors Member=Component C15 CAP CER 0.1UF 25V X7R 0805
+Added Member To Class: ClassName=Sense&Connectors Member=Component C16 CAP CER 0.1UF 25V X7R 0805
+Added Member To Class: ClassName=Sense&Connectors Member=Component C19 CAP CER 1UF 25V X7R 0805
+Added Member To Class: ClassName=Sense&Connectors Member=Component C20 CAP CER 0.1UF 25V X7R 0805
+Added Member To Class: ClassName=Sense&Connectors Member=Component C21 CAP CER 1UF 25V X7R 0805
+Added Member To Class: ClassName=Synch_Demod Member=Component R2 499K
+Added Member To Class: ClassName=Synch_Demod Member=Component R3 18.2K
+Added Member To Class: ClassName=Synch_Demod Member=Component R5 33K
+Added Member To Class: ClassName=Voltage_Sources Member=Component R6 ?
+Added Member To Class: ClassName=Voltage_Sources Member=Component R7 487k
+Added Member To Class: ClassName=Voltage_Sources Member=Component R10 6.19k
+Added Member To Class: ClassName=Sense&Connectors Member=Component R12 43.2K
+Added Member To Class: ClassName=Sense&Connectors Member=Component R16 100
+Added Member To Class: ClassName=Sense&Connectors Member=Component R17 0
+Added Member To Class: ClassName=Sense&Connectors Member=Component R23 DNP
+Added Member To Class: ClassName=Sense&Connectors Member=Component R26 100
+Added Member To Class: ClassName=ADC Member=Component R33 10K
+Added Member To Class: ClassName=ADC Member=Component R34 10K
+Added Member To Class: ClassName=ADC Member=Component R35 10K
+Added Member To Class: ClassName=Synch_Demod Member=Component TP1 5003
+Added Member To Class: ClassName=Voltage_Sources Member=Component TP5 5003
+Added Member To Class: ClassName=Voltage_Sources Member=Component U2 TPS79901DRVRG4
+Added Member To Class: ClassName=Voltage_Sources Member=Component U5 OPA188AIDBVR
+Added Member To Class: ClassName=Voltage_Sources Member=Component U6 ADR4550BRZ-R7
+Added Member To Class: ClassName=Sense&Connectors Member=Component U8 MAX333AEUP+
+Added Member To Class: ClassName=Sense&Connectors Member=Component U10 MAX5481EUD-T
+Added Member To Class: ClassName=ADC Member=Component U13 OPA188AIDBVR
+Added Member To Class: ClassName=ADC Member=Component U15 ADG1204YRUZ-REEL7

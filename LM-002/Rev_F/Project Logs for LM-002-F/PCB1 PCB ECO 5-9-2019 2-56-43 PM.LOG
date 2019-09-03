@@ -1,0 +1,59 @@
+Removed Member From Class: ClassName=Sense&Connectors Member=C5
+Removed Member From Class: ClassName=Sense&Connectors Member=C7
+Removed Member From Class: ClassName=Sense&Connectors Member=C8
+Removed Member From Class: ClassName=Voltage_Sources Member=C17
+Removed Member From Class: ClassName=Voltage_Sources Member=C18
+Removed Member From Class: ClassName=Sense&Connectors Member=C22
+Removed Member From Class: ClassName=Voltage_Sources Member=C22
+Removed Member From Class: ClassName=Sense&Connectors Member=C27
+Removed Member From Class: ClassName=Voltage_Sources Member=R4
+Removed Member From Class: ClassName=Synch_Demod Member=R7
+Removed Member From Class: ClassName=Sense&Connectors Member=R11
+Removed Member From Class: ClassName=Synch_Demod Member=R11
+Removed Member From Class: ClassName=Synch_Demod Member=R12
+Removed Member From Class: ClassName=Voltage_Sources Member=R12
+Removed Member From Class: ClassName=Voltage_Sources Member=R16
+Removed Member From Class: ClassName=ADC Member=R23
+Removed Member From Class: ClassName=Sense&Connectors Member=R32
+Removed Member From Class: ClassName=Sense&Connectors Member=R34
+Removed Member From Class: ClassName=Voltage_Sources Member=TP1
+Removed Member From Class: ClassName=Voltage_Sources Member=TP2
+Removed Member From Class: ClassName=Synch_Demod Member=TP3
+Removed Member From Class: ClassName=Sense&Connectors Member=U2
+Removed Member From Class: ClassName=ADC Member=U6
+Removed Member From Class: ClassName=ADC Member=U7
+Removed Member From Class: ClassName=Voltage_Sources Member=U7
+Removed Member From Class: ClassName=Voltage_Sources Member=U8
+Removed Member From Class: ClassName=Voltage_Sources Member=U14
+Added Pin To Net: NetName=ADC REF Pin=C29-1
+Added Pin To Net: NetName=ADC REF Pin=U16-6
+Added Pin To Net: NetName=ADC REF Pin=U17-5
+Added Pin To Net: NetName=ADC REF Pin=U17-6
+Added Member To Class: ClassName=Voltage_Sources Member=Component C7 CAP CER 1UF 25V X7R 0805
+Added Member To Class: ClassName=Voltage_Sources Member=Component C8 CAP CER 1UF 25V X7R 0805
+Added Member To Class: ClassName=Voltage_Sources Member=Component C11 .47uF
+Added Member To Class: ClassName=Sense&Connectors Member=Component C15 CAP CER 0.1UF 25V X7R 0805
+Added Member To Class: ClassName=Sense&Connectors Member=Component C16 CAP CER 0.1UF 25V X7R 0805
+Added Member To Class: ClassName=Sense&Connectors Member=Component C19 CAP CER 1UF 25V X7R 0805
+Added Member To Class: ClassName=Sense&Connectors Member=Component C20 CAP CER 0.1UF 25V X7R 0805
+Added Member To Class: ClassName=Sense&Connectors Member=Component C21 CAP CER 1UF 25V X7R 0805
+Added Member To Class: ClassName=Synch_Demod Member=Component R1 300K
+Added Member To Class: ClassName=Synch_Demod Member=Component R2 499K
+Added Member To Class: ClassName=Synch_Demod Member=Component R4 249K
+Added Member To Class: ClassName=Voltage_Sources Member=Component R8 768
+Added Member To Class: ClassName=Voltage_Sources Member=Component R9 ?
+Added Member To Class: ClassName=Voltage_Sources Member=Component R10 6.19k
+Added Member To Class: ClassName=Sense&Connectors Member=Component R16 100
+Added Member To Class: ClassName=Sense&Connectors Member=Component R20 DNP
+Added Member To Class: ClassName=Sense&Connectors Member=Component R25 4.02K
+Added Member To Class: ClassName=Sense&Connectors Member=Component R26 100
+Added Member To Class: ClassName=ADC Member=Component R29 100K
+Added Member To Class: ClassName=Synch_Demod Member=Component TP1 5003
+Added Member To Class: ClassName=Voltage_Sources Member=Component TP4 5003
+Added Member To Class: ClassName=Voltage_Sources Member=Component TP5 5003
+Added Member To Class: ClassName=Voltage_Sources Member=Component U2 TPS79901DRVRG4
+Added Member To Class: ClassName=Voltage_Sources Member=Component U4 DAC80504
+Added Member To Class: ClassName=Voltage_Sources Member=Component U5 OPA188AIDBVR
+Added Member To Class: ClassName=Sense&Connectors Member=Component U11 OPA188AIDBVR
+Added Member To Class: ClassName=ADC Member=Component U15 ADG1204YRUZ-REEL7
+Added Member To Class: ClassName=ADC Member=Component U17 MAX6070AAUT41+T

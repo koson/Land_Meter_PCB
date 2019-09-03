@@ -1,0 +1,179 @@
+Removed Pin From Net: NetName=GND Pin=R2-1
+Removed Pin From Net: NetName=NetDS1_2 Pin=R2-2
+Removed Pin From Net: NetName=Power_IN Pin=R6-1
+Removed Pin From Net: NetName=NetP5_2 Pin=R11-1
+Removed Pin From Net: NetName=NetR11_2 Pin=R12-1
+Removed Pin From Net: NetName=GND Pin=R12-2
+Removed Pin From Net: NetName=Red LED Pin=R14-1
+Removed Pin From Net: NetName=NetDS3_1 Pin=R14-2
+Removed Pin From Net: NetName=Green LED Pin=R15-1
+Removed Pin From Net: NetName=NetDS3_2 Pin=R15-2
+Removed Pin From Net: NetName=Blue LED Pin=R16-1
+Removed Pin From Net: NetName=NetDS3_3 Pin=R16-2
+Removed Pin From Net: NetName=TXD Pin=R17-1
+Removed Pin From Net: NetName=VCC_2V85 Pin=R17-2
+Removed Pin From Net: NetName=SERIAL4_TX Pin=R18-1
+Removed Pin From Net: NetName=TXD Pin=R18-2
+Removed Pin From Net: NetName=SERIAL4_RX Pin=R19-1
+Removed Pin From Net: NetName=RXD Pin=R19-2
+Removed Pin From Net: NetName=GND Pin=R20-1
+Removed Pin From Net: NetName=NetDS4_2 Pin=R20-2
+Removed Pin From Net: NetName=GND Pin=R21-1
+Removed Pin From Net: NetName=NetDS5_2 Pin=R21-2
+Removed Pin From Net: NetName=GND Pin=R22-1
+Removed Pin From Net: NetName=NetDS6_2 Pin=R22-2
+Removed Pin From Net: NetName=GND Pin=R23-1
+Removed Pin From Net: NetName=NetDS7_2 Pin=R23-2
+Removed Pin From Net: NetName=+3.3 Pin=R26-1
+Removed Pin From Net: NetName=+3.3 Pin=R27-1
+Removed Pin From Net: NetName=NetR11_2 Pin=U2-3
+Removed Member From Class: ClassName=Power Member=R10
+Removed Member From Class: ClassName=RS232 Member=R14
+Removed Member From Class: ClassName=RS232 Member=R15
+Removed Member From Class: ClassName=RS232 Member=R16
+Removed Member From Class: ClassName=heater_control Member=R20
+Removed Member From Class: ClassName=heater_control Member=R21
+Removed Member From Class: ClassName=BBB Headers Member=R24
+Removed Member From Class: ClassName=BBB Headers Member=R25
+Removed Member From Class: ClassName=BBB Headers Member=R26
+Removed Member From Class: ClassName=BBB Headers Member=R27
+Change Component Footprint: Designator=R14 Old Footprint=RESC0805(2012)_L New Footprint=RESC0402(1005)_M
+Change Component Footprint: Designator=R15 Old Footprint=RESC0805(2012)_L New Footprint=RESC0402(1005)_M
+Change Component Footprint: Designator=R16 Old Footprint=RESC0805(2012)_L New Footprint=RESC0402(1005)_M
+Change Component Footprint: Designator=R18 Old Footprint=RESC0805(2012)_L New Footprint=RESC0402(1005)_M
+Change Component Footprint: Designator=R20 Old Footprint=RESC0805(2012)_L New Footprint=RESC0402(1005)_M
+Change Component Footprint: Designator=R21 Old Footprint=RESC0805(2012)_L New Footprint=RESC0402(1005)_M
+Change Component Footprint: Designator=R22 Old Footprint=RESC0805(2012)_L New Footprint=RESC0402(1005)_M
+Change Component Footprint: Designator=R23 Old Footprint=RESC0805(2012)_L New Footprint=RESC0402(1005)_M
+Change Component Footprint: Designator=R2 Old Footprint=RESC0805(2012)_M New Footprint=RESC0402(1005)_M
+Change Component Footprint: Designator=R17 Old Footprint=RESC0805(2012)_M New Footprint=RESC0402(1005)_M
+Change Component Footprint: Designator=R11 Old Footprint=RESC0805(2012)_N New Footprint=RESC0402(1005)_M
+Change Component Footprint: Designator=R12 Old Footprint=RESC0805(2012)_N New Footprint=RESC0402(1005)_M
+Change Component Footprint: Designator=R19 Old Footprint=RESC0805(2012)_N New Footprint=RESC0402(1005)_M
+Change Component Footprint: Designator=R24 Old Footprint=RESC0805(2012)_N New Footprint=RESC0402(1005)_M
+Change Component Footprint: Designator=R25 Old Footprint=RESC0805(2012)_N New Footprint=RESC0402(1005)_M
+Change Component Comment : Designator=R22 Old Comment= New Comment=4.99k
+Change Component Comment : Designator=R23 Old Comment= New Comment=4.99k
+Change Component Comment : Designator=R20 Old Comment= New Comment=100
+Change Component Comment : Designator=R21 Old Comment= New Comment=100
+Change Component Comment : Designator=R17 Old Comment=DNP New Comment=100
+Change Component Comment : Designator=R11 Old Comment=RES SMD 10k OHM 1% 1/8W 0805 New Comment=4.7k
+Change Component Comment : Designator=R24 Old Comment=RES SMD 10k OHM 1% 1/8W 0805 New Comment=4.99k
+Change Component Comment : Designator=R25 Old Comment=RES SMD 10k OHM 1% 1/8W 0805 New Comment=4.99k
+Change Component Comment : Designator=R2 Old Comment=RES SMD 10K OHM 1% 1/8W 0805 New Comment=10k
+Change Component Comment : Designator=R16 Old Comment=RES SMD 100 OHM 1% 1/8W 0805 New Comment=19.1k
+Change Component Comment : Designator=R18 Old Comment=RES SMD 100 OHM 1% 1/8W 0805 New Comment=100
+Change Component Comment : Designator=R19 Old Comment=RES SMD 100 OHM 1% 1/8W 0805 New Comment=100
+Change Component Comment : Designator=R14 Old Comment=RES SMD 100 OHM 1% 1/8W 0805 New Comment=DNP
+Change Component Comment : Designator=R15 Old Comment=RES SMD 100 OHM 1% 1/8W 0805 New Comment=TBD
+Change Component Comment : Designator=R12 Old Comment=RES SMD TBD OHM 1% 1/8W 0805 New Comment=100
+Change Component Designator: OldDesignator=R7 NewDesignator=R6
+Change Component Designator: OldDesignator=R8 NewDesignator=R7
+Change Component Designator: OldDesignator=R9 NewDesignator=R8
+Change Component Designator: OldDesignator=R10 NewDesignator=R9
+Change Component Designator: OldDesignator=U6 NewDesignator=U4
+Change component parameters: Designator = "R11"; Footprint = "RESC0402(1005)_M"; UniqueID = "\IROORWIO"
+Change component parameters. Clean all parameters for all variants
+Change component parameters: Designator = "R12"; Footprint = "RESC0402(1005)_M"; UniqueID = "\QOMPPDFK"
+Change component parameters. Clean all parameters for all variants
+Change component parameters: Designator = "R24"; Footprint = "RESC0402(1005)_M"; UniqueID = "\HLRHAGQW"
+Change component parameters. Clean all parameters for all variants
+Change component parameters: Designator = "R25"; Footprint = "RESC0402(1005)_M"; UniqueID = "\XPLUASEU"
+Change component parameters. Clean all parameters for all variants
+Change component parameters: Designator = "R2"; Footprint = "RESC0402(1005)_M"; UniqueID = "\YUUMFEKR"
+Change component parameters. Clean all parameters for all variants
+Change component parameters: Designator = "R14"; Footprint = "RESC0402(1005)_M"; UniqueID = "\PHIOTQBV"
+Change component parameters. Clean all parameters for all variants
+Change component parameters: Designator = "R15"; Footprint = "RESC0402(1005)_M"; UniqueID = "\HENLUKXD"
+Change component parameters. Clean all parameters for all variants
+Change component parameters: Designator = "R16"; Footprint = "RESC0402(1005)_M"; UniqueID = "\GNSVCWLG"
+Change component parameters. Clean all parameters for all variants
+Change component parameters: Designator = "R17"; Footprint = "RESC0402(1005)_M"; UniqueID = "\TEABWJUP"
+Change component parameters. Clean all parameters for all variants
+Change component parameters: Designator = "R18"; Footprint = "RESC0402(1005)_M"; UniqueID = "\GSWARLTO"
+Change component parameters. Clean all parameters for all variants
+Change component parameters: Designator = "R19"; Footprint = "RESC0402(1005)_M"; UniqueID = "\ISYNMQIS"
+Change component parameters. Clean all parameters for all variants
+Change component parameters: Designator = "R20"; Footprint = "RESC0402(1005)_M"; UniqueID = "\SXANUXMU"
+Change component parameters. Clean all parameters for all variants
+Change component parameters: Designator = "R21"; Footprint = "RESC0402(1005)_M"; UniqueID = "\DWKBCOIO"
+Change component parameters. Clean all parameters for all variants
+Change component parameters: Designator = "R22"; Footprint = "RESC0402(1005)_M"; UniqueID = "\GCNVWJPT"
+Change component parameters. Clean all parameters for all variants
+Change component parameters: Designator = "R23"; Footprint = "RESC0402(1005)_M"; UniqueID = "\INQWFWCT"
+Change component parameters. Clean all parameters for all variants
+Added Component: Designator=1(RESC0402(1005)_M)
+Add component. Clean all parameters for all variants
+Added Component: Designator=2(RESC0402(1005)_M)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R10(RESC0402(1005)_M)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R13(RESC0402(1005)_M)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=Power_IN Pin=1-2
+Added Pin To Net: NetName=TXD Pin=2-1
+Added Pin To Net: NetName=VCC_2V85 Pin=2-2
+Added Pin To Net: NetName=NetDS1_2 Pin=R2-1
+Added Pin To Net: NetName=GND Pin=R2-2
+Added Pin To Net: NetName=+3.3 Pin=R10-1
+Added Pin To Net: NetName=+3.3 Pin=R11-1
+Added Pin To Net: NetName=NetP5_2 Pin=R14-1
+Added Pin To Net: NetName=Serial1_RX Pin=R14-2
+Added Pin To Net: NetName=NetP5_2 Pin=R15-2
+Added Pin To Net: NetName=GND Pin=R16-1
+Added Pin To Net: NetName=NetDS3_1 Pin=R17-1
+Added Pin To Net: NetName=Red LED Pin=R17-2
+Added Pin To Net: NetName=NetDS3_2 Pin=R18-1
+Added Pin To Net: NetName=Green LED Pin=R18-2
+Added Pin To Net: NetName=NetDS3_3 Pin=R19-1
+Added Pin To Net: NetName=Blue LED Pin=R19-2
+Added Pin To Net: NetName=TXD Pin=R20-1
+Added Pin To Net: NetName=SERIAL4_TX Pin=R20-2
+Added Pin To Net: NetName=RXD Pin=R21-1
+Added Pin To Net: NetName=SERIAL4_RX Pin=R21-2
+Added Pin To Net: NetName=NetDS4_2 Pin=R22-1
+Added Pin To Net: NetName=GND Pin=R22-2
+Added Pin To Net: NetName=NetDS5_2 Pin=R23-1
+Added Pin To Net: NetName=GND Pin=R23-2
+Added Pin To Net: NetName=NetDS6_2 Pin=R24-1
+Added Pin To Net: NetName=GND Pin=R24-2
+Added Pin To Net: NetName=NetDS7_2 Pin=R25-1
+Added Pin To Net: NetName=GND Pin=R25-2
+Added Pin To Net: NetName=NetR11_2 Pin=U1-9-20
+Added Pin To Net: NetName=NetR11_2 Pin=U4-2
+Change Net Name : Old Net Name=NetR7_1 New Net Name=NetR6_1
+Change Net Name : Old Net Name=NetR9_1 New Net Name=NetR8_1
+Added Pin To Net: NetName=Net1_1 Pin=1-1
+Added Pin To Net: NetName=Net1_1 Pin=DS2-2
+Added Net: Name=Net1_1
+Added Pin To Net: NetName=NetR10_2 Pin=R10-2
+Added Pin To Net: NetName=NetR10_2 Pin=U1-9-19
+Added Pin To Net: NetName=NetR10_2 Pin=U4-3
+Added Net: Name=NetR10_2
+Added Pin To Net: NetName=NetR12_1 Pin=R12-1
+Added Pin To Net: NetName=NetR12_1 Pin=U1-8-11
+Added Net: Name=NetR12_1
+Added Pin To Net: NetName=NetR12_2 Pin=R12-2
+Added Pin To Net: NetName=NetR12_2 Pin=U1-8-13
+Added Net: Name=NetR12_2
+Added Pin To Net: NetName=NetR13_1 Pin=R13-1
+Added Pin To Net: NetName=NetR13_1 Pin=U1-8-36
+Added Net: Name=NetR13_1
+Added Pin To Net: NetName=NetR13_2 Pin=R13-2
+Added Pin To Net: NetName=NetR13_2 Pin=U1-8-35
+Added Net: Name=NetR13_2
+Added Pin To Net: NetName=NetR15_1 Pin=R15-1
+Added Pin To Net: NetName=NetR15_1 Pin=R16-2
+Added Pin To Net: NetName=NetR15_1 Pin=U2-3
+Added Net: Name=NetR15_1
+Added Member To Class: ClassName=Power Member=Component 1 4.99k
+Added Member To Class: ClassName=RS232 Member=Component 2 100
+Added Member To Class: ClassName=BBB Headers Member=Component R10 4.7k
+Added Member To Class: ClassName=BBB Headers Member=Component R13 100
+Added Member To Class: ClassName=BBB Headers Member=Component R14 DNP
+Added Member To Class: ClassName=BBB Headers Member=Component R15 TBD
+Added Member To Class: ClassName=BBB Headers Member=Component R16 19.1k
+Added Member To Class: ClassName=RS232 Member=Component R20 100
+Added Member To Class: ClassName=RS232 Member=Component R21 100
+Added Member To Class: ClassName=heater_control Member=Component R24 4.99k
+Added Member To Class: ClassName=heater_control Member=Component R25 4.99k

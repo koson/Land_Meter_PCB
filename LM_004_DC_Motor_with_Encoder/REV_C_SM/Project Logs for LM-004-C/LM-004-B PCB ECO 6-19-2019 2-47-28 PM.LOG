@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=GND Pin=U2-7
+Removed Pin From Net: NetName=+3.3 Pin=U2-22
+Change Component Comment : Designator=R8 Old Comment=1.5k New Comment=10k
+Added Pin To Net: NetName=NetU1_8-9 Pin=U2-7
+Added Pin To Net: NetName=NetR8_1 Pin=U2-22
+Added Member To Class: ClassName=Stepper Motor Driver Member=Component C5 .01uF
+Added Member To Class: ClassName=Stepper Motor Driver Member=Component C11 .01uF
+Added Member To Class: ClassName=Stepper Motor Driver Member=Component P4 IPL1-104-01-L-S-RA-K
+Added Member To Class: ClassName=Stepper Motor Driver Member=Component R15 10K
+Added Member To Class: ClassName=Stepper Motor Driver Member=Component R20 1
+Added Member To Class: ClassName=Stepper Motor Driver Member=Component U3 DRV8834RGER

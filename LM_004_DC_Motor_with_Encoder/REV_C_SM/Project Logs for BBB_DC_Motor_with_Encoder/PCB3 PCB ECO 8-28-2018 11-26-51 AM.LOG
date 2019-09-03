@@ -1,0 +1,22 @@
+Added Component: Designator=U2(DRV8801PWPR)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "296-25378-1-ND"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetR3_2 Pin=U2-1
+Added Pin To Net: NetName=NetR1_2 Pin=U2-2
+Added Pin To Net: NetName=NetU1_8-11 Pin=U2-3
+Added Pin To Net: NetName=GND Pin=U2-4
+Added Pin To Net: NetName=NetR2_2 Pin=U2-5
+Added Pin To Net: NetName=NetR7_1 Pin=U2-6
+Added Pin To Net: NetName=NetP6_1 Pin=U2-7
+Added Pin To Net: NetName=NetR8_1 Pin=U2-8
+Added Pin To Net: NetName=NetC5_1 Pin=U2-9
+Added Pin To Net: NetName=NetP6_2 Pin=U2-10
+Added Pin To Net: NetName=NetC2_2 Pin=U2-11
+Added Pin To Net: NetName=NetC2_1 Pin=U2-12
+Added Pin To Net: NetName=GND Pin=U2-13
+Added Pin To Net: NetName=+12 Pin=U2-14
+Added Pin To Net: NetName=NetR5_2 Pin=U2-15
+Added Pin To Net: NetName=NetR4_2 Pin=U2-16
+Added Pin To Net: NetName=GND Pin=U2-17
+Added Member To Class: ClassName=DC-Motor-DRV Member=Component U2 DRV8801PWPR

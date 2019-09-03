@@ -1,0 +1,30 @@
+Removed Pin From Net: NetName=GND Pin=C70-1
+Removed Pin From Net: NetName=GND Pin=C71-1
+Removed Pin From Net: NetName=-5 Pin=C71-2
+Removed Pin From Net: NetName=GND Pin=U17-2
+Removed Pin From Net: NetName=-5 Pin=U17-5
+Removed Pin From Net: NetName=GND Pin=U17-6
+Removed Pin From Net: NetName=PWM2B Pin=U17-11
+Removed Pin From Net: NetName=+5R Pin=U17-12
+Removed Pin From Net: NetName=GND Pin=U17-14
+Removed Pin From Net: NetName=+5R Pin=U17-17
+Removed Pin From Net: NetName=GND Pin=U17-19
+Removed Pin From Net: NetName=PWM2B Pin=U17-20
+Removed Member From Class: ClassName=U_Feedback Member=C70
+Removed Member From Class: ClassName=U_Feedback Member=C71
+Removed Member From Class: ClassName=U_Feedback Member=U17
+Added Pin To Net: NetName=+12 Pin=C60-2
+Added Pin To Net: NetName=PWM2B Pin=U13-1
+Added Pin To Net: NetName=GND Pin=U13-2
+Added Pin To Net: NetName=+5R Pin=U13-4
+Added Pin To Net: NetName=GND Pin=U13-6
+Added Pin To Net: NetName=GND Pin=U13-7
+Added Pin To Net: NetName=+5R Pin=U13-9
+Added Pin To Net: NetName=PWM2B Pin=U13-10
+Added Pin To Net: NetName=+12 Pin=U13-16
+Added Pin To Net: NetName=Bottom_In Pin=R92-1
+Added Pin To Net: NetName=Bottom_In Pin=U13-8
+Added Net: Name=Bottom_In
+Added Pin To Net: NetName=Top_In Pin=R85-2
+Added Pin To Net: NetName=Top_In Pin=U13-3
+Added Net: Name=Top_In

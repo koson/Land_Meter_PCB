@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=SHAFT_OUT1+ Pin=P1-1
+Removed Pin From Net: NetName=SHAFT_OUT1- Pin=P1-3
+Removed Pin From Net: NetName=SHAFT_OUT2+ Pin=P1-5
+Removed Pin From Net: NetName=SHAFT_OUT2- Pin=P1-7
+Added Pin To Net: NetName=SHAFT_OUT1+ Pin=P1-2
+Added Pin To Net: NetName=SHAFT_OUT1- Pin=P1-4
+Added Pin To Net: NetName=SHAFT_OUT2+ Pin=P1-6
+Added Pin To Net: NetName=SHAFT_OUT2- Pin=P1-8

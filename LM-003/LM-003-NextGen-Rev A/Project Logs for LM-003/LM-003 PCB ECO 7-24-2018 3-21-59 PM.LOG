@@ -1,0 +1,129 @@
+Removed Pin From Net: NetName=CS Pin=C18-1
+Removed Pin From Net: NetName=GND Pin=C18-2
+Removed Pin From Net: NetName=CS Pin=C19-1
+Removed Pin From Net: NetName=GND Pin=C19-2
+Removed Pin From Net: NetName=GND Pin=C21-1
+Removed Pin From Net: NetName=+12 Pin=C21-2
+Removed Pin From Net: NetName=GND Pin=C23-1
+Removed Pin From Net: NetName=+12 Pin=C23-2
+Removed Pin From Net: NetName=+12 Pin=C24-1
+Removed Pin From Net: NetName=GND Pin=C25-1
+Removed Pin From Net: NetName=+12 Pin=C26-2
+Removed Pin From Net: NetName=GND Pin=C27-1
+Removed Pin From Net: NetName=+3.3 Pin=R50-2
+Removed Pin From Net: NetName=CS Pin=R56-2
+Removed Pin From Net: NetName=CS Pin=R57-2
+Removed Pin From Net: NetName=+12 Pin=R58-2
+Removed Pin From Net: NetName=+12 Pin=R59-2
+Removed Pin From Net: NetName=GND Pin=R60-1
+Removed Pin From Net: NetName=GND Pin=R62-1
+Removed Pin From Net: NetName=GND Pin=R63-1
+Removed Pin From Net: NetName=SPI0_SCLK Pin=U6-14
+Removed Pin From Net: NetName=SPI0_MOSI Pin=U6-16
+Removed Pin From Net: NetName=SPI0_MISO Pin=U6-17
+Removed Pin From Net: NetName=Encoder_CS0 Pin=U6-18
+Removed Pin From Net: NetName=NetU5_9-23 Pin=U11-1
+Removed Pin From Net: NetName=GND Pin=U11-2
+Removed Pin From Net: NetName=SLEEP Pin=U11-3
+Removed Pin From Net: NetName=BRK Pin=U11-5
+Removed Pin From Net: NetName=NetP13_1 Pin=U11-6
+Removed Pin From Net: NetName=NetP13_2 Pin=U11-9
+Removed Pin From Net: NetName=GND Pin=U11-12
+Removed Pin From Net: NetName=+12 Pin=U11-13
+Removed Pin From Net: NetName=BREAK Pin=U11-16
+Removed Pin From Net: NetName=BREAK Pin=U12-2
+Removed Pin From Net: NetName=NetU5_8-34 Pin=U12-3
+Removed Pin From Net: NetName=GND Pin=U12-4
+Removed Pin From Net: NetName=SLEEP Pin=U12-5
+Removed Pin From Net: NetName=NetP5_1 Pin=U12-7
+Removed Pin From Net: NetName=NetP5_2 Pin=U12-10
+Removed Pin From Net: NetName=GND Pin=U12-13
+Removed Pin From Net: NetName=+12 Pin=U12-14
+Removed Pin From Net: NetName=BRK Pin=U12-16
+Removed Member From Class: ClassName=DC-Motor-DRV Member=C18
+Removed Member From Class: ClassName=DC-Motor-DRV Member=C19
+Removed Member From Class: ClassName=DC-Motor-DRV Member=C20
+Removed Member From Class: ClassName=DC-Motor-DRV Member=C21
+Removed Member From Class: ClassName=DC-Motor-DRV Member=C22
+Removed Member From Class: ClassName=DC-Motor-DRV Member=C23
+Removed Member From Class: ClassName=DC-Motor-DRV Member=C24
+Removed Member From Class: ClassName=DC-Motor-DRV Member=C25
+Removed Member From Class: ClassName=DC-Motor-DRV Member=C26
+Removed Member From Class: ClassName=DC-Motor-DRV Member=C27
+Removed Member From Class: ClassName=DC-Motor-DRV Member=R50
+Removed Member From Class: ClassName=DC-Motor-DRV Member=R53
+Removed Member From Class: ClassName=DC-Motor-DRV Member=R56
+Removed Member From Class: ClassName=DC-Motor-DRV Member=R57
+Removed Member From Class: ClassName=DC-Motor-DRV Member=R58
+Removed Member From Class: ClassName=DC-Motor-DRV Member=R59
+Removed Member From Class: ClassName=DC-Motor-DRV Member=R60
+Removed Member From Class: ClassName=DC-Motor-DRV Member=R61
+Removed Member From Class: ClassName=DC-Motor-DRV Member=R62
+Removed Member From Class: ClassName=DC-Motor-DRV Member=R63
+Removed Member From Class: ClassName=DC-Motor-DRV Member=U11
+Removed Member From Class: ClassName=DC-Motor-DRV Member=U12
+Change Component Footprint: Designator=U6 Old Footprint=TSSOP-ST20_M New Footprint=MAX1486EUB+
+Change Component Comment : Designator=U6 Old Comment=MCP2515T-I/ST New Comment=MAX1481EUB+
+Change component parameters: Designator = "U6"; Footprint = "MAX1486EUB+"; UniqueID = "\YOQJXRLF"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Base Part Number"; Value = "MAX1481"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Category"; Value = "Integrated Circuits (ICs)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "https://datasheets.maximintegrated.com/en/ds/MAX1481-MAX1486.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://datasheets.maximintegrated.com/en/ds/MAX1481-MAX1486.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Data Rate"; Value = "250kbps"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Duplex"; Value = "Full"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Maxim Integrated"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "MAX1481EUB+"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Type"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Drivers/Receivers"; Value = "1/1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature"; Value = "-40°C ~ 85°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package / Case"; Value = "10-TFSOP, 10-MSOP (0.118", 3.00mm Width)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Tube"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Status"; Value = "Active"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pricing 2"; Value = "1=2.57, 10=2.442, 25=2.28 (USD)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Protocol"; Value = "RS422, RS485"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS"; Value = "RoHS Compliant"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Stock 2"; Value = "308"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 2"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Device Package"; Value = "10-uMAX"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 2"; Value = "MAX1481EUB+-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = "Transceiver"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage - Supply"; Value = "4.75 V ~ 5.25 V"; VariantName = "[No Variations]"
+Added Component: Designator=P10(HDR1X6)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=P10-2
+Added Pin To Net: NetName=Encoder_CS0 Pin=U6-2
+Added Pin To Net: NetName=GND Pin=U6-5
+Added Pin To Net: NetName=+5.0 Pin=P10-1
+Added Pin To Net: NetName=+5.0 Pin=U6-3
+Added Pin To Net: NetName=+5.0 Pin=U6-10
+Added Net: Name=+5.0
+Added Pin To Net: NetName=CLK+ Pin=P10-4
+Added Pin To Net: NetName=CLK+ Pin=U6-8
+Added Net: Name=CLK+
+Added Pin To Net: NetName=CLK- Pin=P10-5
+Added Pin To Net: NetName=CLK- Pin=U6-7
+Added Net: Name=CLK-
+Added Pin To Net: NetName=DTA+ Pin=P10-3
+Added Pin To Net: NetName=DTA+ Pin=U6-9
+Added Net: Name=DTA+
+Added Pin To Net: NetName=DTA- Pin=P10-6
+Added Pin To Net: NetName=DTA- Pin=U6-6
+Added Net: Name=DTA-
+Added Pin To Net: NetName=NetU5_8-9 Pin=U5-8-9
+Added Net: Name=NetU5_8-9
+Added Pin To Net: NetName=NetU5_8-10 Pin=U5-8-10
+Added Net: Name=NetU5_8-10
+Added Pin To Net: NetName=NetU5_8-35 Pin=U5-8-35
+Added Net: Name=NetU5_8-35
+Added Pin To Net: NetName=NetU5_9-25 Pin=U5-9-25
+Added Net: Name=NetU5_9-25
+Added Pin To Net: NetName=NetU6_1 Pin=U6-1
+Added Net: Name=NetU6_1
+Added Pin To Net: NetName=NetU6_4 Pin=U6-4
+Added Net: Name=NetU6_4
+Added Member To Class: ClassName=DC-Motor-DRV Member=Component P10 Header 6

@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=BRK Pin=R42-1
+Removed Pin From Net: NetName=+3.3 Pin=R42-2
+Removed Pin From Net: NetName=BRK Pin=R54-1
+Removed Pin From Net: NetName=+3.3 Pin=R54-2
+Removed Pin From Net: NetName=BRK Pin=R55-1
+Removed Pin From Net: NetName=+3.3 Pin=R55-2
+Removed Member From Class: ClassName=DC-Motor-DRV Member=R42
+Removed Member From Class: ClassName=DC-Motor-DRV Member=R54
+Removed Member From Class: ClassName=DC-Motor-DRV Member=R55

@@ -1,0 +1,21 @@
+Change Component Footprint: Designator=P12 Old Footprint=B4B-ZR-SM4-TF New Footprint=IPL1-104-02-F-S
+Change Component Footprint: Designator=P13 Old Footprint=B4B-ZR-SM4-TF New Footprint=IPL1-104-02-F-S
+Change Component Footprint: Designator=P14 Old Footprint=B4B-ZR-SM4-TF New Footprint=IPL1-104-02-F-S
+Change Component Footprint: Designator=P15 Old Footprint=B4B-ZR-SM4-TF New Footprint=IPL1-104-02-F-S
+Change Component Footprint: Designator=P16 Old Footprint=B4B-ZR-SM4-TF New Footprint=IPL1-104-02-F-S
+Change Component Comment : Designator=P12 Old Comment=CONN HEADER ZH TOP 4POS 1.5MM New Comment=IPL1-104-02-F-S-K 
+Change Component Comment : Designator=P13 Old Comment=CONN HEADER ZH TOP 4POS 1.5MM New Comment=IPL1-104-02-F-S-K 
+Change Component Comment : Designator=P14 Old Comment=CONN HEADER ZH TOP 4POS 1.5MM New Comment=IPL1-104-02-F-S-K 
+Change Component Comment : Designator=P15 Old Comment=CONN HEADER ZH TOP 4POS 1.5MM New Comment=IPL1-104-02-F-S-K 
+Change Component Comment : Designator=P16 Old Comment=CONN HEADER ZH TOP 4POS 1.5MM New Comment=IPL1-104-02-F-S-K 
+Change Component Comment : Designator=P17 Old Comment=IPL1-104-02-F-S New Comment=IPL1-104-02-F-S-K 
+Change component parameters: Designator = "P12"; Footprint = "IPL1-104-02-F-S"; UniqueID = "\XKSDEBMX"
+Change component parameters. Clean all parameters for all variants
+Change component parameters: Designator = "P13"; Footprint = "IPL1-104-02-F-S"; UniqueID = "\QJUMMBWY"
+Change component parameters. Clean all parameters for all variants
+Change component parameters: Designator = "P14"; Footprint = "IPL1-104-02-F-S"; UniqueID = "\HHDAQBOK"
+Change component parameters. Clean all parameters for all variants
+Change component parameters: Designator = "P15"; Footprint = "IPL1-104-02-F-S"; UniqueID = "\SLMOTIWU"
+Change component parameters. Clean all parameters for all variants
+Change component parameters: Designator = "P16"; Footprint = "IPL1-104-02-F-S"; UniqueID = "\BHGRAKEP"
+Change component parameters. Clean all parameters for all variants

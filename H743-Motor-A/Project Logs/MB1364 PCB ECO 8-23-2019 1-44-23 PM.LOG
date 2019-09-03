@@ -1,0 +1,20 @@
+Removed Pin From Net: NetName=+5 Pin=P3-1
+Removed Pin From Net: NetName=CLK- Pin=P3-3
+Removed Pin From Net: NetName=CLK+ Pin=P3-4
+Removed Pin From Net: NetName=DTA+ Pin=P3-5
+Removed Pin From Net: NetName=DTA- Pin=P3-6
+Change Component Footprint: Designator=P3 Old Footprint=IPL1-106-01-L-S-RA-K New Footprint=SAMTEC-TFM-104-01-X-D-RA
+Change Component Footprint: Designator=P1 Old Footprint=SAMTEC-TFM-104-02-X-D New Footprint=SAMTEC-TFM-104-01-X-D-RA
+Change Component Comment : Designator=P3 Old Comment=IPL1-106-01-L-S-RA-K New Comment=SAMTEC-TFM-104-01-X-D-RAJ
+Change Component Comment : Designator=P1 Old Comment=SAMTEC-TFM-104-02-X-DJ New Comment=SAMTEC-TFM-104-01-X-D-RAJ
+Change component parameters: Designator = "P3"; Footprint = "SAMTEC-TFM-104-01-X-D-RA"; UniqueID = "\BTELTDWC"
+Change component parameters. Clean all parameters for all variants
+Added Pin To Net: NetName=DTA- Pin=P3-1
+Added Pin To Net: NetName=DTA+ Pin=P3-3
+Added Pin To Net: NetName=+5 Pin=P3-4
+Added Pin To Net: NetName=CLK+ Pin=P3-5
+Added Pin To Net: NetName=CLK- Pin=P3-7
+Added Pin To Net: NetName=Direction Pin=P3-8
+Added Net: Name=Direction
+Added Pin To Net: NetName=Preset Pin=P3-6
+Added Net: Name=Preset

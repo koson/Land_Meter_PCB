@@ -1,0 +1,239 @@
+Removed Pin From Net: NetName=Bottom Forcing Plate Force Pin=P1-2
+Removed Pin From Net: NetName=PLATE_P_F Pin=P2-1
+Removed Pin From Net: NetName=PLATE_N_F Pin=P2-2
+Removed Pin From Net: NetName=-5 Pin=P4-A2
+Removed Pin From Net: NetName=PLATE_P_F Pin=P4-A3
+Removed Pin From Net: NetName=ZP Pin=P4-A4
+Removed Pin From Net: NetName=GND Pin=P4-A5
+Removed Pin From Net: NetName=SPI0_MOSI Pin=P4-A8
+Removed Pin From Net: NetName=SPIO_MISO Pin=P4-A9
+Removed Pin From Net: NetName=SPIO_SCLK Pin=P4-A10
+Removed Pin From Net: NetName=GND Pin=P4-B1
+Removed Pin From Net: NetName=+5 Pin=P4-B2
+Removed Pin From Net: NetName=PLATE_N_F Pin=P4-B3
+Removed Pin From Net: NetName=ZH Pin=P4-B4
+Removed Pin From Net: NetName=PWM1A Pin=P4-B5
+Removed Pin From Net: NetName=A0 Pin=P4-B6
+Removed Pin From Net: NetName=A1 Pin=P4-B7
+Removed Pin From Net: NetName=PWM2B_DELAY Pin=P4-B9
+Removed Pin From Net: NetName=Sync_clk Pin=P4-B10
+Removed Pin From Net: NetName=Top Forcing Plate Sense Pin=R1-1
+Removed Pin From Net: NetName=PLATE_P_F Pin=R3-1
+Removed Pin From Net: NetName=PWM2B_DELAY Pin=R11-1
+Removed Pin From Net: NetName=Sync_clk Pin=R11-2
+Removed Pin From Net: NetName=GND Pin=R12-2
+Removed Pin From Net: NetName=PLATE_N_F Pin=R13-1
+Removed Pin From Net: NetName=GND Pin=R14-2
+Removed Pin From Net: NetName=Bottom Forcing Plate Sense Pin=R18-1
+Removed Pin From Net: NetName=Bottom Forcing Plate Force Pin=R18-2
+Removed Pin From Net: NetName=GND Pin=R19-1
+Removed Pin From Net: NetName=Bottom Forcing Plate Force Pin=R22-1
+Removed Pin From Net: NetName=PWM2B_DELAY Pin=TP1-1
+Removed Pin From Net: NetName=Sync_clk Pin=U1-1
+Removed Pin From Net: NetName=GND Pin=U1-2
+Removed Pin From Net: NetName=BEAM Pin=U1-4
+Removed Pin From Net: NetName=-5 Pin=U1-5
+Removed Pin From Net: NetName=GND Pin=U1-6
+Removed Pin From Net: NetName=GND Pin=U1-7
+Removed Pin From Net: NetName=GND Pin=U1-8
+Removed Pin From Net: NetName=GND Pin=U1-9
+Removed Pin From Net: NetName=GND Pin=U1-10
+Removed Pin From Net: NetName=GND Pin=U1-12
+Removed Pin From Net: NetName=BFP Pin=U1-13
+Removed Pin From Net: NetName=+12 Pin=U1-16
+Removed Pin From Net: NetName=GND Pin=U1-17
+Removed Pin From Net: NetName=TFP Pin=U1-18
+Removed Member From Class: ClassName=Beam_Amp Member=P4
+Removed Member From Class: ClassName=ADC Member=R12
+Removed Member From Class: ClassName=ADC Member=R13
+Removed Member From Class: ClassName=ADC Member=R14
+Removed Member From Class: ClassName=Beam_Amp Member=R19
+Removed Member From Class: ClassName=ADC Member=R22
+Removed Member From Class: ClassName=Beam_Amp Member=TP1
+Removed Member From Class: ClassName=Beam_Amp Member=U1
+Change Component Comment : Designator=R14 Old Comment=10K New Comment=3.9K
+Change Component Designator: OldDesignator=C9 NewDesignator=C6
+Change Component Designator: OldDesignator=C10 NewDesignator=C7
+Change Component Designator: OldDesignator=C11 NewDesignator=C8
+Change Component Designator: OldDesignator=C12 NewDesignator=C9
+Change Component Designator: OldDesignator=C13 NewDesignator=C10
+Change Component Designator: OldDesignator=R4 NewDesignator=R7
+Change Component Designator: OldDesignator=R5 NewDesignator=R8
+Change Component Designator: OldDesignator=R6 NewDesignator=R9
+Change Component Designator: OldDesignator=R7 NewDesignator=R10
+Change Component Designator: OldDesignator=R8 NewDesignator=R11
+Change Component Designator: OldDesignator=R9 NewDesignator=R12
+Change Component Designator: OldDesignator=R10 NewDesignator=R13
+Change Component Designator: OldDesignator=R22 NewDesignator=R3
+Change Component Designator: OldDesignator=R23 NewDesignator=R4
+Change Component Designator: OldDesignator=TP2 NewDesignator=TP1
+Change Component Designator: OldDesignator=U2 NewDesignator=U1
+Change Component Designator: OldDesignator=U3 NewDesignator=U2
+Change Component Designator: OldDesignator=U4 NewDesignator=U3
+Change Component Designator: OldDesignator=U6 NewDesignator=U4
+Added Component: Designator=P1(SMTC-FTSH-110-01-L-DV_V)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Catalog Drawings"; Value = "FTSHSeriesFTSHSeriesSMTSide"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Category"; Value = "Connectors,Interconnects"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Color"; Value = "Black"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Connector Type"; Value = "Header,Unshrouded"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Finish"; Value = "Gold"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Finish Thickness"; Value = "10µin(0.25µm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Type"; Value = "MalePin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet URL"; Value = "http://suddendocs.samtec.com/catalog_english/ftsh_smt.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "F-215 , 02/2016"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "EDA / CAD Models"; Value = "DownloadfromAcceleratedDesigns"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Family"; Value = "RectangularConnectors-Headers,MalePins"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Fastening Type"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Featured Product"; Value = "Board-To-BoardInterconnectSystems"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Features"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Samtec"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.samtec.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "SurfaceMount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "SurfaceMount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Positions"; Value = "20"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Positions Loaded"; Value = "All"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Rows"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Online Catalog"; Value = "FTSHSeries"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Other Names"; Value = "SAM1161-10"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Description"; Value = "Male Header, Pitch 1.27 mm, 2 x 10 Position, Height 6.1 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "FTSH-110-01-L-DV"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package URL"; Value = "http://suddendocs.samtec.com/prints/ftsh-1xx-xx-xxx-dv-xxx-xxx-mkt.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Product Training Modules"; Value = "Board-to-BoardConnectors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "FTSH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Standard Package"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination"; Value = "Solder"; VariantName = "[No Variations]"
+Added Component: Designator=R5(RESC0805(2012)_L)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R6(RESC0805(2012)_L)
+Add component. Clean all parameters for all variants
+Added Component: Designator=U6(TSOP65P640X90-20N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Case/Package"; Value = "TSSOP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "https://datasheet.ciiva.com/2978/max333a-2978850.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://datasheet.ciiva.com/2978/max333a-2978850.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "https://datasheet.ciiva.com/30478/0900766b81253c85-30478260.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "https://datasheet.ciiva.com/30478/0900766b81253c85-30478260.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "https://datasheet.ciiva.com/1674/max333a-1674617.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "https://datasheet.ciiva.com/1674/max333a-1674617.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4Description"; Value = "https://datasheet.ciiva.com/26825/max333aeup-26825546.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4URL"; Value = "https://datasheet.ciiva.com/26825/max333aeup-26825546.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Dual Supply Voltage"; Value = "15V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.95mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "6.6mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Maxim"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "MAX333AEUP+"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Dual Supply Voltage"; Value = "20V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Power Dissipation"; Value = "559mW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Supply Current"; Value = "250uA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Supply Voltage"; Value = "30V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Dual Supply Voltage"; Value = "4.5V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-40°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Supply Voltage"; Value = "10V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Bits"; Value = "4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Channels"; Value = "4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Pins"; Value = "20"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "On-State Resistance"; Value = "35R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Supply Current"; Value = "1uA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "74"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Rail/Tube"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pricing 1"; Value = "1=6.77, 10=6.43, 50=5.8, 100=5.8, 1000=5.62, 10000=5.62 (USD)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "Unknown"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stock 1"; Value = "664"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "700-MAX333AEUP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supply Type"; Value = "Single,Dual"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Throw Configuration"; Value = "SPDT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Turn-Off Delay Time"; Value = "145ns"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Turn-On Delay Time"; Value = "175ns"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = "0.006737oz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "4.5mm"; VariantName = "[No Variations]"
+Added Component: Designator=U7(LT6016)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Supplier 1"; Value = "Arrow"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "LT6016IMS8#PBF"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=P1-1
+Added Pin To Net: NetName=Bottom Forcing Plate Sense Pin=P1-2
+Added Pin To Net: NetName=GND Pin=P1-2
+Added Pin To Net: NetName=-5 Pin=P1-3
+Added Pin To Net: NetName=+5 Pin=P1-4
+Added Pin To Net: NetName=Sync_clk Pin=P1-6
+Added Pin To Net: NetName=SPIO_SCLK Pin=P1-7
+Added Pin To Net: NetName=PWM2B_DELAY Pin=P1-8
+Added Pin To Net: NetName=SPIO_MISO Pin=P1-9
+Added Pin To Net: NetName=+12 Pin=P1-10
+Added Pin To Net: NetName=SPI0_MOSI Pin=P1-11
+Added Pin To Net: NetName=A0 Pin=P1-12
+Added Pin To Net: NetName=PWM1A Pin=P1-13
+Added Pin To Net: NetName=A1 Pin=P1-14
+Added Pin To Net: NetName=ZP Pin=P1-15
+Added Pin To Net: NetName=ZH Pin=P1-16
+Added Pin To Net: NetName=PLATE_P_F Pin=P1-17
+Added Pin To Net: NetName=PLATE_N_F Pin=P1-20
+Added Pin To Net: NetName=PLATE_P_F Pin=R5-2
+Added Pin To Net: NetName=PLATE_N_F Pin=R6-2
+Added Pin To Net: NetName=GND Pin=R14-1
+Added Pin To Net: NetName=Bottom Forcing Plate Force Pin=R18-1
+Added Pin To Net: NetName=Bottom Forcing Plate Sense Pin=R18-2
+Added Pin To Net: NetName=PLATE_N_F Pin=U2-10
+Added Pin To Net: NetName=PLATE_P_F Pin=U2-11
+Added Pin To Net: NetName=-5 Pin=U6-5
+Added Pin To Net: NetName=GND Pin=U6-6
+Added Pin To Net: NetName=GND Pin=U6-7
+Added Pin To Net: NetName=GND Pin=U6-8
+Added Pin To Net: NetName=GND Pin=U6-9
+Added Pin To Net: NetName=GND Pin=U6-10
+Added Pin To Net: NetName=ZH Pin=U6-12
+Added Pin To Net: NetName=BFP Pin=U6-13
+Added Pin To Net: NetName=GND Pin=U6-14
+Added Pin To Net: NetName=+12 Pin=U6-16
+Added Pin To Net: NetName=ZH Pin=U6-17
+Added Pin To Net: NetName=TFP Pin=U6-18
+Added Pin To Net: NetName=GND Pin=U6-19
+Added Pin To Net: NetName=Top Forcing Plate Force Pin=U7-1
+Added Pin To Net: NetName=NetR15_2 Pin=U7-2
+Added Pin To Net: NetName=TFP Pin=U7-3
+Added Pin To Net: NetName=GND Pin=U7-4
+Added Pin To Net: NetName=BFP Pin=U7-5
+Added Pin To Net: NetName=NetR20_1 Pin=U7-6
+Added Pin To Net: NetName=Bottom Forcing Plate Force Pin=U7-7
+Added Pin To Net: NetName=ZP Pin=U7-8
+Change Net Name : Old Net Name=NetC10_1 New Net Name=NetC7_1
+Change Net Name : Old Net Name=NetC11_1 New Net Name=NetC8_1
+Change Net Name : Old Net Name=NetC11_2 New Net Name=NetC8_2
+Change Net Name : Old Net Name=NetC13_2 New Net Name=NetC10_2
+Change Net Name : Old Net Name=NetR4_1 New Net Name=NetR7_1
+Change Net Name : Old Net Name=NetR4_2 New Net Name=NetR7_2
+Change Net Name : Old Net Name=NetR22_2 New Net Name=NetR3_2
+Change Net Name : Old Net Name=NetTP2_1 New Net Name=NetTP1_1
+Change Net Name : Old Net Name=NetU3_1 New Net Name=NetU2_1
+Change Net Name : Old Net Name=NetU3_14 New Net Name=NetU2_14
+Change Net Name : Old Net Name=ZH_Reduced New Net Name=NetR1_2
+Added Pin To Net: NetName=CT_CS0 Pin=P1-5
+Added Pin To Net: NetName=CT_CS0 Pin=U3-9
+Added Net: Name=CT_CS0
+Added Pin To Net: NetName=NetR1_1 Pin=R1-1
+Added Net: Name=NetR1_1
+Added Pin To Net: NetName=NetR3_1 Pin=R3-1
+Added Net: Name=NetR3_1
+Added Pin To Net: NetName=NetR14_2 Pin=R14-2
+Added Pin To Net: NetName=NetR14_2 Pin=U6-11
+Added Pin To Net: NetName=NetR14_2 Pin=U6-20
+Added Net: Name=NetR14_2
+Added Pin To Net: NetName=PLATE_N_S Pin=P1-18
+Added Pin To Net: NetName=PLATE_N_S Pin=P2-2
+Added Pin To Net: NetName=PLATE_N_S Pin=R6-1
+Added Net: Name=PLATE_N_S
+Added Pin To Net: NetName=PLATE_P_S Pin=P1-19
+Added Pin To Net: NetName=PLATE_P_S Pin=P2-1
+Added Pin To Net: NetName=PLATE_P_S Pin=R5-1
+Added Net: Name=PLATE_P_S
+Added Member To Class: ClassName=Beam_Amp Member=Component P1 FTSH-110-01-L-DV
+Added Member To Class: ClassName=Beam_Amp Member=Component R12 
+Added Member To Class: ClassName=ZP_Force_Plates Member=Component R14 3.9K
+Added Member To Class: ClassName=ZP_Force_Plates Member=Component U6 MAX333CWP+
+Added Member To Class: ClassName=ZP_Force_Plates Member=Component U7 LT6016
