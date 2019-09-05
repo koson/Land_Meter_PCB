@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
-PCB File : C:\Users\zls\Desktop\H743-Motor-A\MB1364.PcbDoc
-Date     : 8/30/2019
-Time     : 2:53:59 PM
+PCB File : C:\Users\zls\Desktop\Land_Meter_PCB\H743-Motor-A\MB1364.PcbDoc
+Date     : 9/5/2019
+Time     : 12:40:37 PM
 
 Processing Rule : Clearance Constraint (Gap=0.12mm) (InNetClass('NC_USB_DIFF_90R')),(All)
 Rule Violations :0
