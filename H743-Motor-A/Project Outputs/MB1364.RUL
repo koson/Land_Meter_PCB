@@ -1,0 +1,14 @@
+DRC Rules Export File for PCB: C:\Users\zls\Desktop\Land_Meter_PCB\H743-Motor-A\MB1364.PcbDoc
+RuleKind=Width|RuleName=Width_USB_OPTION|Scope=Board|Minimum=6.10
+RuleKind=Width|RuleName=Width_STLK_W200|Scope=Board|Minimum=7.87
+RuleKind=Width|RuleName=Width_TD_P|Scope=Board|Minimum=4.33
+RuleKind=Width|RuleName=Width_RD_N|Scope=Board|Minimum=4.33
+RuleKind=Width|RuleName=Width_RMII_SINGLE_50R|Scope=Board|Minimum=5.00
+RuleKind=Width|RuleName=Width_POWER_SMPS|Scope=Board|Minimum=4.72
+RuleKind=Width|RuleName=Width_GROUND|Scope=Board|Minimum=4.72
+RuleKind=Width|RuleName=Width_POWER_500u|Scope=Board|Minimum=4.72
+RuleKind=Width|RuleName=Width_POWER_300u|Scope=Board|Minimum=4.72
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=8.00
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=4.72
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00

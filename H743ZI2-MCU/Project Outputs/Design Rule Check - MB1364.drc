@@ -1,31 +1,23 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\zls\Desktop\Land_Meter_PCB\H743ZI2-MCU\MB1364.PcbDoc
-Date     : 9/5/2019
-Time     : 4:03:37 PM
+Date     : 9/10/2019
+Time     : 4:21:38 PM
 
-Processing Rule : Clearance Constraint (Gap=0.12mm) (InNetClass('NC_USB_DIFF_90R')),(All)
+Processing Rule : Clearance Constraint (Gap=5mil) (InNetClass('NC_RMII_SINGLE_50R')),(All)
 Rule Violations :0
 
-Processing Rule : Clearance Constraint (Gap=0.12mm) (InNetClass('NC_VCP_ISO300')),(All)
+Processing Rule : Clearance Constraint (Gap=5mil) (InNetClass('NC_RXTX_DIFF_100R')),(All)
 Rule Violations :0
 
-Processing Rule : Clearance Constraint (Gap=0.12mm) (InNetClass('NC_RMII_SINGLE_50R')),(All)
+Processing Rule : Clearance Constraint (Gap=5mil) (InNetClass('NC_STLK_W200-ISO200')),(All)
 Rule Violations :0
 
-Processing Rule : Clearance Constraint (Gap=0.12mm) (InNetClass('NC_RXTX_DIFF_100R')),(All)
+Processing Rule : Clearance Constraint (Gap=5mil) (InNetClass('NC_VCP_ISO300')),(All)
 Rule Violations :0
 
-Processing Rule : Clearance Constraint (Gap=0.12mm) (InNetClass('NC_STLK_W200-ISO200')),(All)
-Rule Violations :0
-
-Processing Rule : Clearance Constraint (Gap=0.12mm) (All),(All)
-Rule Violations :0
-
-Processing Rule : Clearance Constraint (Gap=0.12mm) (InNetClass('NC_USB_DIFF_90R_OPTION')),(OnLayer('Signal Layer 2'))
-Rule Violations :0
-
-Processing Rule : Clearance Constraint (Gap=0.12mm) (InNetClass('NC_USB_DIFF_90R_OPTION')),(OnLayer('Top Layer'))
-Rule Violations :0
+Processing Rule : Clearance Constraint (Gap=5mil) (All),(All)
+   Violation between Clearance Constraint: (4.724mil < 5mil) Between Pad U14-34(1687.639mil,2381.058mil) on Top Layer And Track (1667.954mil,2347.324mil)(1708.592mil,2306.686mil) on Top Layer 
+Rule Violations :1
 
 Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
 Rule Violations :0
@@ -33,28 +25,51 @@ Rule Violations :0
 Processing Rule : Un-Routed Net Constraint ( (All) )
 Rule Violations :0
 
-Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
+Processing Rule : Width Constraint (Min=5mil) (Max=393.701mil) (Preferred=5mil) (All)
 Rule Violations :0
 
-Processing Rule : Hole To Hole Clearance (Gap=0.254mm) (All),(All)
+Processing Rule : Width Constraint (Min=5mil) (Max=393.701mil) (Preferred=19.685mil) (InNetClass('NC_POWER_500u'))
 Rule Violations :0
 
-Processing Rule : Net Antennae (Tolerance=0mm) (All)
-   Violation between Net Antennae: Via (48.675mm,58.3mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (1.941mm,115.579mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (8.566mm,61.904mm) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Track (67.321mm,69.829mm)(68.322mm,68.828mm) on Top Layer 
-   Violation between Net Antennae: Track (46.944mm,55.995mm)(47.273mm,56.325mm) on Bottom Layer 
-   Violation between Net Antennae: Track (20.375mm,23.911mm)(20.841mm,23.445mm) on Bottom Layer 
-   Violation between Net Antennae: Track (20.756mm,24.068mm)(21.222mm,23.602mm) on Bottom Layer 
-   Violation between Net Antennae: Track (41mm,74.15mm)(41.395mm,74.545mm) on Signal Layer 2 
-   Violation between Net Antennae: Track (49.224mm,79.895mm)(49.649mm,80.32mm) on Signal Layer 2 
-Rule Violations :9
+Processing Rule : Width Constraint (Min=5mil) (Max=393.701mil) (Preferred=11.811mil) (InNetClass('NC_GROUND'))
+Rule Violations :0
 
-Processing Rule : Component Clearance Constraint ( Horizontal Gap = 0mm, Vertical Gap = 0mm ) (All),(All) 
+Processing Rule : Width Constraint (Min=5mil) (Max=393.701mil) (Preferred=19.685mil) (InNetClass('NC_POWER_SMPS'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=5mil) (Max=393.701mil) (Preferred=5mil) (InNet('RD_N'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=5mil) (Max=5mil) (Preferred=5mil) (InNetClass('NC_RMII_SINGLE_50R'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=7.874mil) (Max=393.701mil) (Preferred=7.874mil) (InNetClass('NC_STLK_W200-ISO200'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=5mil) (Max=393.701mil) (Preferred=11.811mil) (InNetClass('NC_POWER_300u'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=5.118mil) (Max=6.102mil) (Preferred=6.102mil) (InNetClass('NC_USB_DIFF_90R_OPTION'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=4.331mil) (Max=393.701mil) (Preferred=4.724mil) (InNet('TD_P'))
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mil) (All)
+   Violation between Net Antennae: Track (2587.441mil,4467.987mil)(2627.795mil,4467.987mil) on Top Layer 
+   Violation between Net Antennae: Track (2627.795mil,4467.987mil)(2627.795mil,4508.341mil) on Top Layer 
+Rule Violations :2
+
+Processing Rule : Component Clearance Constraint ( Horizontal Gap = 0mil, Vertical Gap = 0mil ) (All),(All) 
 Rule Violations :0
 
 
-Violations Detected : 9
+Violations Detected : 3
 Waived Violations : 0
-Time Elapsed        : 00:00:25
+Time Elapsed        : 00:00:01

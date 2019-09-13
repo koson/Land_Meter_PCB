@@ -1,0 +1,39 @@
+Output: Gerber X2 Files
+Type  : GerberX2
+From  : Project [Yukitora.PrjPcb]
+   Generated File[MB1364_Copper_Signal_Top.gbr]
+   Generated File[MB1364_Copper_Signal_1.gbr]
+   Generated File[MB1364_Copper_Signal_2.gbr]
+   Generated File[MB1364_Copper_Signal_3.gbr]
+   Generated File[MB1364_Copper_Signal_4.gbr]
+   Generated File[MB1364_Copper_Signal_Bot.gbr]
+   Generated File[MB1364_Pads_Bot.gbr]
+   Generated File[MB1364_Pads_Top.gbr]
+   Generated File[MB1364_Paste_Bot.gbr]
+   Generated File[MB1364_Legend_Bot.gbr]
+   Generated File[MB1364_Soldermask_Bot.gbr]
+   Generated File[MB1364_Legend_Top.gbr]
+   Generated File[MB1364_Paste_Top.gbr]
+   Generated File[MB1364_Soldermask_Top.gbr]
+   Generated File[MB1364_Mechanical_2.gbr]
+   Generated File[MB1364_Mechanical_14.gbr]
+   Generated File[MB1364_Mechanical_17.gbr]
+   Generated File[MB1364_Mechanical_16.gbr]
+   Generated File[MB1364_Mechanical_1.gbr]
+   Generated File[MB1364_Mechanical_15.gbr]
+   Generated File[MB1364_Mechanical_13.gbr]
+   Generated File[MB1364_Mechanical_12.gbr]
+   Generated File[MB1364_Profile.gbr]
+   Generated File[MB1364_NPTH_Drill.gbr]
+   Generated File[MB1364_PTH_Drill.gbr]
+   Generated File[MB1364_Drawing_1.gbr]
+   Generated File[MB1364_Drillmap_1.gbr]
+   Generated File[MB1364.RUL]
+   Generated File[MB1364.EXTREP]
+   Generated File[MB1364.REP]
+
+
+Files Generated   : 30
+Documents Printed : 0
+
+Finished Output Generation At 2:56:02 PM On 9/10/2019
