@@ -1,0 +1,12 @@
+Change Component Designator: OldDesignator=SB? NewDesignator=SB1
+Change Component Designator: OldDesignator=SB? NewDesignator=SB2
+Change Component Designator: OldDesignator=SB? NewDesignator=SB3
+Added Pin To Net: NetName=T_VCP_RX Pin=U4-1
+Added Pin To Net: NetName=T_VCP_TX Pin=U4-3
+Added Pin To Net: NetName=GND Pin=U22-9
+Added Pin To Net: NetName=T_VCP_TX Pin=U47-77
+Added Pin To Net: NetName=T_VCP_RX Pin=U47-78
+Added Pin To Net: NetName=T_VCP_TX Pin=U47-136
+Added Pin To Net: NetName=T_VCP_RX Pin=U47-137
+Added Member To Class: ClassName=MCU_144_POWER Member=Component SB1 Jumper 0 Ohm
+Added Member To Class: ClassName=MCU_144_POWER Member=Component SB2 Jumper 0 Ohm

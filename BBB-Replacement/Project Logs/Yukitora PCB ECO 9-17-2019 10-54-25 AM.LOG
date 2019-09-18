@@ -1,0 +1,248 @@
+Removed Pin From Net: NetName=VDD_MCU Pin=C9-2
+Removed Pin From Net: NetName=VDDA Pin=C10-2
+Removed Pin From Net: NetName=VDD_MCU Pin=R9-1
+Removed Pin From Net: NetName=VDDA Pin=R9-2
+Removed Member From Class: ClassName=MCU_144_POWER Member=C9
+Removed Member From Class: ClassName=MCU_144_POWER Member=C10
+Removed Member From Class: ClassName=SynchDemod Member=C31
+Removed Member From Class: ClassName=SynchDemod Member=C33
+Removed Member From Class: ClassName=SynchDemod Member=C37
+Removed Member From Class: ClassName=Conning_Tower Member=C41
+Removed Member From Class: ClassName=Force_Plates_Power_Supply Member=C41
+Removed Member From Class: ClassName=Conning_Tower Member=C46
+Removed Member From Class: ClassName=Power Member=C46
+Removed Member From Class: ClassName=Levels Member=C51
+Removed Member From Class: ClassName=Levels Member=C54
+Removed Member From Class: ClassName=Levels Member=C55
+Removed Member From Class: ClassName=ZPZH Member=C60
+Removed Member From Class: ClassName=Encoder Member=C64
+Removed Member From Class: ClassName=Power_Input Member=C64
+Removed Member From Class: ClassName=Conning_Tower Member=C67
+Removed Member From Class: ClassName=Conning_Tower Member=C69
+Removed Member From Class: ClassName=Conning_Tower Member=C72
+Removed Member From Class: ClassName=Levels Member=C72
+Removed Member From Class: ClassName=SynchDemod Member=C73
+Removed Member From Class: ClassName=ZPZH Member=C73
+Removed Member From Class: ClassName=12V_Supply Member=C75
+Removed Member From Class: ClassName=ZPZH Member=C75
+Removed Member From Class: ClassName=ZPZH Member=C76
+Removed Member From Class: ClassName=Levels Member=C80
+Removed Member From Class: ClassName=Levels Member=C82
+Removed Member From Class: ClassName=12V_Supply Member=C91
+Removed Member From Class: ClassName=Power Member=C91
+Removed Member From Class: ClassName=SynchDemod Member=C91
+Removed Member From Class: ClassName=Encoder Member=P5
+Removed Member From Class: ClassName=Bluetooth Member=P6
+Removed Member From Class: ClassName=Power_Input Member=P6
+Removed Member From Class: ClassName=Power_Input Member=P7
+Removed Member From Class: ClassName=MCU_144_POWER Member=R9
+Removed Member From Class: ClassName=MCU_144_POWER Member=R10
+Removed Member From Class: ClassName=Force_Plates_Power_Supply Member=R53
+Removed Member From Class: ClassName=Power_Input Member=R58
+Removed Member From Class: ClassName=SynchDemod Member=R59
+Removed Member From Class: ClassName=12V_Supply Member=R64
+Removed Member From Class: ClassName=Motors Member=R88
+Removed Member From Class: ClassName=Encoder Member=R96
+Removed Member From Class: ClassName=Heater Member=U5
+Removed Member From Class: ClassName=Power_Board Member=U5
+Removed Member From Class: ClassName=Motors Member=U7
+Removed Member From Class: ClassName=SynchDemod Member=U12
+Removed Member From Class: ClassName=SynchDemod Member=U15
+Removed Member From Class: ClassName=SynchDemod Member=U16
+Removed Member From Class: ClassName=Levels Member=U20
+Removed Member From Class: ClassName=Levels Member=U22
+Removed Member From Class: ClassName=Levels Member=U23
+Removed Member From Class: ClassName=Force_Plates_Power_Supply Member=U26
+Removed Member From Class: ClassName=Motors Member=U43
+Change Component Comment : Designator=R11 Old Comment= New Comment==Description
+Change Component Comment : Designator=R12 Old Comment= New Comment==Description
+Change Component Comment : Designator=R13 Old Comment= New Comment==Description
+Change Component Comment : Designator=R14 Old Comment= New Comment==Description
+Change Component Comment : Designator=R15 Old Comment= New Comment==Description
+Change Component Comment : Designator=R16 Old Comment= New Comment==Description
+Change Component Comment : Designator=R17 Old Comment= New Comment==Description
+Change Component Comment : Designator=R18 Old Comment= New Comment==Description
+Change Component Comment : Designator=R19 Old Comment= New Comment==Description
+Change Component Comment : Designator=R20 Old Comment= New Comment==Description
+Added Component: Designator=U47(*QFP50P2200X2200X160-144N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Digi-Key_Part_Number"; Value = "497-17721-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digi-Key_Purchase_URL"; Value = "https://www.digikey.com/product-detail/en/stmicroelectronics/STM32H743ZIT6/497-17721-ND/7809238?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "STMicroelectronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "STM32H743ZIT6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "LQFP-144 STMicroelectronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/STM32H743ZIT6/STMicroelectronics/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=VDDA Pin=C9-2
+Added Pin To Net: NetName=VDD_MCU Pin=C10-2
+Added Pin To Net: NetName=VDDA Pin=R9-1
+Added Pin To Net: NetName=VDD_MCU Pin=R9-2
+Added Pin To Net: NetName=GND Pin=U22-9
+Added Pin To Net: NetName=PE1 Pin=U47-1
+Added Pin To Net: NetName=PE3 Pin=U47-2
+Added Pin To Net: NetName=PE4 Pin=U47-3
+Added Pin To Net: NetName=PE5 Pin=U47-4
+Added Pin To Net: NetName=PE6 Pin=U47-5
+Added Pin To Net: NetName=VBAT Pin=U47-6
+Added Pin To Net: NetName=PC13 Pin=U47-7
+Added Pin To Net: NetName=PC14-OSC32_IN Pin=U47-8
+Added Pin To Net: NetName=PC15-OSC32_OUT Pin=U47-9
+Added Pin To Net: NetName=PF0 Pin=U47-10
+Added Pin To Net: NetName=PF1 Pin=U47-11
+Added Pin To Net: NetName=PF2 Pin=U47-12
+Added Pin To Net: NetName=PF3 Pin=U47-13
+Added Pin To Net: NetName=PF4 Pin=U47-14
+Added Pin To Net: NetName=PF5 Pin=U47-15
+Added Pin To Net: NetName=VDDA Pin=U47-17
+Added Pin To Net: NetName=PF6 Pin=U47-18
+Added Pin To Net: NetName=PF7 Pin=U47-19
+Added Pin To Net: NetName=PF8 Pin=U47-20
+Added Pin To Net: NetName=PF9 Pin=U47-21
+Added Pin To Net: NetName=PF10 Pin=U47-22
+Added Pin To Net: NetName=PH0-OSC_IN Pin=U47-23
+Added Pin To Net: NetName=PH1-OSC_OUT Pin=U47-24
+Added Pin To Net: NetName=NRST Pin=U47-25
+Added Pin To Net: NetName=PC0 Pin=U47-26
+Added Pin To Net: NetName=PC1 Pin=U47-27
+Added Pin To Net: NetName=PC2 Pin=U47-28
+Added Pin To Net: NetName=PC3 Pin=U47-29
+Added Pin To Net: NetName=VREFP Pin=U47-32
+Added Pin To Net: NetName=PA0 Pin=U47-34
+Added Pin To Net: NetName=PA1 Pin=U47-35
+Added Pin To Net: NetName=PA2 Pin=U47-36
+Added Pin To Net: NetName=PA3 Pin=U47-37
+Added Pin To Net: NetName=PA4 Pin=U47-40
+Added Pin To Net: NetName=PA5 Pin=U47-41
+Added Pin To Net: NetName=PA6 Pin=U47-42
+Added Pin To Net: NetName=PA7 Pin=U47-43
+Added Pin To Net: NetName=PC4 Pin=U47-44
+Added Pin To Net: NetName=PC5 Pin=U47-45
+Added Pin To Net: NetName=PB0 Pin=U47-46
+Added Pin To Net: NetName=PB1 Pin=U47-47
+Added Pin To Net: NetName=PB2 Pin=U47-48
+Added Pin To Net: NetName=PF11 Pin=U47-49
+Added Pin To Net: NetName=PF12 Pin=U47-50
+Added Pin To Net: NetName=PF13 Pin=U47-53
+Added Pin To Net: NetName=PF14 Pin=U47-54
+Added Pin To Net: NetName=PF15 Pin=U47-55
+Added Pin To Net: NetName=PG0 Pin=U47-56
+Added Pin To Net: NetName=PG1 Pin=U47-57
+Added Pin To Net: NetName=PE8 Pin=U47-59
+Added Pin To Net: NetName=PE9 Pin=U47-60
+Added Pin To Net: NetName=PE10 Pin=U47-63
+Added Pin To Net: NetName=PE11 Pin=U47-64
+Added Pin To Net: NetName=PE12 Pin=U47-65
+Added Pin To Net: NetName=PE13 Pin=U47-66
+Added Pin To Net: NetName=PE14 Pin=U47-67
+Added Pin To Net: NetName=PE15 Pin=U47-68
+Added Pin To Net: NetName=PB10 Pin=U47-69
+Added Pin To Net: NetName=PB11 Pin=U47-70
+Added Pin To Net: NetName=PB12 Pin=U47-73
+Added Pin To Net: NetName=PB13 Pin=U47-74
+Added Pin To Net: NetName=PB14 Pin=U47-75
+Added Pin To Net: NetName=PB15 Pin=U47-76
+Added Pin To Net: NetName=PD10 Pin=U47-79
+Added Pin To Net: NetName=PD11 Pin=U47-80
+Added Pin To Net: NetName=PD12 Pin=U47-81
+Added Pin To Net: NetName=PD13 Pin=U47-82
+Added Pin To Net: NetName=PD14 Pin=U47-85
+Added Pin To Net: NetName=PD15 Pin=U47-86
+Added Pin To Net: NetName=PG2 Pin=U47-87
+Added Pin To Net: NetName=PG3 Pin=U47-88
+Added Pin To Net: NetName=PG4 Pin=U47-89
+Added Pin To Net: NetName=PG5 Pin=U47-90
+Added Pin To Net: NetName=PG6 Pin=U47-91
+Added Pin To Net: NetName=PG7 Pin=U47-92
+Added Pin To Net: NetName=PG8 Pin=U47-93
+Added Pin To Net: NetName=PC6 Pin=U47-96
+Added Pin To Net: NetName=PC7 Pin=U47-97
+Added Pin To Net: NetName=PC8 Pin=U47-98
+Added Pin To Net: NetName=PC9 Pin=U47-99
+Added Pin To Net: NetName=PA8 Pin=U47-100
+Added Pin To Net: NetName=PA9 Pin=U47-101
+Added Pin To Net: NetName=PA10 Pin=U47-102
+Added Pin To Net: NetName=PA11 Pin=U47-103
+Added Pin To Net: NetName=PA12 Pin=U47-104
+Added Pin To Net: NetName=PA13 Pin=U47-105
+Added Pin To Net: NetName=PA14 Pin=U47-109
+Added Pin To Net: NetName=PA15 Pin=U47-110
+Added Pin To Net: NetName=PC10 Pin=U47-111
+Added Pin To Net: NetName=PC11 Pin=U47-112
+Added Pin To Net: NetName=PC12 Pin=U47-113
+Added Pin To Net: NetName=PD1 Pin=U47-115
+Added Pin To Net: NetName=PD2 Pin=U47-116
+Added Pin To Net: NetName=PD3 Pin=U47-117
+Added Pin To Net: NetName=PD4 Pin=U47-118
+Added Pin To Net: NetName=PD5 Pin=U47-119
+Added Pin To Net: NetName=PD6 Pin=U47-122
+Added Pin To Net: NetName=PD7 Pin=U47-123
+Added Pin To Net: NetName=PG9 Pin=U47-124
+Added Pin To Net: NetName=PG10 Pin=U47-125
+Added Pin To Net: NetName=PG11 Pin=U47-126
+Added Pin To Net: NetName=PG12 Pin=U47-127
+Added Pin To Net: NetName=PG13 Pin=U47-128
+Added Pin To Net: NetName=PG14 Pin=U47-129
+Added Pin To Net: NetName=PG15 Pin=U47-132
+Added Pin To Net: NetName=SWO Pin=U47-133
+Added Pin To Net: NetName=PB4 Pin=U47-134
+Added Pin To Net: NetName=PB5 Pin=U47-135
+Added Pin To Net: NetName=BOOT0 Pin=U47-138
+Added Pin To Net: NetName=PB8 Pin=U47-139
+Added Pin To Net: NetName=PB9 Pin=U47-140
+Added Pin To Net: NetName=PE0 Pin=U47-141
+Added Pin To Net: NetName=PE2 Pin=U47-142
+Added Pin To Net: NetName=NetR5_1 Pin=U47-143
+Added Member To Class: ClassName=MCU_144_IOs Member=Component C9 Capacitor
+Added Member To Class: ClassName=MCU_144_IOs Member=Component C10 Capacitor
+Added Member To Class: ClassName=Levels Member=Component C32 08053C105JAT2A
+Added Member To Class: ClassName=Levels Member=Component C35 08053C105JAT2A
+Added Member To Class: ClassName=Levels Member=Component C36 08053C105JAT2A
+Added Member To Class: ClassName=Levels Member=Component C40 .22uF
+Added Member To Class: ClassName=Levels Member=Component C42 GRM21BR71A225KA01L
+Added Member To Class: ClassName=Levels Member=Component C47 .22uF
+Added Member To Class: ClassName=SynchDemod Member=Component C48 470nF
+Added Member To Class: ClassName=SynchDemod Member=Component C49 .1uF
+Added Member To Class: ClassName=SynchDemod Member=Component C51 .1uF
+Added Member To Class: ClassName=SynchDemod Member=Component C53 CAP CER 0.1UF 25V X7R 0805
+Added Member To Class: ClassName=SynchDemod Member=Component C57 .1uF
+Added Member To Class: ClassName=12V_Supply Member=Component C58 CAP CER 1UF 25V X7R 0805
+Added Member To Class: ClassName=12V_Supply Member=Component C60 C1210C475K5RACTU
+Added Member To Class: ClassName=Force_Plates_Power_Supply Member=Component C65 C1206C472K1RECAUTO
+Added Member To Class: ClassName=Power Member=Component C70 C1206C105K5RACTU
+Added Member To Class: ClassName=Power Member=Component C74 CAP 10nF 16V 1206(3216)
+Added Member To Class: ClassName=Power_Input Member=Component C78 CAP CER 10UF 6.3V X5R 1206
+Added Member To Class: ClassName=Conning_Tower Member=Component C79 .1uF
+Added Member To Class: ClassName=Conning_Tower Member=Component C81 .1uF
+Added Member To Class: ClassName=Conning_Tower Member=Component C83 0.1uF
+Added Member To Class: ClassName=Conning_Tower Member=Component C84 0.1uF
+Added Member To Class: ClassName=Conning_Tower Member=Component C86 1uF
+Added Member To Class: ClassName=ZPZH Member=Component C87 0.1uF
+Added Member To Class: ClassName=ZPZH Member=Component C88 0.1uF
+Added Member To Class: ClassName=ZPZH Member=Component C89 0.1uF
+Added Member To Class: ClassName=ZPZH Member=Component C90 10uF
+Added Member To Class: ClassName=Encoder Member=Component C92 CAP CER 0.1UF 25V X7R 0805
+Added Member To Class: ClassName=Bluetooth Member=Component P2 FSI-120-03-G-D-E-AB
+Added Member To Class: ClassName=Power_Input Member=Component P3 SAMTEC-TFM-103-02-X-D-AJ
+Added Member To Class: ClassName=Power_Input Member=Component P4 IPL1-104-01-L-S-RA-K
+Added Member To Class: ClassName=Encoder Member=Component P7 61300211121
+Added Member To Class: ClassName=MCU_144_IOs Member=Component R9 Resistor
+Added Member To Class: ClassName=MCU_144_IOs Member=Component R10 Resistor
+Added Member To Class: ClassName=SynchDemod Member=Component R50 100k
+Added Member To Class: ClassName=12V_Supply Member=Component R61 CRCW080536K5FKEA
+Added Member To Class: ClassName=Force_Plates_Power_Supply Member=Component R68 TNPW04026K90BEED
+Added Member To Class: ClassName=Power_Input Member=Component R69 560k
+Added Member To Class: ClassName=Encoder Member=Component R95 43.2K
+Added Member To Class: ClassName=Motors Member=Component R109 .2
+Added Member To Class: ClassName=Power_Board Member=Component U1 LD1117S50TR
+Added Member To Class: ClassName=Heater Member=Component U6 CD74HC4050PWR
+Added Member To Class: ClassName=Levels Member=Component U9 OPA188AIDBVR
+Added Member To Class: ClassName=Levels Member=Component U11 LT6650CS5#TRMPBF
+Added Member To Class: ClassName=Levels Member=Component U12 LP3985IM5-2.5/NOPB
+Added Member To Class: ClassName=Levels Member=Component U14 OPA188AIDBVR
+Added Member To Class: ClassName=SynchDemod Member=Component U21 OPA188AIDBVR
+Added Member To Class: ClassName=SynchDemod Member=Component U24 OPA188AIDBVR
+Added Member To Class: ClassName=SynchDemod Member=Component U25 OPA188AIDBVR
+Added Member To Class: ClassName=Force_Plates_Power_Supply Member=Component U27 IND065BHV
+Added Member To Class: ClassName=Motors Member=Component U45 STSPIN220
+Added Member To Class: ClassName=Motors Member=Component U46 STSPIN220
+Added Member To Class: ClassName=MCU_144_IOs Member=Component U47 STM32H743ZIT6

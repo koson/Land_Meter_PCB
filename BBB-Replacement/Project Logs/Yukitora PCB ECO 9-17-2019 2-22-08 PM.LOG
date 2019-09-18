@@ -1,0 +1,14 @@
+Added Component: Designator=U50(MAX1300)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=GND Pin=U22-9
+Added Pin To Net: NetName=Batt Pin=U50-2
+Added Pin To Net: NetName=+12 Pin=U50-3
+Added Pin To Net: NetName=+5 Pin=U50-4
+Added Pin To Net: NetName=-5 Pin=U50-5
+Added Pin To Net: NetName=+3.3 Pin=U50-6
+Added Pin To Net: NetName=+2.5 Pin=U50-7
+Added Pin To Net: NetName=-2.5 Pin=U50-8
+Added Pin To Net: NetName=5R Pin=U50-9
+Added Net: Name=5R
+Added Class: Name=SYS_PWR_ADC
+Added Room: Name=SYS_PWR_ADC
