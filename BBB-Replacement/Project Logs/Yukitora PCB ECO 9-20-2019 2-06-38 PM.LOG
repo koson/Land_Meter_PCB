@@ -1,0 +1,9 @@
+Added Pin To Net: NetName=GND Pin=U22-9
+Added Pin To Net: NetName=+5 Pin=U48-7
+Added Pin To Net: NetName=+5 Pin=U48-8
+Added Pin To Net: NetName=+3.3 Pin=U48-16
+Added Pin To Net: NetName=GND Pin=U48-17
+Added Pin To Net: NetName=AGND Pin=U49-4
+Added Pin To Net: NetName=NetU48_3 Pin=U48-3
+Added Pin To Net: NetName=NetU48_3 Pin=U49-6
+Added Net: Name=NetU48_3
