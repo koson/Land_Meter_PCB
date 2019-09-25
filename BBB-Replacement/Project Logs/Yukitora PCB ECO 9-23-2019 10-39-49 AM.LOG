@@ -1,0 +1,6 @@
+Added Pin To Net: NetName=NetLabel209 Pin=U22-9
+Added Pin To Net: NetName=PG12 Pin=U48-11
+Added Pin To Net: NetName=PG14 Pin=U48-12
+Added Pin To Net: NetName=PG13 Pin=U48-13
+Added Pin To Net: NetName=NetLabel151 Pin=U48-14
+Added Net: Name=NetLabel151
