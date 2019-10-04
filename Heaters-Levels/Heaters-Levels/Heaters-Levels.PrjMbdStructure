@@ -1,0 +1,4 @@
+Record=DiagramHierarchy|SourceDocument=Heaters-Levels.MbsDoc|Kind=Multi-board Schematic Module|Designator=HL-001|Source=..\..\H743-Levels\H743-Levels.PrjPcb
+Record=SubProject|SourceDocument=Heaters-Levels.MbsDoc|ProjectPath=..\..\H743-Levels\H743-Levels.PrjPcb
+Record=DiagramHierarchy|SourceDocument=Heaters-Levels.MbsDoc|Kind=Multi-board Schematic Module|Designator=HC-001|Source=..\..\Heater_Cable\Heater_Cable.PrjPcb
+Record=SubProject|SourceDocument=Heaters-Levels.MbsDoc|ProjectPath=..\..\Heater_Cable\Heater_Cable.PrjPcb

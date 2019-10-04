@@ -1,0 +1,50 @@
+Removed Pin From Net: NetName=SHAFT_OUT1+ Pin=P8-1
+Removed Pin From Net: NetName=SHAFT_OUT1+ Pin=P8-2
+Removed Pin From Net: NetName=SHAFT_OUT1- Pin=P8-3
+Removed Pin From Net: NetName=SHAFT_OUT2+ Pin=P8-5
+Removed Pin From Net: NetName=SHAFT_OUT2- Pin=P8-7
+Removed Pin From Net: NetName=ARRESTMENT_OUT1+ Pin=P9-1
+Removed Pin From Net: NetName=ARRESTMENT_OUT1+ Pin=P9-2
+Removed Pin From Net: NetName=ARRESTMENT_OUT1- Pin=P9-3
+Removed Pin From Net: NetName=ARRESTMENT_OUT1- Pin=P9-4
+Removed Pin From Net: NetName=ARRESTMENT_OUT2+ Pin=P9-5
+Removed Pin From Net: NetName=ARRESTMENT_OUT2+ Pin=P9-6
+Removed Pin From Net: NetName=ARRESTMENT_OUT2- Pin=P9-7
+Removed Pin From Net: NetName=ARRESTMENT_OUT2- Pin=P9-8
+Removed Pin From Net: NetName=GND Pin=U27-9
+Removed Member From Class: ClassName=Motors Member=P9
+Added Component: Designator=R129(RESC0805(2012)_L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Category"; Value = "Resistors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "http://www.vishay.com/docs/20035/dcrcwe3.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.vishay.com/docs/20035/dcrcwe3.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Composition"; Value = "Thick Film"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Failure Rate"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Features"; Value = "Automotive AEC-Q200"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height - Seated (Max)"; Value = "0.020" (0.50mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay Dale"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "CRCW080510K0FKEA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 155°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package / Case"; Value = "0805 (2012 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Cut Tape (CT)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power (Watts)"; Value = "0.125W, 1/8W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pricing 1"; Value = "1=0.1, 10=0.055, 100=0.0223, 1000=0.01003, 2500=0.0087 (USD)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "RoHS Compliant"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size / Dimension"; Value = "0.079" L x 0.049" W (2.00mm x 1.25mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stock 1"; Value = "1104982"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Device Package"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "541-10.0KCCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "±100ppm/°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±1%"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=ARRESTMENT_OUT1+ Pin=P8-1
+Added Pin To Net: NetName=ARRESTMENT_OUT1- Pin=P8-3
+Added Pin To Net: NetName=ARRESTMENT_OUT2+ Pin=P8-5
+Added Pin To Net: NetName=ARRESTMENT_OUT2- Pin=P8-7
+Added Pin To Net: NetName=GND Pin=R129-2
+Added Pin To Net: NetName=NetLabel209 Pin=U22-9
+Added Pin To Net: NetName=NetR129_1 Pin=R129-1
+Added Pin To Net: NetName=NetR129_1 Pin=U27-9
+Added Net: Name=NetR129_1
+Added Member To Class: ClassName=Force_Plates_Power_Supply Member=Component R129 Do Not Place
