@@ -1,9 +1,0 @@
-Removed Pin From Net: NetName=BBB_PWR_SW Pin=P1-3
-Removed Pin From Net: NetName=-5 Pin=P1-4
-Added Pin To Net: NetName=BBB_PWR_SW Pin=P1-4
-Added Pin To Net: NetName=+5 Pin=P2-13
-Change Net Name : Old Net Name=SPI0_CS0 New Net Name=SPI0_MISO
-Change Net Name : Old Net Name=SPI0_MISO New Net Name=SPI0_MOSI
-Change Net Name : Old Net Name=SPI0_MOSI New Net Name=SPI0_SCLK
-Added Pin To Net: NetName=SPI0_CS0 Pin=P2-5
-Added Net: Name=SPI0_CS0

@@ -1,4 +1,0 @@
-Removed Pin From Net: NetName=PWM2A Pin=U4-1
-Added Pin To Net: NetName=GND Pin=U1-6
-Added Pin To Net: NetName=PWM2B Pin=U4-1
-Change Net Name : Old Net Name=PWM1A_DELAY New Net Name=PWM2B_DELAY

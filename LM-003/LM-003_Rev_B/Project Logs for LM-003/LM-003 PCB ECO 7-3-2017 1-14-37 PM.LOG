@@ -1,3 +1,0 @@
-Removed Pin From Net: NetName=NetC24_1 Pin=L2-2
-Removed Member From Class: ClassName=FeedbackLoop Member=L2
-Added Pin To Net: NetName=NetC24_1 Pin=R13-1

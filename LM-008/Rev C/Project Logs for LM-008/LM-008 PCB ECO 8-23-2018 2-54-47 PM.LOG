@@ -1,4 +1,0 @@
-Removed Member From Class: ClassName=12V_Supply Member=U5
-Added Pin To Net: NetName=Sys_Pwr_Enable Pin=U12-3
-Added Pin To Net: NetName=-5 Pin=U13-4
-Added Member To Class: ClassName=12V_Supply Member=Component U12 OPA188AIDBVT

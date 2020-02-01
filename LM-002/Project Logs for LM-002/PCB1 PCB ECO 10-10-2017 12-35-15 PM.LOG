@@ -1,6 +1,0 @@
-Change Component Footprint: Designator=P3 Old Footprint=HDR1X4 New Footprint=TLW-104-05-G-S
-Change Component Comment : Designator=P3 Old Comment=Header 4 New Comment=TLW-104-05-G-S
-Change component parameters: Designator = "P3"; Footprint = "TLW-104-05-G-S"; UniqueID = "\NSCJXJMA"
-Change component parameters. Clean all parameters for all variants
-Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
-Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "MTLW-104-05-G-S-185-ND"; VariantName = "[No Variations]"

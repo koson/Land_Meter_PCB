@@ -1,4 +1,0 @@
-Added Component: Designator=TP1(TP-SM-C-100)
-Add component. Clean all parameters for all variants
-Add component (AddParameter): Name = "Manufacturer"; Value = "No Vendor"; VariantName = "[No Variations]"
-Add component (AddParameter): Name = "PartNumber"; Value = "TP-SM-C-100"; VariantName = "[No Variations]"

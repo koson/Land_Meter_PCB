@@ -1,8 +1,0 @@
-Removed Pin From Net: NetName=BEAM Pin=U12-17
-Removed Pin From Net: NetName=Beam_mod Pin=U12-18
-Removed Pin From Net: NetName=GND Pin=U12-19
-Removed Pin From Net: NetName=Sync_clk Pin=U12-20
-Added Pin To Net: NetName=Sync_clk Pin=U12-11
-Added Pin To Net: NetName=GND Pin=U12-12
-Added Pin To Net: NetName=Beam_mod Pin=U12-13
-Added Pin To Net: NetName=BEAM Pin=U12-14

@@ -1,5 +1,0 @@
-Removed Pin From Net: NetName=Top In Pin=TP2-1
-Removed Pin From Net: NetName=Bottom In Pin=TP3-1
-Removed Member From Class: ClassName=ZPZH Member=TP2
-Removed Member From Class: ClassName=ZPZH Member=TP3
-Added Pin To Net: NetName=NetLabel209 Pin=U11-9

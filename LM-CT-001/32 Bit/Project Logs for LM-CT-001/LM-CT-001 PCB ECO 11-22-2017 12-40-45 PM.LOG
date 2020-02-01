@@ -1,5 +1,0 @@
-Removed Pin From Net: NetName=Bottom_F_Kelvin Pin=P15-2
-Added Pin To Net: NetName=Bottom_F_Kelvin Pin=P15-1
-Added Pin To Net: NetName=NetP15_2 Pin=P15-2
-Added Pin To Net: NetName=NetP15_2 Pin=U15-7
-Added Net: Name=NetP15_2

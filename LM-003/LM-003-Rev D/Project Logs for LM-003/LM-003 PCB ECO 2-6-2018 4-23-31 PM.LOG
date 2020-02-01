@@ -1,4 +1,0 @@
-Added Pin To Net: NetName=Relay_Out Pin=DS2-1
-Added Pin To Net: NetName=Power_IN Pin=R5-2
-Added Pin To Net: NetName=Power_IN Pin=R26-2
-Change Net Name : Old Net Name=CS_Levels New Net Name=SPI1_CS0

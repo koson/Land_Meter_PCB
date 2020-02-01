@@ -1,8 +1,0 @@
-Change Net Name : Old Net Name=CLK+ New Net Name=CLK-
-Change Net Name : Old Net Name=DTA- New Net Name=DTA+
-Added Pin To Net: NetName=CLK+ Pin=P6-3
-Added Pin To Net: NetName=CLK+ Pin=U4-10
-Added Net: Name=CLK+
-Added Pin To Net: NetName=DTA- Pin=P6-5
-Added Pin To Net: NetName=DTA- Pin=U4-12
-Added Net: Name=DTA-

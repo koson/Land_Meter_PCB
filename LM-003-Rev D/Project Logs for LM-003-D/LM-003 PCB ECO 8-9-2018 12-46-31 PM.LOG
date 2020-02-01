@@ -1,4 +1,0 @@
-Removed Pin From Net: NetName=Arrestment Heater FET Pin=U5-8-3
-Removed Pin From Net: NetName=Gearbox Heater FET Pin=U5-8-6
-Added Pin To Net: NetName=Gearbox Heater FET Pin=U5-8-3
-Added Pin To Net: NetName=Arrestment Heater FET Pin=U5-8-6

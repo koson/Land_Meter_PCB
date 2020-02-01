@@ -1,9 +1,0 @@
-Removed Pin From Net: NetName=SPI0_MISO Pin=P4-1
-Removed Pin From Net: NetName=SPI0_SCLK Pin=P4-3
-Removed Pin From Net: NetName=SPI0_MOSI Pin=P4-5
-Added Pin To Net: NetName=BEAM_CS0 Pin=P4-1
-Added Pin To Net: NetName=SPI0_MOSI Pin=P4-3
-Added Pin To Net: NetName=SPI0_MISO Pin=P4-5
-Added Pin To Net: NetName=SPI0_SCLK Pin=P4-7
-Added Pin To Net: NetName=ZH_CS0 Pin=P4-9
-Added Pin To Net: NetName=ZP_CS0 Pin=P4-10

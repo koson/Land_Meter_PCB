@@ -1,5 +1,0 @@
-Removed Pin From Net: NetName=+5 Pin=P3-3
-Removed Pin From Net: NetName=+3.3 Pin=P3-5
-Change Component Designator: OldDesignator=P? NewDesignator=P4
-Added Pin To Net: NetName=+5 Pin=P4-4
-Added Pin To Net: NetName=+3.3 Pin=P4-6

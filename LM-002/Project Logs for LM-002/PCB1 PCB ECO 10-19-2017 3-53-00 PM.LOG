@@ -1,5 +1,0 @@
-Change Component Footprint: Designator=P5 Old Footprint=HDR1X3 New Footprint=SSW-103-02-G-S-RA
-Change Component Comment : Designator=P5 Old Comment=Header 3 New Comment=SSW-103-02-G-S-RA
-Change component parameters: Designator = "P5"; Footprint = "SSW-103-02-G-S-RA"; UniqueID = "\YKUGVQJC"
-Change component parameters. Clean all parameters for all variants
-Added Member To Class: ClassName=Sheet1 Member=Component U11 OPA188AIDBVR

@@ -1,8 +1,0 @@
-Added Pin To Net: NetName=CH0 Pin=C20-1
-Added Pin To Net: NetName=CH0 Pin=R10-1
-Added Pin To Net: NetName=CH0 Pin=R12-1
-Added Pin To Net: NetName=AGND Pin=U13-3
-Change Net Name : Old Net Name=NetP13_1 New Net Name=Connint Tower Htr Out
-Change Net Name : Old Net Name=NetP14_1 New Net Name=Arrestment Htr Out
-Change Net Name : Old Net Name=NetP15_1 New Net Name=Gearbox Htr Out
-Change Net Name : Old Net Name=NetP16_1 New Net Name=IC Htr Out

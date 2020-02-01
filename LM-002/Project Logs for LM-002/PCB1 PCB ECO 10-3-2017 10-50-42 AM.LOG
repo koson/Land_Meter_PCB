@@ -1,6 +1,0 @@
-Added Pin To Net: NetName=NetU8_4 Pin=U8-1
-Change Net Name : Old Net Name=NetU8_4 New Net Name=NetU8_1
-Added Pin To Net: NetName=HZ_Reduced Pin=U9-3
-Added Pin To Net: NetName=HZ_Reduced Pin=U10-1
-Added Pin To Net: NetName=HZ_Reduced Pin=U10-4
-Added Net: Name=HZ_Reduced

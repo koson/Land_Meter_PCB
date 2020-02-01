@@ -1,5 +1,0 @@
-Removed Pin From Net: NetName=5V-RC Pin=P12-5
-Removed Pin From Net: NetName=+3.3 Pin=U1-9-3
-Removed Pin From Net: NetName=+3.3 Pin=U1-9-4
-Added Pin To Net: NetName=+3.3 Pin=P12-5
-Added Pin To Net: NetName=+3.3 Pin=U1-9-15

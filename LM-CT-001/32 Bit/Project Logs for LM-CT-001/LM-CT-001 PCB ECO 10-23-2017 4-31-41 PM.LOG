@@ -1,4 +1,0 @@
-Removed Pin From Net: NetName=Beam_In Pin=C19-2
-Removed Pin From Net: NetName=Beam_In Pin=R25-1
-Added Pin To Net: NetName=BEAM Pin=C19-2
-Added Pin To Net: NetName=BEAM Pin=R25-1

@@ -1,4 +1,0 @@
-Added Pin To Net: NetName=Serial1_RX Pin=P3-23
-Added Pin To Net: NetName=Serial1_TX Pin=P3-24
-Change Net Name : Old Net Name=Serial1_RX New Net Name=Disp_RX
-Change Net Name : Old Net Name=Serial1_TX New Net Name=Disp_TX

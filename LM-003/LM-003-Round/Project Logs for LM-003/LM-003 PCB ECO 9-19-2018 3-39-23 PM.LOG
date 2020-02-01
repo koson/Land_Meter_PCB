@@ -1,5 +1,0 @@
-Removed Pin From Net: NetName=SPI0_CS0 Pin=U10-9
-Added Pin To Net: NetName=-5 Pin=U11-4
-Added Pin To Net: NetName=SPI0_SYS_VOLTAGE_CS0 Pin=U2-5
-Added Pin To Net: NetName=SPI0_SYS_VOLTAGE_CS0 Pin=U10-9
-Added Net: Name=SPI0_SYS_VOLTAGE_CS0

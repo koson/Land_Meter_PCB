@@ -1,4 +1,0 @@
-Removed Member From Class: ClassName=ADC Member=U?
-Change Component Designator: OldDesignator=U? NewDesignator=U6
-Added Pin To Net: NetName=AGND Pin=U8-11
-Change Net Name : Old Net Name=NetP3_3 New Net Name=Battery Thermistor

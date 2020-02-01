@@ -1,4 +1,0 @@
-Removed Pin From Net: NetName=CH1 Pin=R32-1
-Removed Member From Class: ClassName=ADC Member=R32
-Added Pin To Net: NetName=CH1 Pin=U13-1
-Added Pin To Net: NetName=CH1 Pin=U13-4

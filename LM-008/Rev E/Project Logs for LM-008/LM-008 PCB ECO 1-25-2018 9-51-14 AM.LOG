@@ -1,7 +1,0 @@
-Added Pin To Net: NetName=+5 Pin=C10-2
-Added Pin To Net: NetName=+5 Pin=C11-2
-Added Pin To Net: NetName=+5 Pin=U3-5
-Added Pin To Net: NetName=+5 Pin=U3-6
-Added Room: Name=36V_Supply
-Added Room: Name=LM-008
-Added Room: Name=Power_Input

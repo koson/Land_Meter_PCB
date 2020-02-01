@@ -1,9 +1,0 @@
-Added Component: Designator=PAD3(PCB_PAD_A)
-Add component. Clean all parameters for all variants
-Added Component: Designator=PAD6(PCB_PAD_A)
-Add component. Clean all parameters for all variants
-Added Component: Designator=PAD7(PCB_PAD_A)
-Add component. Clean all parameters for all variants
-Added Member To Class: ClassName=LM-CT-001 Member=Component PAD3 PCB_PAD_A
-Added Member To Class: ClassName=Sense Member=Component PAD6 PCB_PAD_A
-Added Member To Class: ClassName=Sense Member=Component PAD7 PCB_PAD_A

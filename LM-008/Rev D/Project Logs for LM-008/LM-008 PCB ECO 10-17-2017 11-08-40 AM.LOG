@@ -1,7 +1,0 @@
-Removed Pin From Net: NetName=Aux+ Pin=RLY1-3
-Removed Pin From Net: NetName=Batt+ Pin=RLY1-5
-Removed Pin From Net: NetName=RC Pin=U2-5
-Added Pin To Net: NetName=ZH Pin=P2-12
-Added Pin To Net: NetName=Batt+ Pin=RLY1-3
-Added Pin To Net: NetName=Aux+ Pin=RLY1-5
-Added Pin To Net: NetName=+12 Pin=U2-5

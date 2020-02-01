@@ -1,4 +1,0 @@
-Change Component Footprint: Designator=P17 Old Footprint=B4B-ZR-SM4-TF New Footprint=IPL1-104-02-F-S
-Change Component Comment : Designator=P17 Old Comment=CONN HEADER ZH TOP 4POS 1.5MM New Comment=IPL1-104-02-F-S
-Change component parameters: Designator = "P17"; Footprint = "IPL1-104-02-F-S"; UniqueID = "\GLQJYAHD"
-Change component parameters. Clean all parameters for all variants

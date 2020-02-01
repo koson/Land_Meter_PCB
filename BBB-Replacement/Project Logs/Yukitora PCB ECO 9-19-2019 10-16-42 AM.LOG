@@ -1,7 +1,0 @@
-Removed Pin From Net: NetName=Batt Pin=U50-2
-Added Pin To Net: NetName=Batt Pin=F1-2
-Added Pin To Net: NetName=GND Pin=U22-9
-Change Net Name : Old Net Name=Batt New Net Name=Power_IN
-Change Net Name : Old Net Name=Battery_1 New Net Name=NetC109_2
-Added Pin To Net: NetName=BATT Pin=U50-2
-Added Net: Name=BATT

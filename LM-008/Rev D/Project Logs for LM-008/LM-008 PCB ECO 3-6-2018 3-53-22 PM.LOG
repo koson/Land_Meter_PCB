@@ -1,4 +1,0 @@
-Removed Pin From Net: NetName=Battery Thermistor Pin=P3-3
-Removed Pin From Net: NetName=Battery Thermistor Pin=R10-1
-Removed Pin From Net: NetName=+5 Pin=R10-2
-Removed Member From Class: ClassName=Power_Input_FET Member=R10

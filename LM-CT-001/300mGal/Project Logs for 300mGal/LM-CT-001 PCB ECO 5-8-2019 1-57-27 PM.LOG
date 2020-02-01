@@ -1,5 +1,0 @@
-Added Component: Designator=*(LTC6091)
-Add component. Clean all parameters for all variants
-Added Pin To Net: NetName=PLATE_P_F Pin=P4-A4
-Added Pin To Net: NetName=PLATE_N_F Pin=P4-B4
-Added Member To Class: ClassName=ZP_Force_Plates Member=Component * LTC6091

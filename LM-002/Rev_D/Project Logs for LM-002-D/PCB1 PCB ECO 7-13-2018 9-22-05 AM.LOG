@@ -1,3 +1,0 @@
-Removed Pin From Net: NetName=ZH Pin=P3-8
-Change Component Footprint: Designator=U2 Old Footprint=D0008A_L New Footprint=D0008A_M
-Added Pin To Net: NetName=ZP Pin=P3-8

@@ -1,7 +1,0 @@
-Removed Pin From Net: NetName=Gearbox Heater FET_Buff Pin=P4-14
-Removed Pin From Net: NetName=Meter Heater FET_Buff Pin=P4-16
-Added Pin To Net: NetName=Meter Heater FET_Buff Pin=P4-14
-Added Pin To Net: NetName=Gearbox Heater FET_Buff Pin=P4-16
-Change Net Name : Old Net Name=Gearbox Heater FET_Buff New Net Name=Meter Heater FET_Buff
-Change Net Name : Old Net Name=Meter Heater FET New Net Name=Gearbox Heater FET
-Change Net Name : Old Net Name=Meter Heater FET_Buff New Net Name=Gearbox Heater FET_Buff

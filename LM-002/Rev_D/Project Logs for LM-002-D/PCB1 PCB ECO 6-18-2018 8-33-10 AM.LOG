@@ -1,7 +1,0 @@
-Change Component Designator: OldDesignator=TP? NewDesignator=TP13
-Change Component Designator: OldDesignator=TP? NewDesignator=TP14
-Change Component Designator: OldDesignator=TP? NewDesignator=TP15
-Change Component Designator: OldDesignator=TP? NewDesignator=TP16
-Added Member To Class: ClassName=Sheet2 Member=Component TP13 TP-TH-C-152-H90
-Added Member To Class: ClassName=Sheet2 Member=Component TP15 TP-TH-C-152-H90
-Added Member To Class: ClassName=Sheet2 Member=Component TP16 TP-TH-C-152-H90

@@ -1,5 +1,0 @@
-Added Pin To Net: NetName=Meter Thermistor 2 Pin=R6-1
-Added Pin To Net: NetName=Meter Thermistor 2 Pin=R14-1
-Added Pin To Net: NetName=Meter Thermistor 2 Pin=R15-1
-Added Pin To Net: NetName=Meter Thermistor 2 Pin=R16-1
-Added Member To Class: ClassName=Signal_Conditioner Member=Component R24 10k

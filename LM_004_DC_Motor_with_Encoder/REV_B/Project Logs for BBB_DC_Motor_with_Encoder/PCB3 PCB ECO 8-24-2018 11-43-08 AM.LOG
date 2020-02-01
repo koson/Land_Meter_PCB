@@ -1,4 +1,0 @@
-Change Component Footprint: Designator=P3 Old Footprint=IPL1-102-01-F-S-K New Footprint=IPL1-102-03-L-SH-K
-Change Component Comment : Designator=P3 Old Comment=IPL1-102-01-F-S-K New Comment=IPL1-102-03-L-SH-K
-Change component parameters: Designator = "P3"; Footprint = "IPL1-102-03-L-SH-K"; UniqueID = "\TDDAOWDQ"
-Change component parameters. Clean all parameters for all variants

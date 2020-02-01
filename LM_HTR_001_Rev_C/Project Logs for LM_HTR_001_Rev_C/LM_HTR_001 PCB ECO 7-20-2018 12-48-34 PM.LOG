@@ -1,4 +1,0 @@
-Removed Pin From Net: NetName=Board1 Thermistor Pin=U1-10
-Removed Pin From Net: NetName=Meter Thermistor 1 Pin=U1-12
-Added Pin To Net: NetName=Meter Thermistor 1 Pin=U1-10
-Added Pin To Net: NetName=Board1 Thermistor Pin=U1-12

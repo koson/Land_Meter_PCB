@@ -1,6 +1,0 @@
-Removed Pin From Net: NetName=SPI_CS0_POT Pin=U8-1
-Removed Pin From Net: NetName=SPI_CS0_POT Pin=U11-1
-Added Pin To Net: NetName=GND Pin=P1-14
-Added Pin To Net: NetName=SPI_CS0_ZP Pin=P1-12
-Added Pin To Net: NetName=SPI_CS0_ZP Pin=U11-1
-Added Net: Name=SPI_CS0_ZP

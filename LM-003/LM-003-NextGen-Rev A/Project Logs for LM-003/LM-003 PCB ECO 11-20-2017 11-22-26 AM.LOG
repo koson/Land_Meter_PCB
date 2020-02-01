@@ -1,6 +1,0 @@
-Removed Member From Class: ClassName=BBB Headers Member=R7
-Change Component Designator: OldDesignator=1 NewDesignator=R26
-Change Net Name : Old Net Name=Net1_1 New Net Name=NetDS2_2
-Added Member To Class: ClassName=Power Member=Component R8 RES SMD 10K OHM 1% 1/8W 0805
-Added Member To Class: ClassName=Power Member=Component R9 RES SMD 4.99K OHM 1% 1/8W 0805
-Added Member To Class: ClassName=BBB Headers Member=Component R10 4.7k

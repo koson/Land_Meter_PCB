@@ -1,9 +1,0 @@
-Removed Pin From Net: NetName=Meter Thermistor 1 Buff Pin=U5-1
-Removed Pin From Net: NetName=GND Pin=U5-2
-Removed Pin From Net: NetName=Meter Thermistor 1 Pin=U5-3
-Removed Pin From Net: NetName=Meter Thermistor 1 Buff Pin=U5-4
-Removed Pin From Net: NetName=+5 Pin=U5-5
-Removed Member From Class: ClassName=LM_HTR_001 Member=U5
-Added Pin To Net: NetName=Meter Thermistor 1 Buff Pin=U1-1
-Added Pin To Net: NetName=Meter Thermistor 1 Buff Pin=U1-2
-Added Pin To Net: NetName=Meter Thermistor 1 Pin=U1-3

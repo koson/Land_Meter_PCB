@@ -1,7 +1,0 @@
-Added Component: Designator=TP1(TP-SM-C-100)
-Add component. Clean all parameters for all variants
-Add component (AddParameter): Name = "Manufacturer"; Value = "No Vendor"; VariantName = "[No Variations]"
-Add component (AddParameter): Name = "PartNumber"; Value = "TP-SM-C-100"; VariantName = "[No Variations]"
-Added Pin To Net: NetName=PWM2B_DELAY Pin=TP1-1
-Change Net Name : Old Net Name=BEAM New Net Name=Raw_Beam
-Added Member To Class: ClassName=Beam_Amp Member=Component TP1 TP-SM-C-100

@@ -1,5 +1,0 @@
-Removed Pin From Net: NetName=PE1 Pin=U47-1
-Removed Pin From Net: NetName=PE2 Pin=U47-142
-Added Pin To Net: NetName=GND Pin=U22-9
-Added Pin To Net: NetName=PE2 Pin=U47-1
-Added Pin To Net: NetName=PE1 Pin=U47-142

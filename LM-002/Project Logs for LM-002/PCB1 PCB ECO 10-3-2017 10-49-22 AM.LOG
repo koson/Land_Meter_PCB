@@ -1,4 +1,0 @@
-Change Net Name : Old Net Name=NetU9_4 New Net Name=Analog_Mux_Out
-Added Pin To Net: NetName=NetU8_4 Pin=U8-4
-Added Pin To Net: NetName=NetU8_4 Pin=U9-2
-Added Net: Name=NetU8_4

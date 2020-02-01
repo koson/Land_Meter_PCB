@@ -1,7 +1,0 @@
-Removed Pin From Net: NetName=NetP11_4 Pin=Q5-4
-Removed Pin From Net: NetName=NetP11_4 Pin=R51-2
-Removed Pin From Net: NetName=NetP11_1 Pin=R52-2
-Added Pin To Net: NetName=NetP11_1 Pin=Q5-4
-Added Pin To Net: NetName=NetP11_1 Pin=R51-2
-Added Pin To Net: NetName=NetP11_4 Pin=R52-2
-Added Member To Class: ClassName=FeedbackLoop Member=Component U8 OPA188AIDBVR

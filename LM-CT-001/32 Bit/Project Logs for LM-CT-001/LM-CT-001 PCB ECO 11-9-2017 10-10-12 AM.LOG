@@ -1,5 +1,0 @@
-Removed Pin From Net: NetName=Guard Pin=PAD9-1
-Removed Member From Class: ClassName=Sense Member=PAD9
-Added Component: Designator=PAD3(PCB_PAD_A)
-Add component. Clean all parameters for all variants
-Added Member To Class: ClassName=LM-CT-001 Member=Component PAD3 PCB_PAD_A

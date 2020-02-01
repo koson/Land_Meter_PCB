@@ -1,5 +1,0 @@
-Removed Pin From Net: NetName=ZP_Reduced Pin=U7-4
-Removed Pin From Net: NetName=ZH_Reduced Pin=U7-10
-Added Pin To Net: NetName=ZH_Reduced Pin=U7-4
-Added Pin To Net: NetName=ZP_Reduced Pin=U7-11
-Change Net Name : Old Net Name=ZP_Reduced New Net Name=NetU7_11

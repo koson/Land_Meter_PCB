@@ -1,4 +1,0 @@
-Removed Member From Class: ClassName=Beam_Amp Member=PAD8
-Removed Member From Class: ClassName=Beam_Amp Member=PAD9
-Added Member To Class: ClassName=Sense Member=Component PAD8 PCB_PAD_A
-Added Member To Class: ClassName=Sense Member=Component PAD9 PCB_PAD_A

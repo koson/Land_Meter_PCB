@@ -1,6 +1,0 @@
-Removed Pin From Net: NetName=GND Pin=P3-1
-Removed Pin From Net: NetName=-5 Pin=P3-5
-Removed Pin From Net: NetName=ZP Pin=P3-6
-Removed Pin From Net: NetName=+5 Pin=P3-7
-Removed Pin From Net: NetName=GND Pin=P3-8
-Removed Member From Class: ClassName=Connectors Member=P3

@@ -1,7 +1,0 @@
-Removed Pin From Net: NetName=ZH Pin=P1-8
-Added Pin To Net: NetName=PWM Pin=P1-3
-Added Pin To Net: NetName=GND Pin=P1-9
-Change Net Name : Old Net Name=SPI_CS0_POT New Net Name=SPI_CS0
-Change Net Name : Old Net Name=ZP_Force New Net Name=SPI_MISO
-Added Pin To Net: NetName=SPI_CS0_POT Pin=U8-1
-Added Net: Name=SPI_CS0_POT

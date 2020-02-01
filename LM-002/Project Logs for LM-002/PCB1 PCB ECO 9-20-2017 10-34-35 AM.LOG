@@ -1,8 +1,0 @@
-Removed Pin From Net: NetName=CH2 Pin=U8-1
-Removed Pin From Net: NetName=CH2 Pin=U8-4
-Removed Pin From Net: NetName=CH3 Pin=U9-1
-Removed Pin From Net: NetName=CH3 Pin=U9-4
-Added Pin To Net: NetName=CH1 Pin=U8-1
-Added Pin To Net: NetName=CH1 Pin=U8-4
-Added Pin To Net: NetName=CH2 Pin=U9-1
-Added Pin To Net: NetName=CH2 Pin=U9-4

@@ -1,4 +1,0 @@
-Removed Member From Class: ClassName=DC-Motor-DRV Member=R15
-Removed Member From Class: ClassName=DC-Motor-DRV Member=R16
-Added Pin To Net: NetName=SPI0_SCLK Pin=U6-1
-Added Pin To Net: NetName=SPI0_MISO Pin=U6-4

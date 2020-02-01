@@ -1,5 +1,0 @@
-Removed Pin From Net: NetName=CS_Power_Supplies Pin=P2-5
-Removed Pin From Net: NetName=SPI0_MISO Pin=P2-7
-Removed Pin From Net: NetName=SPI0_MOSI Pin=P2-9
-Removed Pin From Net: NetName=SPI0_SCLK Pin=P2-11
-Added Pin To Net: NetName=ZH Pin=P2-11

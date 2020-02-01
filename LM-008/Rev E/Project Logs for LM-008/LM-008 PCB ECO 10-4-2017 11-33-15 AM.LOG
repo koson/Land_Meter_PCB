@@ -1,5 +1,0 @@
-Added Component: Designator=F1(CAPC7451X12N)
-Add component. Clean all parameters for all variants
-Added Pin To Net: NetName=NetDS7_1 Pin=F1-1
-Added Pin To Net: NetName=NetF1_2 Pin=F1-2
-Added Member To Class: ClassName=Power_Input Member=Component F1 PCT

@@ -1,4 +1,0 @@
-Added Pin To Net: NetName=AGND Pin=U8-11
-Added Pin To Net: NetName=Sys_Pwr_Enable Pin=P1-8
-Added Pin To Net: NetName=Sys_Pwr_Enable Pin=U13-3
-Added Net: Name=Sys_Pwr_Enable

@@ -1,9 +1,0 @@
-Removed Pin From Net: NetName=Cross_Yellow Pin=P7-1
-Removed Pin From Net: NetName=Cross_Green Pin=P7-2
-Removed Pin From Net: NetName=Cross_Orange Pin=P7-3
-Removed Pin From Net: NetName=Long_Yellow Pin=P10-1
-Removed Pin From Net: NetName=Long_Green Pin=P10-2
-Removed Pin From Net: NetName=Long_Orange Pin=P10-3
-Removed Member From Class: ClassName=Connectors Member=P6
-Removed Member From Class: ClassName=BBB Headers Member=P7
-Removed Member From Class: ClassName=BBB Headers Member=P10

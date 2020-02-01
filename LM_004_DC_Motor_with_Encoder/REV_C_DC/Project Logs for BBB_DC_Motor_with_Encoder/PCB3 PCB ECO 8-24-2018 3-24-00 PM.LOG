@@ -1,3 +1,0 @@
-Change Component Footprint: Designator=U1 Old Footprint=BEAGLEBONE BLACK New Footprint=Beaglebone Black Mezanine
-Change component parameters: Designator = "U1"; Footprint = "Beaglebone Black Mezanine"; UniqueID = "\RLLCBDGS"
-Change component parameters. Clean all parameters for all variants

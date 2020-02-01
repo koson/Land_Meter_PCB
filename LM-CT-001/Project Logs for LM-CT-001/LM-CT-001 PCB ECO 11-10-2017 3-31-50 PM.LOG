@@ -1,5 +1,0 @@
-Change Component Designator: OldDesignator=P? NewDesignator=P1
-Added Component: Designator=PAD3(PCB_PAD_A)
-Add component. Clean all parameters for all variants
-Added Pin To Net: NetName=Guard Pin=PAD3-1
-Added Member To Class: ClassName=Sense Member=Component PAD3 PCB_PAD_A

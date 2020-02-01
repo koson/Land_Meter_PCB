@@ -1,4 +1,0 @@
-Removed Pin From Net: NetName=Thermistor_CS0 Pin=U7-5
-Added Pin To Net: NetName=-5 Pin=U3-4
-Added Pin To Net: NetName=FB_CS0 Pin=U7-6
-Added Pin To Net: NetName=Thermistor_CS0 Pin=U7-9

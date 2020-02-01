@@ -1,5 +1,0 @@
-Removed Pin From Net: NetName=GND Pin=P1-16
-Added Pin To Net: NetName=+12 Pin=P1-16
-Added Pin To Net: NetName=AGND Pin=U8-11
-Change Net Name : Old Net Name=I2C2_SCL New Net Name=SCL
-Change Net Name : Old Net Name=I2C2_SDA New Net Name=SDA

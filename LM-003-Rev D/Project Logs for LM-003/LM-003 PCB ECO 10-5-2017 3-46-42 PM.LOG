@@ -1,8 +1,0 @@
-Change Component Comment : Designator=P1 Old Comment=Header 8X2 New Comment=SLW-108-01-G-D
-Change Component Comment : Designator=P2 Old Comment=Header 8X2 New Comment=SLW-108-01-G-D
-Change component parameters: Designator = "P1"; Footprint = "SLW-108-01-G-D"; UniqueID = "\DKXJTPQO"
-Change component parameters. Clean all parameters for all variants
-Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
-Change component parameters: Designator = "P2"; Footprint = "SLW-108-01-G-D"; UniqueID = "\DGRAPTAR"
-Change component parameters. Clean all parameters for all variants
-Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"

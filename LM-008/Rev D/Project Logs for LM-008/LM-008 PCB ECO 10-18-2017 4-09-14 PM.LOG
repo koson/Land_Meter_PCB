@@ -1,9 +1,0 @@
-Removed Pin From Net: NetName=NetDS1_1 Pin=DS1-1
-Removed Pin From Net: NetName=GND Pin=P2-1
-Removed Pin From Net: NetName=GND Pin=P2-3
-Removed Pin From Net: NetName=Power_IN Pin=R8-1
-Removed Member From Class: ClassName=Power_Input Member=DS1
-Removed Member From Class: ClassName=Power_Input Member=R8
-Added Pin To Net: NetName=Power_IN Pin=P2-1
-Added Pin To Net: NetName=NetDS1_1 Pin=P2-3
-Change Net Name : Old Net Name=NetDS1_1 New Net Name=NetF1_1

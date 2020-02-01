@@ -1,9 +1,0 @@
-Removed Pin From Net: NetName=ZP_Reduced Pin=U9-2
-Removed Pin From Net: NetName=ZH_Reduced Pin=U9-3
-Removed Pin From Net: NetName=Analog_Mux_Out Pin=U9-4
-Removed Pin From Net: NetName=Beam_Reduced Pin=U9-7
-Removed Member From Class: ClassName=Sheet2 Member=U9
-Added Pin To Net: NetName=ZP_Reduced Pin=U7-4
-Added Pin To Net: NetName=ZH_Reduced Pin=U7-5
-Added Pin To Net: NetName=Analog_Mux_Out Pin=U7-6
-Added Pin To Net: NetName=Beam_Reduced Pin=U7-11

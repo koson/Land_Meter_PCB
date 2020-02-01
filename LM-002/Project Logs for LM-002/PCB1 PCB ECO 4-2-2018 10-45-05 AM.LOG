@@ -1,8 +1,0 @@
-Removed Pin From Net: NetName=ZP Pin=C6-2
-Removed Pin From Net: NetName=ZH Pin=C7-1
-Removed Pin From Net: NetName=ZP Pin=U2-1
-Removed Pin From Net: NetName=ZH Pin=U2-8
-Added Pin To Net: NetName=ZH Pin=C6-2
-Added Pin To Net: NetName=ZP Pin=C7-1
-Added Pin To Net: NetName=ZH Pin=U2-1
-Added Pin To Net: NetName=ZP Pin=U2-8

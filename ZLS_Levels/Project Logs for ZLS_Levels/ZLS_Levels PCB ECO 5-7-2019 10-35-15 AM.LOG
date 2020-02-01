@@ -1,3 +1,0 @@
-Added Pin To Net: NetName=SPI0_MISO Pin=U16-9-21
-Added Pin To Net: NetName=SPI0_SCLK Pin=U16-9-22
-Added Member To Class: ClassName=ZLS_Signal_Conditioner Member=Component P? 0530470410

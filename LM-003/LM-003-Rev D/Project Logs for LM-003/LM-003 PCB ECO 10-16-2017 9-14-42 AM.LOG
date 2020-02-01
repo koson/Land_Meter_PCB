@@ -1,6 +1,0 @@
-Removed Pin From Net: NetName=Battery Thermistor Pin=P1-1
-Removed Pin From Net: NetName=Battery Thermistor Pin=U2-9-36
-Change Net Name : Old Net Name=Battery Thermistor New Net Name=GND
-Added Pin To Net: NetName=Battery Thermistor Pin=P1-1
-Added Pin To Net: NetName=Battery Thermistor Pin=U2-9-36
-Added Net: Name=Battery Thermistor
