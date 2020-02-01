@@ -386,8 +386,8 @@ MigrationBackup/
 *.app
 
 *History/*
-**/Project Logs for */*
-**/Project Outputs for */*
+Project Logs for */*
+Project Outputs for */*
 *.PrjPCBStructure
 *.htm
 *.LOG
